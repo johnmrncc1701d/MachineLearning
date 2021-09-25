@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "KNN", "KNN.pyproj", "{A5253C3F-1CC1-4A36-82B9-685BDB6C75AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5253C3F-1CC1-4A36-82B9-685BDB6C75AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5253C3F-1CC1-4A36-82B9-685BDB6C75AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9118A7B6-E60C-4FB7-B91B-28CE06775D73}
+	EndGlobalSection
+EndGlobal

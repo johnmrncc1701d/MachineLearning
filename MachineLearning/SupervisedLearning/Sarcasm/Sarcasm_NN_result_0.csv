@@ -1,0 +1,999 @@
+File:,"../Sarcasm/Sarcasm_train_set_1.csv"
+TEXT,VALUE,PRED,CORRECT
+"britain plummets to lowest value in world since 1580s",1,-1,FAIL
+"chance the rapper livestreams traffic stop in chicago",-1,-1,MATCH
+"housefly tracks dog shit all over cucumber slice",1,-1,FAIL
+"authorities say dozens of bystanders failed to act as man went about his life",1,1,MATCH
+"ice cream truck driver going to let these kids sweat a little bit before stopping",1,-1,FAIL
+"once again: can a mission-driven nonprofit be blindsided?",-1,-1,MATCH
+"khalid sheikh mohammed confesses to confessing under torture",1,-1,FAIL
+"neither boss nor employee paid enough to deal with each other",1,1,MATCH
+"friend from college wasted no time becoming white-collar professional",1,-1,FAIL
+"radiator saving single loudest clank for 3:32 a.m.",1,-1,FAIL
+"trevor noah can't wrap mind around trump-obama white house meeting",-1,-1,MATCH
+"100 things to be thankful for",-1,-1,MATCH
+"can't go wrong with a cheeseburger, area man reports",1,1,MATCH
+"this photo series powerfully denounces the pain caused by prejudice in small towns in brazil",-1,-1,MATCH
+"lawyers identify dozens more bill cosby victims while interviewing potential jurors",1,-1,FAIL
+"local grandmother feared dead after appearing in woman's profile picture",1,-1,FAIL
+"what older voters expect from donald trump",-1,-1,MATCH
+"live from the toronto film festival: sunday, sept. 7",-1,-1,MATCH
+"enchilada premonition comes to pass",1,-1,FAIL
+"avoiding popular songs somehow accomplishment for local man",1,1,MATCH
+"fcc sniper takes out matthew mcconaughey to prevent live broadcast of profanity",1,1,MATCH
+"one man's quest to document the highways that tore his city apart",-1,-1,MATCH
+"no one is talking about this terrible outcome of the gop health plan",-1,-1,MATCH
+"uber vows to repay nyc drivers 'tens of millions' after tax snafu",-1,-1,MATCH
+"these two little kids are better at soccer than you are at anything",-1,-1,MATCH
+"growing 'fat-earther' movement believes planet 2.4 quintillion pounds overweight",1,-1,FAIL
+"5 labor day escapes that are totally worth the money",-1,-1,MATCH
+"news roundup for august 2, 2017",-1,-1,MATCH
+"al franken pledges to make up for sexist behavior over course of next four senate terms",1,1,MATCH
+"california's golden healthcare opportunity",-1,-1,MATCH
+"vacationing man misses own remote control",1,1,MATCH
+"this is how to locate lost life insurance policies",-1,-1,MATCH
+"key senate race deeply divides men and women",-1,-1,MATCH
+"vessel for male sexual gratification very sad today",1,-1,FAIL
+"guy on roof starting to think he might get away with it",1,1,MATCH
+"australia to lay off leading scientist on sea levels",-1,-1,MATCH
+"15 popular travel destinations you should avoid in the summer",-1,-1,MATCH
+"guardian news & media to cut costs by 20%",-1,-1,MATCH
+"'time' magazine subscribers brace for inevitable issue with close-up of ted cruz's face",1,1,MATCH
+"god urges rick perry not to run for president",1,-1,FAIL
+"lea michele romances fake gosling in 'on my way' video",-1,-1,MATCH
+"microwave used as alarm clock",1,-1,FAIL
+"this woman made it her mission to make a dangerous job safer by inventing a unique solution",-1,-1,MATCH
+"bouncer instructed not to let people like himself in",1,-1,FAIL
+"virginia alcohol agents involved in bloody arrest return to duty",-1,-1,MATCH
+"adam sandler fans disappointed by intelligent, nuanced performance",1,-1,FAIL
+"fbi shuts down prominent new isis recruitment website",1,1,MATCH
+"60-year-old hippie pitied by 40-year-old punk",1,-1,FAIL
+"caitlyn jenner calls out jimmy kimmel for jokes about her transition",-1,-1,MATCH
+"area doctor: 'mylanta'",1,-1,FAIL
+"immigration officials asking about fourth-grader turned away by nyc school",-1,-1,MATCH
+"watch: stunning holy fire ritual lights up orthodox easter",-1,-1,MATCH
+"vacation to israel canceled due to history of israel",1,1,MATCH
+"8 famous women who popped the question",-1,-1,MATCH
+"after a string of accidents, u-haul announces closure of aircraft division",1,-1,FAIL
+"area dad off to bad start with waitress",1,1,MATCH
+"every single kid who was orphaned by ebola in guinea has a home",-1,-1,MATCH
+"thousands march in washington, d.c. heat to demand trump act on climate change",-1,-1,MATCH
+"ryan seacrest catches up with 'captain phillips' star maersk alabama on red carpet",1,1,MATCH
+"giddy thom yorke goes to bed early to make grammy day get here sooner",1,-1,FAIL
+"the unwinnable afghanistan war",-1,-1,MATCH
+"loud squawking crow forces faa to ground all flights indefinitely",1,-1,FAIL
+"president's american manufacturing council down to ceo of shoe carnival",1,1,MATCH
+"mitt romney still thinking about running for president in 2012",1,-1,FAIL
+"everyone in coffee shop can tell trainee a goner",1,-1,FAIL
+"compromising company's values for advertising revenue referred to as 'partnering'",1,-1,FAIL
+"area mom off thinking about princess diana again",1,1,MATCH
+"embarrassed whale panicking about huge barnacle outbreak before date",1,-1,FAIL
+"china to send elite army unit to ebola-hit liberia",-1,-1,MATCH
+"household death toll climbs to one",1,-1,FAIL
+"milo ventimiglia strips down to raise awareness for breast cancer on 'ellen'",-1,-1,MATCH
+"the sugar industry paid scientists to be on its side as early as the 1960s",-1,-1,MATCH
+"22-year-old gets job at website",1,-1,FAIL
+"world will miss goal for universal education by 50 years: un",-1,-1,MATCH
+"bananas again sweep primates' choice awards",1,-1,FAIL
+"dallas is where i finally get to see the famous french déjeûner sur l'herbe" painting by monet"",-1,-1,MATCH
+"evidence linking alleged florida shooter to white supremacist group is really thin",-1,-1,MATCH
+"public outraged as price of fast-depleting, non-renewable resource skyrockets",1,1,MATCH
+"retro-crazed youths re-elect carter",1,-1,FAIL
+"hpps social shares - test 2",-1,-1,MATCH
+"new omnigrain cheerios made with every existing grain on earth",1,1,MATCH
+"dozens of knockoff internets flood market after patent expires",1,1,MATCH
+"8 stats that prove social anxiety needs to be taken seriously",-1,-1,MATCH
+"walnuts improve area chicken salad",1,1,MATCH
+"area desk doesn't mind if people sit on it like a chair every once in a while",1,1,MATCH
+"hillary clinton hints at presidential ambitions by concealing information from american people",1,-1,FAIL
+"mom sleeps in past sunrise",1,-1,FAIL
+"geologists say continents may have drifted apart after emotional falling-out",1,-1,FAIL
+"an easy way to shop small businesses this black friday",-1,-1,MATCH
+"'the sheer beauty of montana just intrigues me': meet the people of livingston",-1,-1,MATCH
+"weekend roundup: victory in myanmar for democracy -- on a leash",-1,-1,MATCH
+"prick veterinarian keeps dachshund waiting in empty lobby for 45 minutes",1,-1,FAIL
+"donald trump casts doubt on russian election interference ahead of vladimir putin meeting",-1,-1,MATCH
+"missing just 2 hours of sleep quadruples your risk of a car accident",-1,-1,MATCH
+"readin' researchin' writin' and the tools to make it happen",-1,-1,MATCH
+"the key to finding your spiritual partnership",-1,-1,MATCH
+"donald trump to bring adviser with russia ties to classified briefing",-1,-1,MATCH
+"universal remote latest step in area man's plan for total living room domination",1,1,MATCH
+"man accused of shooting and burning 2 people after refusing to pay cab fare",-1,-1,MATCH
+"donald trump and america's blood sport of choice",-1,-1,MATCH
+"30-year-old has earned $11 more than he would have without college education",1,-1,FAIL
+"gregg popovich goes full throttle on 'soulless coward' donald trump",-1,-1,MATCH
+"steven spielberg recalls coming to blows with e.t. on film set",1,1,MATCH
+"watch: carl reiner professes his love for tina fey: 'she's still sexy'",-1,-1,MATCH
+"company encourages women who have been sexually harassed to come forward with resignation letter",1,1,MATCH
+"deadly tornadoes rip through texas as floods threaten midwest",-1,-1,MATCH
+"west virginia flooding kills 24 and submerges towns",-1,-1,MATCH
+"horrifying police body camera footage clearly shows current state of america",1,1,MATCH
+"democrats should focus scotus fight on gorsuch's backing of big donors",-1,-1,MATCH
+"experts say breakfast now sixth most important meal of the day",1,-1,FAIL
+"sudafed introduces new sinus drill for immediate congestion relief",1,1,MATCH
+"sex life embellished during doctor visit",1,-1,FAIL
+"how to get your home guest ready for the holidays",-1,-1,MATCH
+"nytimes.com's plan to charge people money for consuming goods, services called bold business move",1,-1,FAIL
+"will the atlanta falcons rise up or shrink down?",-1,-1,MATCH
+"chris hughes throws in the towel, puts 'new republic' up for sale",-1,-1,MATCH
+"vital info on iraqi chemical weapons provided by u.s. company that made them",1,-1,FAIL
+"barber just latest in string of humans to feign interest in what area man says",1,1,MATCH
+"top 5 bagel spots in nyc",-1,-1,MATCH
+"megyn kelly on donald trump: 'i have done my level best to not make this story about me'",-1,-1,MATCH
+"war criminal a grandpa",1,-1,FAIL
+"where you live may add to why you smoke",-1,-1,MATCH
+"parents don't remember enough colors to help with kindergartner's homework",1,1,MATCH
+"why i'm stonewalling 'stonewall'",-1,-1,MATCH
+"darren sharper faces 20 years in prison under plea deal",-1,-1,MATCH
+"the 20 funniest tweets from women this week",-1,-1,MATCH
+"as scott pruitt flies first class, epa barely gets off the ground",-1,-1,MATCH
+"billy ray cyrus to speak out on single-payer health-care issue on politically incorrect",1,1,MATCH
+"2 killed, 4 injured in mishap at florida coal power plant",-1,-1,MATCH
+"nation horrified to learn about war in afghanistan while reading up on petraeus sex scandal",1,1,MATCH
+"what if you couldn't protect your children?",-1,-1,MATCH
+"the great republican revolt",-1,-1,MATCH
+"the olympic committee awards the 2024 games to macron, not trump",-1,-1,MATCH
+"reporter leads rescuers to truck driver trapped in 10 feet of water",-1,-1,MATCH
+"kirk franklin blasts creflo dollar's $65 million private jet campaign",-1,-1,MATCH
+"state department warns americans traveling abroad to avoid lame amsterdam windmill tour",1,1,MATCH
+"offbeat squirrel in park garnering cult following",1,-1,FAIL
+"nation's substitute teachers would like to know who threw that",1,-1,FAIL
+"what i learned about love from my boyfriend's depression",-1,-1,MATCH
+"u.s. ethics chief ordered gushing responses to trump's tweets",-1,-1,MATCH
+"patti lupone says madonna 'couldn't act her way out of a paper bag'",-1,-1,MATCH
+"humanitarians shouldn't have to risk their own lives in order to save others",-1,-1,MATCH
+"'the world of postsecret' reveals what lurks in the hearts of man",-1,-1,MATCH
+"brad pitt goes completely gray for new movie",-1,-1,MATCH
+"how to get out of a bad mood",-1,-1,MATCH
+"man turns vegetarian for 36 hours",1,1,MATCH
+"obesity swept the nation and now healthy schools are taking it back... with your help",-1,-1,MATCH
+"extravagant new window blinds inspired by the latest styles from venice",1,-1,FAIL
+"obama to cancel debts owed by defrauded for-profit college students",-1,-1,MATCH
+"the next water crisis is looming ─ how can tech help?",-1,-1,MATCH
+"fan disappointed to learn l. ron hubbard scientologist",1,-1,FAIL
+"bill clinton takes his time getting on air force one -- and president obama is not having it",-1,-1,MATCH
+"ferguson shop owner 'overwhelmed' by community support after looting",-1,-1,MATCH
+"congress raises livestock minimum wage to $6.50 per hour",1,-1,FAIL
+"good guy with gun, bad guy with gun both excited to unload firearm in crowd outside arena",1,1,MATCH
+"what happened when a black reporter crashed a white nationalist event",-1,-1,MATCH
+"veteran brita filter's tour of duty extended another 3 months",1,1,MATCH
+"ben & jerry's releases 'cake my day' as its newest flavor",-1,-1,MATCH
+"the edge still introducing self as such",1,-1,FAIL
+"friday's morning email: inside trump's presser for the ages",-1,-1,MATCH
+"report: it pretty incredible that americans entrusted with driving cars",1,1,MATCH
+"'dotard' vs. 'rocketman': the nuclear standoff that rattled 2017",-1,-1,MATCH
+"lakers fan is like 'screw this' and puts on a warriors jersey mid-game",-1,-1,MATCH
+"how a broken taillight can be a death sentence in america",-1,-1,MATCH
+"child's last steps captured on video",1,-1,FAIL
+"no, outraged liberals, sean spicer should not be fired for hitler comments",-1,-1,MATCH
+"business innovation: what market leaders can learn from video games",-1,-1,MATCH
+"2015 mix queer experimental film festival coming to nyc",-1,-1,MATCH
+"this may explain why you can't stop hitting the snooze",-1,-1,MATCH
+"'100 years of italian beauty' is a bellissima trip back in time",-1,-1,MATCH
+"the judge stands in shock when he sees who's singing on stage... wow!",-1,-1,MATCH
+"petition to censure trump gains momentum",-1,-1,MATCH
+"sxsw as cool and as real as it gets, reports marketing associate",1,-1,FAIL
+"last remaining ivory-billed woodpecker really squandering species' final weeks",1,-1,FAIL
+"mccain late to debate due to greyhound delays",1,-1,FAIL
+"tina fey and amy poehler's squad puts taylor swift's to shame on 'snl'",-1,-1,MATCH
+"fighting and airstrikes continue throughout yemen as dialogue remains distant",-1,-1,MATCH
+"man in suit makes decision affecting thousands of non-suited individuals",1,1,MATCH
+"culinary world stunned as horse meat found at 3-star michelin restaurant the horse & pony",1,-1,FAIL
+"aviva sees the light",-1,-1,MATCH
+"what selma blair's 'outburst' teaches us about mixing pills and alcohol",-1,-1,MATCH
+"should we pay the staggering economic and human costs of nuclear weapons?",-1,-1,MATCH
+"woman in commercial doing yoga to narration of drug's fatal side effects",1,1,MATCH
+"george clooney on why he'll never dye his hair",-1,-1,MATCH
+"beginning or ending? when our kids go off to college",-1,-1,MATCH
+"iman shumpert helped deliver his baby, and headphones were involved",-1,-1,MATCH
+"why eating salmon is so damn good for your skin",-1,-1,MATCH
+"live: south korea vs. algeria",-1,-1,MATCH
+"'chapter 1: clark,' reports awful manuscript",1,-1,FAIL
+"man who bought 34th anniversary reissue of fleetwood mac's 'rumours' feeling like real idiot after passing display for 35th anniversary edition",1,1,MATCH
+"look at it: it's goddamn beautiful",1,-1,FAIL
+"rightist critics of pope francis",-1,-1,MATCH
+"shake it off: what i learned from a negative review",-1,-1,MATCH
+"zeke thomas wants gay men to stop staying silent about assault",-1,-1,MATCH
+"the bible could become tennessee's official state book",-1,-1,MATCH
+"kobe bryant feuds with michael b. jordan in spot-on apple tv ad",-1,-1,MATCH
+"texas mom outraged because her daughter's school won't allow sunscreen",-1,-1,MATCH
+"the nixonization of donald trump",-1,-1,MATCH
+"singapore airlines flight catches fire, no casualties",-1,-1,MATCH
+"advertising manager working hard to teach son value of an impression",1,1,MATCH
+"evangelical haggard claims he was molested by republican congressman",1,-1,FAIL
+"trevor noah mocks republican conspiracy theories on russian probe",-1,-1,MATCH
+"new film only stars one eddie  murphy",1,1,MATCH
+"the perfect to keep a sexy bod and still enjoy your vacation",-1,-1,MATCH
+"emma stone ruled the red carpet in a jumpsuit",-1,-1,MATCH
+"employee worries coworker's computer screen may be larger",1,-1,FAIL
+"unlikely team of allies unite to take on airport gate agent",1,1,MATCH
+"colbert's mcdonald's all-day breakfast prophecies are coming true",-1,-1,MATCH
+"the long fight for justice",-1,-1,MATCH
+"cooking off the cuff: a simple sicilian way with swordfish - with a light sauce as equal partner",-1,-1,MATCH
+"the world cup winners selfie is the best ever",-1,-1,MATCH
+"'98 camaros test higher than owners",1,-1,FAIL
+"sushi-themed kitkats are coming to japan for valentine's day",-1,-1,MATCH
+"royal baby already making new friends",1,1,MATCH
+"meet the trans woman who wants to change romantic comedies",-1,-1,MATCH
+"sarah byrne's gps guide for happiness",-1,-1,MATCH
+"6 ways to reduce plastic waste this summer",-1,-1,MATCH
+"trump rebuffs his opioid task force, declines to declare state of emergency",-1,-1,MATCH
+"hbo's new streaming service is now live",-1,-1,MATCH
+"ukraine begins to cut off transportation to crimea",-1,-1,MATCH
+"paleontologists determine dinosaurs were killed by someone they trusted",1,-1,FAIL
+"person sitting in parked car at 2:00 a.m. probably upstanding member of community",1,1,MATCH
+"it's 2016. do you know where your bombs are falling?",-1,-1,MATCH
+"why it's hard to be a woman",-1,-1,MATCH
+"parking lot attendant seemingly unaware new day a gift from god",1,-1,FAIL
+"enrique iglesias and anna kournikova share first photos of newborn twins",-1,-1,MATCH
+"how can businesses build trust?",-1,-1,MATCH
+"astronomers celebrate 300th anniversary of discovering sky",1,1,MATCH
+"man wearing low-cut swimsuit as though public pool a sun-kissed sardinian cove",1,-1,FAIL
+"trump court pick says he was joking when he compared gay marriage to marrying bacon",-1,-1,MATCH
+"dinner recipe ideas to cook with your roommate",-1,-1,MATCH
+"cop takes cinnamon bun into own hands",1,-1,FAIL
+"latest bin laden tape for completists only",1,-1,FAIL
+"woman bids farewell to former self before beginning new skin care regimen",1,1,MATCH
+"report: someone needs to get chips and dip away from area man",1,1,MATCH
+"our nation's truckers: are we meeting their pancake needs?",1,-1,FAIL
+"pabst drinker celebrates pabst purchase with pabst",1,-1,FAIL
+"algerian dies of natural causes",1,1,MATCH
+"renowned ornithologist always secretly wanted to be a bird",1,-1,FAIL
+"woman with furrowed brow on airplane carefully studies article about which actress wore dress better",1,1,MATCH
+"man thinks receptionist is hitting on him",1,-1,FAIL
+"middle manager follows proper procedure",1,-1,FAIL
+"nothing going right for area surgeon today",1,1,MATCH
+"queer aussie men strip down for intimate indie magazine pictorial",-1,-1,MATCH
+"national defense strategy",-1,-1,MATCH
+"hillary clinton gets a clean bill of health from her doctor",-1,-1,MATCH
+"this octogenarian took in dozens of abandoned dogs and built them a mini-train",-1,-1,MATCH
+"meatless monday: robin asbell gets juiced",-1,-1,MATCH
+"boardroom hokey pokey: that dance that women do",-1,-1,MATCH
+"'dawn of the planet of the apes' owns weekend box office",-1,-1,MATCH
+"dad's tough exterior hides angry, resentful center",1,-1,FAIL
+"cultivating the 4 c's of mindfulness for greater peace, poise and personal power",-1,-1,MATCH
+"man hopes hot woman in next apartment can hear how well he's fucking his girlfriend",1,1,MATCH
+"hilarious video shows 'how to bake easter cookies like a toddler'",-1,-1,MATCH
+"judge schedules hearing in reopened 'serial' case",-1,-1,MATCH
+"sony exec's apology following prejudicial emails is just not enough, and here's why",-1,-1,MATCH
+"what everyday iranians have to say about the nuclear deal now that it's a reality",-1,-1,MATCH
+"gop congressman who once tried to unseat john boehner blasts colleagues for trying to do the same",-1,-1,MATCH
+"we aren't doing enough to help syrian refugees, but how much more can we do?",-1,-1,MATCH
+"state's abortion waiting period allows women to explore alternatives to making their own decisions",1,-1,FAIL
+"aunt on facebook casually advocates war crime",1,-1,FAIL
+"dry, flavorless cupcake disappointing to last bite",1,-1,FAIL
+"trump's deadly embrace of israel",-1,-1,MATCH
+"out of respect for families, horrific disaster footage repeated hourly",1,1,MATCH
+"mother only wants one bite",1,-1,FAIL
+"waiting for a grown-up in the white house",-1,-1,MATCH
+"area cow doesn't suspect a thing",1,-1,FAIL
+"parents finally tell 2-year-old about 9/11",1,-1,FAIL
+"jason priestley praises shannen doherty's bravery amid cancer battle",-1,-1,MATCH
+"anderson cooper throws another box of letters from gay children into dumpster",1,1,MATCH
+"the downside of the boom",-1,-1,MATCH
+"7 infections athletes could get from rio's contaminated waters",-1,-1,MATCH
+"a st. paddy's day green juice crawl is a thing that exists",-1,-1,MATCH
+"christian science pharmacist refuses to fill any prescription",1,-1,FAIL
+"liberals, it's time to look at ourselves in the mirror",-1,-1,MATCH
+"ex-girlfriend flashback leaves man paralyzed in produce aisle",1,1,MATCH
+"peta complains as revised sat tested on chimpanzees",1,-1,FAIL
+"trump surrogate shot down while trying to spin on sexual assault claims",-1,-1,MATCH
+"nurses endure a shocking amount of violence on the job",-1,-1,MATCH
+"man hates it when trailer gives away entire premise of movie",1,1,MATCH
+"tesla's elon musk is thinking about designing an electric plane",-1,-1,MATCH
+"dad reaches age where it's no longer enjoyable to make fun of how old he is",1,-1,FAIL
+"8-bit versions of famous art and pop icons are all kinds of yes",-1,-1,MATCH
+"kevin pierre-louis is tackling depression stigma by sharing his own experience",-1,-1,MATCH
+"leno's voicemail message pauses for laughter",1,-1,FAIL
+"twitter is way more brutal than the nfl",-1,-1,MATCH
+"suicide bomber reacts poorly to surprise birthday party",1,-1,FAIL
+"the nfl should release the details of its johnny manziel investigation",-1,-1,MATCH
+"war-torn, blood-soaked kosovo: would bombing it help?",1,-1,FAIL
+"long story short, they had to cut off area guy's arm",1,1,MATCH
+"colorado congressman hangs on after splitting with donald trump",-1,-1,MATCH
+"royal baby spits up on great-grandmother",1,-1,FAIL
+"the oldest of the old are actually fine with dying, study finds",-1,-1,MATCH
+"guys' night out to include several key non-guys",1,-1,FAIL
+"donald trump voted least desirable neighbor of the year",-1,-1,MATCH
+"woman tragically succumbs to natural hair color",1,1,MATCH
+"indian casino uses every part of the dollar",1,-1,FAIL
+"girl whose speech about charlotte went viral finds a fan in hillary clinton",-1,-1,MATCH
+"pope francis says his time as pope will be short, misses pizza",-1,-1,MATCH
+"behind the scenes of an intricate fbi sting",-1,-1,MATCH
+"here's where you can find paradise in italy",-1,-1,MATCH
+"your favorite 'game of thrones' actor, peter dinklage, might be in 'avengers'",-1,-1,MATCH
+"how these psychologists are prioritizing mental health care for black america",-1,-1,MATCH
+"harper's index: percentage of harper's readers who only read index: 98",1,1,MATCH
+"intergalactic law enforcement officers place energy shackles on hillary clinton",1,-1,FAIL
+"wednesday's morning email: kim jong un visits china",-1,-1,MATCH
+"tv commercial for beverage features woefully reckless pouring technique",1,-1,FAIL
+"republican running for open montana house seat doubles down on creationist stance",-1,-1,MATCH
+"gallup poll: rural whites prefer ahmadinejad to obama",1,-1,FAIL
+"magnificent sunset loses out to home improvement, judge judy hour",1,-1,FAIL
+"chrissy metz says she was physically abused by her stepfather as a teen",-1,-1,MATCH
+"wisconsin students trumped the rest with their pumpkin decorating",-1,-1,MATCH
+"eating enthusiast acquires chocolate eclair",1,-1,FAIL
+"crate & barrel introduces line of disgusting couches you can put on your porch",1,-1,FAIL
+"university of tulsa off the hook in sexual assault lawsuit",-1,-1,MATCH
+"should you marry that guy?",-1,-1,MATCH
+"hellmann's introduces new meat-on-the-bottom mayo cups",1,1,MATCH
+"obama caves to girl scout lobby, wears tiara in photo",-1,-1,MATCH
+"your weight is just a symptom",-1,-1,MATCH
+"the easiest step-by-step guide to start traveling",-1,-1,MATCH
+"japanese family puts aging robot in retirement home",1,-1,FAIL
+"walmart limits opioid prescriptions in bid to curb epidemic",-1,-1,MATCH
+"scientist has nagging feeling he left particle accelerator on",1,1,MATCH
+"justice kennedy out for rest of session with tear in adjudicatory tendon",1,1,MATCH
+"khloe kardashian poses braless for women's health and looks amazing",-1,-1,MATCH
+"white house quietly retracts entire state of the union address",1,-1,FAIL
+"overweight man receives 'lose weight fast' spam e-mail featuring his picture",1,1,MATCH
+"america gets set to enjoy month or so of libya seeming like symbol of freedom",1,1,MATCH
+"hemmed-in seattle mayor calls for emergency deforestation",1,-1,FAIL
+"healthy aging tips for 30-somethings",-1,-1,MATCH
+"snoop dogg helps give out 1,500 turkeys to families in need",-1,-1,MATCH
+"apparently werewolf was allergic to peanuts",1,-1,FAIL
+"police department deploys fancyclothes cop",1,-1,FAIL
+"report: syria running dangerously low on civilians to oppress",1,1,MATCH
+"dad shoots daughter while teaching her about gun safety",-1,-1,MATCH
+"aol instant messenger to sign off forever after 20 years",-1,-1,MATCH
+"u.s-russian plan calls for syria ceasefire starting saturday",-1,-1,MATCH
+"john kelly hoping prejudiced anti-immigrant comments got him back on trump's good side",1,-1,FAIL
+"benedict cumberbatch prepares for battle in magical new 'doctor strange' trailer",-1,-1,MATCH
+"biting argument over trump may cost man his ear",-1,-1,MATCH
+"pringles level at six inches and falling",1,-1,FAIL
+"boy george opens up about happiness, being a u.s. politics junkie and more",-1,-1,MATCH
+"criminal prosecuted to fullest extent of budget",1,1,MATCH
+"octavia spencer bought out a screening of 'hidden figures' for low-income families",-1,-1,MATCH
+"obama's still trying to convince people his birth certificate is real",-1,-1,MATCH
+"kim kardashian calls out congress for failing to close the 'terror gap'",-1,-1,MATCH
+"'curb your enthusiasm' over rand paul's uneasy reaction to donald trump",-1,-1,MATCH
+"hayley kiyoko is the unapologetically queer pop star we've been waiting for",-1,-1,MATCH
+"new york bomber sought an isis-inspired attack with failed device, investigators say",-1,-1,MATCH
+"frustrated dad at restaurant just wants a normal burger",1,-1,FAIL
+"marriage confession: our 50 shades are more frayed than grey",-1,-1,MATCH
+"huffpost hill - have *you* been injured by a federal appellate court ruling?",-1,-1,MATCH
+"hero teacher stops high school shooter in washington state",-1,-1,MATCH
+"'from mid-range he could kill you': bernie sanders' basketball days",-1,-1,MATCH
+"internet crashes as billions of people go online to purchase the onion's latest book, 'the trump leaks'",1,-1,FAIL
+"goldman sachs reaches $5 billion settlement over mortgage securities",-1,-1,MATCH
+"gun dealer likely thwarted mass shooting by refusing sale: sheriff",-1,-1,MATCH
+"former chinese dissident has your order ready",1,-1,FAIL
+"burkina faso, french troops end deadly hotel siege claimed by al qaeda group",-1,-1,MATCH
+"how to eat healthy around the world (bone broth, anyone?)",-1,-1,MATCH
+"first-grader given sticker for behavior during lockdown drill",1,-1,FAIL
+"10 things you didn't know about cameron diaz",-1,-1,MATCH
+"man with backed-up shower drain enjoys luxurious foot soak",1,1,MATCH
+"cnn panelists warn north korea situation way too complex for them to discuss intelligently",1,-1,FAIL
+"military institutes new 'don't tell, let me guess' policy",1,1,MATCH
+"texas now regretting wasting doses of pancuronium bromide on innocent guys back in 1997, 2000, 2004",1,1,MATCH
+"trump's moment of truth is coming",-1,-1,MATCH
+"connecticut to give its electoral college votes to national popular vote victor",-1,-1,MATCH
+"clarissa from 'clarissa explains it all' is all grown up in new book",-1,-1,MATCH
+"meet 10 inspiring people over 50 giving back to the world",-1,-1,MATCH
+"advice for the man who asks me to marry him",-1,-1,MATCH
+"coast guard drags decoy boca raton into middle of ocean in attempt to lure away hurricane irma",1,1,MATCH
+"the 'most dangerous' sex position is ....",-1,-1,MATCH
+"urban planner clearly depressed when she came up with street names",1,-1,FAIL
+"an astronaut's suggestion on how to fix politics would be expensive but probably pretty effective",-1,-1,MATCH
+"getting up close to homophobia",-1,-1,MATCH
+"is tpp a living" document?"",-1,-1,MATCH
+"6 things millennials should do before buying a house",-1,-1,MATCH
+"toward a fairer admissions process",-1,-1,MATCH
+"ozone repletion project nearly finished",1,-1,FAIL
+"meat industry introduces new easy-tear perforated beef",1,1,MATCH
+"trump fans the flames",-1,-1,MATCH
+"sharon stone auctioned off to german conglomerate",1,-1,FAIL
+"boston teachers visit students' countries of origin to bridge cultural divide",-1,-1,MATCH
+"staples adds 'staff picks' section",1,-1,FAIL
+"trump to send jared kushner and envoy to middle east for israeli-palestinian peace talks",-1,-1,MATCH
+"brad pitt called before congress to testify about bicep regimen",1,-1,FAIL
+"australian politicians are gloating about their nation's draconian refugee policy",-1,-1,MATCH
+"area man has shitty fuckin' job",1,1,MATCH
+"trump supporters are stepping up their attacks on bob mueller and the fbi",-1,-1,MATCH
+"family knows not to interrupt dad while he's skimming pool, listening to orioles radio broadcast",1,1,MATCH
+"californian falls to his death from cliff trying to rescue his dog",-1,-1,MATCH
+"melissa etheridge marries linda wallem",-1,-1,MATCH
+"hentai message board features surprisingly close-knit, supportive community",1,-1,FAIL
+"paul ryan's attempt at being a relatable 'emoji guy' backfires",-1,-1,MATCH
+"to hope again",-1,-1,MATCH
+"time magazine just six months from big cocktail-nation-craze story",1,-1,FAIL
+"thousands are flocking to washington this weekend to demand climate action",-1,-1,MATCH
+"netanyahu provides stunning new evidence that iranians planned sacking of babylon in 539 b.c.",1,1,MATCH
+"huffpost exclusive: greece pre-election poll",-1,-1,MATCH
+"nick cannon responds to mariah carey's engagement in the best way",-1,-1,MATCH
+"the same-sex marriage decision: what to make of the dissenters",-1,-1,MATCH
+"the two-for-one move that tones abs and arms at the same time",-1,-1,MATCH
+"man's family rises to record-high fourth priority",1,-1,FAIL
+"report: more companies offering paid maternity leave to mothers who complete 3 months of work ahead of time",1,1,MATCH
+"sean hannity defends withholding link to trump's attorney: 'i have a right to privacy'",-1,-1,MATCH
+"baseball team creates in-stadium nursing suite for moms",-1,-1,MATCH
+"study: majority of new marine life species now discovered while cleaning oil spills",1,1,MATCH
+"advertising firm unveils new mute-resistant commercials",1,1,MATCH
+"sean spicer quietly puts painting back over unfinished escape tunnel",1,-1,FAIL
+"stephen curry thinks the warriors will lose before the panthers",-1,-1,MATCH
+"fridge magnet a constant reminder of arizona's existence",1,-1,FAIL
+"ravens take out rival steelers in playoff grudge match",-1,-1,MATCH
+"facebook built censorship tool to appease china expansion",-1,-1,MATCH
+"nick tilsen is building a $60 million sustainable community on the pine ridge indian reservation",-1,-1,MATCH
+"rolling stones: is there humor to be found in their age?",1,-1,FAIL
+"megan fox is white hot on the red carpet",-1,-1,MATCH
+"'twas hubris led me here,' thinks naked woman sitting on public toilet with romper around her ankles",1,1,MATCH
+"how much americans sleep, text and pee every day",-1,-1,MATCH
+"disgusted researchers can't even bring themselves to find out how much mayo the average american consumes yearly",1,-1,FAIL
+"uber gave government millions of users' data",-1,-1,MATCH
+"college newspaper staff know exactly how they would respond if editorial freedom challenged",1,-1,FAIL
+"the mid-sex realization that changed everything",-1,-1,MATCH
+"6 rentboys tell all: what did the rentboy bust do to the hustler economy?",-1,-1,MATCH
+"6-year-old cries when told mtm productions kitten dead by now",1,-1,FAIL
+"oscars audience shrugging uproariously during jimmy kimmel's opening monologue",1,-1,FAIL
+"ukraine ceasefire remains shaky, but still holding",-1,-1,MATCH
+"doctor quickly scribbles prescription that will lead to 30-year battle with painkiller addiction",1,-1,FAIL
+"safeguarding america's health system from sabotage",-1,-1,MATCH
+"sweet briar college and the homogenization of u.s. higher education",-1,-1,MATCH
+"these two men share the beautiful story of how their family was created",-1,-1,MATCH
+"keynote speaker enlightens entire generation with theme that world is changing",1,-1,FAIL
+"insiders blame rove for covering up iraq's real wmd",-1,-1,MATCH
+"paypal back up after suffering from temporary global outage",-1,-1,MATCH
+"woman mentally rifles through friends for perfect person to sympathize with current pettiness",1,1,MATCH
+"in your face: the hidden history of plastic surgery and why looks matter",-1,-1,MATCH
+"man at very top of food chain chooses bugles",1,1,MATCH
+"how americans get duped into buying endangered animal items",-1,-1,MATCH
+"rhode island votes to move 2008 primary to tomorrow",1,-1,FAIL
+"man reading pynchon on bus takes pains to make cover visible",1,1,MATCH
+"paul ryan grudgingly impressed by angry protester who's matched his running pace for 9 miles",1,-1,FAIL
+"woman apologizes to therapist for monopolizing conversation",1,-1,FAIL
+"confused firefighters fail to rescue child wearing firefighter costume",1,-1,FAIL
+"tour becoming one-on-one between guide and man who knew name of mckinley's assassin",1,1,MATCH
+"the funniest tweets from women this week",-1,-1,MATCH
+"ketchup crust on heinz bottle cap still dreams of one day getting onto hot dog",1,1,MATCH
+"e.t. toys forced on uninterested children",1,-1,FAIL
+"who were you on 9/11?",-1,-1,MATCH
+"film to be made into john grisham",1,-1,FAIL
+"recapping the women's college advantage",-1,-1,MATCH
+"the return to basics in education. did we ever leave?",-1,-1,MATCH
+"texas vows to reclaim title of most regressive state from arizona",1,1,MATCH
+"activists: isis militants kill over 100 in attack on syrian regime-held area",-1,-1,MATCH
+"louisa meets bear by lisa gornick",-1,-1,MATCH
+"fbi deputy director touched by heavily redacted farewell card from bureau coworkers",1,-1,FAIL
+"equinox explores the fundamentals of lgbtq life in stunning new pride video",-1,-1,MATCH
+"when art becomes poison",-1,-1,MATCH
+"nurse to grab lunch right after she finishes draining bile from man's liver",1,1,MATCH
+"it took me 30 years to come to terms with half of my identity",-1,1,FAIL
+"trump to violate iran nuclear deal, vows to reimpose sanctions",-1,-1,MATCH
+"is it ok to be rich?",-1,-1,MATCH
+"closeted soldiers getting in last clandestine rendezvous before 'don't ask, don't tell' repealed",1,-1,FAIL
+"michele bachmann claims there's violence in israel because jesus is 'coming soon'",-1,-1,MATCH
+"be still our hearts: raspberry chocolate grilled cheese sandwiches",-1,-1,MATCH
+"in venezuela: it's time to consider new options",-1,-1,MATCH
+"how my non-verbal autistic son communicates using just google street view",-1,-1,MATCH
+"man pulling on loose hangnail slowly unravels skin from entire body",1,1,MATCH
+"arkansas plans to execute 2 convicted killers on monday",-1,-1,MATCH
+"aisle view: the queen takes the stage",-1,-1,MATCH
+"john kelly loses seat on naacp board of directors",1,1,MATCH
+"transgender troops are fighting for this country. will our country fight for them?",-1,-1,MATCH
+"friday's morning email: what to look for with four days to go",-1,-1,MATCH
+"nyc removes statue honoring 19th century surgeon who experimented on female slaves",-1,-1,MATCH
+"cheney to speak at republican convention from section 109, row 56, seat 3",1,1,MATCH
+"rest in peace leelah alcorn",-1,-1,MATCH
+"in the 'bad moms christmas' trailer, the bad moms' moms are crashing the party",-1,-1,MATCH
+"woman relieved soulmate turned out to be in same socioeconomic bracket",1,-1,FAIL
+"clarence thomas sexually harassed me. yes, he should be impeached.",-1,-1,MATCH
+"marine le pen literally stole parts of a speech from her rival",-1,-1,MATCH
+"lifelong boise resident realizes he's never been to morrison knudsen nature center",1,-1,FAIL
+"man grateful to live in society where mattress disappears if left on sidewalk for a couple days",1,-1,FAIL
+"bill clinton waiting until after primaries to endorse candidate",1,-1,FAIL
+"maryland gov. larry hogan says cancer is 95 percent gone",-1,-1,MATCH
+"man thinks going to vegas for things other than gambling somehow less sad",1,1,MATCH
+"huffpollster: voters remain very negative about donald trump and hillary clinton",-1,-1,MATCH
+"myanmar is picking up the pieces after earthquake damaged ancient pagodas",-1,-1,MATCH
+"presidential radio address pledge drive in its final day",1,-1,FAIL
+"here are the latest photos from march for our lives",-1,-1,MATCH
+"america not sure it will have enough revulsion and horror left for cabinet, court appointments",1,-1,FAIL
+"sean spicer is irreplaceable",-1,-1,MATCH
+"metta world peace thinks that matt barnes fight factored into derek fisher's firing",-1,-1,MATCH
+"no one at ad agency remembers hiring carrot top for commercial",1,-1,FAIL
+"a year after a coward killed the charleston 9, bible study continues",-1,-1,MATCH
+"individuals unaware they constitute area man's support network",1,1,MATCH
+"black mother speaks out: african-american boys 'won't ever really be safe'",-1,-1,MATCH
+"obama clinches 'joe cabernet sauvignon' vote",1,-1,FAIL
+"millions of kids could be at risk because of this deadly dresser",-1,-1,MATCH
+"sikh student shot dead at california home",-1,-1,MATCH
+"woman assures friend she has blackouts from drinking all the time",1,-1,FAIL
+"friend wondering if you can catch him up on what happened in previous 7 seasons during 'game of thrones' title sequence",1,-1,FAIL
+"wow, dad really went from zero to 60 with woodworking this summer",1,-1,FAIL
+"the double and the christmas holidays",-1,-1,MATCH
+"clearing the aereo",-1,-1,MATCH
+"6 things you should never tell your divorced friend",-1,-1,MATCH
+"asghar farhadi wins big after boycotting oscars over trump's muslim ban",-1,-1,MATCH
+"unemployed man photoshops self into former company's staff photo",1,1,MATCH
+"ukraine war: shelling and hunger killing civilians",-1,-1,MATCH
+"man unwilling to skydive blasted for contradicting previous 'up for whatever' stance",1,1,MATCH
+"twitter goes crazy after ugandan president museveni takes mysterious roadside call",-1,-1,MATCH
+"struggling supreme court loses eighth consecutive case",1,-1,FAIL
+"why gay marriage doesn't open the door to polygamy",-1,-1,MATCH
+"entire shopping mall quietly dreading whatever empty stage set up for",1,1,MATCH
+"area dad spends super bowl looking regretfully at son who wasn't allowed to play football",1,1,MATCH
+"when the sheep are watching over your mind",-1,-1,MATCH
+"florida woman calls 911 for wings, smokes, police say",-1,-1,MATCH
+"freedom caucus closing in on deal to rewrite health care bill at 11th hour",-1,-1,MATCH
+"these fashion grandpas could not be more adorable",-1,-1,MATCH
+"deceitful woman deviously alters appearance to give illusion of youth, fertility",1,1,MATCH
+"child pleads case for why family rabbit should be named aunt susan",1,-1,FAIL
+"5 foolproof outfits to copy this weekend",-1,-1,MATCH
+"construction crew arguing over who gets to use the fun tools",1,-1,FAIL
+"helping the planet, and your appetite, by dining on invasive species",-1,-1,MATCH
+"thomas jefferson impersonator reenacts famous cell phone shouting match with wife",1,-1,FAIL
+"bob saget says mentor bill cosby has been 'tarnished' by 'despicable' acts",-1,-1,MATCH
+"if you want to understand the price of milk, think of it like gasoline",-1,-1,MATCH
+"'a rising tide lifts all boats,' but the boatless are left to suffer",-1,-1,MATCH
+"copycat culture: adapting to a world of adaptations",-1,-1,MATCH
+"has d-day arrived for cuba?",-1,-1,MATCH
+"michael bolton singing john bolton's scary words about war is almost soothing",-1,-1,MATCH
+"savage attack on oasis of calm in dhaka shakes expat community",-1,-1,MATCH
+"you the newest subsidiary of kraft foods",1,-1,FAIL
+"france's election is about so much more than just populism",-1,-1,MATCH
+"fbi can't bring themselves to bust guy torrenting every season of 'picket fences'",1,1,MATCH
+"trevor noah exposes vladimir putin's sinister actions towards u.s. diplomats",-1,-1,MATCH
+"bette midler ruptures",1,-1,FAIL
+"woman with really pointy feet finds perfect shoes",1,1,MATCH
+"winning lottery numbers so obvious in hindsight",1,-1,FAIL
+"trump's cabinet picks pave the way for a nihilistic future",-1,-1,MATCH
+"rotating knife vortex closed pending safety investigation",1,-1,FAIL
+"report: no one currently thinking about you",1,-1,FAIL
+"uncertainty about hillary clinton's health is on the rise, poll finds",-1,-1,MATCH
+"inspired film executive has great idea for budget of film",1,1,MATCH
+"only jewish kid in class asked to talk about holocaust remembrance day",1,-1,FAIL
+"bush has one of those days where he feels like 68 percent of people hate him",1,1,MATCH
+"pope benedict leaves church in helicopter with lebron james, paul feig for some reason",1,-1,FAIL
+"'whoisdsharp' injects some viral vine violin into huffpost 6x60",-1,-1,MATCH
+"these two words are stealing your freedom",-1,-1,MATCH
+"bill maher lets 'impish brit' milo yiannopoulos off easy",-1,-1,MATCH
+"farberware releases new nonstick eggs",1,-1,FAIL
+"and now, the first picture from the 'gilmore girls' revival",-1,-1,MATCH
+"7 ways to build a community using data-driven narratives",-1,-1,MATCH
+"woman 'dragged' from west virginia hearing after listing lawmakers' oil and gas donors",-1,-1,MATCH
+"justin timberlake wants his son to be inspired by charlottesville's strength",-1,-1,MATCH
+"man at adjacent urinal pretends to look straight ahead",1,1,MATCH
+"john kelly struggles to maintain believable trump impression during phone calls with parkland survivors",1,-1,FAIL
+"the obamas wrest presidential portraiture from its traditional (white) trappings",-1,-1,MATCH
+"arizona wildfire destroys dozens of homes, raising warnings of a bad season",-1,-1,MATCH
+"baseball icon david ortiz slams trump for anti-mexican attacks",-1,-1,MATCH
+"why the teacher walkouts sweeping the country are a feminist issue",-1,-1,MATCH
+"homeland security finally vows to fully join investigation into 'hate-inspired attacks'",-1,-1,MATCH
+"why the un rejected turkey's bid for a security council seat?",-1,-1,MATCH
+"bette midler might have the best take on 'batman v superman'",-1,-1,MATCH
+"no matter what happens in the gop primary, a lot of republicans won't be happy",-1,-1,MATCH
+"'deadpool 2' trailer debuts josh brolin's cable and other x-citing mutants",-1,-1,MATCH
+"white roof, low energy",-1,-1,MATCH
+"teens spend wild spring break in d.c. begging lawmakers for their lives",1,-1,FAIL
+"4 angels banished from heaven for attempting to unionize",1,-1,FAIL
+"two years after sandy: addressing the emotional needs of survivors",-1,-1,MATCH
+"high school fuckup now in charge of checking airport luggage for explosives",1,1,MATCH
+"trump taps 'jumpin' jack flash' to close the deal in iowa",-1,-1,MATCH
+"magnanimous banker hires occupy wall street protesters",1,-1,FAIL
+"'goodell must go' banners flying over nfl stadiums",-1,-1,MATCH
+"dog or lena dunham?",-1,-1,MATCH
+"10 worst states for business",-1,-1,MATCH
+"munich shooter planned attacks for a year, german authorities say",-1,-1,MATCH
+"immigrants, they get the job done in amazing new 'hamilton mixtape' video",-1,-1,MATCH
+"sleepover guests get story straight on what time they went to bed",1,1,MATCH
+"thoughts on 54 below, 'blood brothers' and cabaret",-1,-1,MATCH
+"floppy-armed robot repeatedly warns: 'danger'",1,-1,FAIL
+"civilization collapses",1,-1,FAIL
+"hollywood quietly shuts down after realizing that entertainment a delicate matter of subjective opinion",1,-1,FAIL
+"area man seated next to lou reed on roller coaster",1,1,MATCH
+"newsweek's top editor and staffers suddenly fired",-1,-1,MATCH
+"best, most original idea man's ever had returns 114,000 google search results",1,-1,FAIL
+"she quit working for trump. now she's running for congress to fight him.",-1,-1,MATCH
+"inauguration crowd moves to white house gates to watch presidency happen",1,-1,FAIL
+"aspiring elitist moves to new york",1,1,MATCH
+"wrecking to 'revitalise': são paulo expels drug users and razes buildings, claiming public safety",-1,-1,MATCH
+"republican food stamp bill would cut benefits, but not the size of government",-1,-1,MATCH
+"the threat to america that no one is talking about",-1,-1,MATCH
+"kate moss and naomi campbell return to the runway together for a special reason",-1,-1,MATCH
+"orphanage director pushing asian orphans",1,-1,FAIL
+"secret service rooftop sniper team depressed by sprawling view of cleveland",1,1,MATCH
+"report: it too soon to glance back at attractive person",1,1,MATCH
+"lee daniels made 'star' for 'white people to feel good about being white'",-1,-1,MATCH
+"queer icon kate bornstein holds groundbreaking conversation with theda hammel",-1,-1,MATCH
+"black realness in the mainstream, but is everybody watching?",-1,-1,MATCH
+"the 'gilmore girls' cast reunited at atx and it was magical",-1,-1,MATCH
+"trump caps off infrastructure week by stoking a mideast crisis",-1,-1,MATCH
+"chance the rapper celebrates the last christmas before donald trump with run-dmc spoof",-1,-1,MATCH
+"what to expect from 'the simpsons'/'family guy' crossover",-1,-1,MATCH
+"horrible boogie boarding accident leaves man totally bummed below the neck",1,-1,FAIL
+"missing maryland college student who prompted campus closure found dead",-1,-1,MATCH
+"new $50 million planetarium opens young minds to wonders of pink floyd",1,1,MATCH
+"niall horan and james corden parody ginuwine's 'pony' in this halloween treat",-1,-1,MATCH
+"senator from troubled home state repeatedly acting out in congress",1,-1,FAIL
+"palestinian youth and the psychological impact of violence",-1,-1,MATCH
+"'on fleek' viral star peaches monroee just launched her own hair line",-1,-1,MATCH
+"watch this little girl age 80 years right before your eyes",-1,-1,MATCH
+"depleted bruegger's bagels gift card living out quiet retirement in wallet's fourth row",1,-1,FAIL
+"trump's budget is a death sentence for the als community",-1,-1,MATCH
+"hair salon acquires rare nagel print",1,-1,FAIL
+"top cute",1,-1,FAIL
+"just-opened factory to create 250 new jobs, 170 new cancer cases",1,1,MATCH
+"elderly woman relieved to know she's tackled last technological advancement of lifetime",1,1,MATCH
+"get ready to lol at this 'force awakens' trailer with jar jar binks",-1,-1,MATCH
+"sónar festival offers more than you might expect",-1,-1,MATCH
+"what comics can offer to bible readers",-1,-1,MATCH
+"what berlin (and brussels) can teach cairo and washington",-1,-1,MATCH
+"welcome to the age of context-driven sales and marketing",-1,-1,MATCH
+"pope beatifies god in important step toward sainthood",1,-1,FAIL
+"pakistani boy, u.s. drone form unlikely friendship",1,-1,FAIL
+"hillary clinton makes her final pitch of the election in north carolina",-1,-1,MATCH
+"suppression of the transgender vote",-1,-1,MATCH
+"content writer awkwardly shows parents around website where he works",1,-1,FAIL
+"swedes stumped by swedish 'national security adviser' on fox",-1,-1,MATCH
+"new york prepares for protests as grand jury reviews eric garner's death",-1,-1,MATCH
+"the invisible generation",-1,-1,MATCH
+"watch anthony weiner discover he's not going to be new york's mayor",-1,-1,MATCH
+"a simple experiment in empathy",-1,-1,MATCH
+"you are enough",-1,-1,MATCH
+"sheepish secret service agent can't explain how vacuum cleaner salesman got into oval office",1,-1,FAIL
+"authors are rallying to preserve langston hughes' harlem home",-1,-1,MATCH
+"watch live: music producer jermaine dupri talks new show",-1,-1,MATCH
+"9 quotes that will help you find the nerve to take a bold risk",-1,-1,MATCH
+"neighbors' wi-fi password must be something good",1,-1,FAIL
+"the making of them: tv documentary review (belated)",-1,-1,MATCH
+"study finds girls outperforming future employers in school",1,-1,FAIL
+"living with hiv: my journey",-1,-1,MATCH
+"embracing change in an uncertain climate",-1,-1,MATCH
+"how i'm finding my voice with wendy davis",-1,-1,MATCH
+"chuck schumer warns gop not to change the rules to confirm neil gorsuch",-1,-1,MATCH
+"balance... a reminder from the washing machine",-1,-1,MATCH
+"bernie sanders planning 'major speech' on democratic socialism",-1,-1,MATCH
+"thanks to kickstarter, thousands of endangered penguins will get new homes",-1,1,FAIL
+"nation letting itself have few moments of celebration before returning to horrifying reality of violent extremism",1,1,MATCH
+"adnan syed is getting a second podcast after 'serial'",-1,-1,MATCH
+"james corden roasts david beckham for matching outfits with posh",-1,-1,MATCH
+"lowe's introduces 2-way ladder user can also climb down",1,-1,FAIL
+"the bridge, an essay (photos)",-1,-1,MATCH
+"like boxes of shit in your house? get a cat",1,-1,FAIL
+"the toy aisle is almost too much for this boy to handle",-1,-1,MATCH
+"mutual selection process",-1,-1,MATCH
+"man returns to work after vacation with fresh, reenergized hatred for job",1,1,MATCH
+"child abuse: how much is too much?",1,-1,FAIL
+"'stranger things' renewed for season 3 by netflix",-1,-1,MATCH
+"time running out on second-keg fund drive",1,1,MATCH
+"guitar music fad runs course",1,-1,FAIL
+"siri calls 911 for teen pinned under fallen truck",-1,-1,MATCH
+"american people admit having facebook data stolen kind of worth it to watch that little fucker squirm",1,1,MATCH
+"prince harry shows guest to air mattress in corner of windsor castle",1,1,MATCH
+"the power of perspective",-1,-1,MATCH
+"millions of policy proposals spill into sea as brookings institution think tanker runs aground off crimea coast",1,1,MATCH
+"here's all the expensive nonsense trump's epa chief is wasting your taxes on",-1,-1,MATCH
+"an american talks turkey about the 'intolerant' chicken",-1,-1,MATCH
+"16 quick highlights from j.j. abrams and chris rock's tribeca film festival talk",-1,-1,MATCH
+"philip morris says it's 'trying to give up cigarettes' in 2018",-1,-1,MATCH
+"grandma pretty much unmoved by threat of not seeing grandchildren",1,1,MATCH
+"when politicians think the microphone is off, they start getting real",-1,-1,MATCH
+"senior citizens discuss merits of county-clerk candidates",1,1,MATCH
+"nostalgic hope hicks barely recognizes young woman on white house id badge",1,1,MATCH
+"people think ivanka trump's new twitter bio is an insult to women",-1,-1,MATCH
+"area grandmother comes forward as 'banksy'",1,1,MATCH
+"someone edited 'the last jedi' to make a 'chauvinist cut' without women",-1,-1,MATCH
+"boehner just wants wife to listen, not come up with alternative debt-reduction ideas",1,1,MATCH
+"obama to speak at memorial service for dallas officers on tuesday",-1,-1,MATCH
+"lifelong dream no match for first brush with adversity",1,-1,FAIL
+"'curses!' shouts fist-shaking meals on wheels ringleader as trump cuts off gravy train",1,-1,FAIL
+"santa obliges dad of sleeping boy by snoozing on camera",-1,1,FAIL
+"why i'm thinking of separating from a wonderful man after 27 years together",-1,-1,MATCH
+"'the late show' confirms there's an anti-trump protest for everyone",-1,-1,MATCH
+"airplane's terrifying landing may put you off flying for good",-1,-1,MATCH
+"what people are buying on amazon this week, besides baby banana toothbrushes",-1,-1,MATCH
+"british singer and tv host cilla black dies at 72",-1,-1,MATCH
+"michelle obama explains in no uncertain terms why she won't run for office",-1,-1,MATCH
+"passengers freed from hijacked plane that landed in malta",-1,-1,MATCH
+"scared of dying",-1,-1,MATCH
+"how we're using existing technology to save vets' and service members' lives (and how you can help)",-1,-1,MATCH
+"what i did over the holidays that would make seinfeld proud",-1,-1,MATCH
+"area man a little too old to have obama fever",1,1,MATCH
+"neighbor's house fire kind of beautiful, actually",1,1,MATCH
+"10 years of marriage equality",-1,-1,MATCH
+"parents seize creative control of 3rd-grade art project",1,1,MATCH
+"great lakes, amazing connections: the power of cooperation in policymaking",-1,-1,MATCH
+"processing the facts: what will ferguson's legacy be?",-1,-1,MATCH
+"munchstrosity created in frito-layboratory",1,-1,FAIL
+"historical archives: the twenty top-most books in print at present",1,-1,FAIL
+"new poultry stripe gum hardly tastes like goose after chewing for one minute",1,1,MATCH
+"cocky attempt to operate atm in spanish backfires",1,-1,FAIL
+"fan prefers tarantino's early work when he was shelving movies all day at video store",1,-1,FAIL
+"verizon and unions reach 'tentative agreement' to end strike",-1,-1,MATCH
+"james corden making major changes to show after london attacks",-1,-1,MATCH
+"magazine article about mindy kaling fails to mention she's a woman",1,-1,FAIL
+"mexico in the making: the emerging tech and entrepreneurship community",-1,-1,MATCH
+"this labor day, let's boost opportunity in every zip code",-1,-1,MATCH
+"as shutdown looms, push to link planned parenthood with spending fight gains steam in house",-1,-1,MATCH
+"yosemite national park completes construction on new 6-lane scenic driving trail",1,1,MATCH
+"75% of party trolley defaulting on student loans",1,1,MATCH
+"nun with a chainsaw clears hurricane irma debris like a pro",-1,-1,MATCH
+"lena dunham matches the red carpet",-1,-1,MATCH
+"time's up, men: more than 300 women file for house races",-1,-1,MATCH
+"actor's parents proud he's playing a doctor",1,-1,FAIL
+"controversial christian faction believes jesus was nailed to two parallel pieces of wood",1,1,MATCH
+"the religious imagery stitched throughout the 2018 met gala",-1,-1,MATCH
+"asexuals are increasingly becoming part of pride month",-1,-1,MATCH
+"can the new sfmoma turn tech-bros into art patrons?",-1,-1,MATCH
+"senior-center residents debate new anchorwoman's ethnicity for fifth straight evening",1,1,MATCH
+"national interest in anything hovering around 3 percent",1,-1,FAIL
+"good stock farm: a great new cooking school",-1,-1,MATCH
+"report: breathing can extend lifespan by several decades",1,-1,FAIL
+"'one day at a time' actor pat harrington jr. dead at 86",-1,-1,MATCH
+"watch: ghost riding a tractor swing",-1,-1,MATCH
+"johnny galecki returns to 'roseanne' and reuniting is such sweet sorrow",-1,-1,MATCH
+"new bailiff tired of hearing how old bailiff did things",1,1,MATCH
+"enda: the nightmare scenario in which gopers push a bad bill that gay groups dropped",-1,-1,MATCH
+"banking saves health care",-1,-1,MATCH
+"tree outside window upset man just changed channel",1,1,MATCH
+"paul ryan renews call to suspend hillary clinton's classified briefings",-1,-1,MATCH
+"area man guesses he doesn't need mc lyte wikipedia page open anymore",1,1,MATCH
+"federal judge rules fair housing law protects colorado lgbt couple",-1,-1,MATCH
+"kris kobach defends using a private email for government business",-1,-1,MATCH
+"black man blissfully unaware his name going to be hashtag by end of week",1,1,MATCH
+"'harlem shake' creators threaten legal action against fcc chairman ajit pai",-1,-1,MATCH
+"nation admits there could be a little less porn",1,-1,FAIL
+"ice cube is co-writing, starring in a genre-crossing 'oliver twist' musical",-1,-1,MATCH
+"nobody wins when the final score is 161-2",-1,-1,MATCH
+"labor unions blamed for derailing campaign transparency efforts",-1,-1,MATCH
+"kool-aid, hi-c make backroom deal to destroy tang",1,-1,FAIL
+"tyler, the creator, is a huge fan of tesla ceo elon musk",-1,-1,MATCH
+"pep-rally skit rumored to involve cross-dressing principal",1,-1,FAIL
+"critics worried new cia report puts u.s. at considerable risk of transparency",1,1,MATCH
+"pbs moderators spend first 10 minutes of debate asking candidates for fundraising advice",1,1,MATCH
+"2020 new york presidential candidates: cuomo v. gillibrand",-1,-1,MATCH
+"can you spot what's wrong with the memphis grizzlies' valentine's day graphic?",-1,-1,MATCH
+"irish wake a blur",1,-1,FAIL
+"how to know if your s.o. is ready to get serious",-1,-1,MATCH
+"area man unsure whether he's on right bus for most of trip",1,1,MATCH
+"actor receives $25 million for everyman role",1,-1,FAIL
+"god, jesus and the bible: faqs for gay pride month",-1,-1,MATCH
+"secretary of agriculture finally gets around to reading fast food nation",1,1,MATCH
+"how the opioid crisis is blowing a hole in small-town america's finances",-1,-1,MATCH
+"nation's insomniacs speak out against world's-strongest-man competitions",1,-1,FAIL
+"lesbian couple enjoys hot lesbian action",1,-1,FAIL
+"report: saying 'smells okay' precedes 85% of foodborne illnesses annually",1,1,MATCH
+"cnn chief jeff zucker rips donna brazile's 'disgusting' dealings with clinton campaign",-1,-1,MATCH
+"lawyer urged by mother to include younger brother in murder trial",1,-1,FAIL
+"teen choice awards honor cory monteith with posthumous surfboard",1,-1,FAIL
+"presidential commission announces no candidates met threshold to compete in second debate",1,1,MATCH
+"nursing home placement can be the most loving choice for a person with alzheimer's",-1,-1,MATCH
+"man, woman experiencing 2 very different sexual tensions",1,-1,FAIL
+"expiration of contract allows fergie to put on pair of pants for first time in 5 years",1,1,MATCH
+"older voters are suffering the greatest election stress. here's why.",-1,-1,MATCH
+"the importance of first responders",-1,-1,MATCH
+"nba players to start paying for retired players' health insurance",-1,-1,MATCH
+"4-year-old reportedly loved trip to italy",1,-1,FAIL
+"democrats split over opposing government funding bill that doesn't protect dreamers",-1,-1,MATCH
+"aerobics enthusiast believes in crystal light, self",1,-1,FAIL
+"preview expiration test 2",-1,-1,MATCH
+"rep confirms those david bowie rumors about scattering his ashes at burning man are 'untrue'",-1,-1,MATCH
+"unkempt japanese man must be some sort of artist or something",1,1,MATCH
+"occasionally you realize someone you thought was a dear friend is actually a foe, their true character finally revealed. but how do you forgive the unforgivable? here are my 10 steps to handling betrayal with elegance and grace.",-1,-1,MATCH
+"friend gearing up to hate the hulk",1,-1,FAIL
+"19 adorable doggie save-the-dates for when you're having a ruff day",-1,-1,MATCH
+"report: americans most physically active when getting comfy",1,1,MATCH
+"10 basic trends 2014 can keep",-1,-1,MATCH
+"another noose found near d.c. museums, police say",-1,-1,MATCH
+"michelle obama finally gets around to reading 'dreams from my father'",1,-1,FAIL
+"donald trump is wrong that americans don't care about his tax returns",-1,-1,MATCH
+"mike pence clearly went to ash wednesday services dozens of times",1,1,MATCH
+"grandma defiantly taking scone recipe to grave",1,-1,FAIL
+"sexual predator gets tenure",1,-1,FAIL
+"hydraulic press crushes the immortal soul out of halloween",-1,-1,MATCH
+"when soldier returns home, her toddler son can't contain his excitement",-1,-1,MATCH
+"entire facebook staff laughs as man tightens privacy settings",1,1,MATCH
+"this initiative aims to give aspiring female filmmakers the chance to work",-1,-1,MATCH
+"david cameron to scottish people: 'i'll kill myself if you leave'",1,-1,FAIL
+"dwts: tonight we rumba!",-1,-1,MATCH
+"conductor fatigue blamed in massive model train crash",1,-1,FAIL
+"cheering gets slightly less loud after obama's call for community service",1,-1,FAIL
+"trump fulfills campaign promise of pushing major immigration decision on someone else so he can watch tv",1,-1,FAIL
+"disastrous ad campaign appeals to basic human intelligence",1,-1,FAIL
+"'the onion' is canceling our 15-second web video featuring kevin spacey",1,-1,FAIL
+"study proves exactly how gross bathroom hand dryers really are",-1,-1,MATCH
+"amount of halloween candy collected down 15 percent",1,1,MATCH
+"as i grieve, 'maybe' has become a positive tool to help me find balance",-1,-1,MATCH
+"comedian shows how easy it is to get a medical marijuana card in california",-1,-1,MATCH
+"michael douglas denies masturbating in front of a former employee",-1,-1,MATCH
+"dog returned to shelter for being 'too nice' finds new home",-1,-1,MATCH
+"man actually shouting at other man to get jennifer aniston romantic comedy made",1,1,MATCH
+"entire conversation with parents spent changing the subject",1,-1,FAIL
+"office bad boy sees right through team-building exercise",1,-1,FAIL
+"by embracing psychology and ignoring polls, democrats could still win the '14 elections",-1,-1,MATCH
+"royal couple to spend $36.21 queen elizabeth had left over from 2010 u.s. visit",1,1,MATCH
+"mega-churchgoer hopes to appear devout on jumbotron",1,1,MATCH
+"rebel grandma sneaks out of care home to get a tattoo",-1,-1,MATCH
+"'nothing ordinary' about multinational chain of pepsico-owned, mexican-themed fast food outlets",1,1,MATCH
+"andrea tantaros wants roger ailes, fox news execs to take a lie detector test",-1,-1,MATCH
+"martha raddatz was the mvp of that horrifying debate",-1,-1,MATCH
+"after brock turner case, this woman wants to tell the world what it costs to survive sexual assault",-1,-1,MATCH
+"steven spielberg joins dc universe for 'blackhawk' film",-1,-1,MATCH
+"pope francis sneaks leftovers to false god moloch at back door of st. peter's basilica",1,1,MATCH
+"area ceo doesn't have time for this shit",1,-1,FAIL
+"mom just called to say hi and that she's very sad",1,-1,FAIL
+"grandparents' super sweet birthday serenade will make you tear up",-1,-1,MATCH
+"billionaire ceo donates rat's ass to world's poor",1,-1,FAIL
+"crossing the finish line for kids with cardiomyopathy",-1,-1,MATCH
+"manufacturers struggle to turn data into insight",-1,-1,MATCH
+"ronaldo's abs are the champions of europe",-1,-1,MATCH
+"gop voters will probably support anyone their party nominates",-1,-1,MATCH
+"the other rev. king: a word from mississippi",-1,-1,MATCH
+"new visa talking credit card urges buyers to go for it",1,1,MATCH
+"'neighbors 2' takes on sexism and double standards in an unexpected way",-1,-1,MATCH
+"8 perks of being divorced during the holidays",-1,-1,MATCH
+"see how well you know the news with huffpost's headline quiz on google home",-1,-1,MATCH
+"area child disappointed to learn parents' love unconditional",1,1,MATCH
+"new study finds staring out from balcony with best friends strongest indicator that this your city, your time",1,-1,FAIL
+"cash-strapped michael jackson forced to sell off pet giraffes as meat",1,-1,FAIL
+"new study finds most of earth's oxygen used for complaining",1,1,MATCH
+"trump relaxes after debate by slipping back into nice, warm personal reality",1,-1,FAIL
+"mark-paul gosselaar obviously authored own imdb trivia",1,-1,FAIL
+"report: 80% of queen's 'greatest hits' cds lodged in center console of first car",1,1,MATCH
+"anne frank center blasts trump's limp anti-semitism response",-1,-1,MATCH
+"chili's customer who just finished ribs platter given complimentary hose-down",1,-1,FAIL
+"desperate 'time' magazine announces 'man of june'",1,1,MATCH
+"thursday's morning email: va scandal worse than previously thought",-1,-1,MATCH
+"bush introduces new timmy blanchard left behind act",1,1,MATCH
+"huffpollster: indiana's gop primary will be a battle between demographics and economics",-1,-1,MATCH
+"the world's shark population is 'decimated' thanks to this soup",-1,-1,MATCH
+"houston residents begin surveying damage of 200 years of unchecked worldwide industrialization",1,1,MATCH
+"u.k. to also ban large electronics on some flights from middle east, africa",-1,-1,MATCH
+"two very different closets: my life as the gay daughter of a u.s. spy",-1,-1,MATCH
+"media stumped on how to handle missing mixed-race woman",1,-1,FAIL
+"rowdy, raunchy, jet-setting barbados can be more affordable than you might think",-1,-1,MATCH
+"'piggies' written in blood on clouds only clue in shocking murder of six angels",1,1,MATCH
+"kansas secretary of state: only obstacle voter id causes may be 'exerting calories'",-1,-1,MATCH
+"hoda kotb replaces matt lauer as 'today' co-anchor",-1,-1,MATCH
+"hillary clinton pledges not to cut social security benefits",-1,-1,MATCH
+"reddi wip canister used as directed",1,-1,FAIL
+"cnn's erin burnett reports donald trump kissed her friend without consent",-1,-1,MATCH
+"adapting change to fit complexity",-1,-1,MATCH
+"feds say hydropower capacity could be doubled in u.s.",-1,-1,MATCH
+"new facebook feature allows user to cancel account",1,1,MATCH
+"woman with amazing rack told she has beautiful eyes",1,1,MATCH
+"bags filled with sand still most advanced u.s. anti-flood technology",1,-1,FAIL
+"head-on collision with a ford",-1,-1,MATCH
+"corey flintoff unleashes sonorous, pleasantly modulated string of obscenities",1,1,MATCH
+"report: it going to take way more than an inconceivable act of violence for country to rise above politics",1,1,MATCH
+"toddler chokes to death on plastic taiwanese-made toy",1,-1,FAIL
+"isis recruiter excited to be talking to popular high schooler for once",1,-1,FAIL
+"15,000 brown people dead somewhere",1,-1,FAIL
+"4 billion years of evolution unable to prevent area man from drooling on self",1,1,MATCH
+"for that parent who's not the sharpest crayon in the box: a poem",-1,-1,MATCH
+"does a reasonable worker lactate?",-1,-1,MATCH
+"the 12 craziest outfits celebrities wore in november",-1,-1,MATCH
+"15 hours overnight at seoul's incheon airport with kids",-1,-1,MATCH
+"mother still yammering away under her tombstone",1,-1,FAIL
+"amy schumer stuns in a white minidress at gq men of the year party",-1,-1,MATCH
+"dhs sets security alert level to green for 8 seconds",1,-1,FAIL
+"mom makes sure everyone has masturbated before long car ride",1,1,MATCH
+"coal now too expensive to put in christmas stockings",1,-1,FAIL
+"personal life a total waste of time",1,-1,FAIL
+"every family member's birthday now marred by some tragedy",1,-1,FAIL
+"trump and xi in mar-a-lago: a tweetless summit would be a win",-1,-1,MATCH
+"wall street lobbyists and d.c. insiders" wrong (again) on dol conflict of interest rule"",-1,-1,MATCH
+"mueller threatened to subpoena trump if lawyers refused sit-down interview",-1,-1,MATCH
+"study: uneducated outbreeding intelligentsia 2-to-1",1,-1,FAIL
+"kinko's patron pulls the old copy-key switcheroo",1,-1,FAIL
+"toys 'r' us sign triggers pavlovian shrieking response in child",1,-1,FAIL
+"canadian ice dancers make history, winning gold in pyeongchang",-1,-1,MATCH
+"grandmother, 60, wins key fight in bid to birth her own grandbaby",-1,-1,MATCH
+"area man coasting by on good looks, work ethic, in-depth knowledge of virginia real estate law",1,1,MATCH
+"there are fewer asian americans than you might think",-1,-1,MATCH
+"stars with gray hair prove getting older isn't all that bad",-1,-1,MATCH
+"tomi lahren claims low-skilled immigrants are 'not what this country is based on'",-1,-1,MATCH
+"mountain lion tracked by scientists is found dead near malibu road",-1,-1,MATCH
+"kid who hugged cop in viral protest photo feared dead in family car plunge",-1,-1,MATCH
+"look: the magical world of tarot",-1,-1,MATCH
+"sepp blatter faces 90-day suspension from fifa",-1,-1,MATCH
+"google once made a promise not to be evil. will alphabet uphold it?",-1,-1,MATCH
+"area organization pro-white, ain't anti-nobody",1,1,MATCH
+"grizzled proofreader has seen it written both ways",1,-1,FAIL
+"'the onion' wins nobel prize",1,-1,FAIL
+"starting a small business is anything but routine",-1,-1,MATCH
+"donald trump was about to make jerry falwell, jr. education secretary. let that sink in.",-1,-1,MATCH
+"donald trump had a no good, very sad homecoming",-1,-1,MATCH
+"an uber for cuba?",-1,-1,MATCH
+"japanese restrooms offer special toilet paper for wiping phones",-1,-1,MATCH
+"emile hirsch sentenced to 15 days in jail after pleading guilty to assault",-1,-1,MATCH
+"god admits he was in pretty bad place while creating universe",1,-1,FAIL
+"obama administration facing more opposition to atlantic drilling plans",-1,-1,MATCH
+"area man's back aching after bad night's sleep, 58 continuous years of horrible posture",1,1,MATCH
+"kristen stewart ditches her brunette locks for a bleached 'do",-1,-1,MATCH
+"the onion is getting into the movie business",-1,-1,MATCH
+"ketchup not fancy enough for local man",1,1,MATCH
+"desperate dolphin mom seen helping her trapped baby breathe",-1,-1,MATCH
+"marco rubio's struggle to be more than a talking point machine",-1,-1,MATCH
+"gold bond spokesman grudgingly admits it makes your balls tingle",1,-1,FAIL
+"man with big stick to lead russia",1,1,MATCH
+"trojan unveils new 3-piece formal condoms",1,-1,FAIL
+"dc police investigating possible hate crime after 2 men beaten in alleged anti-gay attack",-1,-1,MATCH
+"hear the siren from behind the fence",-1,-1,MATCH
+"in five days",-1,-1,MATCH
+"boardwalk con men hit hard by sharp decrease in chumps",1,-1,FAIL
+"fbi agent's cover blown by own jacket",1,-1,FAIL
+"new memoir reveals navy seal bounced a few book ideas off bin laden before killing him",1,-1,FAIL
+"are there tears in your popcorn? what to learn from the fault in our stars",-1,-1,MATCH
+"horse dies in freak highway accident",-1,-1,MATCH
+"morley safer can't remember if he left stopwatch running after locking up '60 minutes' studio",1,1,MATCH
+"americans experiencing slightly different kind of numbness today",1,1,MATCH
+"vatican county fair sets record for world's largest communion wafer",1,-1,FAIL
+"catapults v. curtains -- girl books and boy books",-1,-1,MATCH
+"panicked studio delays 'man of steel' to get more shots of people looking up in awe",1,1,MATCH
+"embarrassing bounced check from greece taped up in imf headquarters",1,-1,FAIL
+"snack that resided in empty vending machine slot must have been delicious",1,-1,FAIL
+"kerry washington just summed up what we're all thinking about mental health",-1,-1,MATCH
+"lionel richie explains why he decided to adopt his daughter nicole",-1,-1,MATCH
+"sharper image vows 'we will be undersold'",1,-1,FAIL
+"alarming u.n. report finds world lost 40 million acres of personal space last year",1,1,MATCH
+"pamela anderson talks candidly about love, forgiveness and her foundation",-1,-1,MATCH
+"orlando survivor angel colon takes first steps by himself since tragedy",-1,-1,MATCH
+"failure to get into private college to be most financially responsible act of 17-year-old's life",1,1,MATCH
+"michele bachmann thankful no americans died in sikh shooting",1,-1,FAIL
+"one arizona man remains missing after flash floods kills eight family members",-1,-1,MATCH
+"best burger restaurants in america",-1,-1,MATCH
+"area man overly proud of never wearing underwear",1,1,MATCH
+"ninja-like parents demonstrate how to escape a sleeping baby",-1,-1,MATCH
+"obama takes shots at wnba champions",-1,-1,MATCH
+"nike ceo blasts trump executive order targeting muslims, refugees",-1,-1,MATCH
+"flash-mob spells out 'resist!' next to trump california golf course",-1,-1,MATCH
+"report: income inequality most apparent during fifth-grade classmate's birthday party",1,1,MATCH
+"pennsylvania diocese releases names of 51 clergy, laypeople accused of misconduct",-1,-1,MATCH
+"thomas pogge has 'done damage' to yale philosophy department, colleague says",-1,-1,MATCH
+"here's why we need to stop criticizing lebron james",-1,-1,MATCH
+"gop 'self-deportation' fantasy is alive and well",-1,-1,MATCH
+"man's idea for tweet just pops into his mind almost fully formed",1,-1,FAIL
+"at dnc, democrats spoke out on a topic that republicans mostly avoided",-1,-1,MATCH
+"how to criticize your kids without ruining their self-esteem",-1,-1,MATCH
+"cory booker introduces oversize velvet blacklight bill decriminalizing marijuana",1,-1,FAIL
+"adam rippon is allowing america to love a (really) gay athlete",-1,-1,MATCH
+"a ray of hope for lesbian veteran denied burial next to wife?",-1,-1,MATCH
+"'monster' cyclone leaves trail of devastation in vanuatu",-1,-1,MATCH
+"what is a reverse mortgage?",-1,-1,MATCH
+"wednesday's morning email: what the georgia special election results mean for the gop",-1,-1,MATCH
+"quiet guy mistaken for nice guy",1,-1,FAIL
+"black father gives son the talk about holding literally any object",1,-1,FAIL
+"bruce springsteen on fence about playing assad's birthday gig",1,-1,FAIL
+"huffpollster: texas and massachusetts are the states to watch on super tuesday",-1,-1,MATCH
+"new okcupid feature alerts users when it's time to come crawling back",1,1,MATCH
+"blm's alicia garza launches census project to mobilize black political power",-1,-1,MATCH
+"google still a long way from meeting diversity goals",-1,-1,MATCH
+"hundreds of cheap, generic doorstops flood market after doorblocker patent runs out",1,1,MATCH
+"daily meditation: finding the sacred",-1,-1,MATCH
+"child buried in backyard under popsicle-stick cross",1,-1,FAIL
+"status of gathering upgraded to 'party' by presence of pizza",1,1,MATCH
+"greece's rock portrait gallery, from craggy ogres to de gaulle's nose: suspended in mid-air on the looney front, part ii",-1,-1,MATCH
+"how i came to follow my passion",-1,-1,MATCH
+"report: it time to give up",1,1,MATCH
+"watch: meteorologist evacuates during live tornado report",-1,-1,MATCH
+"blagojevich claims behavior was just elaborate plan to surprise patrick fitzgerald with senate nomination on his birthday",1,1,MATCH
+"jennifer aniston and justin theroux spend valentine's day in paris",-1,-1,MATCH
+"teen publication takes bold anti-peer-pressure stance",1,-1,FAIL
+"genetically modified chicken lays its own dipping sauce",1,-1,FAIL
+"think pynk",-1,-1,MATCH
+"cheetos social media team arguing over whether tweet in chester cheetah's voice",1,-1,FAIL
+"#nevertrump conservative media will have to decide if never means never",-1,-1,MATCH
+"exuberant trump rally crowd bats syrian refugee child around arena before candidate comes on stage",1,-1,FAIL
+"bill clinton: sorry for the drug war",-1,-1,MATCH
+"alligator can't stop thinking about delicious swan from last week",1,-1,FAIL
+"here's what cops and their supporters are saying about the sandra bland arrest video",-1,-1,MATCH
+"actor matthew mcconaughey agrees to star in whatever",1,-1,FAIL
+"bill up and dies in tennessee legislature",1,-1,FAIL
+"bush unveils new blind-faith-based initiatives",1,-1,FAIL
+"christmas pageant enters pre-production",1,-1,FAIL
+"kenya claims to have killed over 100 militants in somalian raid",-1,-1,MATCH
+"veterans mentor chicago's at-risk youth, help them cope with trauma",-1,-1,MATCH
+"husband chooses car based on lowest passenger-side impact rating",1,-1,FAIL
+"'hedwig' takes home tony for best revival of a musical",-1,-1,MATCH
+"grandma pulls pudding roll-ups from recesses of cupboard",1,1,MATCH
+"the magical dolphins of slovenia",-1,-1,MATCH
+"man driving while making youtube video to explain how pc culture destroying america",1,1,MATCH
+"poll: 78% of americans hope cataclysmic event wiping out humanity will have big tidal wave",1,1,MATCH
+"'goodbye to the dead,' a conversation with brian freeman",-1,-1,MATCH
+"obama poll watch -- december, 2014",-1,-1,MATCH
+"are brick and mortar banks and checking accounts dying due to digital wallets, prepaid debit cards, etc.?",-1,-1,MATCH
+"why have there been so many anti-gay attacks in dallas?",-1,-1,MATCH
+"rick santorum slightly embarrassed for man introducing him as next president of united states",1,1,MATCH
+Tests:,996,Matches:,737,Percent:,73.99598393574297
