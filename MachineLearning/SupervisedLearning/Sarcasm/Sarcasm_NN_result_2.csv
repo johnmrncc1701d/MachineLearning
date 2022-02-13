@@ -21,7 +21,7 @@ TEXT,VALUE,PRED,CORRECT
 "real-life log flume kills family",1,1,MATCH
 "washington post: maine gov. paul lepage is 'completely unhinged' and should quit",-1,-1,MATCH
 "the best dinner and a movie combos in la",-1,-1,MATCH
-"ipod flaunted",1,1,MATCH
+"ipod flaunted",1,-1,FAIL
 "instagram now warns users against wild animal selfies",-1,1,FAIL
 "college junior shares his strategy for getting the most out of tinder",-1,-1,MATCH
 "white house denied third mortgage",1,1,MATCH
@@ -54,7 +54,7 @@ TEXT,VALUE,PRED,CORRECT
 "kimmel, atop scorched earth, takes aim at trump over health care bill",-1,-1,MATCH
 "nfl players and team owners can see 'concussion' for free",-1,-1,MATCH
 "jefferson starship memorial reopens on national mall",1,1,MATCH
-"banyan's breakfast smoothie",-1,1,FAIL
+"banyan's breakfast smoothie",-1,-1,MATCH
 "voters shocked christie botched such an easy political cover-up",1,-1,FAIL
 "pope francis canonizes single turkey in annual vatican tradition",1,1,MATCH
 "watch your favorite musicians perform 'the hamilton mixtape' live",-1,-1,MATCH
@@ -68,7 +68,7 @@ TEXT,VALUE,PRED,CORRECT
 "study: majority of frontal lobe occupied by thoughts of sausage links",1,1,MATCH
 "the daily szep- gop circus",-1,-1,MATCH
 "fire chief grants fireman 3-day extension on difficult fire",1,1,MATCH
-"#kellyonmymind: reflecting on kelly gissendaner",-1,1,FAIL
+"#kellyonmymind: reflecting on kelly gissendaner",-1,-1,MATCH
 "montana dems nominate a banjo player for special election -- and he might actually win",-1,-1,MATCH
 "man pretty sure he slept",1,1,MATCH
 "read this before you plop your v-day flowers into any old vase",-1,-1,MATCH
@@ -99,14 +99,14 @@ TEXT,VALUE,PRED,CORRECT
 "war on string may be unwinnable, says cat general",1,-1,FAIL
 "notorious b.i.g. cremation enters fifth week",1,1,MATCH
 "masturbating mom can't get bobby flay southwestern eggs demo to stop buffering",1,1,MATCH
-"joy reid mocks america's invisible man in the middle east: 'where's jared?'",-1,1,FAIL
+"joy reid mocks america's invisible man in the middle east: 'where's jared?'",-1,-1,MATCH
 "'nothing would surprise me at this point,' says man who will be shocked by 8 separate news items today",1,-1,FAIL
 "'how do we treat the little people, joan?' i asked. and she said, 'why, we treat them better. we only s--t on people at our level or higher.'",-1,-1,MATCH
 "joy sucked out of room by pumped-up manager",1,1,MATCH
 "this election isn't about politics. it's about how america sees women.",-1,-1,MATCH
 "white house works to release republican memo despite fbi warning",-1,1,FAIL
 "roy moore refusing to withdraw from alabama 13-year-old",1,1,MATCH
-"isn't she going to miss a father?",-1,1,FAIL
+"isn't she going to miss a father?",-1,-1,MATCH
 "how to have an eco-friendly christmas",-1,-1,MATCH
 "great, donald trump threatened to default on the national debt",-1,-1,MATCH
 "krispy kreme doughnuts described to sioux city relatives",1,1,MATCH
@@ -125,7 +125,7 @@ TEXT,VALUE,PRED,CORRECT
 "wow: erykah badu shares steamy sex tips",-1,-1,MATCH
 "bp's clean water act fines will be smaller than gulf states thought",-1,-1,MATCH
 "how to clean your grill with aluminum foil and some elbow grease",-1,-1,MATCH
-"breaking uniform",-1,1,FAIL
+"breaking uniform",-1,-1,MATCH
 "coast guard going to let stranded yacht owner sweat it out little more",1,1,MATCH
 "president barack obama backs expanding social security",-1,-1,MATCH
 "where to find the duchess of cambridge's birth announcement dress",-1,1,FAIL
@@ -211,7 +211,7 @@ TEXT,VALUE,PRED,CORRECT
 "hussein family can't bear to throw out uday's favorite nutsack shocker",1,1,MATCH
 "police find adorable little skeleton",1,1,MATCH
 "janis joplin: 'who you are is what you settle for, you know?'",-1,-1,MATCH
-"lena dunham dings woody allen",-1,1,FAIL
+"lena dunham dings woody allen",-1,-1,MATCH
 "clinton questions obama's ability to greet world leaders",1,1,MATCH
 "trump outlines bold vision for nation's next mass protests",1,1,MATCH
 "here's what clinton and trump were really thinking about during the debate",-1,-1,MATCH
@@ -221,14 +221,14 @@ TEXT,VALUE,PRED,CORRECT
 "cockroach worried about what kind of kitchen cupboard he leaving to children",1,1,MATCH
 "lie to cover surprise party sounds more fun than surprise party",1,1,MATCH
 "teens find this one hilarious store",1,-1,FAIL
-"blogger takes few moments every morning to decide whether to feel outraged, incensed, or shocked by day's news",1,-1,FAIL
+"blogger takes few moments every morning to decide whether to feel outraged, incensed, or shocked by day's news",1,1,MATCH
 "your republican friend to explain why paul ryan is great choice",1,-1,FAIL
 "obama slips 'hope' into speech for the fans",1,-1,FAIL
 "the secret behind a one day project going viral",-1,-1,MATCH
-"climbers abandon everest amid fresh avalanches",-1,1,FAIL
+"climbers abandon everest amid fresh avalanches",-1,-1,MATCH
 "why i didn't reveal i'm deaf in my online dating profile",-1,-1,MATCH
 "11-year-old moron can't wait to get her first period",1,-1,FAIL
-"call bulls#!t: just because they say it, doesn't mean it's true",-1,-1,MATCH
+"call bulls#!t: just because they say it, doesn't mean it's true",-1,1,FAIL
 "meet paddles, the most powerful cat in new zealand",-1,-1,MATCH
 "escape from falluja",-1,1,FAIL
 "do you use someone else's netflix password? you're not alone",-1,-1,MATCH
@@ -241,13 +241,13 @@ TEXT,VALUE,PRED,CORRECT
 "the one thing that makes steve aoki nervous",-1,-1,MATCH
 "the nuisance of nuance: one president's doubling down on the dumbing down of american politics",-1,-1,MATCH
 "man at point where thought of reince priebus controlling white house pretty comforting",1,1,MATCH
-"raid on nacho-supremacist compound uncovers guacamole-making materials",1,1,MATCH
+"raid on nacho-supremacist compound uncovers guacamole-making materials",1,-1,FAIL
 "the trailer for netflix's 'the discovery' has jason segel and rooney mara exploring the afterlife",-1,-1,MATCH
 "man from last week smacked into present day",1,1,MATCH
 "new hampshire returns to obscurity",1,1,MATCH
 "report: still a few seconds left where plane low enough to crash with everyone surviving",1,1,MATCH
 "new employee finally around long enough to be deemed incompetent",1,1,MATCH
-"daily meditation: spark creativity",-1,1,FAIL
+"daily meditation: spark creativity",-1,-1,MATCH
 "mexico announces plans to refry over 700 million beans",1,1,MATCH
 "polish and irish soccer fans shame hooligans with heartwarming embrace",-1,-1,MATCH
 "latino voters crucial to passing environmental laws: report",-1,-1,MATCH
@@ -280,10 +280,10 @@ TEXT,VALUE,PRED,CORRECT
 "republican sen. gardner torches sessions over pot reversal",-1,-1,MATCH
 "study finds growing number of americans would be comfortable with female pep boy",1,1,MATCH
 "how pirates and hackers worked together to steal millions of dollars in diamonds",-1,-1,MATCH
-"april cruelty",-1,1,FAIL
+"april cruelty",-1,-1,MATCH
 "adele is just as bummed about the brangelina split as everyone else",-1,-1,MATCH
 "student snaps awake upon hearing word 'hydroponics'",1,1,MATCH
-"naacp demands less minority representation on upn",1,1,MATCH
+"naacp demands less minority representation on upn",1,-1,FAIL
 "pornhub expands parental controls for user accounts",1,-1,FAIL
 "danny masterson's publicist suggested a woman can't be raped by a man she's in a relationship with",-1,1,FAIL
 "biden's burden: loss pays another visit",-1,-1,MATCH
@@ -301,7 +301,7 @@ TEXT,VALUE,PRED,CORRECT
 "a state senate race tied to personal appeal",-1,-1,MATCH
 "bruce jenner okay following deadly car crash",-1,-1,MATCH
 "man can't decide whether to give sandwich to homeless or ducks",1,1,MATCH
-"massive filament snakes across sun's surface",-1,1,FAIL
+"massive filament snakes across sun's surface",-1,-1,MATCH
 "even more evidence that anxiety can be genetic",-1,-1,MATCH
 "20th century fox, paramount have no female directors through 2018",-1,1,FAIL
 "rand paul's time on main debate stage could be running out",-1,1,FAIL
@@ -315,7 +315,7 @@ TEXT,VALUE,PRED,CORRECT
 "chuck grassley introduces donald trump at rally, but does not endorse",-1,-1,MATCH
 "mike pence's 'hamilton' recollection conflicts with donald trump's take",-1,-1,MATCH
 "trump defends gina haspel, his nominee for cia director, and her record of torture",-1,-1,MATCH
-"bling-bling pawned",1,1,MATCH
+"bling-bling pawned",1,-1,FAIL
 "the grid: startup promises ai webdesign for the masses",-1,-1,MATCH
 "white house pretty sure uzbekistan diplomat stole a bunch of soap",1,1,MATCH
 "breaking: aclu hard as a fucking rock right now",1,1,MATCH
@@ -360,7 +360,7 @@ TEXT,VALUE,PRED,CORRECT
 "unhrc decay needs urgent treatment",-1,-1,MATCH
 "bush vows to discover, legalize aliens on american, martian soil",1,1,MATCH
 "jumbled nest of cords makes move to third new apartment",1,1,MATCH
-"broken windows, broken trust",-1,1,FAIL
+"broken windows, broken trust",-1,-1,MATCH
 "my advice to high school grads",-1,-1,MATCH
 "piece of my heart: quick questions with leslie kritzer and teal wicks",-1,-1,MATCH
 "six inspiring architectural projects that have revitalized muslim communities",-1,1,FAIL
@@ -398,7 +398,7 @@ TEXT,VALUE,PRED,CORRECT
 "another boxing hall of fame induction ends with everyone punching each other",1,1,MATCH
 "violent death of human being terrific news for once",1,1,MATCH
 "five reasons to love fashion designer bibhu mohapatra",-1,-1,MATCH
-"gummy bears born conjoined",1,1,MATCH
+"gummy bears born conjoined",1,-1,FAIL
 "circular editor makes last-minute call to run fabric softener as top coupon",1,1,MATCH
 "a ref's favorite team? i love 'em all",-1,-1,MATCH
 "doctors discover purpose of appendix is to contain human soul",1,-1,FAIL
@@ -417,7 +417,7 @@ TEXT,VALUE,PRED,CORRECT
 "horrifying doll sitting on neighbor's porch whether it's halloween or not",1,-1,FAIL
 "hillary clinton pleasantly surprised after finding old $20,000 donation check in coat pocket",1,-1,FAIL
 "'donald trump is the 45th president of the united states,' spontaneously reports subconscious during first calm moment of day",1,-1,FAIL
-"scientists discover sun is made of hot",1,1,MATCH
+"scientists discover sun is made of hot",1,-1,FAIL
 "jyothi rao: on threads of authenticity",-1,1,FAIL
 "art object purchased at office depot",1,1,MATCH
 "wolf blitzer decks boston man who hasn't been healed by red sox baseball",1,1,MATCH
@@ -426,7 +426,7 @@ TEXT,VALUE,PRED,CORRECT
 "americans say the white house is creating more problems than it solves",-1,-1,MATCH
 "robert redford may be wrong when he said retirement leads to death",-1,-1,MATCH
 "slovenian 8th-graders surprised even they outperformed u.s. students in science",1,1,MATCH
-"swimsuit skirt conceals hideous thigh region",1,1,MATCH
+"swimsuit skirt conceals hideous thigh region",1,-1,FAIL
 "mom responds to unsolicited advice about improving her postpartum body",-1,-1,MATCH
 "bernie sanders' jumpshot is more impressive than his primary win",-1,-1,MATCH
 "3 things you should always do before showering",-1,-1,MATCH
@@ -454,7 +454,7 @@ TEXT,VALUE,PRED,CORRECT
 "romney thanks state he was born and raised in for just barely giving him enough votes to beat total maniac",1,1,MATCH
 "new prescription fish tank eliminates need for glasses while looking at fish",1,1,MATCH
 "wedding couple does lightsaber duel instead of first dance",-1,1,FAIL
-"nana finally makes it to never land in battle for the book!",-1,1,FAIL
+"nana finally makes it to never land in battle for the book!",-1,-1,MATCH
 "3 questions every company should be asking before making a new hire",-1,-1,MATCH
 "stop sign taking forever to change",1,-1,FAIL
 "here's how you can help lgbtq communities around the country",-1,-1,MATCH
@@ -473,7 +473,7 @@ TEXT,VALUE,PRED,CORRECT
 "heavily starched shirt only thing keeping larry king upright",1,1,MATCH
 "nate silver projects super tuesday results using microscopic electorate grown in petri dish",1,-1,FAIL
 "happy birthday america",-1,-1,MATCH
-"tribe prepares to keep up pipeline protest through north dakota winter",-1,-1,MATCH
+"tribe prepares to keep up pipeline protest through north dakota winter",-1,1,FAIL
 "watch live: bernin up nyc dance party in brooklyn, new york",-1,-1,MATCH
 "mindfulness and the average smartphone: technology for calm instead of chaos",-1,-1,MATCH
 "a popular voting reform could add 22 million americans to the rolls, analysis shows",-1,-1,MATCH
@@ -502,7 +502,7 @@ TEXT,VALUE,PRED,CORRECT
 "a conversation on getting dressed",-1,-1,MATCH
 "the maker of oreos is hiring for a dream job: chocolate taster",-1,-1,MATCH
 "china refuses overseas treatment for critically ill nobel peace prize winner",-1,-1,MATCH
-"this country's capital just made it punishable to catcall women",-1,1,FAIL
+"this country's capital just made it punishable to catcall women",-1,-1,MATCH
 "car passengers launch urgent, mid-street investigation into whether woman in parking spot coming or going",1,1,MATCH
 "haunted hayride makes extra-spooky turn onto interstate",1,1,MATCH
 "90% of audience at college graduation involved in heated family argument",1,1,MATCH
@@ -511,9 +511,9 @@ TEXT,VALUE,PRED,CORRECT
 "ryan to unveil policy agenda, starting with anti-poverty initiative",-1,1,FAIL
 "woman to be ordained despite excommunication threat",-1,1,FAIL
 "very specific food pyramid recommends two to three shrimp scampis per year",1,1,MATCH
-"freddie prinze jr. recovers",-1,1,FAIL
+"freddie prinze jr. recovers",-1,-1,MATCH
 "'extinction labels' tell you how your food choices affect wildlife",-1,-1,MATCH
-"elizabeth warren to campaign with hillary clinton in ohio",-1,1,FAIL
+"elizabeth warren to campaign with hillary clinton in ohio",-1,-1,MATCH
 "bush arrives at caribbean summit aboard catamaran one",1,1,MATCH
 "god wondering how far he could throw earth",1,1,MATCH
 "rubio launches new lines of attack against christie",-1,-1,MATCH
@@ -592,11 +592,11 @@ TEXT,VALUE,PRED,CORRECT
 "patty jenkins 'extremely distressed' over brett ratner allegations",-1,-1,MATCH
 "10 ways to respond to strangers who comment on your 'mom bod'",-1,-1,MATCH
 "cyclist suffers terrifying fall at the edge of a sheer cliff",-1,-1,MATCH
-"talking to our children about capital controls",-1,1,FAIL
+"talking to our children about capital controls",-1,-1,MATCH
 "mom finally drunk enough to put on bathing suit",1,1,MATCH
 "the two non-interventionists",-1,-1,MATCH
 "attention solicitor general: two more powerful arguments against king v burwell",-1,-1,MATCH
-"how to swear like a local",-1,1,FAIL
+"how to swear like a local",-1,-1,MATCH
 "clinton campaign hits trump for seeing brexit as boon to his business",-1,-1,MATCH
 "california's rare 'super bloom' flowers are migrating north",-1,-1,MATCH
 "fruit of islam cause man to soil fruit of looms",1,1,MATCH
@@ -618,7 +618,7 @@ TEXT,VALUE,PRED,CORRECT
 "dump trumpers think they need just 57 votes to win",-1,1,FAIL
 "in india, gaps in quality of care leave women seeking sterilization vulnerable",-1,-1,MATCH
 "put on your damn swimsuit",-1,-1,MATCH
-"senior center restocks on rum raisin ice cream",1,1,MATCH
+"senior center restocks on rum raisin ice cream",1,-1,FAIL
 "from peach cobbler to banana pudding: 10 delicious labor day desserts",-1,1,FAIL
 "american medical association changes stance on self-immolation",1,1,MATCH
 "eddie murphy fucks self for $20 million",1,1,MATCH
@@ -647,7 +647,7 @@ TEXT,VALUE,PRED,CORRECT
 "trump blows up statue of liberty",-1,-1,MATCH
 "cameron crowe to release only soundtracks",1,1,MATCH
 "report: oh, fuck yeah, egg yolk dripping all over sandwich",1,1,MATCH
-"'butt crack bandit' caught on camera holding duo at gunpoint",-1,1,FAIL
+"'butt crack bandit' caught on camera holding duo at gunpoint",-1,-1,MATCH
 "area nephew a very funny young man",1,1,MATCH
 "teen worried about friend who tried pot",1,1,MATCH
 "charlton heston gets serious",1,1,MATCH
@@ -656,17 +656,17 @@ TEXT,VALUE,PRED,CORRECT
 "the moment cynthia nixon realized 'sex and the city' was more than just 'a funny show'",-1,-1,MATCH
 "huffpost expands its reporting, video and audio teams with latest round of new hires",-1,-1,MATCH
 "eu countries fall way short of meeting refugee relocation goals",-1,1,FAIL
-"report: we don't make any money if you don't click the fucking link",1,1,MATCH
+"report: we don't make any money if you don't click the fucking link",1,-1,FAIL
 "after ireland, the pressure is on italy to legalize same-sex unions",-1,-1,MATCH
-"report: this not a gun",1,1,MATCH
+"report: this not a gun",1,-1,FAIL
 "trump's lies aren't lies because 'there's no such thing' as facts anymore, his surrogate says",-1,-1,MATCH
 "tomb of lost egyptian queen discovered",-1,1,FAIL
 "man fears he may never trust again after treasured picture of duck turns out to be rabbit",1,1,MATCH
 "drug-sniffing dog develops taste for bit-o-honeys",1,-1,FAIL
-"scalia's utter moral failure exposed",-1,1,FAIL
+"scalia's utter moral failure exposed",-1,-1,MATCH
 "alumni magazine tiptoeing around campus shooting",1,-1,FAIL
 "this disorder feels like 'being awake inside a corpse'",-1,-1,MATCH
-"rommel, hummel dominate parents' christmas list",1,1,MATCH
+"rommel, hummel dominate parents' christmas list",1,-1,FAIL
 "teresa giudice looks better than ever in a cut-out dress",-1,-1,MATCH
 "planned parenthood sues anti-abortion group behind undercover videos",-1,1,FAIL
 "deputy head of norway's labor party resigns amid sexual harassment allegations",-1,1,FAIL
@@ -696,7 +696,7 @@ TEXT,VALUE,PRED,CORRECT
 "jared kushner quietly transfers 'solve middle east crisis' to next week's to-do list",1,1,MATCH
 "the president of israel reaches out to palestinian arabs of israeli citizenship",-1,-1,MATCH
 "flu clinic selling 2009 version of vaccine for a few bucks cheaper",1,-1,FAIL
-"supreme court to hear challenge to public sector unions",-1,1,FAIL
+"supreme court to hear challenge to public sector unions",-1,-1,MATCH
 "granta derided by philistines",1,1,MATCH
 "brave woman enters restaurant without first looking it up online",1,1,MATCH
 "area woman dumped on 15-week anniversary",1,1,MATCH
@@ -758,7 +758,7 @@ TEXT,VALUE,PRED,CORRECT
 "manson's loved ones ask for complete, utter chaos in their time of grief",1,1,MATCH
 "nation leery of very odd little boy",1,1,MATCH
 "bryant gumbel thanked donald trump for nfl rant, and for good reason",-1,-1,MATCH
-"video shows officers pepper-spraying restrained man who says he can't breathe",-1,-1,MATCH
+"video shows officers pepper-spraying restrained man who says he can't breathe",-1,1,FAIL
 "11 doodles to help you hang in there after heartbreak",-1,-1,MATCH
 "slushing in utah at the end of ski season",-1,-1,MATCH
 "parody movie script one crotch-hitting joke short of being greenlit",1,1,MATCH
@@ -767,7 +767,7 @@ TEXT,VALUE,PRED,CORRECT
 "bowling birthday party enters 5th agonizing hour",1,1,MATCH
 "8th grader impregnated during trip to 'march for life' event",1,1,MATCH
 "tammy baldwin on rumors of anti-lgbtq executive order: where's ivanka now?",-1,1,FAIL
-"pneumonia virus terrified after remembering what clintons capable of",1,1,MATCH
+"pneumonia virus terrified after remembering what clintons capable of",1,-1,FAIL
 "heartbroken chris brown always thought rihanna was woman he'd beat to death",1,1,MATCH
 "three generations of love stories",-1,-1,MATCH
 "network for public education study exposes charter school scams",-1,1,FAIL
@@ -776,7 +776,7 @@ TEXT,VALUE,PRED,CORRECT
 "wound-up tim kaine running around clinton campaign headquarters in pajamas",1,1,MATCH
 "endangered species list edited to fit poster",1,1,MATCH
 "5 longevity secrets from the world's healthiest cultures",-1,-1,MATCH
-"pursued drunk driver crafts brilliant 'don't stop' plan",1,1,MATCH
+"pursued drunk driver crafts brilliant 'don't stop' plan",1,-1,FAIL
 "transgender inmates to be integrated according to identity in san francisco",-1,1,FAIL
 "waiting-room copy of people brings area man up to speed on paris hilton",1,1,MATCH
 "labor day 2015: stand together and fight back",-1,-1,MATCH
@@ -794,12 +794,12 @@ TEXT,VALUE,PRED,CORRECT
 "when parents part",-1,1,FAIL
 "'the daily show' searches for a 'real, non-douchey' hoverboard",-1,-1,MATCH
 "u.s.─cuba relations end after obama hit by foul ball at exhibition baseball game",1,1,MATCH
-"mccain courts youth vote with lengthy speech on forbearance, morality",1,1,MATCH
+"mccain courts youth vote with lengthy speech on forbearance, morality",1,-1,FAIL
 "mike pence training for vice presidential debate by hitting punching bag with climate change study taped on front",1,1,MATCH
-"dionne warwick remembers bobbi kristina brown",-1,1,FAIL
+"dionne warwick remembers bobbi kristina brown",-1,-1,MATCH
 "condoleezza rice drives halfway to airport before realizing she forgot interpreter",1,1,MATCH
 "new mountain dew vows to kill 99.9% of stomach bacteria",1,1,MATCH
-"greg behrendt releases new book for children: your parents aren't that into you",1,1,MATCH
+"greg behrendt releases new book for children: your parents aren't that into you",1,-1,FAIL
 "boss has been riding steven van zandt's ass all day",1,1,MATCH
 "philip morris releases new single-puff marlboro minis",1,1,MATCH
 "stephen colbert is stone-cold funny while mocking sarah palin's rock-run rant",-1,-1,MATCH
@@ -821,7 +821,7 @@ TEXT,VALUE,PRED,CORRECT
 "it's never too late to be a woman in tech",-1,-1,MATCH
 "runaways, neglect and abuse cast shadow on massachusetts school",-1,-1,MATCH
 "'no way to prevent this,' says only nation where this regularly happens",1,1,MATCH
-"nicky romero's ultra evolution",-1,1,FAIL
+"nicky romero's ultra evolution",-1,-1,MATCH
 "well, neighbors just got a pit bull",1,-1,FAIL
 "the top 12 beauty tips we learned from our moms",-1,-1,MATCH
 "several probably killed in shooting, lazy police report confirms",1,-1,FAIL
@@ -844,9 +844,9 @@ TEXT,VALUE,PRED,CORRECT
 "the most powerful word in the english language: hope",-1,-1,MATCH
 "best buy employee going to tell you what he has at home",1,1,MATCH
 "how those anti-muslim videos probably got into trump's twitter feed",-1,-1,MATCH
-"hero cop receives hero's lap dance",1,1,MATCH
+"hero cop receives hero's lap dance",1,-1,FAIL
 "republicans holding out hope new chief of staff can restore order to chaotic white house",-1,1,FAIL
-"man's dream to get drunk in an a-frame finally realized",1,1,MATCH
+"man's dream to get drunk in an a-frame finally realized",1,-1,FAIL
 "11 things ultra-productive people do differently",-1,-1,MATCH
 "teacher who dedicates life to students total fucking bitch",1,1,MATCH
 "how to add, delete, and modify your way to happiness",-1,-1,MATCH
@@ -871,8 +871,8 @@ TEXT,VALUE,PRED,CORRECT
 "report: average american has just 20% of what it takes",1,1,MATCH
 "8 healthy habits of couples who attend marriage therapy",-1,1,FAIL
 "voting lines are shorter ─ but mostly for whites",-1,-1,MATCH
-"parking-ramp attendant moves slightly",1,1,MATCH
-"newlyweds regret saving sex for marriage",1,1,MATCH
+"parking-ramp attendant moves slightly",1,-1,FAIL
+"newlyweds regret saving sex for marriage",1,-1,FAIL
 "report: strongest human relationships emerge from bashing friend who couldn't make it out",1,1,MATCH
 "here's why you should never pet a service dog",-1,-1,MATCH
 "democratic senators vow transportation bill fight over safety",-1,-1,MATCH
@@ -902,7 +902,7 @@ TEXT,VALUE,PRED,CORRECT
 "justin timberlake tells jessica biel no one will believe her",1,-1,FAIL
 "more than 50 tech companies take on trump's new travel ban",-1,-1,MATCH
 "mac's new troll dolls collection is equal parts neon and nostalgia",-1,-1,MATCH
-"zogby poll: john zogby coolest dude in america",1,1,MATCH
+"zogby poll: john zogby coolest dude in america",1,-1,FAIL
 "area ladder never thought it would end up a bookcase",1,1,MATCH
 "third world disease eliminated with hot-air hand dryers",1,-1,FAIL
 "casting zionism as 'white nationalism' is anti-semitism",-1,-1,MATCH
@@ -949,13 +949,13 @@ TEXT,VALUE,PRED,CORRECT
 "ben carson has a weirdly specific vision of how 'the purge' could turn real",-1,-1,MATCH
 "local woman considers telling gynecologist whole truth",1,1,MATCH
 "blocking the courts: the trump triple threat",-1,-1,MATCH
-"bye bye american airlines, bye",-1,1,FAIL
+"bye bye american airlines, bye",-1,-1,MATCH
 "trinidad and tobago issues commemorative leonardo dicaprio postage stamp",1,-1,FAIL
 "sources: hackers vandalized drudge report for last 15 years",1,1,MATCH
 "it's not as easy as you think to spot a gerrymandered map",-1,-1,MATCH
 "syria: refugee communities and redrawing the map of the middle east",-1,-1,MATCH
 "marvel won't make a female thor movie 'any time soon'",-1,-1,MATCH
-"judge aaron persky cleared of misconduct in stanford sex assault case",-1,-1,MATCH
+"judge aaron persky cleared of misconduct in stanford sex assault case",-1,1,FAIL
 "'american horror story: freak show' premiere recap: it's a circus, all right (spoilers)",-1,-1,MATCH
 "north carolina sheriff's deputies disciplined over trump rally",-1,-1,MATCH
 "why william shatner can't attend leonard nimoy's funeral",-1,-1,MATCH
@@ -965,7 +965,7 @@ TEXT,VALUE,PRED,CORRECT
 "coworker insists on describing entire plot of old spice commercial",1,1,MATCH
 "2018 winter olympics cancelled due to inclement weather",1,1,MATCH
 "african children given 30,000 unused 'save darfur' t-shirts",1,1,MATCH
-"another times square 'spider-man' arrested",-1,1,FAIL
+"another times square 'spider-man' arrested",-1,-1,MATCH
 "trump makes last-minute push to appeal to whites",1,-1,FAIL
 "pregnant ellie kemper isn't into strangers touching her stomach",-1,-1,MATCH
 "why i no longer dream of having it all",-1,1,FAIL
@@ -1018,13 +1018,13 @@ TEXT,VALUE,PRED,CORRECT
 "if i have gay children: 4 promises from a christian pastor/parent",-1,-1,MATCH
 "the democrats' false choice",-1,-1,MATCH
 "34-year-old man may as well keep pursuing dream at this point",1,-1,FAIL
-"robin hood foundation",-1,1,FAIL
+"robin hood foundation",-1,-1,MATCH
 "browns' josh gordon to enter rehab",-1,1,FAIL
 "bush dies peacefully in his sleep",1,-1,FAIL
 "fox news reporter asks the questions others are too smart to ask",1,-1,FAIL
 "report: more recent college graduates making extra money by tutoring high school teachers",1,1,MATCH
 "more bodies found at mass grave in suspected thai trafficking camp",-1,-1,MATCH
-"cannon overshoots tim kaine across wells fargo center",1,1,MATCH
+"cannon overshoots tim kaine across wells fargo center",1,-1,FAIL
 "pissed off from a lack of sleep? you might be 'slangry'",-1,-1,MATCH
 "6 stunning rooms that prove tile deserves to be so much more than a backsplash",-1,-1,MATCH
 "'you did the best you could,' says iron man action figure voiced by despondent toys 'r' us ceo packing up office",1,-1,FAIL
@@ -1034,7 +1034,7 @@ TEXT,VALUE,PRED,CORRECT
 "pancake-craving dog accidentally starts house fire",-1,1,FAIL
 "planned parenthood targets vulnerable gop senators with $2 million ad campaign",-1,-1,MATCH
 "young voters in donald trump's counties are especially positive about america's direction",-1,-1,MATCH
-"kanye west ice cream week returns to new york",-1,-1,MATCH
+"kanye west ice cream week returns to new york",-1,1,FAIL
 "polish rapper under fire for use of the word 'polack'",1,-1,FAIL
 "i need feminism, so why do some feminists exclude me?",-1,-1,MATCH
 "growing up with the holocaust as a writer",-1,-1,MATCH
@@ -1053,11 +1053,11 @@ TEXT,VALUE,PRED,CORRECT
 "suitcase spends all year looking forward to carousel ride",1,1,MATCH
 "man spends entire marketing meeting nodding",1,1,MATCH
 "evangelical voters don't care that trump's not religious",-1,-1,MATCH
-"'low-energy jeb,' whispers jeb bush sitting alone in dark watching televised trump speech",1,1,MATCH
+"'low-energy jeb,' whispers jeb bush sitting alone in dark watching televised trump speech",1,-1,FAIL
 "woman sensitive about that thing on her face",1,1,MATCH
 "john kelly denies any knowledge of staffer's misconduct that will break in few month's time",1,1,MATCH
 "aol/time warner turmoil over-reported, says time",1,-1,FAIL
-"george h.w. bush hasn't seen anyone from his secret service detail in years",1,1,MATCH
+"george h.w. bush hasn't seen anyone from his secret service detail in years",1,-1,FAIL
 "donald trump continues to favor fox news over all other networks",-1,-1,MATCH
 "bodies of 74 migrants wash up on libyan beach",-1,1,FAIL
 "report: 15% of cars in mall parking lots occupied by family member who stormed off after fight",1,1,MATCH
@@ -1082,14 +1082,14 @@ TEXT,VALUE,PRED,CORRECT
 "donald trump prefers violent football so more black players get hurt: espn analyst",-1,-1,MATCH
 "jeb bush: i embrace carbon reduction",-1,-1,MATCH
 "congressman excited to be working on bill with intern he has huge crush on",1,1,MATCH
-"diy: sports equipment closet",-1,1,FAIL
+"diy: sports equipment closet",-1,-1,MATCH
 "5 things teens want to tell you",-1,-1,MATCH
 "ponds institute tops 1997 cosmopolitan college poll",1,-1,FAIL
 "microsoft word now includes squiggly blue line to alert writer when word is too advanced for mainstream audience",1,-1,FAIL
 "graphic photos from the gaza strip show utter destruction and death",-1,-1,MATCH
-"happy birthday, bo obama!",-1,1,FAIL
+"happy birthday, bo obama!",-1,-1,MATCH
 "gunmen in eqypt mosque attack carried isis flag, prosecutor says",-1,-1,MATCH
-"storm harvey could financially hurt already strained houston hospitals",-1,1,FAIL
+"storm harvey could financially hurt already strained houston hospitals",-1,-1,MATCH
 "going out to dinner with food-loving friend a huge ordeal",1,1,MATCH
 "millions of shrimp airlifted from oil spill disaster zone",1,1,MATCH
 "crayola ceo presents jarringly ambitious 5-year plan at annual shareholders meeting",1,1,MATCH
@@ -1111,7 +1111,7 @@ TEXT,VALUE,PRED,CORRECT
 "frito-lay contest offers consumers chance to appear in upcoming bag of sunchips",1,1,MATCH
 "dignified cat dressed in adorable, painful sweater",1,-1,FAIL
 "'tall women in clogs' busts stereotypes about height, gender and more",-1,-1,MATCH
-"class of 2014, we've come a long way",-1,1,FAIL
+"class of 2014, we've come a long way",-1,-1,MATCH
 "viral tweet compares love to the feeling you get when you realize your dress has pockets",-1,-1,MATCH
 "man in elevator in on conversation now",1,1,MATCH
 "will smith and alfonso ribeiro had a 'fresh prince' reunion",-1,-1,MATCH
@@ -1191,7 +1191,7 @@ TEXT,VALUE,PRED,CORRECT
 "diego luna's short film celebrates 'the immigrants that make the u.s. great'",-1,-1,MATCH
 "finding her own way in paris: meet author/publisher adria j. cimino",-1,-1,MATCH
 "st. christopher statue embedded in motorist's forehead",1,-1,FAIL
-"hotcake sales brisk",1,1,MATCH
+"hotcake sales brisk",1,-1,FAIL
 "audra mcdonald, kirsten gillibrand to celebrate the lgbtq community in nyc",-1,-1,MATCH
 "a recap of snowden's talk in hawaii (video)",-1,-1,MATCH
 "clinton takes stand against harmful uv radiation",1,-1,FAIL
@@ -1201,14 +1201,14 @@ TEXT,VALUE,PRED,CORRECT
 "mass e-mail only has four recipients",1,1,MATCH
 "salma hayek rips donald trump: 'he has never done anything for america'",-1,-1,MATCH
 "eight must-reads for fashionistas",-1,-1,MATCH
-"achieving presentation zen",-1,1,FAIL
+"achieving presentation zen",-1,-1,MATCH
 "report: bridge probably has whole mess of bats under there",1,1,MATCH
 "this 'jaws' analogy did not end well for mike huckabee",-1,-1,MATCH
 "innocent man unrepentant",1,1,MATCH
 "weird man begins every morning by dousing his naked body in water",1,1,MATCH
 "success and still enjoying your 'happy place'",-1,-1,MATCH
 "poll finds majority of  americans would like things to go right for once",1,1,MATCH
-"khloe kardashian joins 'waist gang'",-1,1,FAIL
+"khloe kardashian joins 'waist gang'",-1,-1,MATCH
 "coming soon: a new 'fraggle rock' movie",-1,-1,MATCH
 "steve kerr gave an impassioned plea for gun control that everyone should hear",-1,-1,MATCH
 "bored kim jong-un stacks entire north korean populace into human pyramid to kill time",1,1,MATCH
@@ -1238,7 +1238,7 @@ TEXT,VALUE,PRED,CORRECT
 "algebra notebook forced to bear the brunt of teen's song lyrics",1,-1,FAIL
 "huffpost rise: what you need to know on december 23",-1,-1,MATCH
 "stop calling young adults 'college kids'",-1,-1,MATCH
-"meryl streep and tom hanks have too much fun playing each other's characters",-1,1,FAIL
+"meryl streep and tom hanks have too much fun playing each other's characters",-1,-1,MATCH
 "bill paxton learns of his revolutionary past on 'who do you think you are?'",-1,-1,MATCH
 "why jillian michaels is reclaiming 'fag' and 'dyke'",-1,-1,MATCH
 "nasa delays shuttle launch out of sheer habit",1,1,MATCH
@@ -1261,13 +1261,13 @@ TEXT,VALUE,PRED,CORRECT
 "entire office clamoring to be introduced to coworker's parents",1,1,MATCH
 "how hotels are capitalizing on what business travelers value most",-1,-1,MATCH
 "jennifer garner makes first public appearance since ben affleck split",-1,-1,MATCH
-"ants demand 23.9-hour workday",1,1,MATCH
+"ants demand 23.9-hour workday",1,-1,FAIL
 "open letter to all potential mayoral candidates (a response would be nice)",-1,1,FAIL
 "mysterious man in parking lot threatens to harm rudy giuliani if he ever blabs about trump's legal payments again",1,1,MATCH
 "disturbing ad shows how trump is teaching students to hate",-1,-1,MATCH
 "a way to win: election talk with celinda lake",-1,-1,MATCH
 "'washington post' reporter frustrated every space in parking garage taken up by anonymous source",1,1,MATCH
-"guest given air mattress that will slowly deflate throughout night",1,1,MATCH
+"guest given air mattress that will slowly deflate throughout night",1,-1,FAIL
 "life unfair",1,1,MATCH
 "media figures tout trump's 'presidential' shift, but his divisive policies remain the same",-1,-1,MATCH
 "for city parks, 2014 was the year that was (great)!",-1,-1,MATCH
@@ -1325,15 +1325,15 @@ TEXT,VALUE,PRED,CORRECT
 "paul hogan admits he's still searching for that one career-defining role",1,1,MATCH
 "local sea cow tired of all the lies",1,1,MATCH
 "hotel/restaurant mogul robert earl wants you to be his guest",-1,-1,MATCH
-"trump administration points to new york, chicago in latest 'sanctuary city' threat",-1,1,FAIL
+"trump administration points to new york, chicago in latest 'sanctuary city' threat",-1,-1,MATCH
 "the importance of adding stress relief to your to-do list",-1,-1,MATCH
 "huffpost pollster - polls and charts",-1,-1,MATCH
 "'simpsons' creator on apu debate: 'people love to pretend they're offended'",-1,-1,MATCH
 "porn-store change machine gummed up again",1,-1,FAIL
 "nation unsure which candidate's plan to destroy the environment will create more jobs",1,1,MATCH
 "increasingly anxious man worried order confirmation email never going to come",1,1,MATCH
-"opera ends on unexpected high note",1,1,MATCH
-"lessons from your future self",-1,1,FAIL
+"opera ends on unexpected high note",1,-1,FAIL
+"lessons from your future self",-1,-1,MATCH
 "possible ebola case investigated in italy",-1,-1,MATCH
 "roy moore may have been banned from a mall for harassing teen girls in 1980s",-1,-1,MATCH
 "area supervisor hates to break up little party",1,1,MATCH
@@ -1350,7 +1350,7 @@ TEXT,VALUE,PRED,CORRECT
 "10 worst provisions in the republican appropriations bill",-1,-1,MATCH
 "henry rollins laboriously explains why buying organic is punk rock",1,-1,FAIL
 "deray mckesson sues baton rouge police over protest arrests",-1,-1,MATCH
-"for steve bannon, money isn't everything",-1,1,FAIL
+"for steve bannon, money isn't everything",-1,-1,MATCH
 "you can now message the president on facebook",-1,-1,MATCH
 "u.s. military prepares for biggest okinawa land return since 1972",-1,-1,MATCH
 "suspect in stockholm truck attack confesses to terrorist crime, lawyer says",-1,-1,MATCH
@@ -1367,7 +1367,7 @@ TEXT,VALUE,PRED,CORRECT
 "presumed innocent. found dead.",-1,-1,MATCH
 "women leaders talk personal: how to be a true philanthropist",-1,-1,MATCH
 "bruce davis eligible for parole for charles manson family murders",-1,1,FAIL
-"cage match settles nothing",1,1,MATCH
+"cage match settles nothing",1,-1,FAIL
 "post-retirement work may not save your golden years",-1,-1,MATCH
 "here's a complete rundown of what happened at the second presidential debate",-1,-1,MATCH
 "dale earnhardt jr. is a pro at giving breakup advice too",-1,-1,MATCH
@@ -1390,12 +1390,12 @@ TEXT,VALUE,PRED,CORRECT
 "moral tacked onto end of man's life",1,1,MATCH
 "stepmom doesn't expect kids to call her stupid bitch right away",1,-1,FAIL
 "these epic 360-degree photos will make you feel like you're on vacation",-1,-1,MATCH
-"approved catcalls",-1,1,FAIL
+"approved catcalls",-1,-1,MATCH
 "when one of the world's most 'insider' galleries hosts an 'outsider' art show (nsfw)",-1,-1,MATCH
 "12-year-old's christmas list demonstrates heartbreaking awareness of family's financial predicament",1,1,MATCH
 "george jefferson honored for black television history month",1,-1,FAIL
 "drake bell mourns the loss of ex-girlfriend stevie ryan with heart-wrenching tweets",-1,-1,MATCH
-"missing park ranger found in better-paying job",1,1,MATCH
+"missing park ranger found in better-paying job",1,-1,FAIL
 "how bell biv devoe ignored the 'backlash' and made 'poison' a '90s classic",-1,-1,MATCH
 "powerful special interest group momentarily blanks on agenda",1,1,MATCH
 "how long you sleep may be in your genes",-1,-1,MATCH
@@ -1415,10 +1415,10 @@ TEXT,VALUE,PRED,CORRECT
 "2014: year in review for the white house initiative on asian americans and pacific islanders",-1,-1,MATCH
 "poll finds only 83% of new yorkers visit statue of liberty every day",1,1,MATCH
 "literally everyone should stock up on these 9 useful prime day discounts",-1,-1,MATCH
-"urban polling centers recommend voters start lining up now for 2016 election",1,-1,FAIL
+"urban polling centers recommend voters start lining up now for 2016 election",1,1,MATCH
 "6,000-year-old culture now a 'developing nation'",1,-1,FAIL
 "my disastrous search for the perfect swimsuit",-1,-1,MATCH
-"drought-ravaged nyc institutes alternate-side-of-street firefighting",1,1,MATCH
+"drought-ravaged nyc institutes alternate-side-of-street firefighting",1,-1,FAIL
 "a devastating story of friendship and heartbreak that definitely passes the bechdel test",-1,-1,MATCH
 "the smithsonian seeks to preserve the gazebo where tamir rice was killed",-1,-1,MATCH
 "country cd put on to impress repair guy",1,1,MATCH
@@ -1452,7 +1452,7 @@ TEXT,VALUE,PRED,CORRECT
 "man not himself until he has so much coffee he feels like he's going to die",1,1,MATCH
 "unpopular opinion: why i think the sat is a good thing",-1,-1,MATCH
 "robert mueller driving suv 100 mph down runway as air force one narrowly lifts off",1,1,MATCH
-"candy purchase puts yet more money in raisinets' bloated coffers",1,1,MATCH
+"candy purchase puts yet more money in raisinets' bloated coffers",1,-1,FAIL
 "john edwards pays $30 to register edwards2016.com just in case",1,1,MATCH
 "inside paris with an urban explorer",-1,-1,MATCH
 "want to make your spring cleaning more green? look for these labels",-1,-1,MATCH
@@ -1470,8 +1470,8 @@ TEXT,VALUE,PRED,CORRECT
 "wanda sykes gets right to the point with donald trump diss",-1,-1,MATCH
 "this video of kourtney kardashian eating a kit kat bar is celeb culture run amok",-1,-1,MATCH
 "barack obama is fourth president to put americans at risk in iraq: let those threatened by the islamic state fight it",-1,-1,MATCH
-"which jackson will dominate next year's headlines?",1,1,MATCH
-"chattanooga shooter obtained some guns legally, intended to 'murder' police: officials",-1,-1,MATCH
+"which jackson will dominate next year's headlines?",1,-1,FAIL
+"chattanooga shooter obtained some guns legally, intended to 'murder' police: officials",-1,1,FAIL
 "dodgers co-owner magic johnson goes bonkers watching team romp to world series",-1,-1,MATCH
 "records show numerous complaints against officer who staged his suicide",-1,-1,MATCH
 "'pharma bro' martin shkreli backs bush",-1,1,FAIL
@@ -1526,7 +1526,7 @@ TEXT,VALUE,PRED,CORRECT
 "greece votes in its second election of 2015",-1,-1,MATCH
 "content could be hotter, more social",1,-1,FAIL
 "visit to doctor splurged on",1,1,MATCH
-"sesame street mourns death of original letter k",1,1,MATCH
+"sesame street mourns death of original letter k",1,-1,FAIL
 "man putting off starting family to focus on treading water in career for few years",1,1,MATCH
 "some leaders are born women",-1,-1,MATCH
 "man who supplied guns to california shooters arrested on terrorism-related charges",-1,1,FAIL
@@ -1536,11 +1536,11 @@ TEXT,VALUE,PRED,CORRECT
 "rob kardashian posts cutest video for his anniversary with blac chyna",-1,-1,MATCH
 "watch live: william shatner discusses the life of late friend leonard nimoy",-1,-1,MATCH
 "museum staff braces for large group wearing same t-shirt",1,1,MATCH
-"fbi probes hackers targeting democratic officials' phones",-1,1,FAIL
+"fbi probes hackers targeting democratic officials' phones",-1,-1,MATCH
 "the 10 healthiest chain restaurants in the u.s.",-1,-1,MATCH
 "alcoholic father granted posthumous sainthood by catholic family",1,1,MATCH
 "13 irish baby boy names in time for st. patrick's day",-1,1,FAIL
-"scott pruitt tosses another pvc tube on campfire",1,1,MATCH
+"scott pruitt tosses another pvc tube on campfire",1,-1,FAIL
 "control freak wishes she had more free time",1,1,MATCH
 "12 delicious marcel duchamp quotes to unleash your inner artist",-1,-1,MATCH
 "man's weekly recycling just boxes of nestle drumsticks",1,1,MATCH
@@ -1559,7 +1559,7 @@ TEXT,VALUE,PRED,CORRECT
 "samuel adams apologizes for 'boston sucks' pilsner",1,-1,FAIL
 "how this journalist forced officials to release the laquan mcdonald video",-1,-1,MATCH
 "dollar losing value against the quarter",1,-1,FAIL
-"watch rihanna steam up 'bates motel' in new preview",-1,-1,MATCH
+"watch rihanna steam up 'bates motel' in new preview",-1,1,FAIL
 "switzerland at the geffen playhouse",-1,-1,MATCH
 "listener consumed by spittle on corner of mouth",1,1,MATCH
 "5 ways to make your words more powerful",-1,-1,MATCH
@@ -1569,7 +1569,7 @@ TEXT,VALUE,PRED,CORRECT
 "paul mccartney admits the beatles felt 'threatened' by yoko ono",-1,-1,MATCH
 "best thing that ever happened to area man yelling at him about socks",1,1,MATCH
 "reince priebus says it's 'too late' for a new candidate to stop trump",-1,-1,MATCH
-"record-breaking rainstorms pummel carolinas",-1,1,FAIL
+"record-breaking rainstorms pummel carolinas",-1,-1,MATCH
 "shadow government getting too large to meet in marriott conference room b",1,1,MATCH
 "did ernest hemingway have an affair with his sister-in-law?",-1,-1,MATCH
 "mtv executive grounds son for recommending good charlotte",1,1,MATCH
@@ -1590,7 +1590,7 @@ TEXT,VALUE,PRED,CORRECT
 "poll: religion is the answer to today's problems",-1,-1,MATCH
 "pope francis crushes small demon crawling across papal apartment floor",1,1,MATCH
 "average age of wacky tv neighbors dropping",1,1,MATCH
-"regarding (and remembering) susan sontag",-1,1,FAIL
+"regarding (and remembering) susan sontag",-1,-1,MATCH
 "coddled potted plant could never make it on outside",1,1,MATCH
 "here's what happens when a spouse who identified as straight comes out as lgbt",-1,-1,MATCH
 "netflix executive unsure how to tell barack obama his series idea just 'fawlty towers'",1,1,MATCH
@@ -1600,7 +1600,7 @@ TEXT,VALUE,PRED,CORRECT
 "you've just been slammed, slam poetry",-1,1,FAIL
 "this rare gene mutation makes some people crave fatty foods",-1,-1,MATCH
 "travelling through the feminine mystique to lesbian feminism",-1,-1,MATCH
-"nutritionists recommend increasing intake of whatever will earn you free t-shirt from restaurant",1,1,MATCH
+"nutritionists recommend increasing intake of whatever will earn you free t-shirt from restaurant",1,-1,FAIL
 "dnc unveils clinton institute for campaign ethics reform in response to corruption allegations",1,1,MATCH
 "innocent man awarded $1 million after spending 31 years in prison",-1,1,FAIL
 "ted cruz-john kasich pact gets off to a bad start",-1,-1,MATCH
@@ -1610,8 +1610,8 @@ TEXT,VALUE,PRED,CORRECT
 "nation not sure how many ex-trump staffers it can safely reabsorb",1,1,MATCH
 "cancer, cinema, crowdfunding and twitter",-1,-1,MATCH
 "8.8 million people enrolled in obamacare plans for 2018",-1,-1,MATCH
-"embracing 'and'",-1,1,FAIL
-"swiss threaten ricola embargo",1,1,MATCH
+"embracing 'and'",-1,-1,MATCH
+"swiss threaten ricola embargo",1,-1,FAIL
 "11 miserable situations parents know all too well",-1,1,FAIL
 "zamboni crime family indicted in ice-shaving scandal",1,1,MATCH
 "clay aiken gained 30 pounds eating bojangles chicken during his campaign",-1,-1,MATCH
@@ -1631,7 +1631,7 @@ TEXT,VALUE,PRED,CORRECT
 "the fall of the would-be emperor",-1,-1,MATCH
 "robert e. lee was not an 'honorable man.' he was a white supremacist traitor",-1,-1,MATCH
 "new roommate bestows apartment with unexpected windfall of end tables",1,1,MATCH
-"smart aleck ruins academy awards",1,1,MATCH
+"smart aleck ruins academy awards",1,-1,FAIL
 "'the war on christmas' -- a film by ken burns",-1,-1,MATCH
 "there is nothing libertarian about conservatives",-1,-1,MATCH
 "list of politically achievable reforms down to just three minor changes to traffic code",1,1,MATCH
@@ -1639,7 +1639,7 @@ TEXT,VALUE,PRED,CORRECT
 "obamacare premiums will be way higher next year. they didn't have to be.",-1,1,FAIL
 "area man to try showering at night",1,1,MATCH
 "hillary clinton takes a stand against 'subminimum wage' for people with disabilities",-1,-1,MATCH
-"humble ascetic declines in-flight beverage service",1,1,MATCH
+"humble ascetic declines in-flight beverage service",1,-1,FAIL
 "'this was the xfl': examining television's greatest sports flop ever",-1,-1,MATCH
 "coworker loudly typing away like 1930s cub reporter chasing hot lead",1,1,MATCH
 "last words: kimora blac reflects on her time on 'rupaul's drag race'",-1,1,FAIL
@@ -1700,7 +1700,7 @@ TEXT,VALUE,PRED,CORRECT
 "end of soup season can't come soon enough for oft-burned tongue",1,1,MATCH
 "controversial congressman touts iowa 'peasant hunt' with donald trump jr.",-1,-1,MATCH
 "steven spielberg bashes virtual reality at cannes",-1,-1,MATCH
-"spurs coach gregg popovich rips 'game show' president",-1,1,FAIL
+"spurs coach gregg popovich rips 'game show' president",-1,-1,MATCH
 "a viewer's guide to tonight's democratic debate",-1,-1,MATCH
 "crossing the axis of evil",-1,-1,MATCH
 "half-dressed man frantically scrambles out of home after hearing toyotathon deals won't last long",1,1,MATCH
@@ -1724,7 +1724,7 @@ TEXT,VALUE,PRED,CORRECT
 "game review: 'super mario maker' is a diy triumph",-1,-1,MATCH
 "office exiles menstruating hr manager",1,1,MATCH
 "watermelon + 20,000 volts = one messy pink slushie",-1,1,FAIL
-"'breaking bad' ends with reveal that whole series was plot of book marie shoplifted",1,-1,FAIL
+"'breaking bad' ends with reveal that whole series was plot of book marie shoplifted",1,1,MATCH
 "lupita nyong'o talks 'the culture of hair' alongside gorgeous photo shoot for allure",-1,-1,MATCH
 "gap closures to leave americans with fewer places to buy pants for friend's wedding at last second",1,1,MATCH
 "the source of donald trump's military expertise finally revealed!",-1,-1,MATCH
@@ -1758,7 +1758,7 @@ TEXT,VALUE,PRED,CORRECT
 "hydra decides to see doctor about painful ingrown head",1,1,MATCH
 "study finds flushing toilets wastes billions of gallons of piss and shit annually",1,1,MATCH
 "plan to be more positive off to shitty fucking start",1,1,MATCH
-"nearly 1 in 10 children not enrolled in school: un",-1,1,FAIL
+"nearly 1 in 10 children not enrolled in school: un",-1,-1,MATCH
 "grandfather clock does loop-the-loop with pendulum when no one looking",1,1,MATCH
 "ostrich-farm employee 'asking for it,' say witnesses",1,-1,FAIL
 "'i'd like you to post long, aggressive rants on social media,' says bernie sanders in supporter's interpretation of speech",1,-1,FAIL
@@ -1845,7 +1845,7 @@ TEXT,VALUE,PRED,CORRECT
 "7 things you probably didn't know about christmas",-1,-1,MATCH
 "documentary a scathing indictment of director's filmmaking skills",1,-1,FAIL
 "fda: juicy green apple conditioner best used with juicy green apple shampoo",1,1,MATCH
-"tim kaine's children: tim kaine could be vice president of lameness, maybe",1,1,MATCH
+"tim kaine's children: tim kaine could be vice president of lameness, maybe",1,-1,FAIL
 "what's leaving netflix in may 2016?",-1,-1,MATCH
 "darren wilson ain't no ham sandwich: prosecutorial manipulation of a flawed grand jury system",-1,-1,MATCH
 "the essentials of blogging for small business",-1,-1,MATCH
@@ -1877,7 +1877,7 @@ TEXT,VALUE,PRED,CORRECT
 "man not accepting any more television recommendations at this time",1,1,MATCH
 "president trump is less unpopular than he's been in a while",-1,-1,MATCH
 "harley-davidson releases new motorcycle designed for men",1,1,MATCH
-"nutella briefly entertained as lubricant",1,1,MATCH
+"nutella briefly entertained as lubricant",1,-1,FAIL
 "'gilmore girls' actors defend against critics who say revival is too mean",-1,-1,MATCH
 "it only took 7 seconds for this kylie jenner appearance to get really awkward",-1,1,FAIL
 "bernie sanders is 'cautiously optimistic' about pulling off an iowa upset",-1,-1,MATCH
@@ -1921,7 +1921,7 @@ TEXT,VALUE,PRED,CORRECT
 "doctors repeatedly overprescribe antibiotics and narcotics",-1,-1,MATCH
 "the sanders-clinton debate flap, explained",-1,-1,MATCH
 "beyoncé met the final five and all of our dreams came true",-1,-1,MATCH
-"npr host raises voice",1,1,MATCH
+"npr host raises voice",1,-1,FAIL
 "putting ice cream in bowl momentarily considered",1,-1,FAIL
 "how to use facebook to make yourself happy",-1,-1,MATCH
 "paddle into history in the first los angles river boat race",-1,-1,MATCH
@@ -1930,7 +1930,7 @@ TEXT,VALUE,PRED,CORRECT
 "cholera outbreak makes americans glad they don't live in africa",1,1,MATCH
 "watch: minor league brawl spills into seats",-1,1,FAIL
 "parent now just typing 4-year-old child's every word verbatim throughout day as facebook post",1,1,MATCH
-"chris hemsworth deputizes hunk to assume 'sexiest man alive' duties in his absence",1,-1,FAIL
+"chris hemsworth deputizes hunk to assume 'sexiest man alive' duties in his absence",1,1,MATCH
 "from athens to the u.s., this greek startup wants to make hiring easier",-1,-1,MATCH
 "pot and cigarette smoking have at least one health consequence in common",-1,-1,MATCH
 "scalia, thomas, roberts, alito suddenly realize they will be villains in oscar-winning movie one day",1,1,MATCH
@@ -1942,8 +1942,8 @@ TEXT,VALUE,PRED,CORRECT
 "fyre festival co-founder has history of failing his customers",-1,-1,MATCH
 "members of twisted sister now willing to take it",1,1,MATCH
 "the great escape",-1,-1,MATCH
-"heimlich demands maneuver royalties",1,1,MATCH
-"subject of phone bill delicately broached",1,1,MATCH
+"heimlich demands maneuver royalties",1,-1,FAIL
+"subject of phone bill delicately broached",1,-1,FAIL
 "area man can't wait to get home to look out new window",1,1,MATCH
 "great-grandmother actually not that great",1,1,MATCH
 "why lebron wanted to go home",-1,-1,MATCH
@@ -1952,7 +1952,7 @@ TEXT,VALUE,PRED,CORRECT
 "man pours all his culinary talents into inserting, removing pizza from oven",1,1,MATCH
 "ns/nd/c/dwf wondering why she can't find someone",1,-1,FAIL
 "donald trump's latest attempt to repeal obamacare makes seth meyers sick",-1,-1,MATCH
-"new secret service agent disappointed there are no decoy presidents",1,1,MATCH
+"new secret service agent disappointed there are no decoy presidents",1,-1,FAIL
 "how competent are nonprofit boards in strategic planning?",-1,-1,MATCH
 "clinton will weigh in on trade deal 'when it's final,' campaign says",-1,-1,MATCH
 "lady gaga is a rock god on cover of new single 'perfect illusion'",-1,-1,MATCH
@@ -1962,7 +1962,7 @@ TEXT,VALUE,PRED,CORRECT
 "this is what happens when the pavement is too hot for your dog",-1,-1,MATCH
 "stop freaking out about cellulite: the simple question you didn't think to ask",-1,-1,MATCH
 "betsy devos richly deserved every boo she got",-1,1,FAIL
-"snowman sucks",1,1,MATCH
+"snowman sucks",1,-1,FAIL
 "prison warden appears on leno with some of his favorite prisoners",1,1,MATCH
 "the one obamacare provision that could blow up a republican repeal",-1,-1,MATCH
 "nation shudders to think how mad nra would be if obama actually proposed meaningful gun control",1,1,MATCH
@@ -1970,7 +1970,7 @@ TEXT,VALUE,PRED,CORRECT
 "god loses pouch filled with crystals that give him powers",1,1,MATCH
 "fabled burger king employee places single onion ring in everyone's fries",1,1,MATCH
 "joy behar publicly apologizes for disparaging mike pence's christian faith",-1,-1,MATCH
-"slight inconvenience avoided",1,1,MATCH
+"slight inconvenience avoided",1,-1,FAIL
 "sen. tim scott responds to john kelly: 'no compromise to make' on civil war",-1,1,FAIL
 "report: more americans turning to louder sources for their news",1,1,MATCH
 "the best flatirons for every price point",-1,-1,MATCH
@@ -1989,7 +1989,7 @@ TEXT,VALUE,PRED,CORRECT
 "the peshawar tragedy shows that pakistan needs a new religious narrative",-1,-1,MATCH
 "study: good porn still hard to find",1,1,MATCH
 "auto industry agrees to install brakes in suvs",1,1,MATCH
-"steve allen: gone, forgotten",1,1,MATCH
+"steve allen: gone, forgotten",1,-1,FAIL
 "disney, pixar to release a short about a li'l dumpling, and it sounds darling",-1,-1,MATCH
 "hillary clinton opens chili's franchise just outside of washington, d.c.",1,1,MATCH
 "fixin's added to food pyramid",1,1,MATCH
@@ -2020,12 +2020,12 @@ TEXT,VALUE,PRED,CORRECT
 "eva longoria schools donald trump in powerfully personal dnc speech",-1,-1,MATCH
 "nation's tall asked to stand in back",1,1,MATCH
 "cassini probe realizes too late this was a setup all along",1,-1,FAIL
-"sunday roundup",-1,1,FAIL
+"sunday roundup",-1,-1,MATCH
 "will religious freedom advocates oppose roy moore?",-1,-1,MATCH
 "donald trump's proposed cabinet would bring some fringe figures in from the cold",-1,-1,MATCH
 "chief justice john roberts eulogizes antonin scalia as 'our man for all seasons'",-1,1,FAIL
 "god rewinds time to watch man fall off trampoline again",1,1,MATCH
-"pet winterized",1,1,MATCH
+"pet winterized",1,-1,FAIL
 "half of all american families are staring at financial catastrophe",-1,-1,MATCH
 "ben higgins and lauren bushnell on the 'bachelor' buzzwords they never want to say again",-1,-1,MATCH
 "friday talking points -- a fool's paradise",-1,-1,MATCH
@@ -2050,7 +2050,7 @@ TEXT,VALUE,PRED,CORRECT
 "mental hospital fire leaves hundreds of demons homeless",1,1,MATCH
 "grandmother will live on in arguments over her wedding china",1,-1,FAIL
 "why does this town have two grenade launchers?",-1,-1,MATCH
-"journalist walks off tv show when it won't address real cause of orlando shooting",-1,-1,MATCH
+"journalist walks off tv show when it won't address real cause of orlando shooting",-1,1,FAIL
 "the scientology-approved version of 'going clear' is a bit... different",-1,-1,MATCH
 "man at party comes crawling back to conversation he thought he could do better than",1,1,MATCH
 "as socialism destroys venezuela, only its people, not u.s. military, can restore democracy",-1,1,FAIL
@@ -2059,7 +2059,7 @@ TEXT,VALUE,PRED,CORRECT
 "an apology to my fellow black woman",-1,-1,MATCH
 "shameless new dad uses craigslist to try to hook up with his wife's delivery nurse",-1,1,FAIL
 "construction union seeks to reduce incidence of accidents involving babies crawling on steel i-beams",1,1,MATCH
-"espn analyst blames 'liberal media' for 'war on football'",-1,1,FAIL
+"espn analyst blames 'liberal media' for 'war on football'",-1,-1,MATCH
 "friday's morning email: what the senate health care bill could mean for you",-1,-1,MATCH
 "this is not my body",-1,-1,MATCH
 "thursday cry moved up to wednesday due to scheduling conflict",1,1,MATCH
@@ -2074,7 +2074,7 @@ TEXT,VALUE,PRED,CORRECT
 "bald man just going to have to accept entire head will turn bright red from time to time",1,1,MATCH
 "supreme court justices keep citing cases roberts and alito are too young to remember",1,-1,FAIL
 "poland spring develops new eco-friendly bottle that only takes 300 years to decompose",1,1,MATCH
-"barber's paunch keeps touching customer",1,1,MATCH
+"barber's paunch keeps touching customer",1,-1,FAIL
 "i fell in love carrying another man's child",-1,-1,MATCH
 "fantasy football star confident he can make leap to general manager of nfl team",1,1,MATCH
 "fear factor creator's will: 'heirs must eat my ashes to collect inheritance'",1,-1,FAIL
@@ -2104,8 +2104,8 @@ TEXT,VALUE,PRED,CORRECT
 "fda report finds food prevents hunger 98% of time when properly used",1,1,MATCH
 "house democrats on record-breaking fundraising pace",-1,-1,MATCH
 "dana loesch rethinking loyalties after seeing how much airtime teen activists getting",1,-1,FAIL
-"lone gunman enters crowded restaurant",1,1,MATCH
-"after-work drinks enter third excruciating minute",1,1,MATCH
+"lone gunman enters crowded restaurant",1,-1,FAIL
+"after-work drinks enter third excruciating minute",1,-1,FAIL
 "how three heroin-addicted sisters are getting sober",-1,-1,MATCH
 "women film themselves on a double date and one dude ruins it",-1,-1,MATCH
 "you know what else makes it hard to read the 2016 race? poll methods",-1,-1,MATCH
@@ -2141,7 +2141,7 @@ TEXT,VALUE,PRED,CORRECT
 "trump hails gorsuch as fierce protector of future amendment allowing president to temporarily suspend right to assemble",1,1,MATCH
 "'snl' takes on sexist super bowl stereotypes in the best way",-1,-1,MATCH
 "put a summer spin on your regular old salsa",-1,-1,MATCH
-"hot rock-and-roll chick totally married",1,1,MATCH
+"hot rock-and-roll chick totally married",1,-1,FAIL
 "night out consecrated with opening exchange of high-fives",1,1,MATCH
 "tea-party host struggling to keep conversation going",1,1,MATCH
 "justin trudeau unveils plan to meet healthcare needs of canada's aging prog rockers",1,1,MATCH
@@ -2163,7 +2163,7 @@ TEXT,VALUE,PRED,CORRECT
 "'expect delays' signs placed randomly throughout nation",1,1,MATCH
 "ten years after last execution, california's death row continues to grow",-1,1,FAIL
 "why china's economic woes are causing alarm in africa",-1,-1,MATCH
-"nader supporters blame electoral defeat on bush, kerry",1,1,MATCH
+"nader supporters blame electoral defeat on bush, kerry",1,-1,FAIL
 "condom indicted on 400 million counts of spermicide",1,1,MATCH
 "dnc files lawsuit alleging nation should never, ever stop focusing on 2016 election",1,1,MATCH
 "'we do!' -- episcopalians ok marriage for same-sex couples",-1,-1,MATCH
@@ -2186,7 +2186,7 @@ TEXT,VALUE,PRED,CORRECT
 "biden loses control of butterfly knife during commencement speech",1,1,MATCH
 "stormy daniels, james comey arrive at white house for state dinner",1,-1,FAIL
 "this new orange era: the growing divide",-1,-1,MATCH
-"20th century fox green-lights 'united 93 vs. predator'",1,1,MATCH
+"20th century fox green-lights 'united 93 vs. predator'",1,-1,FAIL
 "roof of mouth in serious condition following cap'n crunch consumption",1,1,MATCH
 "stingray loves when aquarium visitors squeal and recoil after touching it",1,-1,FAIL
 "how the world's worst ebola outbreak started from a single child",-1,-1,MATCH
@@ -2268,7 +2268,7 @@ TEXT,VALUE,PRED,CORRECT
 "an nfl assistant coach's first question for a prospect: are you gay?",-1,-1,MATCH
 "how my daughter taught me that every moment is a gift",-1,-1,MATCH
 "jakrapong kongmalai: find a mentor and avoid years of trial and error",-1,-1,MATCH
-"what to know regarding current treatments for ebola",-1,1,FAIL
+"what to know regarding current treatments for ebola",-1,-1,MATCH
 "7 fascinating but forgotten facts from world war i (new book)",-1,-1,MATCH
 "celebrities are freaking out as election results roll in",-1,-1,MATCH
 "comics not just for kids anymore, reports 85,000th mainstream news story",1,1,MATCH
@@ -2333,7 +2333,7 @@ TEXT,VALUE,PRED,CORRECT
 "brie larson goes full superhero for intense 'captain marvel' workouts",-1,1,FAIL
 "donald trump jr.'s rnc speech uses lines from conservative columnist",-1,-1,MATCH
 "students send hilarious tweets to superintendent thanking him for snow day",-1,1,FAIL
-"ambitious test on tap for real-life 'flying saucer'",-1,1,FAIL
+"ambitious test on tap for real-life 'flying saucer'",-1,-1,MATCH
 "groundbreaking study finds gratification can be deliberately postponed",1,1,MATCH
 "these new emojis will make you see food differently",-1,-1,MATCH
 "papal infallibility invoked to allow scrabble word",1,1,MATCH
@@ -2350,7 +2350,7 @@ TEXT,VALUE,PRED,CORRECT
 "report: chip in mug right where mouth goes",1,1,MATCH
 "tesla announces major upgrade to original roadster",-1,1,FAIL
 "sony releases new earbud detangling spray",1,1,MATCH
-"dishwasher broke",1,1,MATCH
+"dishwasher broke",1,-1,FAIL
 "traveling in britain during a transit strike? log on to twitter.",-1,-1,MATCH
 "why suing your bank could help others avoid being ripped off",-1,-1,MATCH
 "fisherman killed by whale moments after rescuing it from nets",-1,1,FAIL
@@ -2359,7 +2359,7 @@ TEXT,VALUE,PRED,CORRECT
 "is this the first photograph of a human being?",-1,-1,MATCH
 "man has mosquito on the run",1,-1,FAIL
 "old little league trophy stared at",1,1,MATCH
-"julia louis-dreyfus reveals breast cancer diagnosis",-1,1,FAIL
+"julia louis-dreyfus reveals breast cancer diagnosis",-1,-1,MATCH
 "israel builds new settlement to host palestinian peace talks",1,1,MATCH
 "keith ellison, first muslim congressman, carries clock in solidarity with ahmed",-1,-1,MATCH
 "lady gaga set to perform david bowie tribute at the grammys",-1,-1,MATCH
@@ -2380,12 +2380,12 @@ TEXT,VALUE,PRED,CORRECT
 "the new york daily news bill cosby cover doesn't pull any punches",-1,-1,MATCH
 "national archives clearly stored constitution in three-ring binder",1,1,MATCH
 "chechen strongman issues instagram plea to find his missing cat",-1,-1,MATCH
-"résumé accidentally kept on file",1,1,MATCH
+"résumé accidentally kept on file",1,-1,FAIL
 "watch pentagon video of the moment the 'mother of all bombs' exploded",-1,-1,MATCH
 "progressive book club kicks off with elizabeth warren's new book",-1,1,FAIL
 "grandmother palms grandson $10 like she fixing boxing match",1,1,MATCH
 "report: murderer who escaped in 1996 remains most successful case of prisoner reintegration",1,1,MATCH
-"carrie fisher raised billie lourd 'without gender'",-1,1,FAIL
+"carrie fisher raised billie lourd 'without gender'",-1,-1,MATCH
 "milo ventimiglia tries to defend crock-pot on 'ellen'",-1,1,FAIL
 "mom sent on fact-finding mission to read what parking sign down street says",1,-1,FAIL
 "weird, creepy guy just hanging around same website all day long",1,1,MATCH
@@ -2399,7 +2399,7 @@ TEXT,VALUE,PRED,CORRECT
 "report: detroit bankruptcy might transform city into some kind of hellish, depopulated wasteland",1,1,MATCH
 "peter facinelli & jaimie alexander are engaged",-1,-1,MATCH
 "this underwater technology harnesses ocean waves to make renewable energy",-1,-1,MATCH
-"outkast universally accepted",1,1,MATCH
+"outkast universally accepted",1,-1,FAIL
 "al-qaeda member wistfully recalls time when radicalization done face-to-face rather than online",1,1,MATCH
 "local man's fear of snakes increases with each snakebite",1,1,MATCH
 "donald trump's diary is a window into his first 100 days in office",-1,-1,MATCH
@@ -2436,7 +2436,7 @@ TEXT,VALUE,PRED,CORRECT
 "watch: experts talk pesticides and health",-1,-1,MATCH
 "is this the end of youtube?",-1,-1,MATCH
 "cowboys and indians, yes.  indians and occupiers?  let's think about that",-1,-1,MATCH
-"pocket electronic-bible-verse database coveted",1,1,MATCH
+"pocket electronic-bible-verse database coveted",1,-1,FAIL
 "world's fattest town makes, consumes world's largest mozzarella stick",1,1,MATCH
 "here is how phil jackson and the knicks can win free agency",-1,-1,MATCH
 "another reason why cutting pollution is essential to future generations",-1,-1,MATCH
@@ -2462,7 +2462,7 @@ TEXT,VALUE,PRED,CORRECT
 "maxine linehan challenges bono, beach boys, and pride of ireland in interpretation of 'beautiful songs'",-1,-1,MATCH
 "restaurants open on thanksgiving 2014",-1,-1,MATCH
 "what grieving widow needs is a day at the spa",1,-1,FAIL
-"avoiding auto repair scams",-1,1,FAIL
+"avoiding auto repair scams",-1,-1,MATCH
 "why diseases don't exist and what really makes you sick",-1,-1,MATCH
 "12 times anna kendrick said exactly what you were thinking",-1,-1,MATCH
 "new york attorney general claims assaults were just him role-playing as unaccountable male authority figure",1,1,MATCH
@@ -2482,12 +2482,12 @@ TEXT,VALUE,PRED,CORRECT
 "democrats weren't invited to review classified documents on fbi informant",-1,-1,MATCH
 "univision anchor booed at commencement after speaking spanish, mentioning trump",-1,-1,MATCH
 "skydivers perfectly land slip 'n slide from 5,000 feet",-1,1,FAIL
-"fat girl euphemized",1,1,MATCH
+"fat girl euphemized",1,-1,FAIL
 "dreamers live a nightmare while congress runs down the clock",-1,-1,MATCH
 "desperate mom okays male babysitter",1,1,MATCH
 "amazing couple adopts 7 siblings to keep them together",-1,-1,MATCH
 "firefighter loses home to fire days after he receives racist threat",-1,1,FAIL
-"new job posting on craigslist clearly for secretary of the interior",1,1,MATCH
+"new job posting on craigslist clearly for secretary of the interior",1,-1,FAIL
 "avid fisherman forever ruins fishing for son",1,1,MATCH
 "prince's former flame sheila e. mourns death of music legend: 'thank god love lives forever'",-1,-1,MATCH
 "vacationing detective just going to pretend like he didn't even see dead body in the woods",1,1,MATCH
@@ -2498,7 +2498,7 @@ TEXT,VALUE,PRED,CORRECT
 "afro-textured hair: beautiful and magical or nappy heads in need of perminators?",-1,-1,MATCH
 "older trump voters say they oppose key elements of gop obamacare replacement",-1,-1,MATCH
 "'breitbart' refusing to release names of mass shooting victims in order to prevent them from getting attention",1,1,MATCH
-"celebrity 'caught' smoking",1,1,MATCH
+"celebrity 'caught' smoking",1,-1,FAIL
 "nation's attractive people demand we send them all $200 checks",1,1,MATCH
 "mpaa unveils rating system based on old testament",1,1,MATCH
 "new social media start-up aims to be cross between facebook and facebook",1,-1,FAIL
@@ -2515,7 +2515,7 @@ TEXT,VALUE,PRED,CORRECT
 "obama responds to 8-year-old who has really big 'politics worries'",-1,1,FAIL
 "haiku reviews: art 2014 roundup iv",-1,-1,MATCH
 "how real is work-life balance?",-1,-1,MATCH
-"merle haggard haggard",1,1,MATCH
+"merle haggard haggard",1,-1,FAIL
 "hillary clinton says she did not send classified information in private emails",-1,-1,MATCH
 "looking back at my first psychotic break: my speech at thresholds' gala in chicago",-1,-1,MATCH
 "cast of 60 minutes suffers collective stroke",1,1,MATCH
@@ -2542,9 +2542,9 @@ TEXT,VALUE,PRED,CORRECT
 "toddler just looking for sensible mid-range tricycle",1,1,MATCH
 "kung fu master with iron crotch is one ballsy martial artist",-1,-1,MATCH
 "new porno worth checking out even for people who aren't familiar with 5 guys jerking off on single pair of tits",1,1,MATCH
-"hometown wistfully toured via google street view",1,1,MATCH
+"hometown wistfully toured via google street view",1,-1,FAIL
 "madeleine albright congratulates jen welter on becoming first female nfl coach",-1,-1,MATCH
-"bar bet becomes increasingly complex",1,1,MATCH
+"bar bet becomes increasingly complex",1,-1,FAIL
 "military prosecutor: senate report on cia interrogation program is accurate",-1,-1,MATCH
 "new poll finds public becoming more skeptical of profit-driven corporate data mine powered by human misery",1,1,MATCH
 "air france flight forced to land in kenya over bomb scare",-1,1,FAIL
@@ -2583,13 +2583,13 @@ TEXT,VALUE,PRED,CORRECT
 "report: 92% of americans would have gotten over ex by now",1,1,MATCH
 "update: 'the onion' apologizes for killing innocent boston man tom mahoney",1,1,MATCH
 "economic stimulus check burned for warmth",1,-1,FAIL
-"taste acquired",1,1,MATCH
+"taste acquired",1,-1,FAIL
 "betsy devos is right: professors are a threat to the trumpist movement",-1,-1,MATCH
 "entire blogosphere stunned by blogger's special weekend post",1,1,MATCH
 "david duke gets spot on debate stage in senate race",-1,-1,MATCH
 "area woman thinks she could live in city she's visiting",1,1,MATCH
 "employees: are they costing u.s. businesses too much money?",1,1,MATCH
-"woman thinks she would make a great talk-show host",1,1,MATCH
+"woman thinks she would make a great talk-show host",1,-1,FAIL
 "despondent sean spicer returned to locked kitchen cupboard following press briefing",1,1,MATCH
 "a 'pretty little liars' detail you never noticed may make you scream in frustration",-1,-1,MATCH
 "here's why gay and bi men might be twice as likely to get skin cancer",-1,-1,MATCH
@@ -2606,7 +2606,7 @@ TEXT,VALUE,PRED,CORRECT
 "how the giants collapsed",-1,-1,MATCH
 "express-lane cashier confirms her nails are real",1,-1,FAIL
 "relapse greatest week of man's life",1,1,MATCH
-"armchair quarterback blitzed",1,1,MATCH
+"armchair quarterback blitzed",1,-1,FAIL
 "video shows biker gang pounding driver on california highway",-1,-1,MATCH
 "jennifer hudson's new 'do makes her our dreamgirl",-1,-1,MATCH
 "the good girl's guide to socializing with celebs",-1,-1,MATCH
@@ -2629,7 +2629,7 @@ TEXT,VALUE,PRED,CORRECT
 "mike pompeo startled after seeing 'beware of hubris' scrawled in oil on bathroom mirror",1,1,MATCH
 "area loner to dwell on past",1,1,MATCH
 "'la 92' looks back at the rodney king protests 25 years later",-1,-1,MATCH
-"u.s. figure skater nathan chen redeems himself with record-setting skate",-1,1,FAIL
+"u.s. figure skater nathan chen redeems himself with record-setting skate",-1,-1,MATCH
 "scott walker does a number on his job numbers",-1,-1,MATCH
 "why asheville needs an equity and inclusion manager",-1,-1,MATCH
 "on emmett till, black death spectacle, and cultural (mis)appropriation",-1,-1,MATCH
@@ -2682,7 +2682,7 @@ TEXT,VALUE,PRED,CORRECT
 "cnbc cameraman can't believe he's filming another blog off a computer monitor",1,-1,FAIL
 "barcelona holds huge protest in support of refugees",-1,1,FAIL
 "naacp president calls on donald trump to apologize to john lewis",-1,-1,MATCH
-"historical archives: owls deemed arse-holes",1,1,MATCH
+"historical archives: owls deemed arse-holes",1,-1,FAIL
 "omg, the duchess of cambridge is vogue uk's june cover star",-1,-1,MATCH
 "trump's wavering promises and scandals complicate israel trip",-1,-1,MATCH
 "the clintons' arkansas network comes to new hampshire",-1,-1,MATCH
@@ -2696,7 +2696,7 @@ TEXT,VALUE,PRED,CORRECT
 "dallas police chief who guided force during sniper attack to retire",-1,-1,MATCH
 "there's a major intensity gap on the gop's new health bill",-1,-1,MATCH
 "fraternity members to undergo racial sensitivity hazing",1,1,MATCH
-"research paper: isis-turkey links",-1,1,FAIL
+"research paper: isis-turkey links",-1,-1,MATCH
 "scientific research just won a huge victory in the age of trump. here's how.",-1,-1,MATCH
 "feds find criminal wrongdoing in g.m.'s failure to disclose defect",-1,1,FAIL
 "french teacher forces student to inform her of bathroom fire in french",1,1,MATCH
@@ -2733,7 +2733,7 @@ TEXT,VALUE,PRED,CORRECT
 "father of war hero near tears as he pleads with paul ryan, mitch mcconnell to 'repudiate' trump",-1,1,FAIL
 "area man expected to work with these incompetents",1,1,MATCH
 "francis ford coppola says 'the godfather' wouldn't get made today",-1,-1,MATCH
-"logan paul: 'i didn't realize people who commit suicide kill themselves'",1,1,MATCH
+"logan paul: 'i didn't realize people who commit suicide kill themselves'",1,-1,FAIL
 "americans pool together $945.23 to counteract corporate money's influence in politics",1,1,MATCH
 "alleged new orleans airport attacker dies in hospital",-1,1,FAIL
 "we will beat trumpcare: we only lose if we forget what we're fighting for",-1,-1,MATCH
@@ -2752,14 +2752,14 @@ TEXT,VALUE,PRED,CORRECT
 "7.1 billion demonstrate in favor of global warming",1,1,MATCH
 "hardened snacker keeps trying to rediscover that first mind-blowing nacho cheese high",1,1,MATCH
 "mike pence vows to cut conservation funding after discovering elk don't mate for life",1,-1,FAIL
-"botanists making great strides in stem research",1,1,MATCH
+"botanists making great strides in stem research",1,-1,FAIL
 "mayo investigator is developing a screening test for endometrial cancer",-1,-1,MATCH
 "disabled prisoners raped, abused, kept in solitary in australia, report says",-1,-1,MATCH
 "wisconsin has crush on minnesota",1,1,MATCH
 "here are ways to express your feelings on trumpcare",-1,-1,MATCH
 "24 movies you'll want to see over the remainder of 2017",-1,-1,MATCH
 "u.s.-backed syrian rebels launch operation against isis in raqqa",-1,-1,MATCH
-"exhausted, defeated voters finally beginning to relate to hillary clinton",1,1,MATCH
+"exhausted, defeated voters finally beginning to relate to hillary clinton",1,-1,FAIL
 "obama vows to split isis into dozens of extremist splinter groups",1,1,MATCH
 "lebron and friends opened the espys with a speech you need to hear",-1,-1,MATCH
 "it's time to indulge in some friday food porn",-1,1,FAIL
@@ -2767,7 +2767,7 @@ TEXT,VALUE,PRED,CORRECT
 "late night hosts gave donald trump the best gags for his 71st birthday",-1,-1,MATCH
 "new 'star wars' film once again disappoints die-hard nien nunb fans",1,1,MATCH
 "jewish man charged with hate crime resurrects brooklyn's racial tension",-1,1,FAIL
-"boyfriend ceremoniously dumped",1,1,MATCH
+"boyfriend ceremoniously dumped",1,-1,FAIL
 "new michael landon biography resolves many unasked questions",1,1,MATCH
 "donating -- is it the american way?",-1,-1,MATCH
 "ariel winter slayed prom with this disney princess moment",-1,-1,MATCH
@@ -2786,7 +2786,7 @@ TEXT,VALUE,PRED,CORRECT
 "area man patiently waiting for humiliating email to cycle off first page",1,1,MATCH
 "some lgbt-friendly businesses stayed silent on houston equal rights ordinance",-1,-1,MATCH
 "jeb bush: i misjudged the intensity of gop voters' anger",-1,-1,MATCH
-"world's oldest yoga teacher says she doesn't plan on 'growing up'",-1,1,FAIL
+"world's oldest yoga teacher says she doesn't plan on 'growing up'",-1,-1,MATCH
 "34,000 sign petition against archbishop who reportedly invited kim davis to meet pope",-1,-1,MATCH
 "glorious new tomorrow postponed indefinitely",1,1,MATCH
 "subscription services provide book and toy options to parents of brown kids",-1,-1,MATCH
@@ -2804,7 +2804,7 @@ TEXT,VALUE,PRED,CORRECT
 "sudanese youths go wild for great taste of any food whatsoever",1,1,MATCH
 "michelle obama: 'well, there are 8 years of my life i'll never get back'",1,-1,FAIL
 "man looks on helplessly as friend tells him story he's already heard",1,1,MATCH
-"obama begins inauguration festivities with ceremonial drone flyover",1,1,MATCH
+"obama begins inauguration festivities with ceremonial drone flyover",1,-1,FAIL
 "let's celebrate this olympic chest bump fail",-1,-1,MATCH
 "holocaust historian can't help imagining what random people would look like behind barbed-wire fence",1,1,MATCH
 "academy awards viewership hit a record low this year",-1,-1,MATCH
@@ -2829,9 +2829,9 @@ TEXT,VALUE,PRED,CORRECT
 "fake melania trump dreams of day she'll retire role as donald's wife on 'colbert'",-1,1,FAIL
 "this black woman is turning the white investing world on its head",-1,-1,MATCH
 "darren wilson and vegan mom",-1,-1,MATCH
-"francis ford coppola admits wedding scene in 'the godfather' needed more lasagna",1,1,MATCH
+"francis ford coppola admits wedding scene in 'the godfather' needed more lasagna",1,-1,FAIL
 "james franco opens up about a very 'uncomfortable' sex scene",-1,-1,MATCH
-"highly touted terrorist prospect weighing multiple recruitment offers",1,1,MATCH
+"highly touted terrorist prospect weighing multiple recruitment offers",1,-1,FAIL
 "marv albert on the knicks, brad stevens and the state of the nba",-1,-1,MATCH
 "reverse crowdfund-gineering: five ways to integrate events into your crowdfunding campaign",-1,-1,MATCH
 "paul ryan smiles, thumbs up way through question about specificity of tax plan",1,1,MATCH
@@ -2852,7 +2852,7 @@ TEXT,VALUE,PRED,CORRECT
 "republican women: a reminder that your party is not for you",-1,-1,MATCH
 "the uninsured rate for hispanic kids has hit a historic low",-1,-1,MATCH
 "court takes custody of harley from unfit motorcycle mama",1,1,MATCH
-"lazy fda approves x-ray vision pills",1,1,MATCH
+"lazy fda approves x-ray vision pills",1,-1,FAIL
 "uw-whitewater chancellor reprimands students after mistaking skincare product for blackface",-1,-1,MATCH
 "asians most likely to be charged for espionage in u.s.: report",-1,1,FAIL
 "sculpture of stereotypical italian chef proof of pizzeria's high standard of excellence",1,1,MATCH
@@ -2908,7 +2908,7 @@ TEXT,VALUE,PRED,CORRECT
 "report: climate change to force people to double ice cream consumption speed by 2050",1,1,MATCH
 "this obviously aliens' first abduction",1,-1,FAIL
 "the powerful new play breaking the silence about sexual violence",-1,-1,MATCH
-"twitter roasts man who confessed to adding mayo to his coffee",-1,-1,MATCH
+"twitter roasts man who confessed to adding mayo to his coffee",-1,1,FAIL
 "woman perfectly breaks down why she's not 'just' a nurse",-1,-1,MATCH
 "microsft bids $2.1 billion for milton berle joke file",1,-1,FAIL
 "report: u.s. consumers spend $900 billion each year after saying 'gimme one of those, too'",1,1,MATCH
@@ -2924,7 +2924,7 @@ TEXT,VALUE,PRED,CORRECT
 "political eye: a comprehensive master plan for addressing racial inequality",-1,-1,MATCH
 "dennis miller deeply concerned about long-distance service",1,1,MATCH
 "how to survive the senior year stressfest",-1,-1,MATCH
-"'facts of life' star charlotte rae reveals cancer diagnosis at 91",-1,-1,MATCH
+"'facts of life' star charlotte rae reveals cancer diagnosis at 91",-1,1,FAIL
 "bullying prevention: the power of empathy",-1,-1,MATCH
 "helpful man saves woman effort of telling idea to boss herself",1,1,MATCH
 "cobweb-covered skeleton gripping senate desk expected to seek 15th term",1,-1,FAIL
@@ -2933,7 +2933,7 @@ TEXT,VALUE,PRED,CORRECT
 "nasa announces plan to replace voyager record with streaming service that aliens can browse from any device",1,1,MATCH
 "tonight's dnc program to be just 3 hours of osama bin laden's blown-off face projected onto screen",1,1,MATCH
 "third desperate, unsolicited email to tenuous business contact should do the trick",1,-1,FAIL
-"spilled milk: dishing daphne",-1,1,FAIL
+"spilled milk: dishing daphne",-1,-1,MATCH
 "the human and financial cost of pollution",-1,-1,MATCH
 "there's a new meghan markle wax figure, and it's actually a great likeness",-1,-1,MATCH
 "the sanders phenomenon",-1,-1,MATCH
@@ -2945,7 +2945,7 @@ TEXT,VALUE,PRED,CORRECT
 "the pta mom and the power couple from hell",-1,-1,MATCH
 "4 tips to help your brand reach the millennial market",-1,-1,MATCH
 "uk prime minister condemns murder of islamic state hostage kassig",-1,1,FAIL
-"man's neuroses really putting genuine compliment through the wringer",1,1,MATCH
+"man's neuroses really putting genuine compliment through the wringer",1,-1,FAIL
 "commercial actor informed he doesn't have that prego tomato sauce look",1,1,MATCH
 "worker told to have fun operating shake machine",1,1,MATCH
 "obama camp vows to win neighborhoods where romney staffers are too afraid to go",1,-1,FAIL
@@ -2958,7 +2958,7 @@ TEXT,VALUE,PRED,CORRECT
 "are you selfish or self-responsible?",-1,-1,MATCH
 "frontier mother just wants one nice family photo that doesn't end in fatality",1,1,MATCH
 "will puerto rico be the prequel to global post-climate change dystopia?",-1,-1,MATCH
-"shit parking ticket fuck",1,1,MATCH
+"shit parking ticket fuck",1,-1,FAIL
 "broward sheriff's deputy stole dvds, toys from walmart while in uniform: police",-1,-1,MATCH
 "americans more polarized than at any time in last two decades, poll shows",-1,1,FAIL
 "penis enlargement pills tested on dog",1,-1,FAIL
@@ -2969,7 +2969,7 @@ TEXT,VALUE,PRED,CORRECT
 "will the real jesus please stand up?",-1,-1,MATCH
 "kanye west and kim kardashian provide blueprint for true love at vmas",-1,-1,MATCH
 "new study finds being on cover of 'people' magazine best predictor of revealing all",1,1,MATCH
-"nancy grace seen in graveyard sucking marrow from caylee anthony's bones",1,1,MATCH
+"nancy grace seen in graveyard sucking marrow from caylee anthony's bones",1,-1,FAIL
 "man hates being put in position where he has to think, feel, or act",1,1,MATCH
 "my husband was living in the wrong body",-1,-1,MATCH
 "curiosity rover to explore massive martian synagogue",1,1,MATCH
@@ -2979,7 +2979,7 @@ TEXT,VALUE,PRED,CORRECT
 "cool ashtray found",1,-1,FAIL
 "afghan warlord takes anderson cooper as 43rd wife",1,1,MATCH
 "a wrenching new ferguson documentary asks: how can we start a revolution?",-1,-1,MATCH
-"oxycontin maker criticized for new 'it gets you high' campaign",1,1,MATCH
+"oxycontin maker criticized for new 'it gets you high' campaign",1,-1,FAIL
 "why i still love santa, even if he is getting all the credit for my hardwork",-1,-1,MATCH
 "kate mara: it's 'quite an honor' to play a female superhero",-1,-1,MATCH
 "jared and ivanka holding each other at gunpoint in kitchen after simultaneously revealing undercover identities",1,-1,FAIL
@@ -3004,7 +3004,7 @@ TEXT,VALUE,PRED,CORRECT
 "authorities not even going to bother looking for motive behind oregon shooting",1,1,MATCH
 "neighbor still has tree standing in yard weeks after arbor day",1,1,MATCH
 "lone man with six-pack 'partying'",1,1,MATCH
-"commas, turning up, everywhere",1,1,MATCH
+"commas, turning up, everywhere",1,-1,FAIL
 "lot of bold talk about making broth going around apartment",1,1,MATCH
 "report: only 47,000 social justice milestones to go before u.s. achieves full equality",1,1,MATCH
 "crowd of voters cheers patronizing rhetoric",1,1,MATCH
@@ -3036,7 +3036,7 @@ TEXT,VALUE,PRED,CORRECT
 "cuba, the us and obama's state of the union",-1,-1,MATCH
 "the 5 amazing health benefits of spicy foods",-1,-1,MATCH
 "obama administration releases nation's phone records to public",1,1,MATCH
-"dixieland band evicted",1,1,MATCH
+"dixieland band evicted",1,-1,FAIL
 "lunch barely misses area man's vital organs",1,1,MATCH
 "powerball officials remove plastic balls from pig urine brine",1,-1,FAIL
 "with thousands of syrians trapped in raqqa, a single hospital remains",-1,-1,MATCH
@@ -3109,7 +3109,7 @@ TEXT,VALUE,PRED,CORRECT
 "dad shares photo album through never-before-seen website",1,1,MATCH
 "parents regret letting child name dog",1,1,MATCH
 "man honestly thinks he's going to get to bed early",1,1,MATCH
-"22-year-old broke, homeless 10 days after taking control of own finances",1,1,MATCH
+"22-year-old broke, homeless 10 days after taking control of own finances",1,-1,FAIL
 "man really letting no one have it during exit interview",1,1,MATCH
 "entomologists retract new spider species discovery after determining it actually just clump of dust, hair",1,1,MATCH
 "princess slays the knight",-1,-1,MATCH
@@ -3125,7 +3125,7 @@ TEXT,VALUE,PRED,CORRECT
 "area man treats girlfriend to sumptuous 20-second massage",1,1,MATCH
 "maintaining neutrality in the new york times, from jill abramson (video)",-1,-1,MATCH
 "kasich trying to find other states where he is beloved multi-term governor",1,1,MATCH
-"psychic phone service devastates competition by only hiring the best psychics",1,1,MATCH
+"psychic phone service devastates competition by only hiring the best psychics",1,-1,FAIL
 "federal judge pencils blocking trump's unconstitutional executive orders into monthly schedule",1,-1,FAIL
 "health experts recommend standing up at desk, leaving office, never coming back",1,1,MATCH
 "craig kilborn ready to return to the daily show",1,-1,FAIL
@@ -3163,7 +3163,7 @@ TEXT,VALUE,PRED,CORRECT
 "brie larson's 'trainwreck' audition was going to lunch with judd apatow and amy schumer",-1,-1,MATCH
 "mourners gather to remember the life of keith lamont scott",-1,-1,MATCH
 "artist always carries around sketchbook in case he feels like making someone uncomfortable",1,1,MATCH
-"gop recommends americans set aside income from one of their jobs to pay for healthcare under new bill",1,-1,FAIL
+"gop recommends americans set aside income from one of their jobs to pay for healthcare under new bill",1,1,MATCH
 "nation kept up all night by sound of creaking infrastructure",1,1,MATCH
 "elizabeth warren slams 'bizarre' glass-steagall statements from trump's treasury secretary",-1,-1,MATCH
 "dog to allow child 3 more yanks on tail before putting an end to this",1,-1,FAIL
@@ -3236,7 +3236,7 @@ TEXT,VALUE,PRED,CORRECT
 "suburbanite saved from certain poisoning by brita filter",1,1,MATCH
 "here's how senate democrats plan to beef up domestic security after the san bernardino shooting",-1,-1,MATCH
 "viewer prepared to believe whatever documentary tells him about coral reefs",1,1,MATCH
-"psychic fall cometh!",-1,1,FAIL
+"psychic fall cometh!",-1,-1,MATCH
 "stop complaining about the evolution of text language. period.",-1,-1,MATCH
 "woman with sore throat thinks it might be anthrax",1,1,MATCH
 "man feeling guilty about chowing down at 9/11 museum café",1,1,MATCH
@@ -3289,11 +3289,11 @@ TEXT,VALUE,PRED,CORRECT
 "hot 'effing' tuna takes the beacon theater by storm",-1,-1,MATCH
 "tuesday's morning email: shutdown fears grow amid daca fight",-1,-1,MATCH
 "man 20 minutes into organizing shelves becomes grimly aware of what chaos he has wrought",1,1,MATCH
-"christian bale visits sikh temple victims",1,1,MATCH
-"dick vitale undergoes annual bracketological examination",1,1,MATCH
+"christian bale visits sikh temple victims",1,-1,FAIL
+"dick vitale undergoes annual bracketological examination",1,-1,FAIL
 "friends always on best behavior around neil labute",1,1,MATCH
 "new ted cruz super-pacs take in record haul",-1,1,FAIL
-"ted cruz blasts new york times for keeping book off bestseller list",-1,-1,MATCH
+"ted cruz blasts new york times for keeping book off bestseller list",-1,1,FAIL
 "new history textbook makes hatred of history come alive for students",1,1,MATCH
 "20 reasons you're so lucky to have a big sister (especially as a young woman!)",-1,-1,MATCH
 "how to be influenced by real love",-1,-1,MATCH
@@ -3308,10 +3308,10 @@ TEXT,VALUE,PRED,CORRECT
 "rnc chair says they lose acting normal, so why not give trump a shot",-1,-1,MATCH
 "here's the poop on antarctica's secret penguin society, population 1.5 million",-1,-1,MATCH
 "actress shamed for wearing red to golden globes responds to critics",-1,1,FAIL
-"grandma knitting escape ladder",1,1,MATCH
+"grandma knitting escape ladder",1,-1,FAIL
 "report: more americans setting aside money in case of pr emergency",1,1,MATCH
 "how to travel milan in just one day",-1,1,FAIL
-"breeze plays kick-ass riff on wind chimes",1,1,MATCH
+"breeze plays kick-ass riff on wind chimes",1,-1,FAIL
 "u.s. mint employee disciplined for putting own face on nickels",1,1,MATCH
 "with friends like these: trump speaks among bigots who want lgbt people dead",-1,-1,MATCH
 "library of congress adds 3 titles to list of films that should be destroyed forever",1,-1,FAIL
@@ -3347,7 +3347,7 @@ TEXT,VALUE,PRED,CORRECT
 "custody battle sparks couple's first-ever interest in child",1,1,MATCH
 "how 2 california parents could 'home-school' their shackled and abused children",-1,-1,MATCH
 "should banks be allowed to robocall your mobile phone?",-1,-1,MATCH
-"congolese civil war buff fights in civil war",1,1,MATCH
+"congolese civil war buff fights in civil war",1,-1,FAIL
 "ivanka trump's nordstrom sales reportedly dropped over 70 percent right before the election",-1,-1,MATCH
 "how to re-ignite the spark in your body, mind and soul",-1,-1,MATCH
 "paddlers find dead dog tied to shovel stuck underwater",-1,1,FAIL
@@ -3361,12 +3361,12 @@ TEXT,VALUE,PRED,CORRECT
 "area man excited to hear girlfriend has been doing a lot of thinking",1,1,MATCH
 "from ball turret gunner to guerilla fighter",-1,1,FAIL
 "'fear not─she means you no harm,' says elizabeth warren, revealing docile hillary clinton to crowd",1,-1,FAIL
-"mass graves: are they really more cost-effective?",1,1,MATCH
+"mass graves: are they really more cost-effective?",1,-1,FAIL
 "house republicans are trying to tell the senate what to do with its filibuster",-1,-1,MATCH
 "olympic drug testing official left horribly disfigured after coming into contact with russian urine",1,1,MATCH
 "reda kateb takes an oath in hippocrates",-1,-1,MATCH
 "justin bieber recovering in intensive care unit after being badly booed",1,-1,FAIL
-"dear blue bear (you s.o.b)",-1,1,FAIL
+"dear blue bear (you s.o.b)",-1,-1,MATCH
 "dem accuses gop chair of 'attempt to choke off public info' on russia probe",-1,1,FAIL
 "incredibly daring man swims to hawaii's lava with a selfie stick",-1,1,FAIL
 "libyan rebels still working full-time at other jobs",1,1,MATCH
@@ -3393,14 +3393,14 @@ TEXT,VALUE,PRED,CORRECT
 "football team gives cheerleader with cancer a colorful surprise",-1,-1,MATCH
 "facebook friend apparently dead now",1,1,MATCH
 "international atom registry allows customers to name atom after loved one",1,1,MATCH
-"tearful trump puts down ladle, walks out of soup kitchen after learning charitable foundation shutting down",1,1,MATCH
+"tearful trump puts down ladle, walks out of soup kitchen after learning charitable foundation shutting down",1,-1,FAIL
 "area man coughs to let others know he's in bathroom",1,1,MATCH
 "bausch & lomb introduces line of aviator contacts",1,1,MATCH
 "the odd couple in today's office:  millennials reverse mentor baby boomers",-1,-1,MATCH
 "department of the interior sets aside two million acres for car commercials",1,-1,FAIL
 "man won't stop coming up with new sniglets",1,1,MATCH
-"sheryl crow unsuccessful; war on iraq begins",1,1,MATCH
-"fcc passes mandatory garofalo/griffin guest-appearance regulation",1,1,MATCH
+"sheryl crow unsuccessful; war on iraq begins",1,-1,FAIL
+"fcc passes mandatory garofalo/griffin guest-appearance regulation",1,-1,FAIL
 "psa: these are the places where it's ok to breastfeed",-1,-1,MATCH
 "man pinned under blankets for three days",1,1,MATCH
 "it aint over...till it's over!",-1,-1,MATCH
@@ -3408,7 +3408,7 @@ TEXT,VALUE,PRED,CORRECT
 "the costs of war -- at home",-1,-1,MATCH
 "trump refugee order dashes hopes of iraqis who helped the u.s.",-1,-1,MATCH
 "ashcroft loses job to mexican",1,1,MATCH
-"hotshot test pilot removes helmet, reveals female status",1,1,MATCH
+"hotshot test pilot removes helmet, reveals female status",1,-1,FAIL
 "man coasting through life entirely on benefit of doubt",1,1,MATCH
 "ramen master defeated by new kung-pao style",1,1,MATCH
 "a donald trump presidency would be dangerous for the world: un rights chief",-1,-1,MATCH
@@ -3441,10 +3441,10 @@ TEXT,VALUE,PRED,CORRECT
 "paris attacks suspect salah abdeslam charged in belgium",-1,-1,MATCH
 "chimp study on human-evasion response to feces-hurling nearly complete",1,1,MATCH
 "islamophobia and charlie hebdo",-1,-1,MATCH
-"soda taxes create complicated rules",-1,1,FAIL
+"soda taxes create complicated rules",-1,-1,MATCH
 "lies, abuse and murder collide in new true crime documentary",-1,-1,MATCH
 "taylor swift grateful kanye west controversy taking heat off new swastika tattoo",1,1,MATCH
-"cheney clotheslines aide",1,1,MATCH
+"cheney clotheslines aide",1,-1,FAIL
 "scott disick and 18-year-old lindsay vrckovnik are apparently just friends",-1,-1,MATCH
 "32 throwback halloween costumes that totally deserve another run",-1,-1,MATCH
 "the importance of celebrating the little wins",-1,-1,MATCH
@@ -3457,7 +3457,7 @@ TEXT,VALUE,PRED,CORRECT
 "trump's comments about assault are a symptom of a much larger issue",-1,-1,MATCH
 "viagra giving hope to thousands of struggling stand-up comedians",1,1,MATCH
 "teen unsure how to break it to parents that the devil got her pregnant",1,-1,FAIL
-"man pulls up bricks to rescue a pregnant dog that was buried alive",-1,-1,MATCH
+"man pulls up bricks to rescue a pregnant dog that was buried alive",-1,1,FAIL
 "fired u.s. attorney preet bharara said to have been investigating hhs secretary tom price",-1,1,FAIL
 "the pakistani army's coup against itself",-1,-1,MATCH
 "scotland more relaxed when sean connery is away",1,-1,FAIL
@@ -3472,7 +3472,7 @@ TEXT,VALUE,PRED,CORRECT
 "fed admits up until now u.s. has just been coasting off money from 'avatar'",1,1,MATCH
 "policeman breaks up area party out of pity",1,1,MATCH
 "climate change and rights talk",-1,-1,MATCH
-"alcoholic recovered",1,1,MATCH
+"alcoholic recovered",1,-1,FAIL
 "top 3 reasons why 400 ppm co2 is/is not the end of the world, or how i learned to stop worrying and love air conditioning. part 1: the numbers",-1,-1,MATCH
 "nation's outfoxed sheriffs shake heads, throw hats in dirt",1,1,MATCH
 "my lovely wife in the psych ward",-1,-1,MATCH
@@ -3494,7 +3494,7 @@ TEXT,VALUE,PRED,CORRECT
 "man bragging about how infrequently he receives dental care",1,1,MATCH
 "g20 leaders must turn the tide on inequality and climate change",-1,-1,MATCH
 "grandfather's place at dinner table marked by pills",1,1,MATCH
-"celebrating pro bono month",-1,1,FAIL
+"celebrating pro bono month",-1,-1,MATCH
 "12-year-old who got her hair curled for spring dance the very image of old hollywood glamour",1,-1,FAIL
 "syrian refugees halted by trump's travel ban make long-awaited reunion with family",-1,-1,MATCH
 "ncaa will pull more events from north carolina unless hb2 is repealed, sports group warns",-1,-1,MATCH
@@ -3524,15 +3524,15 @@ TEXT,VALUE,PRED,CORRECT
 "guantánamo detainee ruled not mentally fit to testify about psychological torture",1,1,MATCH
 "why i'm going to let my daughter fail math",-1,-1,MATCH
 "hey, female directors, steven spielberg has some good news for you",-1,1,FAIL
-"retired security guard pens open letter to colin kaepernick about national anthem",1,-1,FAIL
-"head of trump 'election integrity' probe pens wildly misleading op-ed about voter fraud",-1,1,FAIL
+"retired security guard pens open letter to colin kaepernick about national anthem",1,1,MATCH
+"head of trump 'election integrity' probe pens wildly misleading op-ed about voter fraud",-1,-1,MATCH
 "area couple vows never to go dildo shopping while horny again",1,1,MATCH
 "mind-body therapies to ease insomnia",-1,1,FAIL
 "t-shirt machine gun to change the face of promotional warfare",1,-1,FAIL
 "cubs eliminated from playoff contention",1,1,MATCH
 "dog chained up for decade has sweetest reaction to being set free",-1,1,FAIL
 "breaking: has the word 'breaking' lost all its meaning?",1,-1,FAIL
-"stone-hearted ice witch forgoes exclamation point",1,1,MATCH
+"stone-hearted ice witch forgoes exclamation point",1,-1,FAIL
 "mandatory unisex golden globes uniforms keep focus on stars' work",1,1,MATCH
 "what brexit can mean for travelers in the near future",-1,-1,MATCH
 "the mediterranean refugee crisis",-1,-1,MATCH
@@ -3547,7 +3547,7 @@ TEXT,VALUE,PRED,CORRECT
 "nbc reportedly dumps trump-inspired 'law & order: svu' episode until after the election",-1,-1,MATCH
 "department of defense unveils $83 million thing that shoots",1,1,MATCH
 "paul simon might be done with music",-1,-1,MATCH
-"black guy doesn't talk about all the times he didn't get discriminated against",1,1,MATCH
+"black guy doesn't talk about all the times he didn't get discriminated against",1,-1,FAIL
 "hugh hefner will be laid to rest beside playboy's first cover girl marilyn monroe",-1,-1,MATCH
 "obama faces two unappealing choices on gitmo",-1,-1,MATCH
 "jeb bush assures pipe-wielding thugs he'll have the delegates he promised them by next week",1,1,MATCH
@@ -3560,7 +3560,7 @@ TEXT,VALUE,PRED,CORRECT
 "study: retired dads busier than ever",1,1,MATCH
 "mayor daley's son appointed head of illinois nepotist party",1,1,MATCH
 "area woman becomes republican vice presidential candidate",1,1,MATCH
-"massive blast rocks central baghdad",-1,1,FAIL
+"massive blast rocks central baghdad",-1,-1,MATCH
 "hazing incident ends in tragic joining of fraternity",1,1,MATCH
 "megan fox daydreaming about megan fox naked",1,1,MATCH
 "machete-wielding suspect shot as he breaks through door in graphic video",-1,1,FAIL
@@ -3578,7 +3578,7 @@ TEXT,VALUE,PRED,CORRECT
 "teen makes clever remark during science class",1,1,MATCH
 "nursing-home residents mate in captivity",1,-1,FAIL
 "new aetna wedding registry lets guests purchase medical procedures couple picked out",1,1,MATCH
-"jerry lewis undergoes emergency gefloigel surgery",1,1,MATCH
+"jerry lewis undergoes emergency gefloigel surgery",1,-1,FAIL
 "starbucks' midnight mint mocha frapp couldn't be further from the unicorn frappuccino",-1,-1,MATCH
 "red lobster offers new 'top hat full of shrimp' to attract wealthier customers",1,1,MATCH
 "why we don't know the size of the transgender population",-1,-1,MATCH
@@ -3605,7 +3605,7 @@ TEXT,VALUE,PRED,CORRECT
 "report: mueller subpoenas pr executives linked to manafort",-1,1,FAIL
 "a farm boy meets his prince in a beautiful new children's book",-1,-1,MATCH
 "only benedict cumberbatch can crack the case in jimmy fallon's mad lib theater",-1,-1,MATCH
-"president-elect edwards seen entering chinatown massage parlor",1,1,MATCH
+"president-elect edwards seen entering chinatown massage parlor",1,-1,FAIL
 "former treasury secretary hank paulson says he will vote for hillary clinton",-1,-1,MATCH
 "getting married to a guy with kids is 'pretty freaking intimidating'",-1,-1,MATCH
 "why bernie sanders is in deep trouble in south carolina",-1,-1,MATCH
@@ -3619,7 +3619,7 @@ TEXT,VALUE,PRED,CORRECT
 "as yahoo roils, martha nelson stays focused on media",-1,-1,MATCH
 "internet to reduce e-mail delivery to 6 days a week",1,-1,FAIL
 "climate-denying weather channel founder frets about a hillary clinton victory",-1,-1,MATCH
-"terrifying tornado gives couple a proposal story they'll never forget",-1,1,FAIL
+"terrifying tornado gives couple a proposal story they'll never forget",-1,-1,MATCH
 "emergency crew rushes to pull child out of football huddle",1,1,MATCH
 "excerpt: lessons on love and landscape from the heartland",-1,-1,MATCH
 "nsa scrambling to reestablish whereabouts of man who covered laptop camera with tape",1,1,MATCH
@@ -3680,8 +3680,8 @@ TEXT,VALUE,PRED,CORRECT
 "bethenny frankel fights back after instagram controversy",-1,1,FAIL
 "why you should hire for zest",-1,-1,MATCH
 "$300 tax refund used to justify $700 worth of miscellaneous purchases",1,1,MATCH
-"freddie prinze jr. fan's favorite color also green",1,1,MATCH
-"hillary clinton campaign shuts down after blowing through $2 billion in first month",1,1,MATCH
+"freddie prinze jr. fan's favorite color also green",1,-1,FAIL
+"hillary clinton campaign shuts down after blowing through $2 billion in first month",1,-1,FAIL
 "ted cruz boldly declares nation not deserving of better candidate",1,1,MATCH
 "tig notaro is sickened by the anti-gay pizza restaurant in indiana",-1,-1,MATCH
 "top house democrats demand fbi inquiry into trump team's alleged link to email hack",-1,-1,MATCH
@@ -3693,7 +3693,7 @@ TEXT,VALUE,PRED,CORRECT
 "melissa mccarthy's perfectly simple secret to a happy marriage",-1,-1,MATCH
 "religious freedom in practicing the platinum rule",-1,-1,MATCH
 "white house just gave a terrible defense of trump's refugee ban",-1,-1,MATCH
-"unreasonable happiness",-1,1,FAIL
+"unreasonable happiness",-1,-1,MATCH
 "mom getting pretty into new tyler, the creator album",1,1,MATCH
 "taylor swift's mom says groping incident 'shattered our trust'",-1,-1,MATCH
 "rick perry experiences overwhelming feeling of clarity and contentment in final moments before death of campaign",1,-1,FAIL
@@ -3704,7 +3704,7 @@ TEXT,VALUE,PRED,CORRECT
 "smithsonian rejects tie dylan mcdermott wore in 'the practice'",1,-1,FAIL
 "david chase analyzes 'the sopranos' ending shot-by-shot",-1,-1,MATCH
 "how marketing leaders can secure a seat in the c-suite",-1,-1,MATCH
-"protesters march in wisconsin after unarmed black man shot dead by police",-1,-1,MATCH
+"protesters march in wisconsin after unarmed black man shot dead by police",-1,1,FAIL
 "actual soccer team loses game 46-0",-1,1,FAIL
 "7 ways to look like a pro in a wine tasting room",-1,-1,MATCH
 "5-year-old has heart-wrenching reunion with mom after airport detention",-1,1,FAIL
@@ -3721,7 +3721,7 @@ TEXT,VALUE,PRED,CORRECT
 "after shooting, orlando chefs provide thousands of free meals",-1,1,FAIL
 "new blog piece on woody allen to settle everything",1,1,MATCH
 "smart shopper only purchases items with 'quality' on the label",1,-1,FAIL
-"bill clinton agrees to disclose guacamole recipe",1,1,MATCH
+"bill clinton agrees to disclose guacamole recipe",1,-1,FAIL
 "police release footage of man who died after being pepper sprayed",-1,1,FAIL
 "over 60 dead after suicide bomber targets mourners in front of pakistan hospital",-1,-1,MATCH
 "report: only predictor of happy marriage is if husband ever won wife big stuffed animal at amusement park",1,1,MATCH
@@ -3759,7 +3759,7 @@ TEXT,VALUE,PRED,CORRECT
 "credit-card metallurgists unveil new 'polonium plus' visa card",1,1,MATCH
 "is resisting trump enough?",-1,-1,MATCH
 "u.s. improves infrastructure with transnational power strip",1,-1,FAIL
-"riverboat horseracing fails utterly",1,1,MATCH
+"riverboat horseracing fails utterly",1,-1,FAIL
 "buddy sneaks into chest x-ray",1,1,MATCH
 "mike pence's nfl 'stunt' in indianapolis may have cost taxpayers over $88,000",-1,-1,MATCH
 "8 herbs and spices that fight off disease",-1,-1,MATCH
@@ -3779,7 +3779,7 @@ TEXT,VALUE,PRED,CORRECT
 "bannon's cyst finally ruptures",1,1,MATCH
 "michelle phan, youtube's 'beauty bestie,' empowers women from the outside in",-1,-1,MATCH
 "some alzheimer's risk factors may be controllable",-1,-1,MATCH
-"kleenex box inadequately covered",1,1,MATCH
+"kleenex box inadequately covered",1,-1,FAIL
 "5 financial wake-up calls -- and what you can learn from them",-1,-1,MATCH
 "george r.r. martin announces next book to feature pixies, dracula",1,1,MATCH
 "jeb bush calls for crackdown on sanctuary cities in immigration plan",-1,1,FAIL
@@ -3816,7 +3816,7 @@ TEXT,VALUE,PRED,CORRECT
 "ben affleck nominated for best friend of matt damon",1,1,MATCH
 "100 ways to connect intimately with your partner",-1,-1,MATCH
 "killer mike: 'uterus' comment was taken out of context",-1,1,FAIL
-"manager fails to keep it short or sweet",1,-1,FAIL
+"manager fails to keep it short or sweet",1,1,MATCH
 "bartender accused of plotting to poison john boehner",-1,1,FAIL
 "trailblazing women: whitney johnson, leading thinker & co founder of clayton christensen's investment firm",-1,1,FAIL
 "mother ferries 4 more shirt options back to son in gap dressing room",1,1,MATCH
@@ -3827,7 +3827,7 @@ TEXT,VALUE,PRED,CORRECT
 "microsoft signs justice dept. attorney to $350 million endorsement deal",1,-1,FAIL
 "12-year-old says she's desperate to stop the hitting, screaming, fighting with mom",-1,-1,MATCH
 "how bill kristol briefly blew up the 2016 presidential race with a single tweet",-1,-1,MATCH
-"emergency wisdom",-1,1,FAIL
+"emergency wisdom",-1,-1,MATCH
 "birthday card for david axelrod circling around afghan war meeting",1,1,MATCH
 "porch ceded to bats",1,1,MATCH
 "mike huckabee jokingly breaks campaign finance law in 2016 announcement",-1,-1,MATCH
@@ -3878,7 +3878,7 @@ TEXT,VALUE,PRED,CORRECT
 "bakery owner vows to stop making wedding cakes altogether after pro-gay court ruling",-1,1,FAIL
 "queer film explores long-term relationships in the age of the single",-1,-1,MATCH
 "facebook bolts from traditional news",-1,-1,MATCH
-"attention: sports fans!",-1,1,FAIL
+"attention: sports fans!",-1,-1,MATCH
 "new low stooped to",1,1,MATCH
 "get your quick and dirty arts education with haiku reviews",-1,-1,MATCH
 "florida man who landed gyrocopter at u.s. capitol rejects plea deals",-1,1,FAIL
@@ -3890,7 +3890,7 @@ TEXT,VALUE,PRED,CORRECT
 "nra says mass shootings just the unfortunate price of protecting people's freedom to commit mass shootings",1,-1,FAIL
 "why states are struggling to tax services",-1,-1,MATCH
 "5 key habits to living a radiant life",-1,-1,MATCH
-"new film company raises $150 million to bring diverse stories to film and tv",-1,1,FAIL
+"new film company raises $150 million to bring diverse stories to film and tv",-1,-1,MATCH
 "meeting jon snow irl is apparently like seeing the 'mona lisa' for the first time",-1,-1,MATCH
 "the incredible places in the world we would rather be today",-1,-1,MATCH
 "an art project over 40 years in the making lets people walk on water",-1,-1,MATCH
@@ -3902,7 +3902,7 @@ TEXT,VALUE,PRED,CORRECT
 "report: average american worker replaced within 10 minutes of taking vacation",1,1,MATCH
 "'new hampshire' episode 4: not just for old, white people",-1,1,FAIL
 "charlottesville shows that states must amend their open-carry laws",-1,-1,MATCH
-"frein's sister questions brother's injuries",-1,1,FAIL
+"frein's sister questions brother's injuries",-1,-1,MATCH
 "10 things not to do before your next race",-1,-1,MATCH
 "beloved archie comics get a dark makeover in new tv series 'riverdale'",-1,-1,MATCH
 "shy shelter dog's reaction to getting adopted is the definition of joy on earth",-1,-1,MATCH
@@ -3957,7 +3957,7 @@ TEXT,VALUE,PRED,CORRECT
 "cadbury's chocolate will no longer be imported from the u.k. and everyone is depressed",-1,-1,MATCH
 "marco rubio doesn't have a clue what 'oscars so white' means",-1,-1,MATCH
 "democratic senator calls for cia director to resign",-1,-1,MATCH
-"opening band issues two-more-songs warning",1,1,MATCH
+"opening band issues two-more-songs warning",1,-1,FAIL
 "man unsure how fellow diners got impression appetizer was ordered for table",1,-1,FAIL
 "congressional aides withholding sex until budget compromise is reached",1,-1,FAIL
 "former u.s. attorneys warn trump about 'severe repercussions' of firing robert mueller",-1,-1,MATCH
@@ -3973,8 +3973,8 @@ TEXT,VALUE,PRED,CORRECT
 "tony hale reveals the new york inspiration for buster bluth's personality",-1,-1,MATCH
 "unions plot major push after landmark labor ruling",-1,-1,MATCH
 "norway pledges $10 million to counter trump's global anti-abortion move",-1,-1,MATCH
-"laid-off zoologist goes on tranquilizing rampage",1,1,MATCH
-"theory versus truth",-1,1,FAIL
+"laid-off zoologist goes on tranquilizing rampage",1,-1,FAIL
+"theory versus truth",-1,-1,MATCH
 "country music protested in restaurant's kitchen",1,-1,FAIL
 "bask in the glow of adele telling critics to 'suck my dick' mid-concert",-1,-1,MATCH
 "whole foods recalls maytag blue cheese due to listeria risk",-1,1,FAIL
@@ -3986,13 +3986,13 @@ TEXT,VALUE,PRED,CORRECT
 "republicans retain majority in household",1,-1,FAIL
 "kennedy center to dishonor gilbert gottfried",1,1,MATCH
 "alito keeps telling supreme court how they did things in circuit court",1,-1,FAIL
-"activists: syrian warplanes bomb isis training camp",-1,1,FAIL
+"activists: syrian warplanes bomb isis training camp",-1,-1,MATCH
 "new acnefree treatment ships teens to remote island colony for remainder of puberty",1,1,MATCH
 "british crew member dies during round the world yacht race",-1,-1,MATCH
 "man eating mcchicken sandwich can tell mcdonald's switched up antibiotics",1,1,MATCH
 "donald trump's epa pick is a leading foe of clean water laws",-1,-1,MATCH
 "al franken tearfully announces intention to step down from role as harasser of women",1,1,MATCH
-"pope francis lays hands on ailing u.s. infrastructure",1,1,MATCH
+"pope francis lays hands on ailing u.s. infrastructure",1,-1,FAIL
 "stephen colbert is just as worried about the new citizenship law as fox news",-1,-1,MATCH
 "john avildsen, oscar-winning director of 'rocky,' dead at 81",-1,1,FAIL
 "apathy outpacing lust as leading u.s. state of mind",1,1,MATCH
@@ -4041,7 +4041,7 @@ TEXT,VALUE,PRED,CORRECT
 "internet enjoys sarah sanders' claim that trump is 'the best negotiator at the table'",-1,-1,MATCH
 "snorkeling instructor unaware he's in background of 400 dating profile photos",1,-1,FAIL
 "colombia plunged into uncertainty as voters narrowly reject peace deal with farc rebels",-1,1,FAIL
-"dr. krugman meets dr. fox",-1,1,FAIL
+"dr. krugman meets dr. fox",-1,-1,MATCH
 "this town is becoming hogsmeade for one magical 'harry potter' weekend",-1,-1,MATCH
 "chicago's shedd aquarium admits panda exhibit a ghastly mistake",1,-1,FAIL
 "don't fight summer fun -- make it educational",-1,-1,MATCH
@@ -4080,7 +4080,7 @@ TEXT,VALUE,PRED,CORRECT
 "barack obama 'tiger beat' cover clinches slumber party vote",1,-1,FAIL
 "long-silent facebook friend comes out of woodwork with post asking about insulating windows",1,1,MATCH
 "more bad news for macy's ahead of holiday shopping season",-1,-1,MATCH
-"magical marseille",-1,1,FAIL
+"magical marseille",-1,-1,MATCH
 "'family' pundit makes bizarre and offensive link between robin williams' death and 'ex-gay' therapy",-1,-1,MATCH
 "bin laden sends belated threat to israel for 60th birthday",1,1,MATCH
 "how to help victims of louisiana floods",-1,-1,MATCH
@@ -4139,7 +4139,7 @@ TEXT,VALUE,PRED,CORRECT
 "new fathers suffer from postpartum depression, too",-1,1,FAIL
 "parents peeved their kids' hatchimals are cursing up a storm",-1,-1,MATCH
 "kroger recalls 35,000 pounds of ground beef that may contain ceo",1,-1,FAIL
-"nfl player shares some good news about his daughter's cancer treatment",-1,1,FAIL
+"nfl player shares some good news about his daughter's cancer treatment",-1,-1,MATCH
 "formerly obese man always showing everyone his old pants",1,1,MATCH
 "obamacare case to be turned against government on emissions rule",-1,-1,MATCH
 "chris christie dreaming about 72-inch springsteen sub",1,-1,FAIL
@@ -4150,8 +4150,8 @@ TEXT,VALUE,PRED,CORRECT
 "nasa launches probe to find, destroy earth-like planet",1,1,MATCH
 "charleston church holds first service since shootings",-1,-1,MATCH
 "maya angelou, poet, author, civil rights activist, and─holy cow─tony award─nominated actress, college professor, magazine editor, streetcar conductor─really? streetcar conductor? wow─calypso singer, nightclub performer, and foreign journalist, dead at 86",1,-1,FAIL
-"bolivia joins dopec",1,1,MATCH
-"enormous, humongous march trade deficit creating jobs elsewhere",-1,1,FAIL
+"bolivia joins dopec",1,-1,FAIL
+"enormous, humongous march trade deficit creating jobs elsewhere",-1,-1,MATCH
 "25 halloween costumes for men with beards",-1,-1,MATCH
 "trump asks national prayer breakfast to pray for 'celebrity apprentice'",-1,1,FAIL
 "religious leaders condemn hateful, trump-inspired vandalism at 2 churches",-1,-1,MATCH
@@ -4178,7 +4178,7 @@ TEXT,VALUE,PRED,CORRECT
 "trump assures nation that decision for syrian airstrikes came after carefully considering all his passing whims",1,1,MATCH
 "you can has cheezburger: a guide to potential cheeses and what toppings to pair them with",-1,-1,MATCH
 "this type of breast cancer is more deadly for black women",-1,-1,MATCH
-"female entrepreneur : karen quinones",-1,1,FAIL
+"female entrepreneur : karen quinones",-1,-1,MATCH
 "'the lego backpacker' instagrams the world, one country at a time",-1,-1,MATCH
 "homemade 'die hard' scene will have you saying 'yippee ki yay'",-1,-1,MATCH
 "dripping wet 7-year-old gets on hotel elevator",1,1,MATCH
@@ -4222,9 +4222,9 @@ TEXT,VALUE,PRED,CORRECT
 "dear oxford dictionaries, 'pwnage' is not a word and never will be",-1,-1,MATCH
 "emails: u.s. government facilitated lng business deals before terminals got required federal permits",-1,-1,MATCH
 "rapist gets new start at technical college",1,1,MATCH
-"trump administration announces new $20 bill design honoring harriet tubman's owners",1,1,MATCH
-"anti-homosexuality sermon suspiciously well-informed",1,1,MATCH
-"cbs laugh track threatens walkout",1,1,MATCH
+"trump administration announces new $20 bill design honoring harriet tubman's owners",1,-1,FAIL
+"anti-homosexuality sermon suspiciously well-informed",1,-1,FAIL
+"cbs laugh track threatens walkout",1,-1,FAIL
 "why terrible news really might keep you up at night",-1,-1,MATCH
 "a-sides with jon chattman: sweet and not-so-sweet emotions: joe perry gets honest about aerosmith in new memoir",-1,-1,MATCH
 "report: adjectives 'tony,' 'snarky' used only by media",1,1,MATCH
@@ -4255,7 +4255,7 @@ TEXT,VALUE,PRED,CORRECT
 "danny elfman on the ups and downs of his relationship with tim burton",-1,-1,MATCH
 "22 animals wearing pajamas just because",-1,1,FAIL
 "confounded pollsters admit there no way of predicting mercurial behaviors of beguiling female vote",1,1,MATCH
-"mario cuomo's legacy",-1,1,FAIL
+"mario cuomo's legacy",-1,-1,MATCH
 "don't call khloe kardashian 'the fat sister'",-1,-1,MATCH
 "15 times adele made you lol hard",-1,-1,MATCH
 "6-year-old becomes first child to complete solo ride around block",1,1,MATCH
@@ -4263,7 +4263,7 @@ TEXT,VALUE,PRED,CORRECT
 "donald trump concedes health care bill could hurt many of his supporters",-1,-1,MATCH
 "war in afghanistan: enough is enough",-1,-1,MATCH
 "aerobics linked to lousy music",1,1,MATCH
-"shitty human being blames decreased daylight this time",1,1,MATCH
+"shitty human being blames decreased daylight this time",1,-1,FAIL
 "ben stiller reading trump's 'stable genius' tweets as zoolander is like ridiculously funny",-1,-1,MATCH
 "news roundup for july 12, 2017",-1,-1,MATCH
 "for his new act, beloved drag queen john 'lypsinka' epperson is a man unmasked",-1,-1,MATCH
@@ -4278,11 +4278,11 @@ TEXT,VALUE,PRED,CORRECT
 "john kerry breaks leg in bike crash",-1,1,FAIL
 "woman says al franken groped her during 2010 photo op",-1,-1,MATCH
 "it's suddenly cold out. am i going to get sick?",-1,-1,MATCH
-"gmail user pities hotmail user",1,1,MATCH
+"gmail user pities hotmail user",1,-1,FAIL
 "'better homes & gardens' puts first plus-sized succulent on september cover",1,-1,FAIL
 "husband calls for greater restrictions on pier one imports",1,-1,FAIL
 "cupid is stupid",-1,-1,MATCH
-"daily meditation: divine dance",-1,1,FAIL
+"daily meditation: divine dance",-1,-1,MATCH
 "cheney regrets buying bush laser pointer",1,1,MATCH
 "a new what??",-1,-1,MATCH
 "'saturday night live' can't use language as bad as trump's",-1,-1,MATCH
@@ -4290,7 +4290,7 @@ TEXT,VALUE,PRED,CORRECT
 "dare graduate celebrates first toke",1,-1,FAIL
 "generous military sends $800 in disability to man who wakes up screaming every night",1,1,MATCH
 "man going to take edge off with decades-long slide into alcoholism",1,1,MATCH
-"right-to-kill advocate opposes right-to-die measure",1,1,MATCH
+"right-to-kill advocate opposes right-to-die measure",1,-1,FAIL
 "unpopped kernels costing u.s. billions",1,-1,FAIL
 "second saturday staten island art walk",-1,-1,MATCH
 "study finds average american inadvertently eats equivalent of 8 pieces of fruit per year",1,1,MATCH
@@ -4303,7 +4303,7 @@ TEXT,VALUE,PRED,CORRECT
 "historic senator robert byrd imploded in controlled demolition",1,-1,FAIL
 "r.e.m.'s children still hoping parents will get back together",1,1,MATCH
 "baby-faced, muscular jimmy carter tells democratic convention the future of medicine is bright",1,-1,FAIL
-"senator moved to tears after reading constituent's heartfelt check",1,1,MATCH
+"senator moved to tears after reading constituent's heartfelt check",1,-1,FAIL
 "these students aren't joining the national walkout to protest gun violence. here's why.",-1,-1,MATCH
 "kerry downs another vodka shot as the last of putin's security detail passes out",1,-1,FAIL
 "hot girl mentions boyfriend three hours into conversation",1,1,MATCH
@@ -4319,7 +4319,7 @@ TEXT,VALUE,PRED,CORRECT
 "terrifying server whole-heartedly cares about guests' dining experience",1,1,MATCH
 "george h.w. bush moved out of icu after health improved",-1,1,FAIL
 "why this muslim american civil rights lawyer decided to buy a handgun",-1,-1,MATCH
-"mysterious defibrillator saves accident victim, disappears",1,1,MATCH
+"mysterious defibrillator saves accident victim, disappears",1,-1,FAIL
 "libertarian candidate embraces his role as spoiler in pennsylvania election",-1,-1,MATCH
 "top ten best-selling ebooks -- week of march 21",-1,-1,MATCH
 "ornithologist forced to participate in history channel's 'what if humans suddenly became birds?' program",1,1,MATCH
@@ -4377,15 +4377,15 @@ TEXT,VALUE,PRED,CORRECT
 "reinventing reality: an interview with the 'party girl' filmmakers in cannes",-1,-1,MATCH
 "huffpost hill - president impressed his gum keeps its flavor all through the longest day",-1,-1,MATCH
 "pete rose, the st. louis cardinals and the need for consistent mlb ethics policies",-1,-1,MATCH
-"barry jenkins quietly makes history with oscar nomination trifecta",-1,1,FAIL
+"barry jenkins quietly makes history with oscar nomination trifecta",-1,-1,MATCH
 "pence calls trump a 'builder of boundless optimism,' compares him to teddy roosevelt",-1,-1,MATCH
 "craig sager brings his a-game to facetime fellow cancer patient",-1,-1,MATCH
 "report: russia managed to penetrate voter databases in order to ensure election was fair and free like the loyal allies they are",1,-1,FAIL
 "why a pub at st. mary's university?",-1,-1,MATCH
 "how donald trump united liberals and conservatives on abortion",-1,-1,MATCH
 "nation has heart set on last muffin",1,1,MATCH
-"safety-conscious senior locks screen door",1,1,MATCH
-"attorney, client privileged",1,1,MATCH
+"safety-conscious senior locks screen door",1,-1,FAIL
+"attorney, client privileged",1,-1,FAIL
 "hamburger for my valentine",-1,-1,MATCH
 "13 #ridiculousexcusestostayhome -- boomer-style",-1,-1,MATCH
 "how to buy grown-up art without going broke (or setting foot in a gallery)",-1,-1,MATCH
@@ -4412,7 +4412,7 @@ TEXT,VALUE,PRED,CORRECT
 "fda relaxes definition of smoothie",1,1,MATCH
 "half of abortion clinics in ohio have closed in the past 4 years",-1,-1,MATCH
 "hope solo says ex-fifa president sepp blatter groped her",-1,-1,MATCH
-"earth explodes",1,1,MATCH
+"earth explodes",1,-1,FAIL
 "house republicans unveil bill to repeal obamacare",-1,-1,MATCH
 "5 things to do the minute you retire",-1,-1,MATCH
 "these kids' portraits of the trump administration should hang in a gallery",-1,-1,MATCH
@@ -4438,7 +4438,7 @@ TEXT,VALUE,PRED,CORRECT
 "house reauthorizes controversial surveillance law",-1,-1,MATCH
 "these gifs of shia labeouf watching his own movies show how each gop candidate did on tuesday",-1,-1,MATCH
 "kaia gerber, cindy crawford's daughter, lands major fashion campaign",-1,1,FAIL
-"nation just goes ahead and decides 'freedom prevails over hate' is lesson of 9/11",1,1,MATCH
+"nation just goes ahead and decides 'freedom prevails over hate' is lesson of 9/11",1,-1,FAIL
 "teens: are they laughing at you?",1,-1,FAIL
 "why i launched a platform to empower survivors of bullying",-1,-1,MATCH
 "o'reilly indeed embellishing war reporting experience, says cbs colleague",-1,-1,MATCH
@@ -4481,7 +4481,7 @@ TEXT,VALUE,PRED,CORRECT
 "zoo animals roam free after flooding in tbilisi",-1,-1,MATCH
 "report: freezers in healthy choice corporate offices probably stocked with every kind of healthy choice you could imagine",1,1,MATCH
 "the gop on immigration: life imitating satire -- and vice versa",-1,-1,MATCH
-"huffpost rise: october 30th",-1,1,FAIL
+"huffpost rise: october 30th",-1,-1,MATCH
 "newtown victim's animal sanctuary dream becomes a reality",-1,-1,MATCH
 "america, china trying to spice up trade relationship by bringing third country into negotiations",1,1,MATCH
 "there can be dignity in the face of poverty",-1,-1,MATCH
@@ -4571,13 +4571,13 @@ TEXT,VALUE,PRED,CORRECT
 "new harry potter film turns children on to magic of not reading",1,1,MATCH
 "trump's lawyer got restraining order against stormy daniels to keep her quiet",-1,-1,MATCH
 "bernie sanders wins maine democratic caucus",-1,-1,MATCH
-"ernest belamide's gps guide on managing stress",-1,1,FAIL
+"ernest belamide's gps guide on managing stress",-1,-1,MATCH
 "how much money do you need?",-1,-1,MATCH
 "mit researchers discover each other",1,1,MATCH
-"mexican presidential candidate calls for cutting off thieves' hands",-1,1,FAIL
+"mexican presidential candidate calls for cutting off thieves' hands",-1,-1,MATCH
 "lone tent a dark harbinger of looming street festival",1,-1,FAIL
 "with 'house on fire,' ty herndon aims to 'change hearts and minds'",-1,-1,MATCH
-"concert security guard would willingly give his life to protect coldplay",1,1,MATCH
+"concert security guard would willingly give his life to protect coldplay",1,-1,FAIL
 "being obese is strongly linked to a greater risk for these 11 cancers",-1,-1,MATCH
 "couple married 75 years renew their vows in sweet nursing home ceremony",-1,-1,MATCH
 "teen study bible found to increase fun of religion by .03%",1,1,MATCH
@@ -4596,10 +4596,10 @@ TEXT,VALUE,PRED,CORRECT
 "great, now it's turned into a whole big thing",1,-1,FAIL
 "18 habits of highly creative people",-1,1,FAIL
 "u.s. invades non-oil-rich nation to dispel criticism",1,1,MATCH
-"beijing air solidifies",1,1,MATCH
+"beijing air solidifies",1,-1,FAIL
 "salmonella is on the rise because people won't stop cuddling their chickens",-1,-1,MATCH
 "wal-mart shoppers mocked by target shopper",1,1,MATCH
-"unhappy father's day?",-1,1,FAIL
+"unhappy father's day?",-1,-1,MATCH
 "u.s. police chiefs call for background checks for all gun purchases",-1,-1,MATCH
 "man abuses child quietly out of respect for other diners",1,1,MATCH
 "two gay texans open up about building their dream family",-1,1,FAIL
@@ -4623,7 +4623,7 @@ TEXT,VALUE,PRED,CORRECT
 "meet the gay music mogul who discovered metallica and white zombie",-1,-1,MATCH
 "environmentalists say they're averting climate disaster. conservatives say it's terrorism.",-1,-1,MATCH
 "mtv promotes, airs, condemns controversial new video",1,-1,FAIL
-"fourth tool discovered",1,1,MATCH
+"fourth tool discovered",1,-1,FAIL
 "rep. elijah cummings: police-community relations is the 'civil rights cause of this generation'",-1,-1,MATCH
 "13 tough life situations -- and the perfect books to get you through",-1,-1,MATCH
 "rand paul: hillary clinton is a 'war hawk'",-1,-1,MATCH
@@ -4634,14 +4634,14 @@ TEXT,VALUE,PRED,CORRECT
 "ohio cop indicted on murder charge in traffic-stop shooting",-1,-1,MATCH
 "area man just realized he doesn't even know when barack obama's birthday is",1,1,MATCH
 "child slavery gives area activist something to do with her evenings",1,1,MATCH
-"bigot relieved to learn gays in his state still effectively subhuman",1,1,MATCH
+"bigot relieved to learn gays in his state still effectively subhuman",1,-1,FAIL
 "5 perfect-for-packing lunch salads",-1,-1,MATCH
 "parents respond to article that celebrates dads for one day of parenting",-1,1,FAIL
 "elderly patient threatened with suppository",1,1,MATCH
 "area power walker looks just ridiculous",1,1,MATCH
 "a republican congressman just destroyed trump's 'lie' of a budget",-1,-1,MATCH
 "occidental college mostly cleared in federal sexual assault investigation",-1,-1,MATCH
-"rand's filibuster two-fer",-1,1,FAIL
+"rand's filibuster two-fer",-1,-1,MATCH
 "pet researchers confirm 100% of owners who leave for work never coming back",1,1,MATCH
 "adjusting several sliders on recording studio's mixing console pays off big time",1,1,MATCH
 "panicked biden interrupts state of the union to ask if erections can ever be medical emergency",1,-1,FAIL
@@ -4669,7 +4669,7 @@ TEXT,VALUE,PRED,CORRECT
 "'these last two are gonna be real turds,' george r.r. martin assures fans",1,-1,FAIL
 "guinness world records promotes man who can lift 27 pounds with tongue to editor-in-chief",1,1,MATCH
 "ben stiller peels banana with own feet",1,1,MATCH
-"this. actually. happened.",-1,1,FAIL
+"this. actually. happened.",-1,-1,MATCH
 "49-year-old nearly back to pre-middle-school confidence levels",1,1,MATCH
 "robert reich pleads with trump to quit it with the 'petty' and 'vindictive' tweets",-1,-1,MATCH
 "laura ingraham learned the hard way she can't do what the boys do at fox news",-1,-1,MATCH
@@ -4678,9 +4678,9 @@ TEXT,VALUE,PRED,CORRECT
 "there are a lot more jobs. but that isn't helping democrats for one key reason.",-1,-1,MATCH
 "shirtless man turns face from side to side in mirror while running hands down smooth face",1,1,MATCH
 "forget 'looking' -- one of our favorite queer web series is back",-1,-1,MATCH
-"scarf tragically lost in 15-coat pile-up",1,1,MATCH
+"scarf tragically lost in 15-coat pile-up",1,-1,FAIL
 "glass ceiling. glass closet. glass cubicle. this is living?",-1,-1,MATCH
-"opinions versus opinionated",-1,1,FAIL
+"opinions versus opinionated",-1,-1,MATCH
 "obama administration tries to smooth path back to school for jailed students",-1,1,FAIL
 "woman conducting ongoing scientific experiment on own skin",1,1,MATCH
 "motivational psychology and leadership in higher education",-1,-1,MATCH
@@ -4701,7 +4701,7 @@ TEXT,VALUE,PRED,CORRECT
 "heroes for homeless kids celebrate in aurora",-1,-1,MATCH
 "newly sworn-in north korean official wondering how he'll eventually be executed",1,-1,FAIL
 "john lennon's journey to feminism and why it matters in the era of trump",-1,-1,MATCH
-"margaret atwood's advice for young feminists: 'be informed, be aware'",-1,1,FAIL
+"margaret atwood's advice for young feminists: 'be informed, be aware'",-1,-1,MATCH
 "the westernization of emoji",-1,-1,MATCH
 "trump vows to kill 50 years of federal health and safety protections",-1,-1,MATCH
 "l.a. fitness announces plan to close all locations for 30-minute, high-intensity diversity training",1,1,MATCH
@@ -4726,7 +4726,7 @@ TEXT,VALUE,PRED,CORRECT
 "woman drawn to shampoo with most gruesome description of hair",1,1,MATCH
 "j balvin to receive vision award at 2016 hispanic heritage awards",-1,-1,MATCH
 "pope francis warns of 'dangerous' alliance between u.s. and russia",-1,-1,MATCH
-"fbi seizes massive anthrax stockpile",1,1,MATCH
+"fbi seizes massive anthrax stockpile",1,-1,FAIL
 "area man regrets investing in facebook",1,1,MATCH
 "teaching english by the beach in vietnam",-1,-1,MATCH
 "'san andreas' kills at the box office",-1,-1,MATCH
@@ -4749,14 +4749,14 @@ TEXT,VALUE,PRED,CORRECT
 "watch: former british open champ makes embarrassing putting fail",-1,-1,MATCH
 "anderson cooper begins debate by giving trump opportunity to explain what the fuck is wrong with him",1,-1,FAIL
 "amazingly humanlike robot able to commit thousands of mistakes per day",1,1,MATCH
-"ken jennings mistaken for subway's jared again",1,1,MATCH
+"ken jennings mistaken for subway's jared again",1,-1,FAIL
 "what your brain actually does when you multitask",-1,-1,MATCH
 "researchers say that first warning sign of alcoholism generally driving over curb, plowing through fire hydrant, and crashing into aquarium",1,-1,FAIL
 "black folks, let's talk about homophobia",-1,-1,MATCH
 "area man doesn't look jewish",1,1,MATCH
-"india's cabinet members lose handily",-1,1,FAIL
+"india's cabinet members lose handily",-1,-1,MATCH
 "senate passes 3-year highway funding bill",-1,-1,MATCH
-"when i'm forced to see color in my colorblind marriage",-1,1,FAIL
+"when i'm forced to see color in my colorblind marriage",-1,-1,MATCH
 "superstitious clinton refusing to change her beliefs following hot streak in polls",1,-1,FAIL
 "man excited to give visiting friends the real fort wayne experience",1,1,MATCH
 "hacker who stole celebrities' nude photos gets 9 months in prison",-1,-1,MATCH
@@ -4807,7 +4807,7 @@ TEXT,VALUE,PRED,CORRECT
 "why chinese parents don't say 'i love you'",-1,-1,MATCH
 "former counterterrorism official slams 'coward' trump over comey firing",-1,-1,MATCH
 "even donald trump's former boss thinks he's a 'demented' reality star",-1,-1,MATCH
-"big-hair lady loves jesus",1,1,MATCH
+"big-hair lady loves jesus",1,-1,FAIL
 "savor the south at one of these summer festivals",-1,-1,MATCH
 "tourist experiences city by buying used cds",1,1,MATCH
 "the intervention of richard spencer and the alt-right",-1,-1,MATCH
@@ -4869,11 +4869,11 @@ TEXT,VALUE,PRED,CORRECT
 "researchers uncover brain region associated with generosity",-1,1,FAIL
 "drive-time commute jam-packed with entertainment",1,1,MATCH
 "missouri bill redefines hot lobbyist-on-lawmaker action as a 'gift'",-1,-1,MATCH
-"mueller poses as fox news host to coax rudy giuliani into giving him testimony on trump",1,1,MATCH
-"dejected dog too sad to walk after being returned to shelter",-1,-1,MATCH
-"wal-mart bans semi-nude pantyhose",1,1,MATCH
+"mueller poses as fox news host to coax rudy giuliani into giving him testimony on trump",1,-1,FAIL
+"dejected dog too sad to walk after being returned to shelter",-1,1,FAIL
+"wal-mart bans semi-nude pantyhose",1,-1,FAIL
 "friday talking points -- it's raining shoes!",-1,-1,MATCH
-"conservative fury falls on ryan",-1,1,FAIL
+"conservative fury falls on ryan",-1,-1,MATCH
 "ailey dancers and the kids with disabilities: 'if a finger can move, they're a part of it'",-1,-1,MATCH
 "clinton vetoes 'stab clinton' bill",1,-1,FAIL
 "report: 92% of divorced parents get back together if children ask enough times",1,1,MATCH
@@ -4899,7 +4899,7 @@ TEXT,VALUE,PRED,CORRECT
 "scientific journal releases list of year's top 100 compounds",1,1,MATCH
 "man who actually needs grey poupon unable to bring self to ask",1,1,MATCH
 "stop saying 'not my president'",-1,-1,MATCH
-"as chipotle tries not to make people sick, it's silent on one important issue",-1,-1,MATCH
+"as chipotle tries not to make people sick, it's silent on one important issue",-1,1,FAIL
 "'whitey bulger ordered the murder of 19 people,' reports anonymous rat bastard",1,-1,FAIL
 "bus transporting carnival cruise passengers crashes into sewage treatment plant",1,1,MATCH
 "report: just so you know, your younger sister probably getting laid pretty regularly these days",1,1,MATCH
@@ -4907,7 +4907,7 @@ TEXT,VALUE,PRED,CORRECT
 "this behind-the-back bunt almost doesn't make sense at first",-1,-1,MATCH
 "dogs smell grandma's scent, set off on quest to find her",-1,-1,MATCH
 "the secret to building a successful business that won't destroy the planet",-1,-1,MATCH
-"shaky ukrainian ceasefire largely holds",-1,1,FAIL
+"shaky ukrainian ceasefire largely holds",-1,-1,MATCH
 "new employee doesn't understand that's where zack sits",1,1,MATCH
 "constituents shout down republican when she ducks a question about obamacare",-1,-1,MATCH
 "colton dixon on what it was like to be an extra in 'hannah montana: the movie'",-1,-1,MATCH
@@ -4919,7 +4919,7 @@ TEXT,VALUE,PRED,CORRECT
 "rick moranis to star in straight-to-video release honey, i shrunk some more shit",1,-1,FAIL
 "isis and boko haram are teaming up for terror, official says",-1,-1,MATCH
 "honest parents share their hilarious confessions",-1,-1,MATCH
-"pulitzer board adds giant pumpkin category",1,1,MATCH
+"pulitzer board adds giant pumpkin category",1,-1,FAIL
 "here are 10 of the best political quotes of 2014",-1,-1,MATCH
 "retired factory worker had no idea earnings from '50s would have to support 3 generations of family",1,1,MATCH
 "the making of 'alias grace,' a margaret atwood true-crime mystery",-1,-1,MATCH
@@ -4936,7 +4936,7 @@ TEXT,VALUE,PRED,CORRECT
 "bo obama issues first public bark since leaving white house",1,1,MATCH
 "escaping the higher education stockholm syndrome",-1,-1,MATCH
 "family concerned after aging tv show has another terrible episode",1,1,MATCH
-"gluten-free pancake mix just a bag of sand",1,1,MATCH
+"gluten-free pancake mix just a bag of sand",1,-1,FAIL
 "an epidemic of gun silence",-1,-1,MATCH
 "new study finds majority of god's blessings burn up on entry into atmosphere",1,1,MATCH
 "new antidepressant makes friends' problems seem worse",1,1,MATCH
@@ -4987,22 +4987,22 @@ TEXT,VALUE,PRED,CORRECT
 "4 ways to support farm-to-school policies",-1,-1,MATCH
 "for national coming out day, 150 lgbtq sports people who have come out in the last year",-1,1,FAIL
 "report: of course that guy on college's alumni committee now",1,1,MATCH
-"jcpenney abandons 45-second sale",1,1,MATCH
+"jcpenney abandons 45-second sale",1,-1,FAIL
 "man approaches box of powdered doughnuts like snake discovering unguarded clutch of bird eggs",1,1,MATCH
 "creepy real estate listing really talking up size of crawlspaces",1,1,MATCH
 "moments leading up to romney's concession most likely hilarious",1,1,MATCH
 "blacker and better: jessica lea mayfield",-1,-1,MATCH
 "megachurch threatened by new ultrachurch",1,1,MATCH
 "trump uses daca setback to launch new attack on court system",-1,-1,MATCH
-"company you've never heard of wants to reward you for your good credit",1,1,MATCH
+"company you've never heard of wants to reward you for your good credit",1,-1,FAIL
 "transplanting marijuana: myth to mainstream america",-1,1,FAIL
 "border patrol violence must stop",-1,-1,MATCH
 "uncle strikes out hard with book gift",1,1,MATCH
 "6 ways to cut wedding costs, according to wedding planners",-1,-1,MATCH
-"four homeless people dead in what girlfriend refers to as 'cuddle weather'",1,1,MATCH
+"four homeless people dead in what girlfriend refers to as 'cuddle weather'",1,-1,FAIL
 "how to pick the perfect retirement location",-1,-1,MATCH
 "area man wants something made of titanium",1,1,MATCH
-"stoners announce plans to get stoned for that",1,-1,FAIL
+"stoners announce plans to get stoned for that",1,1,MATCH
 "she's changing the way our kids surf the web",-1,-1,MATCH
 "hey, taylor swift, caitlyn jenner got a call from kanye too",-1,-1,MATCH
 "god seeking to crack down on souls smuggling drugs into heaven",1,1,MATCH
@@ -5049,7 +5049,7 @@ TEXT,VALUE,PRED,CORRECT
 "the u.s. throws out $3 billion in cancer drugs every year",-1,-1,MATCH
 "block of commercials charts the who's career arc",1,-1,FAIL
 "how ancestry.com is quietly transforming itself into a medical research juggernaut",-1,-1,MATCH
-"timothée chalamet says contract blocked him from criticizing woody allen, supporting dylan farrow. it didn't.",-1,1,FAIL
+"timothée chalamet says contract blocked him from criticizing woody allen, supporting dylan farrow. it didn't.",-1,-1,MATCH
 "princeton students protest protesters",-1,-1,MATCH
 "you won't believe why this man's license was suspended",-1,-1,MATCH
 "coach's super profound words: 'ballers make plays. dudes are dudes.'",-1,-1,MATCH
@@ -5060,7 +5060,7 @@ TEXT,VALUE,PRED,CORRECT
 "death to shoppers? al-shabaab and the fracturing of international jihadism",-1,-1,MATCH
 "walter scott case proves there are no smoking guns in police shooting trials",-1,-1,MATCH
 "dear patricia arquette, who 'fought' for us",-1,-1,MATCH
-"biden now a purple belt",1,1,MATCH
+"biden now a purple belt",1,-1,FAIL
 "new 'dumb and dumber to' clip shows a very special celeb cameo",-1,-1,MATCH
 "sat found to be biased in favor of non-hungover",1,1,MATCH
 "someone replaced train sounds with screams, and it's genius",-1,-1,MATCH
@@ -5097,7 +5097,7 @@ TEXT,VALUE,PRED,CORRECT
 "progress on global poverty and disease at risk, gates says",-1,-1,MATCH
 "trump unable to produce certificate proving he's not a festering pile of shit",1,-1,FAIL
 "woman knows exactly which knife she'd grab out of cutlery drawer in event of home invasion",1,1,MATCH
-"sacred sites",-1,1,FAIL
+"sacred sites",-1,-1,MATCH
 "historical archives: dances you may wish to try",1,-1,FAIL
 "5 signs that you should end your relationship",-1,-1,MATCH
 "cd club somehow tracks down local woman",1,1,MATCH
@@ -5140,7 +5140,7 @@ TEXT,VALUE,PRED,CORRECT
 "espn to have first female analyst call top soccer tournament on u.s. tv",-1,1,FAIL
 "gawker is said to retool as politics site",-1,-1,MATCH
 "north korea botches missile launch on founder's birthday",-1,-1,MATCH
-"talented kiddos recreate iconic 'dirty dancing' scene on 'america's got talent'",-1,1,FAIL
+"talented kiddos recreate iconic 'dirty dancing' scene on 'america's got talent'",-1,-1,MATCH
 "wedding vows explicitly mention price of ceremony",1,1,MATCH
 "being comfortable with fear",-1,1,FAIL
 "suicide bombing near afghan parliament kills more than 30",-1,-1,MATCH
@@ -5161,7 +5161,7 @@ TEXT,VALUE,PRED,CORRECT
 "deer shot by obsessed fan",1,1,MATCH
 "hillary clinton opens new presidential library charting course of purely theoretical tenure as commander in chief",1,1,MATCH
 "in the new york film fest the outsize egos of artists rule",-1,-1,MATCH
-"distributor will not release new louis c.k. film after sexual misconduct report",-1,-1,MATCH
+"distributor will not release new louis c.k. film after sexual misconduct report",-1,1,FAIL
 "ted cruz, rand paul are insiders running in an outsiders' game",-1,-1,MATCH
 "nation's optimists need to shut the fuck up right now",1,1,MATCH
 "shrimp would be pissed if he could see the lame party he's going to be served at",1,1,MATCH
@@ -5172,11 +5172,11 @@ TEXT,VALUE,PRED,CORRECT
 "magical rainbow ring caught on camera from drone",-1,1,FAIL
 "new 'i am cait' teaser shows caitlyn jenner is still 'the same person'",-1,-1,MATCH
 "will conservatives learn anything about the need for regulations from london fire that killed dozens?",-1,-1,MATCH
-"sheryl crow's freshness date expires",1,1,MATCH
+"sheryl crow's freshness date expires",1,-1,FAIL
 "body language experts offer insight into meaning of marco rubio loudly sobbing throughout debate",1,1,MATCH
 "governor demands to know which star on american flag is iowa's",1,-1,FAIL
 "obama, rachel goldstein really hitting it off on group trip to israel",1,1,MATCH
-"suicide note surprisingly upbeat",1,1,MATCH
+"suicide note surprisingly upbeat",1,-1,FAIL
 "company more like family whose members are desperate to join better family",1,1,MATCH
 "proof that apple watch owners are desperate to convert you to their side",-1,-1,MATCH
 "man holding giant turkey leg never been more captivating in entire life",1,1,MATCH
@@ -5210,7 +5210,7 @@ TEXT,VALUE,PRED,CORRECT
 "rumsfeld equally proud of all his wars",1,1,MATCH
 "church, state joyfully reunite after 230-year trial separation",1,-1,FAIL
 "the fast food items not even gwyneth paltrow can resist",-1,-1,MATCH
-"computer being stupid",1,1,MATCH
+"computer being stupid",1,-1,FAIL
 "rudy giuliani adds more planes, towers with each subsequent retelling of 9/11",1,1,MATCH
 "man races against time to take out trash bag with widening puncture",1,1,MATCH
 "apartment manager already knows to look out for tenant sending in minnie mouse checks",1,1,MATCH
@@ -5219,7 +5219,7 @@ TEXT,VALUE,PRED,CORRECT
 "labor secretary horrified to learn some americans working jobs they do not truly enjoy",1,1,MATCH
 "the ultimate odessa, texas, road trip playlist",-1,-1,MATCH
 "gop senators aren't ready to accept trump as their champion",-1,-1,MATCH
-"nypd offering no-questions-asked dvd drop-off",1,1,MATCH
+"nypd offering no-questions-asked dvd drop-off",1,-1,FAIL
 "ann romney's grandma tips are 'freakin' awesome'",-1,-1,MATCH
 "miley cyrus and other celebs start 2015 with a kiss",-1,-1,MATCH
 "terrified johnny depp unable to remove tonto makeup",1,1,MATCH
@@ -5229,7 +5229,7 @@ TEXT,VALUE,PRED,CORRECT
 "sick fucks line up to gape at dead body",1,1,MATCH
 "black cat runs onto hockey rink, likely dooming san jose sharks",-1,-1,MATCH
 "'it will never happen to me'",-1,1,FAIL
-"neighbors remember serial killer as serial killer",1,1,MATCH
+"neighbors remember serial killer as serial killer",1,-1,FAIL
 "house gop is determined to make it harder for poor kids to get free school lunches",-1,-1,MATCH
 "the damaging stigmas men of color in makeup face",-1,-1,MATCH
 "j.j. abrams admits 'alias' execs doubted jennifer garner's hotness",-1,1,FAIL
@@ -5246,7 +5246,7 @@ TEXT,VALUE,PRED,CORRECT
 "fall fashion for moms! how (not) to wear the season's hottest trends",-1,-1,MATCH
 "eva longoria tans self out of visible spectrum",1,1,MATCH
 "here's even more evidence trump is lying about massive voter fraud",-1,-1,MATCH
-"female boss walking around like she owns the place",1,1,MATCH
+"female boss walking around like she owns the place",1,-1,FAIL
 "nation schedules recurring monthly benefit concert to streamline tragedy response process",1,1,MATCH
 "fear is just one big joke",-1,-1,MATCH
 "some guy who's not stephen colbert to deliver college's commencement speech",1,1,MATCH
@@ -5261,9 +5261,9 @@ TEXT,VALUE,PRED,CORRECT
 "congressman says new york city gunman got 'raw deal'",-1,-1,MATCH
 "vatican appoints 'new generation' cardinal head of key archdiocese",-1,1,FAIL
 "new hallmark line addresses israeli-palestinian conflict",1,1,MATCH
-"reb zalman's unique funeral",-1,1,FAIL
+"reb zalman's unique funeral",-1,-1,MATCH
 "aclu stresses that it legal to film garbage men in all 50 states if you really need to",1,1,MATCH
-"jane seymour's secrets to feeling young after 50",-1,1,FAIL
+"jane seymour's secrets to feeling young after 50",-1,-1,MATCH
 "netflix cancels 'jimmy carter's world of peanuts'",1,1,MATCH
 "huckabee sanders repeatedly insists that president's footprints created the great lakes",1,-1,FAIL
 "hardline immigration hawks are starting to panic about donald trump",-1,-1,MATCH
@@ -5274,7 +5274,7 @@ TEXT,VALUE,PRED,CORRECT
 "elizabeth olsen isn't pleased with tom hiddleston's honky tonkin' in this 'i saw the light' clip",-1,-1,MATCH
 "horrible band obviously not listening to its influences",1,-1,FAIL
 "a piece of paper is controlling my students' lives",-1,-1,MATCH
-"tragic oscar-night camera malfunction leaves seven critically underpublicized",1,1,MATCH
+"tragic oscar-night camera malfunction leaves seven critically underpublicized",1,-1,FAIL
 "bob barker era ushered out with touching plinko montage",1,1,MATCH
 "20 years after big tobacco, is it time for 'big pain'?",-1,-1,MATCH
 "actor-comedian pauly shore bad at 32",1,-1,FAIL
@@ -5288,8 +5288,8 @@ TEXT,VALUE,PRED,CORRECT
 "study: average person's life plan can only withstand 25 seconds of direct questioning",1,1,MATCH
 "ryan lochte is 32. we shouldn't treat him like a kid.",-1,-1,MATCH
 "usda admits weight loss not possible for people who don't like salmon",1,1,MATCH
-"shackled kerry looks on as chechen terror leader removes mask to reveal scarred face of former mentor",1,-1,FAIL
-"sunday roundup",-1,1,FAIL
+"shackled kerry looks on as chechen terror leader removes mask to reveal scarred face of former mentor",1,1,MATCH
+"sunday roundup",-1,-1,MATCH
 "cowpoke lassoes calf while perched on moving cop car",-1,-1,MATCH
 "there is a shortage of male teachers of color. nyc is working to fix that.",-1,-1,MATCH
 "god demands cuter precious moments figurines",1,1,MATCH
@@ -5304,7 +5304,7 @@ TEXT,VALUE,PRED,CORRECT
 "antarctic observational comic running out of ideas",1,1,MATCH
 "supreme court hands a major victory to workers who were stiffed on overtime pay",-1,-1,MATCH
 "colonoscopy offers non-fantastic voyage through human body",1,1,MATCH
-"rock fans outraged as bob dylan goes electronica",1,1,MATCH
+"rock fans outraged as bob dylan goes electronica",1,-1,FAIL
 "sam bee presents horrific tales 'coming from inside the white house'",-1,-1,MATCH
 "another comedian ruined by parenthood",1,1,MATCH
 "more berkeley professors shown to have violated sexual misconduct policy",-1,1,FAIL
@@ -5339,7 +5339,7 @@ TEXT,VALUE,PRED,CORRECT
 "browns owner haslam mixes republican politics with football",-1,1,FAIL
 "bartender going to pretend that last drink was supposed to be served on fire",1,1,MATCH
 "heroin deaths are surging, but deadliest drugs still come in pill bottles",-1,-1,MATCH
-"magnetic migration",-1,1,FAIL
+"magnetic migration",-1,-1,MATCH
 "nation feels first, only pang of sympathy for zuckerberg after watching him engage with ted cruz",1,1,MATCH
 "the funniest tweets from parents this week",-1,-1,MATCH
 "guinness releases abridged book of freaks for readers who just want the good stuff",1,-1,FAIL
@@ -5369,7 +5369,7 @@ TEXT,VALUE,PRED,CORRECT
 "instant gratification sped up",1,1,MATCH
 "unencumbered by the facts...",-1,-1,MATCH
 "pastor blasts trump's 'shithole' comments in front of mike pence",-1,-1,MATCH
-"polls reveal, essentially, nothing",1,1,MATCH
+"polls reveal, essentially, nothing",1,-1,FAIL
 "university of missouri starts reviewing demands from student activists",-1,1,FAIL
 "bored u.s. postmaster general creates beard from stamps during meeting",1,1,MATCH
 "sarah silverman talks to her younger self in 'snl' monologue",-1,-1,MATCH
@@ -5399,7 +5399,7 @@ TEXT,VALUE,PRED,CORRECT
 "u.s. should host 2022 world cup, not qatar",-1,-1,MATCH
 "so long, thimble: hasbro axes classic monopoly token",-1,-1,MATCH
 "is it possible to spend too much time with a significant other?",-1,-1,MATCH
-"teen anxious for cigarette addiction to kick in",1,1,MATCH
+"teen anxious for cigarette addiction to kick in",1,-1,FAIL
 "man's relationship advice same as his hunting tips",1,1,MATCH
 "timothée chalamet donates 30,000 smoldering looks to time's up fund in wake of woody allen controversy",1,1,MATCH
 "freemasons return to jupiter",1,1,MATCH
@@ -5408,7 +5408,7 @@ TEXT,VALUE,PRED,CORRECT
 "making your post-breakup masterpiece, one location permit at a time",-1,-1,MATCH
 "the 'gilmore girls' revival is best when it talks about grief",-1,-1,MATCH
 "how black girls vote is getting young voters to the poll",-1,-1,MATCH
-"magna carta: awesome tale",-1,1,FAIL
+"magna carta: awesome tale",-1,-1,MATCH
 "expressing deeply held political opinion referred to as 'gaffe'",1,1,MATCH
 "elton john wows mother theresa funeral crowd with 'the bitch is back'",1,-1,FAIL
 "mild sexual harassment ignored to save the hassle",1,-1,FAIL
@@ -5497,7 +5497,7 @@ TEXT,VALUE,PRED,CORRECT
 "reinvest in california seniors to boost local economies",-1,1,FAIL
 "security guard makes passing women feel unsafe",1,-1,FAIL
 "12 stunning photos of 'tiny dancers' caught in action",-1,-1,MATCH
-"art professor revealed to be convincing fake",1,1,MATCH
+"art professor revealed to be convincing fake",1,-1,FAIL
 "report finds more americans putting off children until companies are ready",1,1,MATCH
 "jennifer lawrence honored robert de niro at the glaad media awards the only way she knows how",-1,-1,MATCH
 "1999 collaboration between carlos santana, rob thomas somehow standing test of time",1,1,MATCH
@@ -5517,11 +5517,11 @@ TEXT,VALUE,PRED,CORRECT
 "can the cops be stopped before they kill again?",-1,-1,MATCH
 "'neo-nazi' teen charged with killing girlfriend's parents after they reported him",-1,1,FAIL
 "std had awesome time on spring break",1,1,MATCH
-"racist merely misspoke",1,1,MATCH
+"racist merely misspoke",1,-1,FAIL
 "76ers top lakers for first win of season, snap 28-game skid",-1,-1,MATCH
 "officers of the peace",-1,-1,MATCH
 "biden tossed out of car passing by white house",1,1,MATCH
-"arresting portraits give voices to homeless people in america's poorest big city",-1,1,FAIL
+"arresting portraits give voices to homeless people in america's poorest big city",-1,-1,MATCH
 "radio host hugh hewitt 'inclined' to vote for donald trump after urging him to drop out",-1,-1,MATCH
 "dnc aiming to reconnect with working-class americans with new 'hamilton'-inspired lena dunham web series",1,1,MATCH
 "professor slammed to the ground by police, arrested for allegedly assaulting an officer",-1,-1,MATCH
@@ -5548,7 +5548,7 @@ TEXT,VALUE,PRED,CORRECT
 "gop makes good on 2009 promise to block president's healthcare bill",1,-1,FAIL
 "arizona republicans want to prosecute protesters the same way they do terrorists",-1,-1,MATCH
 "top 10 college basketball seniors",-1,-1,MATCH
-"lobbying spending hits historic lows",-1,1,FAIL
+"lobbying spending hits historic lows",-1,-1,MATCH
 "'richie rich' comics introduces new, even gayer character",1,1,MATCH
 "the ultimate houston, texas, road trip playlist",-1,-1,MATCH
 "is 'the happiest man in america' still happy?",-1,-1,MATCH
@@ -5559,8 +5559,8 @@ TEXT,VALUE,PRED,CORRECT
 "how i embraced the winter blahs",-1,-1,MATCH
 "when will we start expecting extreme weather, and planning for it?",-1,-1,MATCH
 "your sunday is open again because these puppies already decided the super bowl",-1,-1,MATCH
-"north korea nukes self in desperate plea for attention",1,1,MATCH
-"needle-exchange program attracting 'druggies'",1,1,MATCH
+"north korea nukes self in desperate plea for attention",1,-1,FAIL
+"needle-exchange program attracting 'druggies'",1,-1,FAIL
 "why changing the world is a two-step process",-1,-1,MATCH
 "why change sucks even when you're middle age",-1,-1,MATCH
 "postmaster general loses laptop; zip-code data of millions at risk",1,1,MATCH
@@ -5583,7 +5583,7 @@ TEXT,VALUE,PRED,CORRECT
 "dallas politician tells nra to get lost unless it's ready to talk reform",-1,-1,MATCH
 "roy clark deep-fried in beer batter",1,-1,FAIL
 "dining out in dallas by john mariani",-1,1,FAIL
-"twitter introduces red x mark to verify users it's okay to harass",1,1,MATCH
+"twitter introduces red x mark to verify users it's okay to harass",1,-1,FAIL
 "israel vows to use veto power if chuck hagel confirmed as u.s. secretary of defense",1,1,MATCH
 "second-semester fling leads to first-trimester abortion",1,1,MATCH
 "cooking off the cuff: bluefish in saor ─ a new york take on a venetian favorite",-1,-1,MATCH
@@ -5591,7 +5591,7 @@ TEXT,VALUE,PRED,CORRECT
 "5 tv episodes that celebrate hanukkah, too",-1,-1,MATCH
 "nikki lost 89 pounds: 'any mom will tell you scheduling time to exercise can be very hard'",-1,1,FAIL
 "u.s. life expectancy falls as more people die from illnesses",-1,1,FAIL
-"rod stewart thought it was a good idea to stage a mock beheading in abu dhabi desert",-1,1,FAIL
+"rod stewart thought it was a good idea to stage a mock beheading in abu dhabi desert",-1,-1,MATCH
 "stressed out at work? here's how to find your center with just 3 minutes of breathing",-1,-1,MATCH
 "this woman converted her closet into an indoor garden",-1,-1,MATCH
 "man approaches unfamiliar shower knobs like he breaking wild stallion",1,1,MATCH
@@ -5612,7 +5612,7 @@ TEXT,VALUE,PRED,CORRECT
 "5 great movies starring interesting, exciting, daring, adventurous girls!",-1,-1,MATCH
 "'it takes us' photo project shows survivors of gun violence",-1,-1,MATCH
 "love your skin in your 50s and beyond",-1,-1,MATCH
-"nemesis lands alumni magazine cover",1,1,MATCH
+"nemesis lands alumni magazine cover",1,-1,FAIL
 "lone superdelegate voting for martin o'malley feels like total fucking idiot",1,1,MATCH
 "hotels think you want this bill. think again, hotels",-1,-1,MATCH
 "increased violence leads state department to issue advisory for americans traveling to 1861",1,1,MATCH
@@ -5624,7 +5624,7 @@ TEXT,VALUE,PRED,CORRECT
 "ammon bundy says he's following directions from god",-1,1,FAIL
 "would you rather: max rockatansky or nux from 'mad max: fury road'",-1,-1,MATCH
 "woman survives 7-story plunge from parking garage in bmw",-1,1,FAIL
-"latest fbi news doesn't stop republicans from attacking clinton on emails",-1,1,FAIL
+"latest fbi news doesn't stop republicans from attacking clinton on emails",-1,-1,MATCH
 "sweden and the wakening of eco-integrity",-1,-1,MATCH
 "the incredible story of how america saved a national treasure from extinction",-1,-1,MATCH
 "love for jesus inspires honk",1,-1,FAIL
@@ -5675,7 +5675,7 @@ TEXT,VALUE,PRED,CORRECT
 "stand up and protect the basic human right to health care",-1,-1,MATCH
 "college rankings: what's the use?",-1,-1,MATCH
 "flood of cheap afghan heroin to arrive just in time for recession",1,1,MATCH
-"6 living room design ideas worth stealing",-1,1,FAIL
+"6 living room design ideas worth stealing",-1,-1,MATCH
 "new law prohibits kaleidoscoping while driving",1,1,MATCH
 "bush calls for end to 'era of political argument'",1,1,MATCH
 "spoof gum commercial chews away at islamophobia in the best possible way",-1,-1,MATCH
@@ -5683,7 +5683,7 @@ TEXT,VALUE,PRED,CORRECT
 "condo board member thinks bylaw cover-up might go all the way to deb",1,-1,FAIL
 "the one thing you probably didn't know about genetic inheritance",-1,-1,MATCH
 "50 cent ordered to pay additional $2 million in sex tape case",-1,-1,MATCH
-"for-profit company threatened to jail people for not paying traffic fines, lawsuit says",-1,1,FAIL
+"for-profit company threatened to jail people for not paying traffic fines, lawsuit says",-1,-1,MATCH
 "when smart lawyers say dumb things",-1,-1,MATCH
 "texas executes 393rd guilty prisoner",1,-1,FAIL
 "anne hathaway takes a cue from emma stone & andrew garfield",-1,-1,MATCH
@@ -5701,7 +5701,7 @@ TEXT,VALUE,PRED,CORRECT
 "trump, speaking on russian state-owned network, slams 'dishonest' media",-1,-1,MATCH
 "breitbart criticized for publishing humanizing profile of libtard beta-cuck",1,1,MATCH
 "area man going to great lengths to conceal his perfectly normal behavior",1,1,MATCH
-"state appoints obviously hungover attorney",1,1,MATCH
+"state appoints obviously hungover attorney",1,-1,FAIL
 "will the charlie hebdo terrorist attack kill intelligence reform in the united states?",-1,-1,MATCH
 "olympic torch used to ignite tibetan protesters",1,1,MATCH
 "universe ends as god wakes up next to suzanne pleshette",1,1,MATCH
@@ -5786,7 +5786,7 @@ TEXT,VALUE,PRED,CORRECT
 "breaking: still nothing",1,1,MATCH
 "donald trump actually tries to explain his wall to stephen colbert",-1,-1,MATCH
 "nicoderm introduces new nicotine eye patch",1,1,MATCH
-"fbi raids fridge",1,1,MATCH
+"fbi raids fridge",1,-1,FAIL
 "melo's hat game > knicks' triangle offense",-1,1,FAIL
 "first up at the toronto film festival: jake gyllenhaal's 'demolition,' the stunning 'lobster' and more",-1,-1,MATCH
 "thousands return to unemployment following end of  writers strike",1,1,MATCH
@@ -5829,9 +5829,9 @@ TEXT,VALUE,PRED,CORRECT
 "bill maher has superficial debate about 'n***a' after controversy",-1,1,FAIL
 "nation shocked cop facing punishment for murder",1,1,MATCH
 "white church protected from fire by god",1,1,MATCH
-"bill clinton has unibeam installed in chest",1,1,MATCH
+"bill clinton has unibeam installed in chest",1,-1,FAIL
 "study finds 73% of marble statuettes of achilles used to beat to death wealthy dowager",1,1,MATCH
-"german auto engineer issued lab coat",1,1,MATCH
+"german auto engineer issued lab coat",1,-1,FAIL
 "sacha baron cohen rolls up to 'grimsby' premiere in his underwear",-1,-1,MATCH
 "black freshmen at university of pennsylvania receive racist messages depicting lynchings",-1,-1,MATCH
 "true feminism means holding our women leaders accountable",-1,-1,MATCH
@@ -5855,7 +5855,7 @@ TEXT,VALUE,PRED,CORRECT
 "grieving couple finds different ways to use stroller",1,1,MATCH
 "guinea pig returned for store credit",1,-1,FAIL
 "jim lehrer forced to report on his own botched debate moderator performance on tonight's 'newshour'",1,1,MATCH
-"trump complains entire personality rigged against him",1,1,MATCH
+"trump complains entire personality rigged against him",1,-1,FAIL
 "'just another lingering flu' by dr. david lourea (excerpt)",-1,1,FAIL
 "nra touts oliver north's expertise at avoiding jail time for colluding with hostile foreign powers",1,1,MATCH
 "advertiser reaches out to youth with off-set, mixed-typography font",1,1,MATCH
@@ -5867,7 +5867,7 @@ TEXT,VALUE,PRED,CORRECT
 "ciro guerra's 'embrace of the serpent' at cannes: a conversation with the colombian director about shamanism",-1,-1,MATCH
 "here's the drunk history of fall out boy",-1,-1,MATCH
 "15 years in environment of constant fear somehow fails to rehabilitate prisoner",1,1,MATCH
-"dance cage recidivism rates at all-time high within american club scene",1,1,MATCH
+"dance cage recidivism rates at all-time high within american club scene",1,-1,FAIL
 "how to be ridiculously in charge of your life",-1,-1,MATCH
 "twitter imparts some presidential wisdom with #trumpbacktoschooltips",-1,-1,MATCH
 "depressed matt lauer up all night rewatching 8-second clip of career highlights",1,1,MATCH
@@ -5881,7 +5881,7 @@ TEXT,VALUE,PRED,CORRECT
 "gal gadot surprises college student with first wonder woman scholarship",-1,1,FAIL
 "hillary clinton and donald trump are 'borne on the fm waves of the heart'",-1,-1,MATCH
 "pope tweets picture of self with god",1,1,MATCH
-"ted cruz skyrockets in polls after head permanently sealed within iron mask",1,1,MATCH
+"ted cruz skyrockets in polls after head permanently sealed within iron mask",1,-1,FAIL
 "police, muslim leaders join hands in mourning at westminster bridge",-1,-1,MATCH
 "why we should value (but not worship) reason",-1,-1,MATCH
 "jeb bush's children vehemently deny having ever loved father",1,1,MATCH
@@ -5897,7 +5897,7 @@ TEXT,VALUE,PRED,CORRECT
 "'the recovery is here,' reports underemployed man making $20,000 less than he used to",1,1,MATCH
 "victor pinchuk, mistral warships, and the jews of ukraine",-1,-1,MATCH
 "awful show a repeat again",1,-1,FAIL
-"growth potential",-1,1,FAIL
+"growth potential",-1,-1,MATCH
 "suspect wins over detectives with 'rockford files' reference",1,-1,FAIL
 "fighting for the rights of colombia's acid attack victims",-1,-1,MATCH
 "because we already miss 'veep,' here are some arrogant jonah lines that didn't make it into season 5",-1,-1,MATCH
@@ -5927,7 +5927,7 @@ TEXT,VALUE,PRED,CORRECT
 "meet the millennial men who love hillary clinton",-1,-1,MATCH
 "she just wants a job",-1,-1,MATCH
 "longtime employee given small pewter object",1,1,MATCH
-"friend's wife encountered twice a year",1,1,MATCH
+"friend's wife encountered twice a year",1,-1,FAIL
 "the 'pitch perfect 3' ladies are #squadgoals at the atlanta falcons game",-1,-1,MATCH
 "colleges begin establishing exchange programs in cuba",-1,-1,MATCH
 "britain's labour party readies for potential leadership battle",-1,1,FAIL
@@ -5978,7 +5978,7 @@ TEXT,VALUE,PRED,CORRECT
 "content marketing guide from the best content director awardee: nic mccarthy",-1,-1,MATCH
 "here's why immigration advocates are pressing so hard for executive action",-1,-1,MATCH
 "thomas edison invents marketing other people's ideas",1,1,MATCH
-"forgetful karl lagerfeld inadvertently starts lobster-bib trend",1,1,MATCH
+"forgetful karl lagerfeld inadvertently starts lobster-bib trend",1,-1,FAIL
 "otherwise savvy woman duped by mascara makers again",1,1,MATCH
 "why britain's spy chief says he wouldn't hire james bond",-1,-1,MATCH
 "woman mad boyfriend not jealous she danced with other guy",1,1,MATCH
@@ -6010,4 +6010,4 @@ TEXT,VALUE,PRED,CORRECT
 "paul ryan on removing devin nunes: 'the tax cuts are working'",-1,-1,MATCH
 "the truth about water as hangover prevention",-1,-1,MATCH
 "marcus mariota featured in inspiring beats by dre ad",-1,1,FAIL
-Tests:,6010,Matches:,4776,Percent:,79.4675540765391
+Tests:,6010,Matches:,4709,Percent:,78.35274542429285
