@@ -23,7 +23,7 @@ def PrintDot():
         print(".", end="", flush=True)
 
 class NN:
-    def __init__(self, file, alpha, num_hidden, maxLines, multipleText, removeLowVariance, hiddenLayerSizes=None, random_state=None):
+    def __init__(self, file, alpha, num_hidden, maxLines, multipleText, removeLowVariance, hiddenLayerSizes=None, random_state=None, max_iter=500):
         # Find all the words
         def AddWords(self, line):
             if line == "":
@@ -98,7 +98,7 @@ class NN:
         print("Time: " + str(time.perf_counter() - start))
 
         if removeLowVariance:
-            print("\nRemoving Low Variance", end="", flush=True)
+            print("\nRemoving Low Variance: maxLines="+str(maxLines), end="", flush=True)
             start = time.perf_counter()
             # Removing features with low variance
             sel = VarianceThreshold(threshold=(.99 * (1 - .99)))
@@ -145,7 +145,7 @@ class NN:
         print("Num Features: " + str(len(self.dct.keys())))
         print("Num Samples: " + str(len(valueList)))
         print("Hidden Layers: " + str(hidden_layer_sizes))
-        clf = MLPClassifier(solver='adam', alpha=alpha, hidden_layer_sizes=hidden_layer_sizes, activation='logistic', random_state=random_state, verbose=True, max_iter=500)
+        clf = MLPClassifier(solver='adam', alpha=alpha, hidden_layer_sizes=hidden_layer_sizes, activation='logistic', random_state=random_state, verbose=True, max_iter=max_iter)
         self.clf = clf.fit(sampleList, valueList)
         print("Time: " + str(time.perf_counter() - start))
 
@@ -222,7 +222,7 @@ class NN:
 
 num = 6000 #332 #6000
 
-if True:
+if False:
     alpha = 0.000001 #0.00001
     num_hidden = 1
     percent = 0
@@ -261,8 +261,8 @@ if False:
     result = np.asfarray(hlsList)
     np.savetxt("../Sarcasm/Sarcasm_NN_result_grid3.csv", result, delimiter=",")
 
-if False:
-    alpha = 0.000001
+if True:
+    alpha = 0.0018
     num_hidden = 1
     percentList = [[0, 0, None, 1],[0, 1, None, 1],[0, 2, None, 1],[0, 3, None, 1]]
     for i in range(1,5):
@@ -275,7 +275,7 @@ if False:
         random_state = 0
         while percent < 65:
             random_state += 1
-            d = NN(fileList, alpha, num_hidden, num, False, True, (5,), random_state)
+            d = NN(fileList, alpha, num_hidden, num, False, True, (5,), random_state, 80)
             percent = d.Predict(fileList[0], num, False, f"../Sarcasm/Sarcasm_NN_temp_{i}.csv")
 
         percentList[i-1][0] = d.Predict(f"../Sarcasm/Sarcasm_train_set_{i}.csv", num*3, False, f"../Sarcasm/Sarcasm_NN_result_{i}.csv")
@@ -286,6 +286,87 @@ if False:
     percent = percentList[0][2].Predict("../Sarcasm/Sarcasm_test_set.csv", num*3, False, "../Sarcasm/Sarcasm_NN_final.csv")
     print("Random Seed: " + str(percentList[0][3]))
     print("Percent Match: " + str(percent))
+
+if False:
+    alpha = 0.000001
+    num_hidden = 1
+    hls = 5
+    testMinNum = 500
+    testMaxNum = 6100
+    testNumStep = 500
+
+    numList = [[d for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)]]
+    i = 0
+    for numb in np.arange(testMinNum, testMaxNum, testNumStep):
+        d = NN(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], alpha, num_hidden, numb, False, True, (hls,), 0)
+        print("Num: " + str(numb))
+        start = time.perf_counter()
+        percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num*3, False, "../Sarcasm/Sarcasm_result_NN_0.csv")
+        totalTime = time.perf_counter() - start
+        print("Total Time: " + str(totalTime))
+        numList[1][i] = percent
+        numList[2][i] = totalTime
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sarcasm/Sarcasm_result_NN_vsSize.csv", result, delimiter=",")
+
+num = 3500
+
+if False:
+    alpha = 0.000001
+    num_hidden = 1
+    hls_min = 3
+    hls_max = 11
+    hls_step = 1
+
+    hlsList = [[d for d in range(hls_min, hls_max, hls_step)], [0 for d in range(hls_min, hls_max, hls_step)]]
+    i = 0
+    for hls in np.arange(hls_min, hls_max, hls_step):
+        d = NN(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], alpha, num_hidden, num, False, True, (hls,), 0)
+        print("HLS: " + str(hls))
+        percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num*3, False, "../Sarcasm/Sarcasm_result_NN_0.csv")
+        hlsList[1][i] = percent
+        i += 1
+    result = np.asfarray(hlsList)
+    np.savetxt("../Sarcasm/Sarcasm_result_NN_hls.csv", result, delimiter=",")
+
+if False:
+    alpha_min = 0.0001
+    alpha_max = 0.0021
+    alpha_step = 0.0001
+    num_hidden = 1
+    hls = 5
+
+    alphaList = [[d for d in np.arange(alpha_min, alpha_max, alpha_step)], [0.0 for d in np.arange(alpha_min, alpha_max, alpha_step)]]
+    i = 0
+    for alpha in np.arange(alpha_min, alpha_max, alpha_step):
+        d = NN(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], alpha, num_hidden, num, False, True, (hls,), 0)
+        print("alpha: " + str(alpha))
+        percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num*3, False, "../Sarcasm/Sarcasm_result_NN_0.csv")
+        alphaList[1][i] = percent
+        i += 1
+    result = np.asfarray(alphaList)
+    np.savetxt("../Sarcasm/Sarcasm_result_NN_alpha.csv", result, delimiter=",")
+
+if False:
+    iter_min = 5
+    iter_max = 156
+    iter_step = 10
+    num_hidden = 1
+    hls = 5
+    alpha = 0.000001
+
+    alphaList = [[d for d in np.arange(iter_min, iter_max, iter_step)], [0.0 for d in np.arange(iter_min, iter_max, iter_step)]]
+    i = 0
+    for iter in np.arange(iter_min, iter_max, iter_step):
+        d = NN(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], alpha, num_hidden, num, False, True, (hls,), 0, iter)
+        print("iter: " + str(iter))
+        percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num*3, False, "../Sarcasm/Sarcasm_result_NN_0.csv")
+        print("result: " + str(percent))
+        alphaList[1][i] = percent
+        i += 1
+    result = np.asfarray(alphaList)
+    np.savetxt("../Sarcasm/Sarcasm_result_NN_iter.csv", result, delimiter=",")
 
 # hidden=2
 # 53.1%   #hidden_layer_sizes = tuple([i*(features//(num_hidden+1)) for i in range(num_hidden, 0, -1)])
@@ -346,8 +427,8 @@ if False:
         #percent = d.Predict("../Sentiment/Sentiment_train_set_1.csv", num*3, False, "../Sentiment/Sentiment_NN_result_0.csv")
     print(random_state)
 
-if False:
-    alpha = 0.000001
+if True:
+    alpha = 0.0012
     num_hidden = 1
     percentList = [[0, 0, None, 1],[0, 1, None, 1],[0, 2, None, 1],[0, 3, None, 1]]
     for i in range(1,5):
@@ -360,7 +441,7 @@ if False:
         random_state = 0
         while percent < 65:
             random_state += 1
-            d = NN(fileList, alpha, num_hidden, num, False, True, (5,), random_state)
+            d = NN(fileList, alpha, num_hidden, num, False, True, (5,), random_state, 80)
             percent = d.Predict(fileList[0], num, False, f"../Sentiment/Sentiment_NN_temp_{i}.csv")
 
         percentList[i-1][0] = d.Predict(f"../Sentiment/Sentiment_train_set_{i}.csv", num*3, False, f"../Sentiment/Sentiment_NN_result_{i}.csv")
@@ -371,6 +452,87 @@ if False:
     percent = percentList[0][2].Predict("../Sentiment/Sentiment_test_set.csv", num*3, False, "../Sentiment/Sentiment_NN_final.csv")
     print("Random Seed: " + str(percentList[0][3]))
     print("Percent Match: " + str(percent))
+
+if False:
+    alpha = 0.000001
+    num_hidden = 1
+    hls = 5
+    testMinNum = 500
+    testMaxNum = 6100
+    testNumStep = 500
+
+    numList = [[d for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)]]
+    i = 0
+    for numb in np.arange(testMinNum, testMaxNum, testNumStep):
+        d = NN(["../Sentiment/Sentiment_train_set_1.csv","../Sentiment/Sentiment_train_set_2.csv","../Sentiment/Sentiment_train_set_3.csv"], alpha, num_hidden, numb, False, True, (hls,), 0)
+        print("Num: " + str(numb))
+        start = time.perf_counter()
+        percent = d.Predict("../Sentiment/Sentiment_train_set_4.csv", num*3, False, "../Sentiment/Sentiment_result_NN_0.csv")
+        totalTime = time.perf_counter() - start
+        print("Total Time: " + str(totalTime))
+        numList[1][i] = percent
+        numList[2][i] = totalTime
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sentiment/Sentiment_result_NN_vsSize.csv", result, delimiter=",")
+
+num = 2500
+
+if False:
+    alpha = 0.000001
+    num_hidden = 1
+    hls_min = 3
+    hls_max = 11
+    hls_step = 1
+
+    hlsList = [[d for d in range(hls_min, hls_max, hls_step)], [0 for d in range(hls_min, hls_max, hls_step)]]
+    i = 0
+    for hls in np.arange(hls_min, hls_max, hls_step):
+        d = NN(["../Sentiment/Sentiment_train_set_1.csv","../Sentiment/Sentiment_train_set_2.csv","../Sentiment/Sentiment_train_set_3.csv"], alpha, num_hidden, num, False, True, (hls,), 0)
+        print("HLS: " + str(hls))
+        percent = d.Predict("../Sentiment/Sentiment_train_set_4.csv", num*3, False, "../Sentiment/Sentiment_result_NN_0.csv")
+        hlsList[1][i] = percent
+        i += 1
+    result = np.asfarray(hlsList)
+    np.savetxt("../Sentiment/Sentiment_result_NN_hls.csv", result, delimiter=",")
+
+if False:
+    alpha_min = 0.0001
+    alpha_max = 0.0021
+    alpha_step = 0.0001
+    num_hidden = 1
+    hls = 5
+
+    alphaList = [[d for d in np.arange(alpha_min, alpha_max, alpha_step)], [0.0 for d in np.arange(alpha_min, alpha_max, alpha_step)]]
+    i = 0
+    for alpha in np.arange(alpha_min, alpha_max, alpha_step):
+        d = NN(["../Sentiment/Sentiment_train_set_1.csv","../Sentiment/Sentiment_train_set_2.csv","../Sentiment/Sentiment_train_set_3.csv"], alpha, num_hidden, num, False, True, (hls,), 0)
+        print("alpha: " + str(alpha))
+        percent = d.Predict("../Sentiment/Sentiment_train_set_4.csv", num*3, False, "../Sentiment/Sentiment_result_NN_0.csv")
+        alphaList[1][i] = percent
+        i += 1
+    result = np.asfarray(alphaList)
+    np.savetxt("../Sentiment/Sentiment_result_NN_alpha.csv", result, delimiter=",")
+
+if False:
+    iter_min = 5
+    iter_max = 156
+    iter_step = 10
+    num_hidden = 1
+    hls = 5
+    alpha = 0.000001
+
+    alphaList = [[d for d in np.arange(iter_min, iter_max, iter_step)], [0.0 for d in np.arange(iter_min, iter_max, iter_step)]]
+    i = 0
+    for iter in np.arange(iter_min, iter_max, iter_step):
+        d = NN(["../Sentiment/Sentiment_train_set_1.csv","../Sentiment/Sentiment_train_set_2.csv","../Sentiment/Sentiment_train_set_3.csv"], alpha, num_hidden, num, False, True, (hls,), 0, iter)
+        print("iter: " + str(iter))
+        percent = d.Predict("../Sentiment/Sentiment_train_set_4.csv", num*3, False, "../Sentiment/Sentiment_result_NN_0.csv")
+        print("result: " + str(percent))
+        alphaList[1][i] = percent
+        i += 1
+    result = np.asfarray(alphaList)
+    np.savetxt("../Sentiment/Sentiment_result_NN_iter.csv", result, delimiter=",")
 
 # Final 70%
 
