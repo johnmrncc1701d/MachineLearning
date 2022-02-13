@@ -246,7 +246,68 @@ if False:
     percent = percentList[0][2].Predict("../Sarcasm/Sarcasm_test_set.csv", num, False, "../Sarcasm/Sarcasm_final.csv")
     print("Tree Depth: " + str(percentList[0][2].clf.tree_.max_depth))
     print("Percent Match: " + str(percent))
+    
+# Sarcasm set - performance vs test size
+if False:
+    depth = 250
+    prune = 0.0007
+    testMinNum = 500
+    testMaxNum = 6100
+    testNumStep = 500
 
+    numList = [[d for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)]]
+    i = 0
+    for numb in np.arange(testMinNum, testMaxNum, testNumStep):
+        d = DTree(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], "entropy", None, prune, numb, depth, 1, False, False)
+        print("Num: " + str(numb))
+        start = time.perf_counter()
+        percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num, False, "../Sarcasm/Sarcasm_result_0.csv")
+        totalTime = time.perf_counter() - start
+        print("Total Time: " + str(totalTime))
+        numList[1][i] = percent
+        numList[2][i] = totalTime
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sarcasm/Sarcasm_result_vsSize.csv", result, delimiter=",")
+    
+num = 4000
+
+# Sarcasm set - performance vs prune
+if False:
+    depth = 250
+    testMinPrune = 0.0001
+    testMaxPrune = 0.0021
+    testPruneStep = 0.0001
+
+    pruneList = [[d for d in np.arange(testMinPrune, testMaxPrune, testPruneStep)], [0.0 for d in np.arange(testMinPrune, testMaxPrune, testPruneStep)]]
+    i = 0
+    for prune in np.arange(testMinPrune, testMaxPrune, testPruneStep):
+        d = DTree(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], "entropy", None, prune, num, depth, 1, False, False)
+        print("Prune: " + str(prune))
+        percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num, False, "../Sarcasm/Sarcasm_result_0.csv")
+        pruneList[1][i] = percent
+        i += 1
+    result = np.asfarray(pruneList)
+    np.savetxt("../Sarcasm/Sarcasm_result_prune.csv", result, delimiter=",")
+    
+# Sarcasm set - performance vs depth
+if False:
+    prune = 0.0007
+    testMinDepth = 50
+    testMaxDepth = 351
+    testDepthStep = 5
+
+    depthList = [[d for d in range(testMinDepth, testMaxDepth, testDepthStep)], [0 for d in range(testMinDepth, testMaxDepth, testDepthStep)]]
+    i = 0
+    for depth in np.arange(testMinDepth, testMaxDepth, testDepthStep):
+        d = DTree(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], "entropy", None, prune, num, depth, 1, False, False)
+        print("Depth: " + str(depth))
+        percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num, False, "../Sarcasm/Sarcasm_result_0.csv")
+        depthList[1][i] = percent
+        i += 1
+    result = np.asfarray(depthList)
+    np.savetxt("../Sarcasm/Sarcasm_result_depth.csv", result, delimiter=",")
+    
 # SARCASM TESTS
 # Depth of the tree was 304
 # Looks like some very minor improvement (1%) to limit the tree to 200 depth
@@ -295,7 +356,7 @@ if False:
     np.savetxt("../Sentiment/Sentiment_result_grid_2.csv", result, delimiter=",")
     
 # The final test run for sentiment set with sentences
-if False:
+if True:
     depth = 410
     prune = 0.00048
     percentList = [[0, 0, None],[0, 1, None],[0, 2, None],[0, 3, None]]
@@ -312,6 +373,67 @@ if False:
     percent = percentList[0][2].Predict("../Sentiment/Sentiment_test_set.csv", num, False, "../Sentiment/Sentiment_final.csv")
     print("Tree Depth: " + str(percentList[0][2].clf.tree_.max_depth))
     print("Percent Match: " + str(percent))
+    
+num = 5000
+
+# Sentiment set - performance vs test size
+if False:
+    depth = 410
+    prune = 0.00048
+    testMinNum = 500
+    testMaxNum = 6100
+    testNumStep = 500
+
+    numList = [[d for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)]]
+    i = 0
+    for numb in np.arange(testMinNum, testMaxNum, testNumStep):
+        d = DTree(["../Sentiment/Sentiment_train_set_1.csv","../Sentiment/Sentiment_train_set_2.csv","../Sentiment/Sentiment_train_set_3.csv"], "entropy", None, prune, numb, depth, 1, False, False)
+        print("Num: " + str(numb))
+        start = time.perf_counter()
+        percent = d.Predict("../Sentiment/Sentiment_train_set_4.csv", num, False, "../Sentiment/Sentiment_result_0.csv")
+        totalTime = time.perf_counter() - start
+        print("Total Time: " + str(totalTime))
+        numList[1][i] = percent
+        numList[2][i] = totalTime
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sentiment/Sentiment_result_vsSize.csv", result, delimiter=",")
+    
+# Sentiment set - performance vs prune
+if True:
+    depth = 410
+    testMinPrune = 0.0005
+    testMaxPrune = 0.001
+    testPruneStep = 0.00005
+
+    pruneList = [[d for d in np.arange(testMinPrune, testMaxPrune, testPruneStep)], [0.0 for d in np.arange(testMinPrune, testMaxPrune, testPruneStep)]]
+    i = 0
+    for prune in np.arange(testMinPrune, testMaxPrune, testPruneStep):
+        d = DTree(["../Sentiment/Sentiment_train_set_1.csv","../Sentiment/Sentiment_train_set_2.csv","../Sentiment/Sentiment_train_set_3.csv"], "entropy", None, prune, num, depth, 1, False, False)
+        print("Prune: " + str(prune))
+        percent = d.Predict("../Sentiment/Sentiment_train_set_4.csv", num, False, "../Sentiment/Sentiment_result_0.csv")
+        pruneList[1][i] = percent
+        i += 1
+    result = np.asfarray(pruneList)
+    np.savetxt("../Sentiment/Sentiment_result_prune.csv", result, delimiter=",")
+    
+# Sentiment set - performance vs depth
+if False:
+    prune = 0.00048
+    testMinDepth = 60
+    testMaxDepth = 550
+    testDepthStep = 50
+
+    depthList = [[d for d in range(testMinDepth, testMaxDepth, testDepthStep)], [0 for d in range(testMinDepth, testMaxDepth, testDepthStep)]]
+    i = 0
+    for depth in np.arange(testMinDepth, testMaxDepth, testDepthStep):
+        d = DTree(["../Sentiment/Sentiment_train_set_1.csv","../Sentiment/Sentiment_train_set_2.csv","../Sentiment/Sentiment_train_set_3.csv"], "entropy", None, prune, num, depth, 1, False, False)
+        print("Depth: " + str(depth))
+        percent = d.Predict("../Sentiment/Sentiment_train_set_4.csv", num, False, "../Sentiment/Sentiment_result_0.csv")
+        depthList[1][i] = percent
+        i += 1
+    result = np.asfarray(depthList)
+    np.savetxt("../Sentiment/Sentiment_result_depth.csv", result, delimiter=",")
 
 # SENTIMENT TESTS
 # Num Features: 38956
