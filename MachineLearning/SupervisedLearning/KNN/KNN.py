@@ -209,7 +209,7 @@ class KNN:
 
 num = 6000
 
-if True:
+if False:
     k = 3
     d = KNN(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], k, 'uniform', num, False, True)
     percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num, False, "../Sarcasm/Sarcasm_KNN_result_0.csv")
@@ -250,7 +250,62 @@ if False:
     percentList.sort(reverse=True)
     percent = percentList[0][2].Predict("../Sarcasm/Sarcasm_test_set.csv", num*3, False, "../Sarcasm/Sarcasm_KNN_final.csv")
     print("Percent Match: " + str(percent))
+
+if False:
+    k = 3
+    w = 'distance'
+    testMinNum = 500
+    testMaxNum = 6100
+    testNumStep = 500
+
+    numList = [[d for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)]]
+    i = 0
+    for numb in np.arange(testMinNum, testMaxNum, testNumStep):
+        d = KNN(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], k, w, numb, False, True)
+        print("Num: " + str(numb))
+        start = time.perf_counter()
+        percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num*3, False, "../Sarcasm/Sarcasm_result_kNN_0.csv")
+        totalTime = time.perf_counter() - start
+        print("Total Time: " + str(totalTime))
+        numList[1][i] = percent
+        numList[2][i] = totalTime
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sarcasm/Sarcasm_result_kNN_vsSize.csv", result, delimiter=",")
     
+num = 5000
+
+if False:
+    k_min = 1
+    k_max = 21
+    k_step = 1
+    w = 'distance'
+
+    numList = [[d for d in range(k_min, k_max, k_step)], [0 for d in range(k_min, k_max, k_step)]]
+    i = 0
+    for k in np.arange(k_min, k_max, k_step):
+        d = KNN(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], k, w, num, False, True)
+        print("K: " + str(k))
+        percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num*3, False, "../Sarcasm/Sarcasm_result_kNN_0.csv")
+        numList[1][i] = percent
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sarcasm/Sarcasm_result_kNN_K.csv", result, delimiter=",")
+
+if False:
+    k = 3
+
+    numList = [[d for d in range(0, 2, 1)], [0 for d in range(0, 2, 1)]]
+    i = 0
+    for w in ['uniform', 'distance']:
+        d = KNN(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], k, w, num, False, True)
+        print("W: " + w)
+        percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num*3, False, "../Sarcasm/Sarcasm_result_kNN_0.csv")
+        numList[1][i] = percent
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sarcasm/Sarcasm_result_kNN_W.csv", result, delimiter=",")
+
 # @ 6000 samples, k = 1, ~69% Euclidian distance
 # grid 3->2->1; distance seems to be slightly better than uniform; Over 1 - 20 k, there seems to be multiple hills
 # @ 6000 samples, k = 1, ~71% Manhatten distance
@@ -277,8 +332,8 @@ if False:
     result = np.asfarray(kList)
     np.savetxt("../Sentiment/Sentiment_KNN_result_grid1.csv", result, delimiter=",")
 
-if False:
-    k = 17
+if True:
+    k = 20
     percentList = [[0, 0, None],[0, 1, None],[0, 2, None],[0, 3, None]]
     for i in range(1,5):
         fileList = []
@@ -295,6 +350,61 @@ if False:
     percentList.sort(reverse=True)
     percent = percentList[0][2].Predict("../Sentiment/Sentiment_test_set.csv", num*3, False, "../Sentiment/Sentiment_KNN_final.csv")
     print("Percent Match: " + str(percent))
+
+if False:
+    k = 3
+    w = 'distance'
+    testMinNum = 500
+    testMaxNum = 6100
+    testNumStep = 500
+
+    numList = [[d for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)]]
+    i = 0
+    for numb in np.arange(testMinNum, testMaxNum, testNumStep):
+        d = KNN(["../Sentiment/Sentiment_train_set_1.csv","../Sentiment/Sentiment_train_set_2.csv","../Sentiment/Sentiment_train_set_3.csv"], k, w, numb, False, True)
+        print("Num: " + str(numb))
+        start = time.perf_counter()
+        percent = d.Predict("../Sentiment/Sentiment_train_set_4.csv", num*3, False, "../Sentiment/Sentiment_result_kNN_0.csv")
+        totalTime = time.perf_counter() - start
+        print("Total Time: " + str(totalTime))
+        numList[1][i] = percent
+        numList[2][i] = totalTime
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sentiment/Sentiment_result_kNN_vsSize.csv", result, delimiter=",")
+    
+num = 5000
+
+if False:
+    k_min = 1
+    k_max = 21
+    k_step = 1
+    w = 'distance'
+
+    numList = [[d for d in range(k_min, k_max, k_step)], [0 for d in range(k_min, k_max, k_step)]]
+    i = 0
+    for k in np.arange(k_min, k_max, k_step):
+        d = KNN(["../Sentiment/Sentiment_train_set_1.csv","../Sentiment/Sentiment_train_set_2.csv","../Sentiment/Sentiment_train_set_3.csv"], k, w, num, False, True)
+        print("K: " + str(k))
+        percent = d.Predict("../Sentiment/Sentiment_train_set_4.csv", num*3, False, "../Sentiment/Sentiment_result_kNN_0.csv")
+        numList[1][i] = percent
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sentiment/Sentiment_result_kNN_K.csv", result, delimiter=",")
+
+if False:
+    k = 3
+
+    numList = [[d for d in range(0, 2, 1)], [0 for d in range(0, 2, 1)]]
+    i = 0
+    for w in ['uniform', 'distance']:
+        d = KNN(["../Sentiment/Sentiment_train_set_1.csv","../Sentiment/Sentiment_train_set_2.csv","../Sentiment/Sentiment_train_set_3.csv"], k, w, num, False, True)
+        print("W: " + w)
+        percent = d.Predict("../Sentiment/Sentiment_train_set_4.csv", num*3, False, "../Sentiment/Sentiment_result_kNN_0.csv")
+        numList[1][i] = percent
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sentiment/Sentiment_result_kNN_W.csv", result, delimiter=",")
     
 # grid looking like a gradual increase
 
