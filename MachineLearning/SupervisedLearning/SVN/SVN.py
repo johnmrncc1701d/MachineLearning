@@ -26,7 +26,7 @@ def PrintDot():
         print(".", end="", flush=True)
 
 class SVM:
-    def __init__(self, file, kernal_func, maxLines, multipleText, removeLowVariance, random_state=None):
+    def __init__(self, file, method_func, maxLines, multipleText, removeLowVariance, random_state=None, kernel_func='rbf', tolerance=0.001, max_iter=-1):
         # Find all the words
         def AddWords(self, line):
             if line == "":
@@ -130,15 +130,19 @@ class SVM:
         print("\nCreating the Vector Machine", flush=True)
         print("Num Features: " + str(len(self.dct.keys())))
         print("Num Samples: " + str(len(valueList)))
-        print("Kernal Function: " + kernal_func)
+        print("Method Function: " + method_func)
+        print("Kernel Function: " + kernel_func)
         start = time.perf_counter()
-        if kernal_func == "SVC":
-            clf = svm.SVC(cache_size=1000, verbose=True, random_state=random_state)
-        elif kernal_func == "NuSVC":
-            clf = svm.NuSVC(cache_size=1000, verbose=True, random_state=random_state)
-        elif kernal_func == "LinearSVC":
-            clf = svm.LinearSVC(verbose=True, random_state=random_state)
-        self.clf = clf.fit(sampleList, valueList)
+        if method_func == "SVC":
+            clf = svm.SVC(cache_size=1000, kernel=kernel_func, tol=tolerance, verbose=True, random_state=random_state, max_iter=max_iter)
+        elif method_func == "NuSVC":
+            clf = svm.NuSVC(cache_size=1000, kernel=kernel_func, tol=tolerance, verbose=True, random_state=random_state, max_iter=max_iter)
+        elif method_func == "LinearSVC":
+            clf = svm.LinearSVC(verbose=True, tol=tolerance, random_state=random_state, max_iter=max_iter)
+        if kernel_func == 'precomputed':
+            self.clf = clf.fit(sampleList, sampleList)
+        else:
+            self.clf = clf.fit(sampleList, valueList)
         print("Time: " + str(time.perf_counter() - start))
 
     def Predict(self, file, maxLines, multipleText, outFile):
@@ -214,7 +218,7 @@ class SVM:
 
 num = 6000
 
-if True:
+if False:
     percent = 0
     random_state = 0
     while percent < 65:
@@ -258,9 +262,9 @@ if False:
             fileList.append(f"../Sarcasm/Sarcasm_train_set_{j}.csv")
             
         random_state = 1
-        #d = SVM(fileList, "SVC", num, False, True, random_state)
+        d = SVM(fileList, "SVC", num, False, True, random_state, 'rbf', 0.037, -1)
         #d = SVM(fileList, "NuSVC", num, False, True, random_state)
-        d = SVM(fileList, "LinearSVC", num, False, True, random_state)
+        #d = SVM(fileList, "LinearSVC", num, False, True, random_state)
 
         percentList[i-1][0] = d.Predict(f"../Sarcasm/Sarcasm_train_set_{i}.csv", num*3, False, f"../Sarcasm/Sarcasm_SVM_LinearSVC_result_{i}.csv")
         percentList[i-1][2] = d
@@ -268,6 +272,87 @@ if False:
     percentList.sort(reverse=True)
     percent = percentList[0][2].Predict("../Sarcasm/Sarcasm_test_set.csv", num*3, False, "../Sarcasm/Sarcasm_SVM_LinearSVC_final.csv")
     print("Percent Match: " + str(percent))
+
+if False:
+    func = "SVC"
+    testMinNum = 500
+    testMaxNum = 6100
+    testNumStep = 500
+    random_state = 1
+    kernel_func='rbf'
+    tolerance=0.001
+
+    numList = [[d for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)]]
+    i = 0
+    for numb in np.arange(testMinNum, testMaxNum, testNumStep):
+        d = SVM(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], func, numb, False, True, random_state, kernel_func, tolerance)
+        print("Num: " + str(numb))
+        start = time.perf_counter()
+        percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num*3, False, "../Sarcasm/Sarcasm_result_SVN_0.csv")
+        totalTime = time.perf_counter() - start
+        print("Total Time: " + str(totalTime))
+        numList[1][i] = percent
+        numList[2][i] = totalTime
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sarcasm/Sarcasm_result_SVN_vsSize.csv", result, delimiter=",")
+    
+num = 4000
+
+if False:
+    func = "SVC"
+    random_state = 1
+    tolerance=0.001
+
+    numList = [[d for d in range(0, 4, 1)], [0 for d in range(0, 4, 1)]]
+    i = 0
+    for kernel_func in ['linear', 'poly', 'rbf', 'sigmoid']:
+        d = SVM(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], func, num, False, True, random_state, kernel_func, tolerance)
+        print("Kernel: " + kernel_func)
+        percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num*3, False, "../Sarcasm/Sarcasm_result_SVN_0.csv")
+        numList[1][i] = percent
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sarcasm/Sarcasm_result_SVN_kernel.csv", result, delimiter=",")
+
+if False:
+    func = "SVC"
+    kernel_func='rbf'
+    random_state = 1
+    min_tol=0.001
+    max_tol=0.041
+    step_tol=0.002
+
+    numList = [[d for d in np.arange(min_tol, max_tol, step_tol)], [0.0 for d in np.arange(min_tol, max_tol, step_tol)]]
+    i = 0
+    for tolerance in np.arange(min_tol, max_tol, step_tol):
+        d = SVM(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], func, num, False, True, random_state, kernel_func, tolerance)
+        print("Tolerance: " + str(tolerance))
+        percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num*3, False, "../Sarcasm/Sarcasm_result_SVN_0.csv")
+        numList[1][i] = percent
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sarcasm/Sarcasm_result_SVN_tolerance.csv", result, delimiter=",")
+
+if True:
+    func = "SVC"
+    testMinIter = 1000
+    testMaxIter = 8000
+    testStepIter = 1000
+    random_state = 1
+    kernel_func='rbf'
+    tolerance=0.001
+
+    numList = [[d for d in range(testMinIter, testMaxIter, testStepIter)], [0 for d in range(testMinIter, testMaxIter, testStepIter)]]
+    i = 0
+    for iter in np.arange(testMinIter, testMaxIter, testStepIter):
+        d = SVM(["../Sarcasm/Sarcasm_train_set_1.csv","../Sarcasm/Sarcasm_train_set_2.csv","../Sarcasm/Sarcasm_train_set_3.csv"], func, num, False, True, random_state, kernel_func, tolerance, iter)
+        print("Iter: " + str(iter))
+        percent = d.Predict("../Sarcasm/Sarcasm_train_set_4.csv", num*3, False, "../Sarcasm/Sarcasm_result_SVN_0.csv")
+        numList[1][i] = percent
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sarcasm/Sarcasm_result_SVN_iter.csv", result, delimiter=",")
 
 ##############
 
@@ -300,7 +385,7 @@ if False:
     print(random_state)
 
 if False:
-    for k in ["SVC", "NuSVC", "LinearSVC"]:
+    for k in ["SVC"]: #, "NuSVC", "LinearSVC"
         percentList = [[0, 0, None],[0, 1, None],[0, 2, None],[0, 3, None]]
         for i in range(1,5):
             fileList = []
@@ -309,7 +394,7 @@ if False:
                 fileList.append(f"../Sentiment/Sentiment_train_set_{j}.csv")
             
             random_state = 1
-            d = SVM(fileList, k, num, False, True, random_state)
+            d = SVM(fileList, k, num, False, True, random_state, 'rbf', 0.011, -1)
 
             percentList[i-1][0] = d.Predict(f"../Sentiment/Sentiment_train_set_{i}.csv", num*3, False, f"../Sentiment/Sentiment_SVM_{k}_result_{i}.csv")
             percentList[i-1][2] = d
@@ -317,6 +402,87 @@ if False:
         percentList.sort(reverse=True)
         percent = percentList[0][2].Predict("../Sentiment/Sentiment_test_set.csv", num*3, False, f"../Sentiment/Sentiment_SVM_{k}_final.csv")
         print("Percent Match: " + str(percent))
+
+if False:
+    func = "SVC"
+    testMinNum = 500
+    testMaxNum = 6100
+    testNumStep = 500
+    random_state = 1
+    kernel_func='rbf'
+    tolerance=0.001
+
+    numList = [[d for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)], [0 for d in range(testMinNum, testMaxNum, testNumStep)]]
+    i = 0
+    for numb in np.arange(testMinNum, testMaxNum, testNumStep):
+        d = SVM(["../Sentiment/Sentiment_train_set_1.csv","../Sentiment/Sentiment_train_set_2.csv","../Sentiment/Sentiment_train_set_3.csv"], func, numb, False, True, random_state, kernel_func, tolerance)
+        print("Num: " + str(numb))
+        start = time.perf_counter()
+        percent = d.Predict("../Sentiment/Sentiment_train_set_4.csv", num*3, False, "../Sentiment/Sentiment_result_SVN_0.csv")
+        totalTime = time.perf_counter() - start
+        print("Total Time: " + str(totalTime))
+        numList[1][i] = percent
+        numList[2][i] = totalTime
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sentiment/Sentiment_result_SVN_vsSize.csv", result, delimiter=",")
+    
+num = 3500
+
+if False:
+    func = "SVC"
+    random_state = 1
+    tolerance=0.001
+
+    numList = [[d for d in range(0, 4, 1)], [0 for d in range(0, 4, 1)]]
+    i = 0
+    for kernel_func in ['linear', 'poly', 'rbf', 'sigmoid']:
+        d = SVM(["../Sentiment/Sentiment_train_set_1.csv","../Sentiment/Sentiment_train_set_2.csv","../Sentiment/Sentiment_train_set_3.csv"], func, num, False, True, random_state, kernel_func, tolerance)
+        print("Kernel: " + kernel_func)
+        percent = d.Predict("../Sentiment/Sentiment_train_set_4.csv", num*3, False, "../Sentiment/Sentiment_result_SVN_0.csv")
+        numList[1][i] = percent
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sentiment/Sentiment_result_SVN_kernel.csv", result, delimiter=",")
+
+if False:
+    func = "SVC"
+    kernel_func='rbf'
+    random_state = 1
+    min_tol=0.001
+    max_tol=0.041
+    step_tol=0.002
+    
+    numList = [[d for d in np.arange(min_tol, max_tol, step_tol)], [0.0 for d in np.arange(min_tol, max_tol, step_tol)]]
+    i = 0
+    for tolerance in np.arange(min_tol, max_tol, step_tol):
+        d = SVM(["../Sentiment/Sentiment_train_set_1.csv","../Sentiment/Sentiment_train_set_2.csv","../Sentiment/Sentiment_train_set_3.csv"], func, num, False, True, random_state, kernel_func, tolerance)
+        print("Tolerance: " + str(tolerance))
+        percent = d.Predict("../Sentiment/Sentiment_train_set_4.csv", num*3, False, "../Sentiment/Sentiment_result_SVN_0.csv")
+        numList[1][i] = percent
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sentiment/Sentiment_result_SVN_tolerance.csv", result, delimiter=",")
+
+if True:
+    func = "SVC"
+    testMinIter = 1000
+    testMaxIter = 8000
+    testStepIter = 1000
+    random_state = 1
+    kernel_func='rbf'
+    tolerance=0.001
+
+    numList = [[d for d in range(testMinIter, testMaxIter, testStepIter)], [0 for d in range(testMinIter, testMaxIter, testStepIter)]]
+    i = 0
+    for iter in np.arange(testMinIter, testMaxIter, testStepIter):
+        d = SVM(["../Sentiment/Sentiment_train_set_1.csv","../Sentiment/Sentiment_train_set_2.csv","../Sentiment/Sentiment_train_set_3.csv"], func, num, False, True, random_state, kernel_func, tolerance, iter)
+        print("Iter: " + str(iter))
+        percent = d.Predict("../Sentiment/Sentiment_train_set_4.csv", num*3, False, "../Sentiment/Sentiment_result_SVN_0.csv")
+        numList[1][i] = percent
+        i += 1
+    result = np.asfarray(numList)
+    np.savetxt("../Sentiment/Sentiment_result_SVN_iter.csv", result, delimiter=",")
 
 ################
 
