@@ -513,7 +513,7 @@ TEXT,VALUE,PRED,CORRECT
 "I keep burning my head with my hairdryer.....owww ",-1,-1,MATCH
 "my mom took laila to the vet this afternoon...bad bump on her head.  my poor girl!",-1,-1,MATCH
 "At The AirPort on data roaming... Wishing i had never come to BCN i got fired from The bar cause i didn't work on monday ",-1,-1,MATCH
-"@ramblingho don't drown!  And you are likely to flood the apt below too.   you deserve some good luck.  No looking at airfares though...",-1,1,FAIL
+"@ramblingho don't drown!  And you are likely to flood the apt below too.   you deserve some good luck.  No looking at airfares though...",-1,-1,MATCH
 "@himpster I'm sorry ",-1,-1,MATCH
 "@MandyBookLover @NovaWildstar Good news for you both ",1,1,MATCH
 "@shefaly @adriana872 I think remarkably few ppl have any concept of autonomy- most take both freedoms &amp; impositions for granted ",-1,-1,MATCH
@@ -1038,7 +1038,7 @@ TEXT,VALUE,PRED,CORRECT
 "@mitchelmusso hey..u're so cute ",1,-1,FAIL
 "@mileycyrus and @ddlovato it would be so awesome to meet and pray with you/them... what a wonderful day that would be! ",1,1,MATCH
 "@EricaRae_12 I have a really awkward class schedule   what time will you be here until??",-1,1,FAIL
-"@jordanknight what time is it on ur island? everytime u tweets i'm out.. thats sad! ",-1,1,FAIL
+"@jordanknight what time is it on ur island? everytime u tweets i'm out.. thats sad! ",-1,-1,MATCH
 "First Show in AUS Tonight: Sydney....watching the opening band. I wish SYG didn't play right before us so I could watch their full set ",-1,-1,MATCH
 "@AnnaPaz naw  we missed on accounta bein in Vegas :p but we we're there in spirit ;)",-1,-1,MATCH
 "is up to no good.  has to leave for camping in 10 hours ! .. and cannot sleep ",-1,-1,MATCH
@@ -4182,7 +4182,7 @@ TEXT,VALUE,PRED,CORRECT
 "Looks like I'm having a Frosty for dinner tonight. Can't eat anything hot ",-1,-1,MATCH
 "banana chocolate chip cake with my sis. yay saturday ",1,1,MATCH
 "@frogboy229 hmm not even the bird could resist your sexy back ",1,-1,FAIL
-"@RochelleVeturis is it her accent? lol guess i'll have to discuss the episodes each week by myself ",1,-1,FAIL
+"@RochelleVeturis is it her accent? lol guess i'll have to discuss the episodes each week by myself ",1,1,MATCH
 "oh the story to tell when i get home ",1,-1,FAIL
 "@etherjammer Happy Friday!  ",1,1,MATCH
 "About to start at work ",-1,-1,MATCH
@@ -7902,7 +7902,7 @@ TEXT,VALUE,PRED,CORRECT
 "@pamelatyll can i see that online? ",-1,1,FAIL
 "@dawningthoughts and let me know when the opening is, i'll be there ",1,1,MATCH
 "I have a new home help. She's lovely, &amp; crucially she is very good at her job. It's a shame they work to a rota system. ",-1,-1,MATCH
-"@MelissaInTheSky  hi melissa!  how is painting?  xo tob",1,1,MATCH
+"@MelissaInTheSky  hi melissa!  how is painting?  xo tob",1,-1,FAIL
 "@patrick_ritchie well don't tease us like that ",-1,-1,MATCH
 "@James_Phelps jacob i guess ",1,1,MATCH
 "@LenaHanson  youre  alive!!!!!!!! yay!! ",1,1,MATCH
@@ -11523,7 +11523,7 @@ TEXT,VALUE,PRED,CORRECT
 "Looks like a weather scrub is in the offing for the shuttle ",-1,1,FAIL
 "@mileycyrus Ha. Sounds fun? Say hi to him for me ",1,-1,FAIL
 "Ugh why am I not @ pride? ",-1,-1,MATCH
-"@YourFav_Redhead lolz thanks but I think #adamisarockstar is the real deal and WTF with Procter &amp; Gamble trending now? ",-1,1,FAIL
+"@YourFav_Redhead lolz thanks but I think #adamisarockstar is the real deal and WTF with Procter &amp; Gamble trending now? ",-1,-1,MATCH
 "@gentlegroove Aw, that stinks that you can't see Joel tonight ",-1,-1,MATCH
 "@kyleandjackieo hey guys my friends and i made this movie, please watch it, and promote  http://bit.ly/2SURW  xoxo",1,1,MATCH
 "@vinuthomas true but just to have my identity stamp ",1,-1,FAIL
@@ -14789,7 +14789,7 @@ TEXT,VALUE,PRED,CORRECT
 "Just painted my nails the pink colour I've wanted to paint them for ages ",1,1,MATCH
 "@mommyto6kids that is such a cute picture! he looks so proud. ",1,-1,FAIL
 "@Ricardo3G  I think so too",-1,-1,MATCH
-"@TheIntriguing1 dont do it kiki!!! ",-1,-1,MATCH
+"@TheIntriguing1 dont do it kiki!!! ",-1,1,FAIL
 "stuff it. i'll wear ma grey ones ",1,1,MATCH
 "Final defenses taking place @ EBS - Monday, Tuesday, Wednesday...  Good luck",1,1,MATCH
 "Bon jour!!!! with the Arizona bay by soulsavers ",1,1,MATCH
@@ -17230,7 +17230,7 @@ TEXT,VALUE,PRED,CORRECT
 "@danyeleg.  LOL...I will give you that moment.  Will still has movies to make me forget Seven Pounds...like I, Robot *maybe not* ",1,-1,FAIL
 "moving in a few weeks, yay.. going to have a nice big garage all to myself!!!! ",1,1,MATCH
 "Subwaysian - Dillon - Blue Juice = ",-1,1,FAIL
-"please follow me . ",1,-1,FAIL
+"please follow me . ",1,1,MATCH
 "So today turned out terrible.. :/ sleep soon I guess. ",-1,-1,MATCH
 "@jaykpurdy Oh Jayk.. when you will ever reply me ",-1,-1,MATCH
 "On my way to work at 5am ",-1,-1,MATCH
@@ -18000,4 +18000,4 @@ TEXT,VALUE,PRED,CORRECT
 "@jamesotto Get's my vote to.  We don't have 5 Guys or In/Out in Indiana either ",-1,-1,MATCH
 "@elibrody Noooo. And you didn't leave anything for me? ",-1,-1,MATCH
 "Well that's two weeks down with alcohol just another 4 to go ",-1,-1,MATCH
-Tests:,18000,Matches:,12588,Percent:,69.93333333333334
+Tests:,18000,Matches:,12591,Percent:,69.95

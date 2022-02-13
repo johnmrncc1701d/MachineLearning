@@ -1511,7 +1511,7 @@ TEXT,VALUE,PRED,CORRECT
 "First thing first...I'm out of cigs ",-1,1,FAIL
 "@barkerbell Wow that website is great!  So much fun and helps world hunger too ",1,-1,FAIL
 "#followfriday @allworknosleep @kfeddd @capehartmike @capehartjason @andrewanytime &lt;-yeah weird group i know. ",1,-1,FAIL
-"ready for my close up lol!!! Man its so ugly outside  where did the sun go?",-1,-1,MATCH
+"ready for my close up lol!!! Man its so ugly outside  where did the sun go?",-1,1,FAIL
 "sunday is so fucking boringg.. shouldve went shopping. hate it living here. its in the middle of nowhere. i wanna MOVE ",-1,-1,MATCH
 "@Countingcrows http://twitpic.com/6gbdv - Lovely, how was the last concert?  I was listening it through my phone, my friend call me an ...",1,-1,FAIL
 "@outofmyarse My faves are American &amp; Cdn Idol too lol. Thx for the # ",1,-1,FAIL
@@ -2078,7 +2078,7 @@ TEXT,VALUE,PRED,CORRECT
 "@andymac720 hello andy. how are ya?  finally met u here. i'v been your fan since i'm on my high school. working already ",1,1,MATCH
 "@jfouts   Thank YOU for the excellent insights . Look forward to future posts from you.",1,1,MATCH
 "Gahh its too early! ",-1,-1,MATCH
-"5th year timetable is balls double english then double maths tomorrow.. not looking forward to it! ",-1,1,FAIL
+"5th year timetable is balls double english then double maths tomorrow.. not looking forward to it! ",-1,-1,MATCH
 "@tisonfire I really want to hear smagghe ",-1,-1,MATCH
 "Its been a long night!  My mom and bro both was shot 2night. Thank GOd there home and recovering!",-1,-1,MATCH
 "@bashleyyy I'm so sorry about your cat ",-1,-1,MATCH
@@ -7360,7 +7360,7 @@ TEXT,VALUE,PRED,CORRECT
 "@Peytoncameron awh  Ah i know! His voice is amazing",1,1,MATCH
 "che just ran her paw down my side in her tailwagging frenzy and one of them nails left a deep bleeding gash. ",-1,-1,MATCH
 "I love driving this truck  and glad that my day got a little better",1,1,MATCH
-"just got home from greek fest with erin, jimmy, and casey. the fireworks were pretty awesome. i will never see &quot;the prodigy&quot; ever again ",-1,-1,MATCH
+"just got home from greek fest with erin, jimmy, and casey. the fireworks were pretty awesome. i will never see &quot;the prodigy&quot; ever again ",-1,1,FAIL
 "@matthewmoloney Thanks for the follow Friday rec  x",1,1,MATCH
 "it's 1 am, and my brain just doesn't want to turn off ",-1,-1,MATCH
 "oh man, i so don't want to open outlook right now, maybe i'll install this update it's asking for? vacation = over ",-1,-1,MATCH
@@ -8117,7 +8117,7 @@ TEXT,VALUE,PRED,CORRECT
 "@dbackschick i googled but didn't find anything... give me a url....  sad that google let me down, it happens so rarely...",-1,-1,MATCH
 "All right... night all   must read to the boys.  Tell your friends about June 6... let's enjoy each others' company next Sat.! #tcot",1,1,MATCH
 "Laaaaaaaaaaaame  still so much to do... some one get me out here please ! See you guys",-1,1,FAIL
-"@chef69 yum, i'm half greek so i love anything mediterranean/exotic ",1,1,MATCH
+"@chef69 yum, i'm half greek so i love anything mediterranean/exotic ",1,-1,FAIL
 "BGT final tonight! ",1,1,MATCH
 "Flames currently losing to Chicago 3-2 2min left in the 3rd.  Pretty good game tonight.",-1,1,FAIL
 "I really tried to sweet talk my way out of this middle seat, but alas, to no avail. Five hours of bliss on this very full flight ",-1,-1,MATCH
@@ -8568,7 +8568,7 @@ TEXT,VALUE,PRED,CORRECT
 "I don't miss iStock until it goes away ",-1,-1,MATCH
 "@Dan1991 i love that you're trying really hard to get banned ",1,-1,FAIL
 "Thanks for the early FF @Lady_Twitster  Please follow her, she's a lady, but definitely not a twit! #followfriday",1,1,MATCH
-"http://twitpic.com/7h4sc - L O V E going to the circus! My ticket paid for his lunch ",1,1,MATCH
+"http://twitpic.com/7h4sc - L O V E going to the circus! My ticket paid for his lunch ",1,-1,FAIL
 "Trackball on my Blackberry died: Can't scroll down anymore and Vodafone refuses to give me a loaner or for that matter, any replacement ",-1,-1,MATCH
 "@PinoyTarsier awwwh thank u beary much 4 such nice wrds (blushie) ♥ ",1,1,MATCH
 "Thought we had a great retail space in Apex picked out...but there's a lease pending...back to searching for a location ",-1,1,FAIL
@@ -8597,7 +8597,7 @@ TEXT,VALUE,PRED,CORRECT
 "having bad technology day - blue screen of death on my notebook ",-1,-1,MATCH
 "watching BME pain olympics with friends ",-1,1,FAIL
 "CHECK OUT MY MUSIC!!! New song &quot;Electromagnetic&quot; up right now!!! Have a listen, add me on myspace!!! Much love! ",1,1,MATCH
-"absolutely exhausted from training  need to up my fitnesssss",-1,-1,MATCH
+"absolutely exhausted from training  need to up my fitnesssss",-1,1,FAIL
 "Revs are down 1-0 at the half  Shittttttt",-1,-1,MATCH
 "soo bored someone amuse me! ",-1,-1,MATCH
 "im kinda not in the best of moods right now! ",-1,-1,MATCH
@@ -14233,7 +14233,7 @@ TEXT,VALUE,PRED,CORRECT
 "@TristaJaye I was sad you weren't in class yesterday.  And also - I ate an icecream sandwhich this weekend. It was deliciouso",-1,-1,MATCH
 "Pray to Dreamhost hosting not to ban our site to huge traffic now ",1,-1,FAIL
 "@chewysun you'll be proud, i'm keeping up! latest chapter of IPHRL now reviewed by ME  ?",1,1,MATCH
-"another bicyclist killed in Orange County  http://bit.ly/3MfB0",-1,-1,MATCH
+"another bicyclist killed in Orange County  http://bit.ly/3MfB0",-1,1,FAIL
 "@lilyroseallen currently in a discussion with a mate about &quot;Him&quot;. I think it's about god, mate thinks it's about GWB. Who's right? ",1,1,MATCH
 "@goldaraphael You have us all curious now !  AB",1,1,MATCH
 "woahh there is no one at school.... where are all my senior friends? ",-1,-1,MATCH
@@ -18000,4 +18000,4 @@ TEXT,VALUE,PRED,CORRECT
 "Eattin @ the diner wit @flyyseni &amp; @djredz..a waste of an outfit..but tryna make the best of it ",-1,1,FAIL
 "@cuppy Had I the time to spare, I'd play Darkfall personally ",1,-1,FAIL
 "@vblackmon89 Im fine now.. It got put back in its place ",1,1,MATCH
-Tests:,18000,Matches:,12550,Percent:,69.72222222222223
+Tests:,18000,Matches:,12545,Percent:,69.69444444444444

@@ -3365,7 +3365,7 @@ TEXT,VALUE,PRED,CORRECT
 "I have myself barely 4 hrs of sleep and the Lord blessed me with what feels like 8, but it came with a sore throat  pumpin out this paper!",-1,-1,MATCH
 "@iandvedwards Mac Pro looks good, but yeah, very expensive  good luck with the savings!",1,1,MATCH
 "@Sazzz_ OMG wow! Lucky! 12th July, Liverpool? I wanted to go but I have a trip to Italy right after it ",-1,-1,MATCH
-"@thewesleychan Major hardcore studying for finals next week  Did u go shopping? I know they got a good outlet in Portland that has Puma!",-1,-1,MATCH
+"@thewesleychan Major hardcore studying for finals next week  Did u go shopping? I know they got a good outlet in Portland that has Puma!",-1,1,FAIL
 "Just got finsh crushin the stage @ bino's beat down comedy show..... Now on to a b-day party ",1,1,MATCH
 "The future is tomorrow.. the limit is the sky  Love and Basketball...",1,1,MATCH
 "@kingsthings ouch!!!!!! thats expensive ",-1,-1,MATCH
@@ -4525,7 +4525,7 @@ TEXT,VALUE,PRED,CORRECT
 "had a fun time tonight ",1,1,MATCH
 "aw shucks just heard chelsea won #facup 2 - 1 chelsea - everton  why can't the little guy win for once",-1,-1,MATCH
 "@samanthai perhaps - not a bad thing - just so many big things goin on ",-1,-1,MATCH
-"can't believe it's a sunny day! ",1,-1,FAIL
+"can't believe it's a sunny day! ",1,1,MATCH
 "Maybe one day some scientists will put my brain in a robot body.  Then I can walk around and destroy buildings and shit.  I'll be famous  ",1,1,MATCH
 "Just back home... Did I just miss a big match? Likely scenario: Aussies out of T20 WC...  #cricket #T20 #Worldcup",1,-1,FAIL
 "Game was okay, we lost, and I hurt really bad. Like almost broke my wrist hurt ",-1,-1,MATCH
@@ -7036,7 +7036,7 @@ TEXT,VALUE,PRED,CORRECT
 "i love club starz! i love spring break! mm deffffinitely dope ",1,1,MATCH
 "GM to Sell Hummer to Chinese Firm ......  http://tinyurl.com/m9sj3r",-1,1,FAIL
 "@THEREALHOTT good... thats what i was thinking.. new music come out ... throw the one with HOTT on it! for the blogs n shit ",1,-1,FAIL
-"just came home   today was fun",1,-1,FAIL
+"just came home   today was fun",1,1,MATCH
 "i have 3 exams 2morrow - which i'm DREADING...i really can't do badly in these...they're really important ",-1,-1,MATCH
 "@hyperradiant I am a hummus addict. Would love to taste it! But I'm not doing your laundry ",1,1,MATCH
 "@626aicitroM Yeah, yeah. Less #degenerate than current occupants of U.S. House of Reprehensibles. You can bet on that. Like MineThatBird. ",1,1,MATCH
@@ -10661,7 +10661,7 @@ TEXT,VALUE,PRED,CORRECT
 "Minnie in the morning ",1,1,MATCH
 "Cut my toe on the chair...While I was sitting doing... NOTHING.And its bleeding pretty bad  eww  a huge piece of skin hanging off of it!!!",-1,-1,MATCH
 "ahh just finished my fashion show case power point for fashion design it was so hard ",-1,-1,MATCH
-"@sassyele yay! done that yest too! ouch! put fact 20 on for sun, obv not enough  must get better stuff today! ;)",-1,1,FAIL
+"@sassyele yay! done that yest too! ouch! put fact 20 on for sun, obv not enough  must get better stuff today! ;)",-1,-1,MATCH
 "just bought my vegas tickets. Be there July 2nd. Failed at my first two attempts to satty the ME though ",-1,-1,MATCH
 "@tonigirl14 Why You Sad  if you sad i sad lol",-1,-1,MATCH
 "Spending the night for once. I actually am at peace with my decision!  lol. ",1,1,MATCH
@@ -11103,7 +11103,7 @@ TEXT,VALUE,PRED,CORRECT
 "i fancy corey feldman. and keifer? sunderland? i can never spell it right ",-1,-1,MATCH
 "@mileycyrus http://twitpic.com/4fzo7 - Brandi looks great here *-* But I prefer you as you're now..don't dye your hair ",-1,1,FAIL
 "whyy does my arm hurt?? ",-1,-1,MATCH
-"@essentialimage what's crazy is I looked there first. you'd think sparrows would be easier to come by! I finally just made my own ",1,1,MATCH
+"@essentialimage what's crazy is I looked there first. you'd think sparrows would be easier to come by! I finally just made my own ",1,-1,FAIL
 "@Lioness01 Lucky itch, cha me hav 2 go fetch my din dins ",-1,-1,MATCH
 "@daniela_morris I think it would cool ",1,1,MATCH
 "@letterboys That's awesome! Congrats! ",1,1,MATCH
@@ -15640,7 +15640,7 @@ TEXT,VALUE,PRED,CORRECT
 "woohoo....laying in bed...had a lot of fun today...went to SF...Yelled at some peeps...  what a great day",1,1,MATCH
 "6 days till download!!!  watching SLC punk, can't sleep.",1,-1,FAIL
 "hey everyone!  please follow me!",1,1,MATCH
-"@ArunBasilLal Yes I thought Wordpress would be neat enough! And yes! about the lazy quote! Even THAT is an understatement! ",1,1,MATCH
+"@ArunBasilLal Yes I thought Wordpress would be neat enough! And yes! about the lazy quote! Even THAT is an understatement! ",1,-1,FAIL
 "@AnotherJulia lol, no way??? well u cant miss someone that has no sense of humour ",1,-1,FAIL
 "Listening to Bon Iver on Windows Vista Media Center in new apt... Sunday ",1,1,MATCH
 "It's gonna be a long day...working some OT this morning ",-1,1,FAIL
@@ -16043,7 +16043,7 @@ TEXT,VALUE,PRED,CORRECT
 "Missing Cobraaaa.  Is Suavez lookin' good? Of course he is...",-1,-1,MATCH
 "Happy Mother's Day to all who are Mothers!! ",1,1,MATCH
 "Ok so future headache says to me this morning &quot;but i thought yesterday was mother's day&quot;  happy mom's day! Animal kingdom 2day! ~*Smiles*~",1,1,MATCH
-"i had a fun night! got to see @nevershoutnever and andy from @holidayparade! yaye! then @waitrewindthat took me to ihop  yum!",1,-1,FAIL
+"i had a fun night! got to see @nevershoutnever and andy from @holidayparade! yaye! then @waitrewindthat took me to ihop  yum!",1,1,MATCH
 "@TheAdamGregory  i agree...just a bit ironic b/c your the adam gregory ",1,1,MATCH
 "what's the difference between QR and Microsoft Tag? ",-1,1,FAIL
 "@samiha Check your DM's and there you go ",1,1,MATCH
@@ -16056,7 +16056,7 @@ TEXT,VALUE,PRED,CORRECT
 "Bed Time  Good Night",1,1,MATCH
 "I love my job, maybe not the title as much but it goes w/the territory  can't wait until 2morrow.",1,-1,FAIL
 "@warrenmoss give u an idea?  http://twitpic.com/6q9nj",1,1,MATCH
-"@ajrafael u sold your puppy? aww man ",-1,-1,MATCH
+"@ajrafael u sold your puppy? aww man ",-1,1,FAIL
 "@dannymcfly  I watched Faustão and I really love your laugh, makes anyone laugh too! haha say to Harry that we are missing him here ",1,1,MATCH
 "thinking about morning QQ OP, raised preflop 3510 rainbow flop big pot, I vbet 3 callers. turn 7. I vbet.. river 5, fishy bet, get raised ",-1,-1,MATCH
 "on my way to da docccc  tired as helllll but I feel better  maaaaad hot outside! I cnt wait to get home n take a cool shower ",1,-1,FAIL
@@ -17703,7 +17703,7 @@ TEXT,VALUE,PRED,CORRECT
 "@mclanek Don't know if that answers your Q, but if you have anymore, just let me know ",1,1,MATCH
 "Still really sick , should be stayin home in bed but I can't ",-1,-1,MATCH
 "used the wireless, even thou it did b4. keeps kickin me off  o wel hopeful it wil be fixed soon",-1,-1,MATCH
-"@xkandisx not a lot, got tpains artist n a famous dj  I talk to celebs though, and most reply lol you ever got any?",1,1,MATCH
+"@xkandisx not a lot, got tpains artist n a famous dj  I talk to celebs though, and most reply lol you ever got any?",1,-1,FAIL
 "Reading @GaryBYoung 's interview in Soul bmx magazine interview, awesome ! ",1,1,MATCH
 "@IamSpectacular U Ain`t saying that much , tho ",-1,-1,MATCH
 "@mjukhelle Ty for the follow. Good luck with exams ",1,1,MATCH
@@ -18000,4 +18000,4 @@ TEXT,VALUE,PRED,CORRECT
 "yeeessss yeesss jam 4  3 hours again ",-1,-1,MATCH
 "@themainecanada baha you're cool. ",1,1,MATCH
 "10 years of holidays to be won - what you waiting for? Enter now and if you win you take me along  http://bit.ly/NE7jy",1,1,MATCH
-Tests:,18000,Matches:,12565,Percent:,69.80555555555556
+Tests:,18000,Matches:,12564,Percent:,69.8

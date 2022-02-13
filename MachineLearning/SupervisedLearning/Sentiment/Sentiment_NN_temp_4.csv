@@ -17,7 +17,7 @@ TEXT,VALUE,PRED,CORRECT
 "good morning ... hope you all did sleep well ",1,1,MATCH
 "@Sooooshi, Hellz yeah! I just thought I would round up a few applications to turn in on Friday. The people at Sonic were mean ",-1,-1,MATCH
 "Dreamy donuts.. Mmmmm so bloody yummy ",1,-1,FAIL
-"@whatwomenwant, @misslightbright, @swankycyn,@msmichelleb, @qmaybach &lt;------Hottest chicks on twitter ",1,1,MATCH
+"@whatwomenwant, @misslightbright, @swankycyn,@msmichelleb, @qmaybach &lt;------Hottest chicks on twitter ",1,-1,FAIL
 "knee still hurts. dont want to got to school tomorrow. that means i have only 4 days till my chemistry exam ",-1,-1,MATCH
 "My gorgeous,loving, oh so wonderful husband just bought me the third book in the twilight series.   yeah! I'm excited to get into it!",1,1,MATCH
 "@LokoBoy_ can u pls play some soulja boy? @djkelz won't play turn my swag on for me ",-1,-1,MATCH
@@ -70,7 +70,7 @@ TEXT,VALUE,PRED,CORRECT
 "Burnt my tongue. Haaaaate when that happens. Everything tastes weird for ages... ",-1,-1,MATCH
 "Final update prolly, later tonight, or tomorrow.... Cause todays a day when i get to do nothing ",1,1,MATCH
 "@Rosiecosy Yup. The &quot;S&quot; section was surprisingly dense. Thankfully I don't have that many more through the remaining alphabet. ",1,1,MATCH
-"@snackpak Thanks! I'll need both ",1,-1,FAIL
+"@snackpak Thanks! I'll need both ",1,1,MATCH
 "Trying to watch the hills at ihoop.. ",1,1,MATCH
 "has finally found a prom dress!  in the most unlikely of places, too!",1,1,MATCH
 "Top O' th Mornin too all the elves and leprechauns out there - and to my fellow tweeters. ",1,1,MATCH
@@ -163,7 +163,7 @@ TEXT,VALUE,PRED,CORRECT
 "@jayblay haha.. No  a COOL name! Jostens I MISS YOU!!!",1,-1,FAIL
 "i dont think im getting all my tweets still ",-1,-1,MATCH
 "@Megzx yes once each for diversity and stavros flatey.lol ",1,1,MATCH
-"@_CrC_ its really Awesome that ur spending ur bday talking to us. ",1,-1,FAIL
+"@_CrC_ its really Awesome that ur spending ur bday talking to us. ",1,1,MATCH
 "@poopiesanchez sounds perfect! ",1,1,MATCH
 "@althechamp I love you too!! So sad ",-1,1,FAIL
 "trying to study for history. ",-1,-1,MATCH
@@ -174,7 +174,7 @@ TEXT,VALUE,PRED,CORRECT
 "@traderjoes why did you discontinue the cranberry supplements - in the vitamin section?  Went to my store today &amp; they said Sorry!  ",-1,-1,MATCH
 "@kjgriffin18 You'll be great!! Don't worry about it! Just have fun. Sweet I can't wait to read it ",1,1,MATCH
 "@_huny did u SELL ur tix to thee show??? ",-1,1,FAIL
-"@kezzawezz Bus to Aberdeen? Youre coming to see me ",1,1,MATCH
+"@kezzawezz Bus to Aberdeen? Youre coming to see me ",1,-1,FAIL
 " I want to move so fucking bad. I hate it here. I wish I never bought concert tickets because now I can't move as soon as I want.",-1,-1,MATCH
 "This was the longest short week EVER.  TGIF   Yay!  Four days and nothing planned.  That's a first in a while.  I mean NOTHING.  WOOT! ;D",1,1,MATCH
 "@Sweet_Candii how crazy are those canadians?? see they have an inferiority complex about not being americans ",1,1,MATCH
@@ -328,7 +328,7 @@ TEXT,VALUE,PRED,CORRECT
 "@mayINbrooklyn haha i know i know babe, this weekend I won't be here though, until September    sorry love! Besos",-1,-1,MATCH
 "Maz is also available on sky sports via the red button ",1,1,MATCH
 "If you ask me I love him, I'D LIE ",1,1,MATCH
-"@no_surprises Don't I? I must try harder then, LOL! ",1,-1,FAIL
+"@no_surprises Don't I? I must try harder then, LOL! ",1,1,MATCH
 "ually be an ideal place to hang out! ",1,1,MATCH
 "@ashantiabelardo i can keep u Company   (No Funny Business Thou ) lol",-1,1,FAIL
 "@saarmst1 Good for you!  We're taking my mom out to dinner tomorrow; today is my one year wedding anniversary.   Star Trek and sushi later",1,1,MATCH
@@ -366,7 +366,7 @@ TEXT,VALUE,PRED,CORRECT
 "I'm phonesick! (like homesick, get it? hehe) ",-1,-1,MATCH
 "super duper mega busy. no wifi here. sucks bigtime.  i want kfc fries!!! huhuhu",-1,-1,MATCH
 "rt @suprlatina Some people take twitter way too serious....yo it ain't that deep...lol relax... ",1,1,MATCH
-"@rebeccaxxo haha yea  so hows it going wit out ur baby.........ur laptop ",1,1,MATCH
+"@rebeccaxxo haha yea  so hows it going wit out ur baby.........ur laptop ",1,-1,FAIL
 "@HeriCabral lol just like urban outfitters i love that store so much  &lt;333",1,1,MATCH
 "@asm614 6/24 checkin, 6/27 checkout at Encore...  21 days 12 hours or so, but who's counting? ",1,1,MATCH
 "@thecreativepenn Actually he says the opposite, maybe it's time to be more greedy or giving ",1,1,MATCH
@@ -425,7 +425,7 @@ TEXT,VALUE,PRED,CORRECT
 "lmao dw i found the sheet. but still not having a good day/night ",-1,-1,MATCH
 "@JMKit yup!  will send you mail later today.  ",1,-1,FAIL
 "I've been blocked. KELLY BAYLESS is an asshat.   (I love you Kelly.)",-1,-1,MATCH
-"@ratih25 i got in to a fight again with him huhu dia mrh ama gue tanpa alasan gitu ratttt sedih bgt sumpah,pelukkkkk dong ",-1,1,FAIL
+"@ratih25 i got in to a fight again with him huhu dia mrh ama gue tanpa alasan gitu ratttt sedih bgt sumpah,pelukkkkk dong ",-1,-1,MATCH
 "@JodiAlbert Erggh it's so bad this year! Usually tablets work but not this time  Might try those two things so thaaanks lots! xxx",-1,-1,MATCH
 "I still don't feel very good ",-1,-1,MATCH
 "Watching stardust. &lt;3favourite movie ever. ",1,1,MATCH
@@ -452,7 +452,7 @@ TEXT,VALUE,PRED,CORRECT
 "@sweetwts Get on I-5 and just keep heading south until I tell you to stop.  Bring a passport.    Or sit tight until i come to Seattle.",1,1,MATCH
 "@ddlovato Please come to Belgium sometime soon? Your tour only includes the U.S. so i wont be able to see you ",-1,-1,MATCH
 "Its On A Saturday! So EVERYONE Should Be Able To Come  No Excuses...",1,1,MATCH
-"@sushmeet sure.  BTW there isnt any online gaming mode in #PS2 right?",1,1,MATCH
+"@sushmeet sure.  BTW there isnt any online gaming mode in #PS2 right?",1,-1,FAIL
 "So bored ",-1,-1,MATCH
 "@SeanNoonan its not that big - 30gb from about 2, maybe 3 years ago. its in the office if you want a look. full of oasis ",1,1,MATCH
 "@thebleachworks http://twitpic.com/66p4b - So beautiful!!! Like a painting in watercolour  ",1,1,MATCH
@@ -969,7 +969,7 @@ TEXT,VALUE,PRED,CORRECT
 "I wish this was the case, but I don't think it will be. One day....    http://bit.ly/VsIz7",-1,-1,MATCH
 "@Jayman888 hadn't seen the beavers story, I was on Radio 2 last week for @march4justice will try and get on -@wossy Radio2 show ",1,1,MATCH
 "jon walker's twit pics just made my night. ",1,1,MATCH
-"@MusicHanna http://twitpic.com/3jkqr - das war so toll ",1,-1,FAIL
+"@MusicHanna http://twitpic.com/3jkqr - das war so toll ",1,1,MATCH
 "In aldis - casual much?! Daddy wont buy me the sims 3  dont worry im brilliant at persuasion :p x x x LOL http://tinyurl.com/n3p6q9",-1,-1,MATCH
 "@BinkieER @SarahRoseteER @NaomiER @LesleyER Supp yall!!! hope yall are having an interesting day bcuz your Brat isnt  i love you guys!!",-1,1,FAIL
 "@BBRRIITTTTYY yes i am sick too.  colds are the worse..",-1,-1,MATCH
@@ -1018,7 +1018,7 @@ TEXT,VALUE,PRED,CORRECT
 "@MelissaPeterman Watchin 'My life on the D list'  You honeybun?",1,1,MATCH
 "is Brooklyn-hearted  http://tinyurl.com/d7e272",-1,-1,MATCH
 "@hummingbird604 I might be, but not that I know of. Thanks for the compliment though. ",1,1,MATCH
-"@adorablyapples what hit your local newspapers? You ok?? ",-1,-1,MATCH
+"@adorablyapples what hit your local newspapers? You ok?? ",-1,1,FAIL
 "It's the end of the world and we know it and I feel fine ",1,1,MATCH
 "@totalrapture Just commented your post - I liked that entry ",1,1,MATCH
 "@MiSSDENiS poor thing ",-1,-1,MATCH
@@ -1053,7 +1053,7 @@ TEXT,VALUE,PRED,CORRECT
 "Swore I wouldn't, but did anyway   Did a search on Carzone for similar cars, and I'm pleased that I still got a good deal.",1,1,MATCH
 "Ugh, the weather is so stuffy and hot today.  I hates it.",-1,-1,MATCH
 "@allisonlynn0122 click the &quot;@___your name&quot; on the right side tool bar and it should provide you a list of everyone who responded to u ",1,1,MATCH
-"@TheWayIRoll GERRRRRRRRRRLLLLLLLLLLLLLL!!!!!!!! aaww  I'm finally here FOR YOOUU! How are you my Dems? Reallyreallyreally missed you!! :3",1,1,MATCH
+"@TheWayIRoll GERRRRRRRRRRLLLLLLLLLLLLLL!!!!!!!! aaww  I'm finally here FOR YOOUU! How are you my Dems? Reallyreallyreally missed you!! :3",1,-1,FAIL
 "starts his new job tomorrow!! ",1,1,MATCH
 "i #blamedrewscancer for my b'day falling on a glorious sunny day this year &amp; me being cooped up in the office all day ",-1,-1,MATCH
 "@wickyfox  it's not my style, sth can be done easily and all the works will be perfect if they r not so stupid...",-1,-1,MATCH
@@ -1071,7 +1071,7 @@ TEXT,VALUE,PRED,CORRECT
 "@Killparadise did they actually announce a divorce!? That's like my favorite show ",-1,-1,MATCH
 "ok im bored 2day has been a very long day ",-1,-1,MATCH
 "@Mum_of_Six and joy of joys, you also have the choice of twittering it too ",1,1,MATCH
-"@T_Diggity no alot round here? Lost mojo &amp; struggling big time to find it  Cryn with me or u find yurs again??",-1,-1,MATCH
+"@T_Diggity no alot round here? Lost mojo &amp; struggling big time to find it  Cryn with me or u find yurs again??",-1,1,FAIL
 "@RockShrimp Love it!! (although mine should say Thai food ",1,1,MATCH
 "oh i forgot to say... my exam is a fail... ",-1,-1,MATCH
 "i feel so run down ",-1,-1,MATCH
@@ -1117,7 +1117,7 @@ TEXT,VALUE,PRED,CORRECT
 "@RossoneriBlog This makes me hate Berlusconi even more. Pirlo better freaking be in red &amp; black next year! ",-1,-1,MATCH
 "I wish I had been at bamboozle today ",-1,-1,MATCH
 "Yourfirst sleep over without me? ",-1,-1,MATCH
-"@nickybyrneoffic 0635 :O niiice :L, i woke up at 7.45, only went to bed at 12.45   :L",-1,1,FAIL
+"@nickybyrneoffic 0635 :O niiice :L, i woke up at 7.45, only went to bed at 12.45   :L",-1,-1,MATCH
 "Just went swimming at 2 a.m. The water felt so goooood. ",1,1,MATCH
 "http://dailybooth.com/emmarawr/500257 LMFAO IM A MAN! sorry the painttook over and painted on me ",-1,-1,MATCH
 "I might cry ",-1,-1,MATCH
@@ -1149,7 +1149,7 @@ TEXT,VALUE,PRED,CORRECT
 "@misskittymarie well being omnipresent and all, thus being everywhere, yeah he is a pretty easy target ",1,1,MATCH
 "aj didnt need surgery to get a vagina. he was just born with one  oh i got you there beeatch.",1,1,MATCH
 "I see some titties n ass walkin down the street I can't let it pass me... But when its time to give a ni99a some pussy... You STUNT!! ",-1,-1,MATCH
-"@Morgan_Elise. Yea I figured something happened.  Damn laptops..lol. I'm just tweetin layin in my bed thinkin bout Meli ",1,1,MATCH
+"@Morgan_Elise. Yea I figured something happened.  Damn laptops..lol. I'm just tweetin layin in my bed thinkin bout Meli ",1,-1,FAIL
 "@salpickering I guess I'm just gonna have to try it! ",1,1,MATCH
 "@ForestFrolic I'm so glad!!   thanks my dear!",1,-1,FAIL
 "i NEED food. ",1,1,MATCH
@@ -1184,7 +1184,7 @@ TEXT,VALUE,PRED,CORRECT
 "@J_T_WV Haha, you're right. ",1,1,MATCH
 "I really Wish I lived in America ",-1,-1,MATCH
 "Catching up with old friends.. ",1,1,MATCH
-"@Fafayonette, it's okay dear there's next time ",1,-1,FAIL
+"@Fafayonette, it's okay dear there's next time ",1,1,MATCH
 "@TrinityWolf99 Maybe they should entertain you. ",1,1,MATCH
 "Really sad ",-1,-1,MATCH
 "Just bought the most adorable hair bow @ h&amp;m  deff chaneling dita and audrey tomorrow &lt;3",1,1,MATCH
@@ -1226,7 +1226,7 @@ TEXT,VALUE,PRED,CORRECT
 "@breezy421 Girrrrl...bring me back a european happy meal  I'm so jealous right now, I think I need to go pray about it. ;) HAVE FUN!",1,1,MATCH
 "@ModelMissesDrea ahhh my  sexiest model lady how areu hunny bunchess  folllow me ms...what u up 2 ?",1,1,MATCH
 "watching the hills finally.. so sad to see lauren go  haha damn you reality tv haha",-1,-1,MATCH
-"@Cgunner wow thats a shit load ",-1,1,FAIL
+"@Cgunner wow thats a shit load ",-1,-1,MATCH
 "=-study study study!!!!!... I'll have 2 long quizes tomorrow!  oh well i guess i have to study harder specially ACCOUNTING. gogogo!",-1,-1,MATCH
 "@cpfcrox hope you have a great time here in sunny Glesga  (ok, maybe not so sunny right now)",1,1,MATCH
 "i practically broke both thumbs at my cousins party ",-1,-1,MATCH
@@ -1367,7 +1367,7 @@ TEXT,VALUE,PRED,CORRECT
 "Just bought myself a year of Last.FM! And I feel good about it... ",1,1,MATCH
 "@oogianaoo I'm glad you're addicted! CSI is my life  Eddie Cahill was on everything it seems, I know him from Dawson's Creek.",1,1,MATCH
 "watching a movie can't sleep ",-1,-1,MATCH
-"@BM2_ sure does   BRING ON FEDOR!",-1,-1,MATCH
+"@BM2_ sure does   BRING ON FEDOR!",-1,1,FAIL
 "is in fight iwth x best friend x best friend trying to get samantha on her side went to inta juice and is bfs with samantha and yasmine ",1,1,MATCH
 "Where art thou, Romeo? ",-1,-1,MATCH
 "is so pumped, 30 minutes left at work, and Captain Americas tonight ",1,1,MATCH
@@ -1416,7 +1416,7 @@ TEXT,VALUE,PRED,CORRECT
 "Yay leaving work in 10 minutes! Half days = awesome.  ",1,1,MATCH
 "@dwagener  when i pass the same car as mine, i rub the dashboard and say to my car &quot;you're so much prettier than her&quot;  hahah",1,1,MATCH
 "Bye Carlos Tevez &lt;3 cant believe he's gone, im GUTTED ",-1,-1,MATCH
-"@lynnmaudlin @mrs_estmr @marybeth66 @gregzimmerman He cracked me up on SNL, and some movies good. but most recently are awful  #hhrs",-1,-1,MATCH
+"@lynnmaudlin @mrs_estmr @marybeth66 @gregzimmerman He cracked me up on SNL, and some movies good. but most recently are awful  #hhrs",-1,1,FAIL
 "Off 2 bed 2 much excitment 4 one day  Peace Y'all",1,1,MATCH
 "I thought today was Wednesday when I woke up ",-1,-1,MATCH
 "Man I feel like shit today. My voice keeps cracking and I feel like it's tryin to go out. ",-1,-1,MATCH
@@ -1518,7 +1518,7 @@ TEXT,VALUE,PRED,CORRECT
 "waiting for evisu... ",1,1,MATCH
 "i so want to SNEEZE but it just won't happen, feels like i've opened a bottle of fizzy juice in my head n the bubbles have no where to go ",-1,-1,MATCH
 "@7angela7 i have about the same...i also have comforters that i need to take to the laundromat...i miss my canyon capacity w/d ",-1,-1,MATCH
-"@Norilein well, I was born tired, so there's nothing exceptional today!  What about you?",1,1,MATCH
+"@Norilein well, I was born tired, so there's nothing exceptional today!  What about you?",1,-1,FAIL
 "@ikrastev Carmen Electra rozk too, but no one is talking about ",-1,-1,MATCH
 "@ThomasGudgeon It's really low spec ",-1,-1,MATCH
 "@randombutgay heya, been a while   its good, you shud definitely see it. wotcha up to tonite?",1,1,MATCH
@@ -1568,7 +1568,7 @@ TEXT,VALUE,PRED,CORRECT
 "Just bought FFVII. ahhh nostalgia ",1,1,MATCH
 "i knew i shouldnt have gotten online tonight ",-1,-1,MATCH
 "@AFineFrenzy hey, wanted to ask you for a few days now.. Is it my crazy twitter or is your picture actually green?!?! ",-1,-1,MATCH
-"@DarkDucati  $50/hr?  They're mediocre golf clubs, not a Ducati.  And they don't need a tongue bath.  ",1,-1,FAIL
+"@DarkDucati  $50/hr?  They're mediocre golf clubs, not a Ducati.  And they don't need a tongue bath.  ",1,1,MATCH
 "can't upload his profile picture ",-1,-1,MATCH
 "I have never been more UNREADY for these biology exams tomorrow ",-1,-1,MATCH
 "I'm stuck on Soviet intolerance of diversity   What were they intolerant of???",-1,-1,MATCH
@@ -1676,7 +1676,7 @@ TEXT,VALUE,PRED,CORRECT
 "Fellow Twits - if you must have a pornographic link in your profile could you WARN PPL FIRST!!!!!!  I feel nauseous ",-1,-1,MATCH
 "Lost 2 followers ",-1,-1,MATCH
 "I'm in the best mood right now!   ",1,1,MATCH
-"@jmhley yes it was...  Congrats! But what was the heads up scene on PS about???",-1,-1,MATCH
+"@jmhley yes it was...  Congrats! But what was the heads up scene on PS about???",-1,1,FAIL
 "Morning all, back out the garden now today ",1,1,MATCH
 "Just found a dead baby bird on my car roof...This CAN'T be a good start to my day ",-1,-1,MATCH
 "@CA_Sweetie awe. ok sweetie. ttyl.   *hugs*",1,1,MATCH
@@ -1760,7 +1760,7 @@ TEXT,VALUE,PRED,CORRECT
 "I'll be back twitter!  Naw I'll just take it in now!  Goodnight!  ",1,1,MATCH
 "My brother said i was getting fat. But he didn't know i could hear it. That hurts ",-1,-1,MATCH
 "New Kids On The Block on my Ipod! LoL remembering old times.. Step by step, uu babey, wanna get to you giiiirrll..  have a great week ppl!",1,1,MATCH
-"@AlfredoFlores Yeah I think Jack is dead ",-1,-1,MATCH
+"@AlfredoFlores Yeah I think Jack is dead ",-1,1,FAIL
 "@shaundiviney not me.. ",-1,1,FAIL
 "leaving Myrtle Beach now.  i've only had 2 1/2 hours of sleep &amp; my hair's lookin sexxxxxyyyy",-1,-1,MATCH
 "I'm assuming hangovers have been dealt with and it's time for round two. . . May be time to venture into insipid indoors. ",-1,-1,MATCH
@@ -1780,7 +1780,7 @@ TEXT,VALUE,PRED,CORRECT
 "@and1moremeans4 @dancinfairy Thanks - Too much time in the sun &amp; walking about. I need to start chillaxing, but so much to do! Better now ",1,1,MATCH
 "@loriellenew Are you kidding there both awesome ",1,1,MATCH
 "Daddy had to go to work today ",-1,-1,MATCH
-"@Change_for_Iran If it confirms their beliefs and stokes their fears, people will believe surprising things. ",-1,-1,MATCH
+"@Change_for_Iran If it confirms their beliefs and stokes their fears, people will believe surprising things. ",-1,1,FAIL
 "@ jonverseallstar get ready! I can't get a hold of jenna though  I think her phones dead.",-1,-1,MATCH
 "roche 10-3 then last day at base 3-6. dont know how i feel about it ending. ill kinda miss those rugrats ",-1,-1,MATCH
 "@Wolfgang_  fell short of my own target   http://tinyurl.com/mpf6e2",-1,-1,MATCH
@@ -1839,7 +1839,7 @@ TEXT,VALUE,PRED,CORRECT
 "@rossh that would be mine  thanks",1,1,MATCH
 "Finding it difficult to keep my eyes open ",-1,-1,MATCH
 "@Katie Price: i have just watched katie and peter: stateside. and the man you was with just signed you up for twitterr!! so i did. xx ",1,1,MATCH
-"@Mtn_Dew Dew locator cannot find Game Fuel at any store within a 50 mile radius of 28711. ",-1,1,FAIL
+"@Mtn_Dew Dew locator cannot find Game Fuel at any store within a 50 mile radius of 28711. ",-1,-1,MATCH
 "I'm chillen' in the red f150 where the magic happens.. With my beautiful princess. ",1,1,MATCH
 "I miss the computer  im going to my bros house *CYrUs&amp;JiRouX*",-1,-1,MATCH
 "@nicelookboso I think its closed ",-1,-1,MATCH
@@ -1847,14 +1847,14 @@ TEXT,VALUE,PRED,CORRECT
 "OK I hate it when business invades on my vacation, even when it is valid stuff. ",-1,-1,MATCH
 "Enjoying the sunshine, having toast ",1,1,MATCH
 "In SF now!!  iChatting w/ candace cuz there's free wifi at the hotel   SHOW TOMORROW w/ GabeBondoc,Leejay,Passion!!  WOOTWOOT!",1,1,MATCH
-"@apuje atleast you having fun tonite homie ",-1,-1,MATCH
+"@apuje atleast you having fun tonite homie ",-1,1,FAIL
 "@TheEllenShow Well I'd start by asking the animal u want to come bak as if its ok that u take over there body? Just u no to be polite... ",1,1,MATCH
 "Ok if you guys can get @clanrabbit to 200 followers I'll post a very good pic as a reward. ",1,1,MATCH
 "i dont feel so good. ",-1,-1,MATCH
 "Web developer is not compatible with Mozilla Firefox 3.5 too bad  run on Flock http://bit.ly/eJgmx",-1,-1,MATCH
 "hmmm is it just me or is Dane Cook not as funny as he used to be ",-1,-1,MATCH
 "@MartyBTV lol for the compliment...LOL &quot;She Hot&quot;....lol opps was it for me?  sadness now",-1,1,FAIL
-"@siyab thanks siyab.. ",1,-1,FAIL
+"@siyab thanks siyab.. ",1,1,MATCH
 "I do believe I have smoked-glittered-cat-eyes. ",1,1,MATCH
 "@feifei_s Tnks for spendin' the night w/ me! Jeez.. How drunk was I? Pls apologize to Chelsea Clinton for anything stupid I might've said ",1,1,MATCH
 "i'm getting 4 shots this week ",-1,-1,MATCH
@@ -2020,7 +2020,7 @@ TEXT,VALUE,PRED,CORRECT
 "First shipping labels printed from online! Yay for a postal scale and not having to wait in line as much at the post office! ",1,1,MATCH
 "i wanna go to theee beachh!!!!!  sighhh",-1,-1,MATCH
 "feels like he can't depend on anyone, except for mum  http://plurk.com/p/11h834",-1,-1,MATCH
-"@zazabronkhorst  we are not going for the  #movie.. ",-1,-1,MATCH
+"@zazabronkhorst  we are not going for the  #movie.. ",-1,1,FAIL
 "Wohoo ppl hate the band, we've got something right then  How I deal with this type of love http://atulsworld.wordpress.com",1,1,MATCH
 "Sao hôm nay không thể follow back m�?i ngư�?i được ",-1,-1,MATCH
 "i'll do follow friday a little later on...i'm busy taking over this lady's job. ",-1,-1,MATCH
@@ -2032,7 +2032,7 @@ TEXT,VALUE,PRED,CORRECT
 "@theresaleung no tweets after dives cause there's no signal. Its 11 hours from puerto princesa by boat! ",1,1,MATCH
 "@LouDogOG not cool.. i want a frapp. now!  &amp; yeah haha. targets awesome  go to rubys sometime.",-1,-1,MATCH
 "Such a bad weather  Where did the summer go?",-1,-1,MATCH
-"@IAMJREAL I wanna see you monday  is that possible?? haha",1,-1,FAIL
+"@IAMJREAL I wanna see you monday  is that possible?? haha",1,1,MATCH
 "Riding around in lacis new car!!! Its so cute! ",1,1,MATCH
 "i must attend more Philippines festivals ",1,1,MATCH
 "@Crisanthe Lockdown sucks but fortunately for me I am in bed most of the day so I hardly notice I have been awake 2 hours today ",-1,-1,MATCH
@@ -2087,7 +2087,7 @@ TEXT,VALUE,PRED,CORRECT
 "Off to a fantastic day at Curves! Busyness will happen. ",1,1,MATCH
 "@mileycyrus I'd have at least 1 bowl a day and not worry about it. Though, peronsally, I'd have to make it Frosted Flakes ",1,1,MATCH
 "I went to Yunji's birthday party. We had a great time together. Happy Birthday to Yunji!! I love you  chu♥",1,1,MATCH
-"@Joules_Clothing holey moley! another one! i've only just had the other one! disappointed at the amount of mens stuff at British Open ",-1,-1,MATCH
+"@Joules_Clothing holey moley! another one! i've only just had the other one! disappointed at the amount of mens stuff at British Open ",-1,1,FAIL
 "Graduation Tomorrow ",1,-1,FAIL
 "mmm... fell asleep in mah mans arms but had to get up and come home.  g'night!",-1,-1,MATCH
 "Im scared there was just the loudest thunder ever  i am hiding under my blanket...",-1,-1,MATCH
@@ -2098,7 +2098,7 @@ TEXT,VALUE,PRED,CORRECT
 "@MishavonnaH I'm totally with you on that one! ",1,1,MATCH
 "http://twitpic.com/8cxfn - @j_petite Where were you earlier?  Lol",-1,-1,MATCH
 "Just been to Sainsburys to get some food in with my cuz... was raining so no top down  boooooo! It's sunny now tho!!",-1,-1,MATCH
-"@karomon No baby sharks ",-1,-1,MATCH
+"@karomon No baby sharks ",-1,1,FAIL
 "im just givin you shit ",1,1,MATCH
 "EAT starting soon in actually going to miss this ",-1,-1,MATCH
 "Ever since I upgraded to 3.0 my itouch sucks ",-1,-1,MATCH
@@ -2131,7 +2131,7 @@ TEXT,VALUE,PRED,CORRECT
 "@rideinmyporscha LoL silly.... ",1,-1,FAIL
 "Just got woken up by a very  nice neighbor who thought they found Zeke. Threw on  clothes and went, not Zeke ",-1,-1,MATCH
 "Finally watched the last couple episodes of The Office on NBC ( #theofficenbc ) - I now understand why Gervais stopped after 2 seasons  ",-1,-1,MATCH
-"@stinkerpants Do you own any Disney movies? Like medication, but no side effects. Unless you hate Disney, in which case...nevermind ",1,1,MATCH
+"@stinkerpants Do you own any Disney movies? Like medication, but no side effects. Unless you hate Disney, in which case...nevermind ",1,-1,FAIL
 "the twilight cast is not updating much... probably too busy with new moon... hope they're doing alright... ",1,1,MATCH
 "I have stomach pain	",-1,-1,MATCH
 "Waiting for Dan  (hurry up mate!)",1,1,MATCH
@@ -2189,9 +2189,9 @@ TEXT,VALUE,PRED,CORRECT
 "Air France Flight goes missing over the Atlantic  http://bit.ly/C3dwK",-1,-1,MATCH
 "starting the morning with some tears  http://bit.ly/5NMvY",-1,-1,MATCH
 "What a good Mommy's Day I had  Maddy made me change my shirt in the Outback parking lot to wear what she gave me  I didn't flash!",1,1,MATCH
-"@MindandBodyYoga one of my favorite quotes ever ",1,1,MATCH
+"@MindandBodyYoga one of my favorite quotes ever ",1,-1,FAIL
 "i going to the gymnastic festival with meeeeerit ?  thanks to my uncle ",1,1,MATCH
-"@iamjuice when's the next lunch break babe? ",1,1,MATCH
+"@iamjuice when's the next lunch break babe? ",1,-1,FAIL
 "good morning world. | still gotta do 2 presentations for school -_- | pretty nice weather here ",1,1,MATCH
 "FUCK IT FUCK IT FUCK IT! ",-1,-1,MATCH
 "just been round my grampa's, miley cyrus's dress on the MTV awards was lovely, she is great!!! go miley cyrus ",1,1,MATCH
@@ -2375,7 +2375,7 @@ TEXT,VALUE,PRED,CORRECT
 "french...  soo hungry.",-1,-1,MATCH
 "@atebits 11:59PM PST... 8AM UTC... Tomorrow?! ",-1,-1,MATCH
 "Lol loving kyte right now ",1,1,MATCH
-"@pinkyxanna nope  hoping to find someone else. know any couples? hahaha.",-1,-1,MATCH
+"@pinkyxanna nope  hoping to find someone else. know any couples? hahaha.",-1,1,FAIL
 "@mookiejonesart thanks! ",1,-1,FAIL
 "back home...what a rockin n8  im tired now so im gonna go 2 bed in few mins!just in time 2 tweet a bit and then,letz go under the blankets",1,1,MATCH
 "Will miss you.. mister _____ sure will ",1,1,MATCH
@@ -2384,7 +2384,7 @@ TEXT,VALUE,PRED,CORRECT
 "@dboixel haha :p No I'm listening to damian Marley Haha Bob marleys son I think  ",1,1,MATCH
 "Itchy eyes ",-1,-1,MATCH
 "@Moronicus_Kyla IMY TOO ( i sooo wanted to go to school na ( :-&lt; omg  wish i was there D:",-1,-1,MATCH
-"@luluJBfrance Tu peut me follow stp ? ",1,1,MATCH
+"@luluJBfrance Tu peut me follow stp ? ",1,-1,FAIL
 "I neeeedddd beeeerrrrr ",-1,-1,MATCH
 "@mileycyrus I am depressed, almost every day I lose some followers ",-1,-1,MATCH
 "just got home from flavius's graduation and i dominate at volleyball and ping pong have been out since ten, and its eleven...im sick ",-1,-1,MATCH
@@ -2488,7 +2488,7 @@ TEXT,VALUE,PRED,CORRECT
 "Watching the Air France events unfold - never a good time to be working in an airline ",-1,-1,MATCH
 "@Jennifalconer thankyou ",1,-1,FAIL
 "i am on twitter for the first time whoooo ",1,1,MATCH
-"@fionalaughton i want cheap plane tickets. And bread. Shame you can't order bread online to appear in your house 35 seconds later ",-1,-1,MATCH
+"@fionalaughton i want cheap plane tickets. And bread. Shame you can't order bread online to appear in your house 35 seconds later ",-1,1,FAIL
 "@mileycyrus lol people go googoo for that ladys gaga's ",1,1,MATCH
 "okay, I just decided to dye my hair back to RED ! should I dye it before the ball or the after? I miss it so much ",-1,-1,MATCH
 "Had PC problems, so been gone.  Ready now for action ",1,1,MATCH
@@ -2558,7 +2558,7 @@ TEXT,VALUE,PRED,CORRECT
 "watching my favorite koreanovela. ",1,1,MATCH
 "I don't want to study, but I really have to. ",-1,-1,MATCH
 "ARGH!!! DAMN IT! TwitterFon just crashed &amp; lost all of the tweets that I had stored up from the last 3 days, I was gonna try and catch up ",-1,-1,MATCH
-"@chiniehdiaz *hug from bavaria* You are my one and lonely 1000. follower ",1,1,MATCH
+"@chiniehdiaz *hug from bavaria* You are my one and lonely 1000. follower ",1,-1,FAIL
 "@codieg kay but I might not come out a dono what time my Lil cousins' going away at  and I'm tired",-1,-1,MATCH
 "my littlest littlest toe hurts ",-1,-1,MATCH
 "lookin for somethin to do ",1,1,MATCH
@@ -2608,7 +2608,7 @@ TEXT,VALUE,PRED,CORRECT
 "@MrsDazzle: really? damn, hope he's not too badly hurt  I should check out ONTD more often.",-1,-1,MATCH
 "@ilainen that is tons of fun! ",1,-1,FAIL
 "@PrettiiBrown Really!? Oh no! ",-1,-1,MATCH
-"Waiting for my friend to go to lunch. Trying to read article on @ymib site but it wonakt load the page ",-1,-1,MATCH
+"Waiting for my friend to go to lunch. Trying to read article on @ymib site but it wonakt load the page ",-1,1,FAIL
 "@foodbeast http://twitpic.com/6fc8s yes, they are a client of mine ",1,1,MATCH
 "almost had another bad ketchup accident. ",1,1,MATCH
 "@JonathanRKnight plz jon!no more bad news  u break my heart..thx for being 2gether again&amp;comeback to my life,really give xtra strength!",-1,-1,MATCH
@@ -2666,7 +2666,7 @@ TEXT,VALUE,PRED,CORRECT
 "@jezdez It has been in the port tree for quite a while now. I merely updated it to version 0.4 ",1,1,MATCH
 "@higgs103 You're welcome?  (not sure why you are thanking me )",1,-1,FAIL
 "Im in bed nice and cozy good nighters! p.s. bobby!!! i agree crocs are wack.  Rinacee",1,1,MATCH
-"Everyone follow @JillianValentin She's so fly n shes not shy her tweets will make you laugh till u cry ",1,1,MATCH
+"Everyone follow @JillianValentin She's so fly n shes not shy her tweets will make you laugh till u cry ",1,-1,FAIL
 "@rgoodchild You need Garageband so ask @natobasso when you get Appleified ",1,-1,FAIL
 "On the train back to reality... ",-1,-1,MATCH
 "Leave keys in cab + can't get hold of landlord = holiday inn ",-1,-1,MATCH
@@ -2715,7 +2715,7 @@ TEXT,VALUE,PRED,CORRECT
 "@Anddh aw that's good to hear  it was ok, the streets were extremely crowded though,it took us 4.5 onstead of 3 hours blah ;)",1,1,MATCH
 "I've met someone super cool.    We'll see.",1,1,MATCH
 "@Jonasbrothers For you Nick!!  http://bit.ly/t4MyZ",1,-1,FAIL
-"@ashtongosnell yay, prom! hahah. have fun, girl ",1,-1,FAIL
+"@ashtongosnell yay, prom! hahah. have fun, girl ",1,1,MATCH
 "ZAttoo really is impressive, can't believe it does it all without breaking up or timing out. Wish I could get football streams this good ",-1,-1,MATCH
 "Ugh I feel so tired and icky.  I still have to get a million more tests done until I can finally get the medicine I need to feel better ",-1,-1,MATCH
 "Searching for my old co dydramol box my back hurts so much  that oughta help me move! Shame i have no vallium lol",-1,-1,MATCH
@@ -2781,8 +2781,8 @@ TEXT,VALUE,PRED,CORRECT
 "@mitchpberg just occured to me that he probably couldn't fit her bra..heehee! have a great show! I'll be listening duuuuude! ",1,1,MATCH
 "@gilmoregirlc aww  that sucks!!",-1,-1,MATCH
 "Is having a lazy morning at home listening to tunes, and waiting for my family to arrive ",1,1,MATCH
-"@hiediearwood  long live heartburn    ",-1,1,FAIL
-"@KatStep whatevs. rub it in  xxxxx",-1,-1,MATCH
+"@hiediearwood  long live heartburn    ",-1,-1,MATCH
+"@KatStep whatevs. rub it in  xxxxx",-1,1,FAIL
 "Girl time  then party tonight! I get to see my bestfriend &gt;.&lt; how exciting.",1,1,MATCH
 "@nerimon Just watched all of your VEDA videos. Intro is yay ",1,1,MATCH
 "getting sick  time for some hot tea, studying, and then sleeeep",-1,-1,MATCH
@@ -2796,7 +2796,7 @@ TEXT,VALUE,PRED,CORRECT
 "@RiseAgainst show was fuckin awesome!!!  Highlight of my summer even though security confiscated my favorite knife and trashed it   ",-1,-1,MATCH
 "workin' with the girlies tonight ) I never knew I could scream so loud after last night....that sounds wrong.... ",1,1,MATCH
 "@myhonast Yessss but I'm only on season one, and HBO just took them off OnDemand so now I can't finish watching them ",-1,-1,MATCH
-"@PushPlayCJ I'm absolutely loving the song, by the way. Catchy as hell ",1,-1,FAIL
+"@PushPlayCJ I'm absolutely loving the song, by the way. Catchy as hell ",1,1,MATCH
 "@citrusandcandy @figuromo Been trying to get this group to agree to getting a domain for a yr w no success! This is a prodder ",1,1,MATCH
 "@SomethingGirl  what happened?!",1,-1,FAIL
 "Its unatural to play a game thatlong. Goodnight. Im really worried about channy ",-1,-1,MATCH
@@ -2872,7 +2872,7 @@ TEXT,VALUE,PRED,CORRECT
 "@tommcfly haha, owwn Tom! was beautiful in Faustão today! ",1,1,MATCH
 "Hey everyone goodmorning well nearly morning i have just woke up and i am too tired its too early i didnt tweet yesturday sorry ",-1,-1,MATCH
 "@XDanXo No...... I love it  wbu?",1,1,MATCH
-"@fromthestars AWW  Can i help in any way? ",-1,1,FAIL
+"@fromthestars AWW  Can i help in any way? ",-1,-1,MATCH
 "Teddy &amp; I on our walk yesterday  http://yfrog.com/0nb02yj",1,1,MATCH
 "dinner time already ?  here's to a good week everyone ",1,1,MATCH
 "Roseanne Marathon on TV Land this weekend.. Will do my own &quot;Roseanne&quot; Marathon since I have Seasons 1 - 8 on DVD.. ",1,1,MATCH
@@ -2984,7 +2984,7 @@ TEXT,VALUE,PRED,CORRECT
 "Fell out of bed, hit head on nightstand, total morning fail. ",-1,-1,MATCH
 "@xftskatie  I HAVE BEEN LOOKING FOR MORE OF THOSE",1,-1,FAIL
 "I miss LindyLove. I feel like I haven't seen her in a century.  tear.",-1,-1,MATCH
-"@THX3  I hope your friend gets into it..  I wish mine were ",1,1,MATCH
+"@THX3  I hope your friend gets into it..  I wish mine were ",1,-1,FAIL
 "996 followers - rock on I love you guys   #mmwanted",1,1,MATCH
 "@lorelleonwp or use who sees ads  http://bit.ly/16SRSL",1,1,MATCH
 "Christina Squared now has a SayNow number! Call us at: 1-502-638-2314 or text 'christinasquared' to 729669 for updates  ?",1,1,MATCH
@@ -3022,7 +3022,7 @@ TEXT,VALUE,PRED,CORRECT
 "@BeaniesAndBows yeah, i am in the itchy stage.  i just want to scratch all over.  I look like a lobster ",-1,-1,MATCH
 "@rob_399 yes. . . There's me  i dont care at all about your number of followers ",1,1,MATCH
 "@angielala  I guess we aren't on the same time  lmao cause i was too",-1,-1,MATCH
-"@danceswithcat We wont hear a thing about it ",-1,-1,MATCH
+"@danceswithcat We wont hear a thing about it ",-1,1,FAIL
 "Bugger. Thought my day off was tmoz, but im working tmoz. Day off is wednesday. ",-1,-1,MATCH
 "@Ciaolaura I have waited for the right opportunity to think about renting  ",1,1,MATCH
 "@marchie1 its scary  ive grown attached to u. i dont want bad stuff to happen. eff the bastards that hurt ur cupcake heart.",-1,-1,MATCH
@@ -3130,7 +3130,7 @@ TEXT,VALUE,PRED,CORRECT
 "running to school now. Still feeling really poorly  Eeesh",-1,-1,MATCH
 "at commencement ... no seats for me ",-1,-1,MATCH
 "i'm super mad right now! my old computer wont work   that means no computer for me. this really sucks!",-1,-1,MATCH
-"@ellybelly12  Hiya! How you doin?  X",1,-1,FAIL
+"@ellybelly12  Hiya! How you doin?  X",1,1,MATCH
 "I'm low key giggn Arizona he knows all the mean things to say to get me hotttttt ",1,1,MATCH
 "@disko_d Its not even here yet   Why is it raining like this?  Why have a balcony if you cant ever go out there. This is rediculous",-1,-1,MATCH
 "@joek949 Morning... yeah, I'm off out today... might just take it easy though as I dont feel 100% for some reason!    How are you?",-1,-1,MATCH
@@ -3158,7 +3158,7 @@ TEXT,VALUE,PRED,CORRECT
 "i feel sick again ",-1,-1,MATCH
 "Just have got a cold  But still so happy cause a new lovely love have took over my heart ?!",-1,-1,MATCH
 "&quot;Welcome To Hollywood&quot; - Get Mitchel Musso's debut album out today on Walt Disney Records!!! ITunes and everywhere they still  sell CDs! ",1,1,MATCH
-"@MissKatiePrice more shit in the papers today, they love stirring the shit don't they?! ",-1,-1,MATCH
+"@MissKatiePrice more shit in the papers today, they love stirring the shit don't they?! ",-1,1,FAIL
 "i hate having a blocked nose ",-1,-1,MATCH
 "Hubby-to-be leaves this morning on a business trip for 3 days  I'm going to miss him so much! Hurry home!!!",-1,-1,MATCH
 "my office is freezing!!!!! Why is Picton so cold ",-1,-1,MATCH
@@ -3204,7 +3204,7 @@ TEXT,VALUE,PRED,CORRECT
 "new friend.  it's good",1,1,MATCH
 "@tricia_anne30 hey Tricia  we're having a confe  wanna join us?",1,1,MATCH
 "is a mom going back to school!  And watching my GPA drop!!   What's the best way to get your focus back?",-1,-1,MATCH
-"@Samiyusuf : Sir ! Everything Will Be Great InShaa'Allah ",1,1,MATCH
+"@Samiyusuf : Sir ! Everything Will Be Great InShaa'Allah ",1,-1,FAIL
 "@goldi51 good advice  got what I needed to done &amp; back to enjoying family time. Enjoy your day too!",1,1,MATCH
 "@kingrool I mean, THANKS! heeee ",1,-1,FAIL
 "My work satisfaction is directly proportional to the amount of free beer served in a given month. May satisfaction level is high. ",1,1,MATCH
@@ -3214,7 +3214,7 @@ TEXT,VALUE,PRED,CORRECT
 "I didn't know Jay-Z song is out yet  . Going to listen to it now",-1,-1,MATCH
 "My laptop is crashing badly right now  I hope my files can be rescued ",-1,-1,MATCH
 "@danieldennis good luck on the procedure....not fun. ",-1,1,FAIL
-"@courtney_s thanks Courtney! ",1,-1,FAIL
+"@courtney_s thanks Courtney! ",1,1,MATCH
 "Wish i had some breakfast   ",-1,-1,MATCH
 "@DeannaKicksAss oo ok now i get it ",1,1,MATCH
 "@colmirl Oh no, not a nice start to the weekend  *sends happy things*",-1,-1,MATCH
@@ -3279,7 +3279,7 @@ TEXT,VALUE,PRED,CORRECT
 "@jordanknight http://bit.ly/Y36Mo  Did Archie win the MR. Twitter contest? thats what its saying ",-1,-1,MATCH
 "@heroeswench the house was totally quiet. it was raining and dark outside. the fan was on. A recipe for a nap!  hehehe  ",1,1,MATCH
 "oh crap I think im getting sick ",-1,-1,MATCH
-"@bbbash thanks ",1,-1,FAIL
+"@bbbash thanks ",1,1,MATCH
 "Trying to find out if my family was effected by the L.A. Earthquake that just happened. ",-1,-1,MATCH
 "@dmbsredhead Me, too! At least by Friday ",1,1,MATCH
 "@tmadliak welcome &quot;home&quot; ",1,-1,FAIL
@@ -3346,7 +3346,7 @@ TEXT,VALUE,PRED,CORRECT
 "Awake in the middle of sleep..such a bummer ",-1,-1,MATCH
 "I had a feeling she was fighting a losing battle  http://tinyurl.com/lmvn9s",-1,-1,MATCH
 "just twittering.. ",1,1,MATCH
-"@nickjonas Reply, please. No one @reply to me ",-1,1,FAIL
+"@nickjonas Reply, please. No one @reply to me ",-1,-1,MATCH
 "in southold.. getting pizza and seeing night in the museum 2 with the grandparents tonight haha ",1,1,MATCH
 "However! I do appear to have a small dent on the top of the glass screen ",-1,-1,MATCH
 "Alice in the making. http://twitpic.com/8d0io I just hate how rough the outlines are. I wonder how I can get smooth outlines. ",-1,-1,MATCH
@@ -3379,7 +3379,7 @@ TEXT,VALUE,PRED,CORRECT
 "Just realized that I was watching True Blood with several windows and door open. Maybe my neighbors don't enjoy the same programs as me. ",1,1,MATCH
 "@harold8maude oh man... I should visit Peter Piper soon... I miss that pizza o.o; and you ",1,1,MATCH
 "hair too short ",-1,-1,MATCH
-"@niceprtty Yeah, I hear ya, I'm still learning ",1,-1,FAIL
+"@niceprtty Yeah, I hear ya, I'm still learning ",1,1,MATCH
 "bored at work. No one golfs in the rain  I love you Kyle",-1,-1,MATCH
 "the new look of finesse angels website http://lnk.ms/06Rj3 give me feed back plz im still working on it ",1,1,MATCH
 "Trying to read through all my books so I can get rid of them ",1,1,MATCH
@@ -3411,9 +3411,9 @@ TEXT,VALUE,PRED,CORRECT
 "callin it a night..later tweets!! ",1,1,MATCH
 "Eating at Ruth's Chris tonight. I love my parents! ",1,1,MATCH
 "i'm going to Paris today...and guess what...I'M ILL!!!  so not fair. they better let me on that plane. oh and @stacepoynter i'll try ;)",-1,-1,MATCH
-"@Patty4sound Im ok too ",1,1,MATCH
+"@Patty4sound Im ok too ",1,-1,FAIL
 "the city is at war. I'm ready for a good QUIET day. ^^ movies later with boyfran. then quite possibly tanning...? ",1,1,MATCH
-"@tommcfly you are tom fletcher! the geek mush cute ",1,-1,FAIL
+"@tommcfly you are tom fletcher! the geek mush cute ",1,1,MATCH
 "work you stupid midol ",-1,-1,MATCH
 "@vaughnchicago man, I was just thinking of all the  mean mail she must have gotten - and then it's all over and you crash. ",-1,-1,MATCH
 "@darenBBC good luck ",1,1,MATCH
@@ -3502,13 +3502,13 @@ TEXT,VALUE,PRED,CORRECT
 "@ashlynwashere lol i had to get up at 6:30 this morning ",-1,-1,MATCH
 "sick... probably the result of a sudden drop of adrenaline ",-1,-1,MATCH
 "Free to a good home: Loving, sweet, playful 1-year old kitty. So sad I have to let her go - have developed asthma due to allergies. ",-1,-1,MATCH
-"@blondechicken Okay! I will of course!! ",1,-1,FAIL
+"@blondechicken Okay! I will of course!! ",1,1,MATCH
 "Going to our soon to be new house. Blah. ",1,1,MATCH
 "I feel Parisian in my new dress. ",1,1,MATCH
 "its raining n its freezing  I need some1 to cuddle.. Were's my boo!!",-1,-1,MATCH
 "@ThingsMomsLike I too am waiting for a new Dixie Chicks album. I have heard the old CDs a bazillion times. Love their music. ",1,1,MATCH
 "Finally RichGirl Is Being Noticed ",1,1,MATCH
-"@spacebetween41 @firedancergrrl @ACD93 @memith @drops_of_dmb @JavaCupcake DMB was excellent!!!!! ",1,-1,FAIL
+"@spacebetween41 @firedancergrrl @ACD93 @memith @drops_of_dmb @JavaCupcake DMB was excellent!!!!! ",1,1,MATCH
 "@klr397 Thanks for reminding ",-1,1,FAIL
 "Upset about this new iPhone3GS. I will have 3 megapix camera w/focus, video w/editing, compass, voice control, &amp; longer battery! ",-1,-1,MATCH
 "Good morning, Twitterverse! ",1,1,MATCH
@@ -3521,13 +3521,13 @@ TEXT,VALUE,PRED,CORRECT
 "@moderncat Congratulations! Send some our way please  We're new to all this lol!",1,1,MATCH
 "Sooooooooooo looking forward to Toy Story 3 - only 1 year to wait ",-1,-1,MATCH
 "True best friends are FOREVER no matter where we are ",1,1,MATCH
-"@Mattass88 Ah, I see... How's the birthday girl enjoying her birthday, btw? ",1,1,MATCH
+"@Mattass88 Ah, I see... How's the birthday girl enjoying her birthday, btw? ",1,-1,FAIL
 "Just been cuddling 4wk old whippet puppies. I WANT ONE!! And now I have to go to class ",-1,-1,MATCH
 "@Kizzy LOL, sounds like a weird newspaper headline: 3 injured after touching Kizzy's eyebrows ",1,1,MATCH
 "at home sick  realy wanted to go to astra awards to nite to c short tsack so bummed i cnt go  work tomoz ",-1,-1,MATCH
 "So tired ",-1,-1,MATCH
 "It`s so wonderful the norwegian summer... oyu can have the sunlight until late in the night!  Wuu wuuu! ",1,1,MATCH
-"@minidvr Is that an offer Ernie? (we're all living longer? ",1,-1,FAIL
+"@minidvr Is that an offer Ernie? (we're all living longer? ",1,1,MATCH
 "@paxsarah @bryan_koval Dang, I can't get away with anything. ",-1,-1,MATCH
 "Time to go make homemade dog biscuits - have to keep the furballs happy ",1,1,MATCH
 "Imma text laura hahaha  if you get a text from a randm number @shersgirl, its me ahaha.",1,-1,FAIL
@@ -3578,7 +3578,7 @@ TEXT,VALUE,PRED,CORRECT
 "@jordanknight Does your back still hurt  I know a great nurse who has offered to be your tour nurse to DW more than once!",-1,-1,MATCH
 "@kevingonenuts it's a bunch of daisies outside the library ",-1,-1,MATCH
 "@girlwithnoname i think the term is 'whale' not twitterwhore. ",1,1,MATCH
-"@hatefyamini No, I'm safe... but what is going on with all the dying... omg ",-1,-1,MATCH
+"@hatefyamini No, I'm safe... but what is going on with all the dying... omg ",-1,1,FAIL
 "@kirstiealley You're telling me. I put in 8 for Saturday. ",-1,-1,MATCH
 "@StephenMulhern yeahh omg yes lol  i would wanna see the live tour but i got exams atm ",-1,-1,MATCH
 "@kriwil - Not yet. Will try it. Thank you ",1,1,MATCH
@@ -3624,7 +3624,7 @@ TEXT,VALUE,PRED,CORRECT
 "@songbookbaby LOL.. Cool cool.. Sounds like you prefer the anonymous angle for the time being lol Don't be a punk! ",1,1,MATCH
 "Ironing sucks. Still needs to be done, though ",-1,-1,MATCH
 "Overall a pretty nice day. I love my boy very much ",1,1,MATCH
-"@kevinrose i want to see something similar for GNU/Linux ",-1,-1,MATCH
+"@kevinrose i want to see something similar for GNU/Linux ",-1,1,FAIL
 "@CarolinaMama Serious. I went to there website and put a few dates in...nothing.  Then I flipped through the calendar and it was all out. ",-1,-1,MATCH
 "Good food, good friends, today was a good day  We cooked a chicken coconut curry and an awesome french soup that rocks my socks!",1,1,MATCH
 "it is cold in the A too ",-1,-1,MATCH
@@ -3643,7 +3643,7 @@ TEXT,VALUE,PRED,CORRECT
 "heading up to the blue ridge parkway to trot up Mt. Pisgah before work and maybe dip my feet in the creek ",1,1,MATCH
 "off to work  no voice  no tv.  i hate my fucking life.  the only thing tht can makes this better is July5",-1,-1,MATCH
 "Aw man.  One person got it before me...OF COURSE.",-1,-1,MATCH
-"@DebbieFletcher. Hey Debbie! Can you say to Tom to answer me?   Oh, youre the best McMum, forever. haha XX, love ya.",-1,-1,MATCH
+"@DebbieFletcher. Hey Debbie! Can you say to Tom to answer me?   Oh, youre the best McMum, forever. haha XX, love ya.",-1,1,FAIL
 "waiting for my pizza to arrive ",1,1,MATCH
 "@dallasaustin I actually tried to get to Ptree &amp; Ptree Battle and then on the way back home stopped by Justins and then Straits...nothing ",-1,-1,MATCH
 "@Uppie I think I'll go with coffee this morning, thanks ",1,1,MATCH
@@ -3741,7 +3741,7 @@ TEXT,VALUE,PRED,CORRECT
 "@sharlr that's a full day for me! enjoy ",1,1,MATCH
 "@TeamGiles yes  we'll have to brainstorm more ideas for our new world order! LOL",1,1,MATCH
 "@missmolly15 http://twitpic.com/7fzp2 - I miss this too  mostly because i wasnt there.....and i don't know these people...hmmm.....hahah",-1,-1,MATCH
-"@KarenMSams working fine for me  sorry your having problems",-1,-1,MATCH
+"@KarenMSams working fine for me  sorry your having problems",-1,1,FAIL
 "@DonnieWahlberg Hey ddub, Have a wonderful day!! Holla at me ddub   Love you",1,1,MATCH
 "@Ash_Faye_Photo how about a five month old? ",1,1,MATCH
 "What u know about that?  What I do know about my bed is that I misssss it ",-1,-1,MATCH
@@ -3789,7 +3789,7 @@ TEXT,VALUE,PRED,CORRECT
 "@mattchew03 Today was crazy  lol",-1,-1,MATCH
 "@shanella just saw your reply, sorry for the delay! watched a news segment...they said uggs were bad for you b/c they provide no support ",-1,-1,MATCH
 "@ddlovato Can i just say your such an inspiration to me.  Keep rocking out and ill follow you till the end.",1,1,MATCH
-"@mfhorne mmm that looks yummy to be honest..lol&lt;&lt;&lt; ",1,-1,FAIL
+"@mfhorne mmm that looks yummy to be honest..lol&lt;&lt;&lt; ",1,1,MATCH
 "didnt likee thee new join too much ",-1,-1,MATCH
 "Diversity or shaun smith ftw!  (&quot;,) &lt;3",1,1,MATCH
 "@ROBsessedBlog I agree so much  .. maaaan .. I'am so sad &amp; angry at once ",-1,-1,MATCH
@@ -3809,7 +3809,7 @@ TEXT,VALUE,PRED,CORRECT
 "@silviasmith may I ask who you are and why are you following?   ty",1,1,MATCH
 "free hot dog on a stick day.......after 5 ",-1,-1,MATCH
 "I had such an amazing weekend!!!!!!  Summer class starts tomorrow ",-1,-1,MATCH
-"@CefiDomi an officer got shot on 64 and the suspect is loose near the interstate. ",-1,-1,MATCH
+"@CefiDomi an officer got shot on 64 and the suspect is loose near the interstate. ",-1,1,FAIL
 "Preparing for my french presentation tomorrow. There goes my sunday! ",-1,-1,MATCH
 "It's a nice sunny day out and I will be spending it inside listening to a  crappy Nick &amp; Simon concert  ..atleast I'm getting paid!",-1,-1,MATCH
 "Party is crakn! And I'm still here!!  ",1,1,MATCH
@@ -3900,10 +3900,10 @@ TEXT,VALUE,PRED,CORRECT
 "@fourtunesfavson aw thanks  I have no idea how to use this lol im used to facebook :p",1,1,MATCH
 "tomorrow at this time I'll already be on my way to school!  Why did they have to change the schedule?",-1,-1,MATCH
 "@DjRatxxx  oh ok she need too let her apron strings go it asaying lol ur gettin older now and that is just mean lol having a go at u ",-1,-1,MATCH
-"@Rhea_C thanks ",1,-1,FAIL
+"@Rhea_C thanks ",1,1,MATCH
 "Morning!!!! God it's awful weather out today... This may lead to a lack of Boyzone following. And that makes me sad  Hope we're all ok! xx",-1,-1,MATCH
 "@RobPattinson_ wish you all the mtv movie awards you can get..you rock man! ",1,1,MATCH
-"@thehoosiersuk haha! Stop teasing us about the new album!  We have to wait long enough for it already! :p",-1,1,FAIL
+"@thehoosiersuk haha! Stop teasing us about the new album!  We have to wait long enough for it already! :p",-1,-1,MATCH
 "@bloodyironist thats amazing i love mishas little pose  #asylm",1,1,MATCH
 "Playing karambol with my family.. a traditional game to go. heaps of fun!! ",1,1,MATCH
 "Retweeting @Wildcat2030: &quot;Cannabis alters human DNA&quot;  http://bit.ly/JUeIV 3-4 joints a day??? seriously... ",1,-1,FAIL
@@ -3946,7 +3946,7 @@ TEXT,VALUE,PRED,CORRECT
 "I wish I could draw.... ",-1,-1,MATCH
 "misses that Ami tomokay valobashi ",-1,-1,MATCH
 "I know i shouldn't be saying this but im glad my mate finally saw the light and broke up with his annoying controlling gf. Happy days ",1,1,MATCH
-"@jonathan4me Knight girl! Oh, I want to do the breast cancer walk with u. hit me up with details. ",1,1,MATCH
+"@jonathan4me Knight girl! Oh, I want to do the breast cancer walk with u. hit me up with details. ",1,-1,FAIL
 "very tired now. And never did get my brandy ",-1,-1,MATCH
 "home from a relatively quiet night @ work at a reasonable time... what a relief! I've got a headache           time to chill out",-1,-1,MATCH
 "i dont feel the pain anymore!yay!! ill be writing something laterzzz  ssyb",1,1,MATCH
@@ -4015,7 +4015,7 @@ TEXT,VALUE,PRED,CORRECT
 "@bernard_ricardo I certainly will ",1,-1,FAIL
 "@caughill Lol, sad but true. ",1,-1,FAIL
 "@TeresaKopec Not to mention how much I'd love to be whisked away to NYC for a date...I mean, hello?? That's awesome. ",1,1,MATCH
-"@CoachIyabo @Debbystars @Rosentreter @jennaferfm @J_Dalgliesh @AngelikaSielken @Lightcoaching @ArteDeb @MoneyMakeover2 more #FF Thx! ",1,1,MATCH
+"@CoachIyabo @Debbystars @Rosentreter @jennaferfm @J_Dalgliesh @AngelikaSielken @Lightcoaching @ArteDeb @MoneyMakeover2 more #FF Thx! ",1,-1,FAIL
 "@xCAROxx  lol okay. i'm gonna try to fix my bathing suit  ",-1,-1,MATCH
 "in less than 15 days, I'll be speaking french and german as my primary language again ",1,1,MATCH
 "@sugarlotus Hey there! No worries.  The day can't be as bad as my last week was for me. hehe",1,1,MATCH
@@ -4034,7 +4034,7 @@ TEXT,VALUE,PRED,CORRECT
 "@CathyBrowne Ha! Thanks. Likewise! I'm glad you made it home, and happy I could help. ",1,1,MATCH
 "talkin to my jamy again!!! I hate the alantic for separating us ",-1,-1,MATCH
 "@miss_hazy wooo!! Vegas... Have fun. Wish I could go. ",-1,-1,MATCH
-"@dchieng I know..@dreamaholic is CRUEL like that...aiyaz..i am the most abused Textie! ",-1,1,FAIL
+"@dchieng I know..@dreamaholic is CRUEL like that...aiyaz..i am the most abused Textie! ",-1,-1,MATCH
 "@SaraIggy Noooo  I'm in Toronto, and I would love to, but just isn't possible right now! I'm thinking he's made a video of everyone!!!",-1,-1,MATCH
 "YAY, its taken 2 hours but i have half the fake tan off  only half to go!",1,1,MATCH
 "is sat reviseing english  soo bord",-1,-1,MATCH
@@ -4105,7 +4105,7 @@ TEXT,VALUE,PRED,CORRECT
 "Twigga is the same shit! So don't get all smart &amp; slick out the mouth &amp; then follow the shit with a . The  don't make a bit a diff!!",1,1,MATCH
 "Sims 3 doesn't work on my laptop because it overheats and shuts down ",-1,-1,MATCH
 "@keza34 too bloody hot, but better that been too cold suppose ",1,1,MATCH
-"@nick_carter but your website doesn't work... ",-1,1,FAIL
+"@nick_carter but your website doesn't work... ",-1,-1,MATCH
 "@samanthai Awww *blush* Thanks!! You are a goddess aswell ",1,1,MATCH
 "@JackoBTC oh damnn. i got free chocolate for selling freddos for my friend  lol",1,-1,FAIL
 "What is up people! Good Morning to you all.. you know who you are ",1,1,MATCH
@@ -4246,7 +4246,7 @@ TEXT,VALUE,PRED,CORRECT
 "@Fergusthedog thanks Fergus just seen @jackadogs hat great job thanks buddy ",1,1,MATCH
 "@SirMikeyB  Then sleep is next on your list ",1,1,MATCH
 "@ddlovato Whaling is disgusting and i was saddened to see a whale harpooned on the show. i actually cried ",-1,-1,MATCH
-"@stephjonesmusic yeah you're right i forgot ",-1,-1,MATCH
+"@stephjonesmusic yeah you're right i forgot ",-1,1,FAIL
 "@PriorWalter didn't wind up playing.  but okay day anyway. see next tweet",-1,-1,MATCH
 "@ggw_bach im good too i like gettin hyper ahhhhhhhh ",1,1,MATCH
 "@alicedelakiss and your yahoo messenger id, is ? ",1,1,MATCH
@@ -4268,7 +4268,7 @@ TEXT,VALUE,PRED,CORRECT
 "hai.school is definitely ongoing tomorrow.and i'm a BEADLE.yikes.  http://plurk.com/p/z3yfh",-1,-1,MATCH
 "end this once and for all. i want to go home and rest! ",-1,-1,MATCH
 "@ardenkhan I agree... he may not have won, but he is now signed with an agency... ",1,1,MATCH
-"@awaketoday awww, thanks ",1,-1,FAIL
+"@awaketoday awww, thanks ",1,1,MATCH
 "Just watched Cleveland win whilst sitting in a cold garage ",-1,-1,MATCH
 "@mnellykid  it's 1:47 and i'm going out  have fun at crew patice",1,1,MATCH
 "@Derek_DeLeon Yeah he is now. Gonna have to take meds for a while. He has bad asthma.   Thanks for asking!",-1,-1,MATCH
@@ -4294,7 +4294,7 @@ TEXT,VALUE,PRED,CORRECT
 "just met the parking-attendant after having parked since the morning without pay... talk about luck! ",1,1,MATCH
 "also gotta say I am 39, I love metal, I don't like metal at 120db.+   wow.",-1,-1,MATCH
 "Only True Love Can Sustain? HAHA. ",1,1,MATCH
-"@zslay1102  you're here in spirit",-1,-1,MATCH
+"@zslay1102  you're here in spirit",-1,1,FAIL
 "@preettysandhu  You might enjoy http://twitter.com/brainpicker/ ! Check her out.",1,1,MATCH
 "@jodierecommends ty for ur follow  Hope all is well w/ you ! ",1,1,MATCH
 "@xaviersan Nope.  I'm not waiting. I'm going to go live my life. haha",-1,-1,MATCH
@@ -4375,7 +4375,7 @@ TEXT,VALUE,PRED,CORRECT
 "Join Making Your Home Sing linky! i did   http://bit.ly/zEgHr",1,1,MATCH
 "@koriannespeaks Happy Birthday Missus! Hope you have a good day today. Once you're gone to bed and woke up again, that is. ",1,1,MATCH
 "ew. french.  http://plurk.com/p/xick9",-1,-1,MATCH
-"@tmofee hey! I saw! Thank you!!! I had an awesome bday! ",1,-1,FAIL
+"@tmofee hey! I saw! Thank you!!! I had an awesome bday! ",1,1,MATCH
 "im so bored ! and doing nothing ",-1,-1,MATCH
 "is at work seriouslyyyy bored  woaaahhhhh",-1,-1,MATCH
 "@invincibleDET we played houston 2 days ago   thanks though! http://myloc.me/2lq8",-1,-1,MATCH
@@ -4403,7 +4403,7 @@ TEXT,VALUE,PRED,CORRECT
 "@jeannyjung superman is to athletic + good.. enough said. haha and im not sad.. i hope i dont sound like it. but yes.. entire semester ",-1,-1,MATCH
 "Not well guys, any remedies  ? ",-1,-1,MATCH
 "learnin for the math test ",-1,1,FAIL
-"@JAZZII3love I've gotten &quot;the look&quot; before  but they can ____ it ",1,1,MATCH
+"@JAZZII3love I've gotten &quot;the look&quot; before  but they can ____ it ",1,-1,FAIL
 "@Caglenon - yo i dont think im gonna have any time to workout this weekend... SOO much to do  ",-1,-1,MATCH
 "Tweeting just because I can! good to have decent reception again  Great weekend under the sun with great friends!",1,1,MATCH
 "@quadraticosmium honestly  all this camera talk will drive me insane",-1,-1,MATCH
@@ -4481,7 +4481,7 @@ TEXT,VALUE,PRED,CORRECT
 "Still no internet.  good thing i can go on my phone :-D x",-1,-1,MATCH
 "Hinduism, you are lovely but way too complex. now that you are over it's Buddhism timeeeee ",1,1,MATCH
 "Marley &amp; Me wasn't as bad as I thought. I expected it to be more like Beethoven ",-1,-1,MATCH
-"@Shontelle_Layne http://twitpic.com/6rd65 - so true.  You're a HUGE fan? ",1,-1,FAIL
+"@Shontelle_Layne http://twitpic.com/6rd65 - so true.  You're a HUGE fan? ",1,1,MATCH
 "@molaytolay HAHAH i knew you would get addicted... ill get it posted... its on my friend's cam tho ",-1,-1,MATCH
 "@jlh_photo Take them to HempFest on the South Oval at OSU. ",1,1,MATCH
 "is in Orlando and sad that the Virgin Megastore is closed ",-1,-1,MATCH
@@ -4587,9 +4587,9 @@ TEXT,VALUE,PRED,CORRECT
 "Holy crap is that Anne Hathaway playing the violin on SNL? I do believe so ",1,1,MATCH
 "urrghhh honestly I hate what I'm wearing ",-1,-1,MATCH
 "@jstockton23920 @KrizzleB I'm just glad the windows in my house survived!!   The tree tops almost landed on my kitchen's front deck!",1,1,MATCH
-"@5w  will show you when its done. I promise.",1,-1,FAIL
+"@5w  will show you when its done. I promise.",1,1,MATCH
 "loving the weather ",1,1,MATCH
-"@ashleymassaro99 Im sorry your day was depressing ",-1,-1,MATCH
+"@ashleymassaro99 Im sorry your day was depressing ",-1,1,FAIL
 "@McGiff Good Luck ",1,1,MATCH
 "@ahamkaara i almost threw up when they told me.  i miss you",-1,-1,MATCH
 "I miss barney's how i met your mother terribly. is it a bad thing? ",-1,-1,MATCH
@@ -4685,7 +4685,7 @@ TEXT,VALUE,PRED,CORRECT
 "@Matthew_GoWagon  lol kidding I am not one of those people who wont squish spiders...all we have in our breakroom at work are ants..ugh!",-1,-1,MATCH
 "I Taught Myself How to Grow Old--ahhh! megan_cox, you get me! ",1,1,MATCH
 "@ctcash @buildingateam @diabetescure @chocolatetweet = Thanks for spreading the word for #Diabetes in #Spain http://bit.ly/Ug7aS  ",1,1,MATCH
-"@Aniekie He sort of caved. Still wont tweet anything. ",-1,-1,MATCH
+"@Aniekie He sort of caved. Still wont tweet anything. ",-1,1,FAIL
 "Saw The Hangover this w/e! Freakin' hilarious! Loved it. True Blood premiered last night. Love that show! Yummy Bill Compton ",1,1,MATCH
 "ok all im off to bed GoodNight ",1,1,MATCH
 "@lindsayccw Yeah, funny how disconnected you feel... Oh WAIT! You can't see this tweet! lol. Hope you have/are having/had a great vaca! ",1,1,MATCH
@@ -4827,7 +4827,7 @@ TEXT,VALUE,PRED,CORRECT
 "@ShanteRowland same.   hoping maybe I'll be able to leave work early today.",1,1,MATCH
 "mtv awards  who do ya think goan win for best fight??!!!",1,1,MATCH
 "@natneagle I have Melon of Troy on my toes! I also topped it off with CG gold glitter ",1,1,MATCH
-"@wingsofsapphire As long as an accident doesn't happen around take-off or landing, death should be pretty instantaneous. ",1,1,MATCH
+"@wingsofsapphire As long as an accident doesn't happen around take-off or landing, death should be pretty instantaneous. ",1,-1,FAIL
 "@vatz92 hey vatz. nothing. i just wanna say hi. ",1,1,MATCH
 "Hectic day tomorrow gotta get up early  night all, tweet laters ",-1,-1,MATCH
 "@Morrica Good Morning to you  I trust you are well ?",1,1,MATCH
@@ -5076,7 +5076,7 @@ TEXT,VALUE,PRED,CORRECT
 "Hates that lonely feeling that you get when you finish a book. Like the charactors were friends that you wont ever see again. ",-1,-1,MATCH
 "everything I own is running out of batteries all at once ",-1,-1,MATCH
 "@fars yesshhherieeee ;) but a lot tak clear also  probably less than half not so bad ones onlyyy, sorryyyyy..",-1,-1,MATCH
-"Listening to *Falls Away* One of my favs  @DawnRichard",1,-1,FAIL
+"Listening to *Falls Away* One of my favs  @DawnRichard",1,1,MATCH
 "Sorry guys, you all just lost ",-1,-1,MATCH
 "Ever tried smiling when ur mad? It has an instant calming effect...and it might make u laugh cuz u feel silly smiling while fuming! ",1,1,MATCH
 "@taylorswift13 c'mon taylor--scream it. ",1,1,MATCH
@@ -5102,7 +5102,7 @@ TEXT,VALUE,PRED,CORRECT
 "@gilltaylorphoto oh no!!! That's terrible. Poor you ",-1,-1,MATCH
 "Watching Law &amp; Order while wishing I had the DEXTER Season 3 box set. I don't want to buy it on iTunes  I miss DEXTER! Law &amp; Order suxx.",-1,-1,MATCH
 "@cindydlee i got my crackberry!  barely tapped into yet though, havn't even gotten on twitter!  i'm excited though it's pretty ",1,1,MATCH
-"@emocontrol That is good.  Was the beach fun? I miss the beach. D:",1,1,MATCH
+"@emocontrol That is good.  Was the beach fun? I miss the beach. D:",1,-1,FAIL
 "@jamie_oliver what the heck were you doing in Wyoming?  That's no whereland in America!  ",1,1,MATCH
 "is bored....feeling unproductive....      #fb",-1,-1,MATCH
 "My iPod needs to charge faster!!!!!!!!!!  I NEED MY LINES VINES AND TRYING TIMES RIGHT NOW!!!!!!!!!!!!!!!!! Luv my LVATT &lt;3",-1,-1,MATCH
@@ -5166,12 +5166,12 @@ TEXT,VALUE,PRED,CORRECT
 "This week was the worst in my life!!!! ",-1,-1,MATCH
 "@leslieberg Not a good idea to change your picture on Twitter!  ",-1,-1,MATCH
 "Best of Youtube: THE BIRDS &amp; THE BEES: THE BIRDS &amp; THE BEES  SUBSCIRBEEEE  &amp; leave a comment/make a video te http://is.gd/AWhU",1,1,MATCH
-"@ushiapples my gosh, you're right! Tetris it is!  How goes your own essay?",1,1,MATCH
+"@ushiapples my gosh, you're right! Tetris it is!  How goes your own essay?",1,-1,FAIL
 "It's super hot in my garage  I wish I could smoke inside during the summer!!",-1,-1,MATCH
 "Feeling really mad, bad, and sad.. Scared im losing the only one who truly cares.. ",-1,-1,MATCH
 "is off to free lunch. ",1,1,MATCH
 "@smashleyyy: Whaaa? I...I'm confused.   But I think I wanna stay this way.",-1,-1,MATCH
-"@OliverPhelps Yeah you're quite unlucky, it has started raining in Paris ",-1,-1,MATCH
+"@OliverPhelps Yeah you're quite unlucky, it has started raining in Paris ",-1,1,FAIL
 "on my way to see static x !  at ufest with 15 other bands ",1,1,MATCH
 "i am very tired, or in mhairi speak, je suis fatigant! I missed Big Brother   who went out?",-1,-1,MATCH
 "yessss long weekend this weekend ",1,1,MATCH
@@ -5197,7 +5197,7 @@ TEXT,VALUE,PRED,CORRECT
 "just got home... can only tweet from the web until may 15th ",-1,-1,MATCH
 "Wish I was at churchhhhhhh!  Day 2 of CPR Training. Really wished I was at FFBC.",-1,-1,MATCH
 "@emzyjonas im probs gonna have to wait until it comes out on dvd  x",-1,-1,MATCH
-"@Zut_Radio You been Mega Zapping? ",1,1,MATCH
+"@Zut_Radio You been Mega Zapping? ",1,-1,FAIL
 "@slackmistress WOW. Thank you, lady! That's very kind of you! I saved @betheboy's archive tweet so I can watch you both. Missed it live ",-1,-1,MATCH
 "i'm really hungry...and all i have is easy mac ",-1,-1,MATCH
 "TweetDeck and Mobile Tweeter. ",1,1,MATCH
@@ -5231,7 +5231,7 @@ TEXT,VALUE,PRED,CORRECT
 "holy raining cats and dogs!  DGB's pieces were beautiful, as completely expected.  ",1,1,MATCH
 "@MissPennieLane @ziggychip omg how boss! i'm dead excited! ",1,1,MATCH
 "Watching trigeeks bust ass cliping in ",1,1,MATCH
-"@EvaTEsq nice. Now the pressure's on! ",1,-1,FAIL
+"@EvaTEsq nice. Now the pressure's on! ",1,1,MATCH
 "@thealmanac which cd???? The pre one or the reunion? Cus I haven't heard of others ",-1,-1,MATCH
 "Good morning beautiful people ",1,1,MATCH
 "Still cannot sleep ",-1,-1,MATCH
@@ -5322,7 +5322,7 @@ TEXT,VALUE,PRED,CORRECT
 "I just cant keep away from Twitter! Why is it so addictive?!   Must FOCUS..  xo",1,1,MATCH
 "@artlinkgallery it upsets me seeing how kewl soldiers &amp; secret agents r in movies &amp; how easy they kill jerks like him, but it's all false ",-1,-1,MATCH
 "my eyes are sore so im sad now and my speakers wont work so i cant listen to any music or watch any videos and its really annoying me now ",-1,-1,MATCH
-"@nantucketartist its the rain.  It really is hampering peoples moods. ",-1,-1,MATCH
+"@nantucketartist its the rain.  It really is hampering peoples moods. ",-1,1,FAIL
 "recording music. ",1,-1,FAIL
 "My mum just bought me a car as an early BD pressie. It's coming on Sunday. Why don't i even feel a tiny bit excited? ",-1,-1,MATCH
 "@FrewYou take my spot. I'm home sick! ",-1,-1,MATCH
@@ -5388,7 +5388,7 @@ TEXT,VALUE,PRED,CORRECT
 "@ladyjordank @DannysGhirl U can always try!! ",1,1,MATCH
 "Charming unexpected day. Including auditioning for a travel related reality show, road trip , cars, good conversation, dinner &amp; Champs ",1,1,MATCH
 "HUGE thunderstorm @ 3 am - scared puppies!  And another rainy day in paradise ",-1,1,FAIL
-"@symphnysldr I know... dads are awesome ",1,1,MATCH
+"@symphnysldr I know... dads are awesome ",1,-1,FAIL
 "Just got gum all over my hands ",-1,-1,MATCH
 "Feels out of the loop ",-1,-1,MATCH
 "I've done the postcard thing.  How do I get my people to actually invite people?  I still see a lot left in the pews.  #neumc",-1,-1,MATCH
@@ -5430,7 +5430,7 @@ TEXT,VALUE,PRED,CORRECT
 "just so you know...I love everything about you ",1,1,MATCH
 "@jimmyfallon the air drummer from buffalo disgraced our city.    what a spaz.  I am delighted to hear you refer to it us as B-Lo though.",-1,-1,MATCH
 "@daisylane_ are you alright? ",-1,-1,MATCH
-"@marenis Boo u bestah be there I needs a Girl momment. ",-1,-1,MATCH
+"@marenis Boo u bestah be there I needs a Girl momment. ",-1,1,FAIL
 "is going to sleep now... quite early today... 1.03am now... good night... ",1,1,MATCH
 "@jennygirl7 meat huh?? Sounds like the place to be ",1,1,MATCH
 "@khelzy09 Aright  We'll try to play that for you ",1,1,MATCH
@@ -5504,7 +5504,7 @@ TEXT,VALUE,PRED,CORRECT
 "Hey @jonasbrothers *i was wondering what inspired yall to start this band? also can u give a shout outto daniella marmol  * #jonasliveonfb",1,1,MATCH
 "@TextImps Exactly! ",1,-1,FAIL
 "@DonnieWahlberg I'll say stupidly dumb ",1,1,MATCH
-"@Roguestampede too late.. going home soon ",-1,-1,MATCH
+"@Roguestampede too late.. going home soon ",-1,1,FAIL
 "Just received my copy od Stephen Spender's Poems, 1st ed. tho 2nd printing      however, the finish the smell, the feel - words live",-1,-1,MATCH
 "AT THE LIBRARY WITH A SORE ASS THROAT AND SERIOUSLY MISSING TWITTER ",-1,-1,MATCH
 "@Bamachic80 LOL are you actually liking it, or just watching out of boredom like me LOL. I loved the original Grease but not this ",-1,-1,MATCH
@@ -5582,7 +5582,7 @@ TEXT,VALUE,PRED,CORRECT
 "@MileyMandyFan7  thats true.But i don't care-i like miley&amp;mandy!! what's going new with m&amp;m?",1,1,MATCH
 "@johnmisczak I get incredibly depressed when I got to WalMarts. All those people ",-1,-1,MATCH
 "Mentioning to all my recent (and long-time) followers that I hardly ever post anything here.  It's not you, it's me!  ",1,1,MATCH
-"@woganmay lots of limitations with openx unfortunately  working on solutions though...",-1,-1,MATCH
+"@woganmay lots of limitations with openx unfortunately  working on solutions though...",-1,1,FAIL
 "@mitchelmusso your new album is actually amazing..i love it ",1,1,MATCH
 "i miss my baby savannah, already....and i haven't even spent a night without her..............ahhhhhhhhhhhh ",-1,-1,MATCH
 "@Vengeance_6661 Awwww  Yup, Saw them on Tuesday and am again on Saturday so not all is lost. x",-1,-1,MATCH
@@ -5631,7 +5631,7 @@ TEXT,VALUE,PRED,CORRECT
 "http://bit.ly/wxLEz  Seriously- don't these legs deserve a trip to Barbados?? Please vote! ",1,1,MATCH
 "@StarfishDanehh i will go there once in a while but just lurk! i cant believe i wont party there anymore, i love partying there ",-1,-1,MATCH
 "@ShelbyCobraaa girrrrrrrrl are u coming with michaelmusso to the show/cdpresentation in el cajon? on june 7th? ",1,1,MATCH
-"@GMANandRIZK i didnt go  sick...was it good?",-1,-1,MATCH
+"@GMANandRIZK i didnt go  sick...was it good?",-1,1,FAIL
 "working on taking a new picture  yay!",1,1,MATCH
 "@tomhogsed just passing through ",1,1,MATCH
 "Good morning sunshine, I just want to sleep ",1,1,MATCH
@@ -5657,7 +5657,7 @@ TEXT,VALUE,PRED,CORRECT
 "still getting ready. won't be ready until late tonight.. I so should've gone to the Jonas Brothers concert.. I can't believe I missed it. ",-1,-1,MATCH
 "@DarkAngelMJH Ha! I know! I recorded it too!  Though, he should speak more! He's quite funny!",1,1,MATCH
 "swimming with my debbel-stebbel  well, first see how much people are there. 'cause we wouldn't swimming if much people are there 'cause",1,1,MATCH
-"@chibbigirl hey! you follow me too.  silly girl!",1,1,MATCH
+"@chibbigirl hey! you follow me too.  silly girl!",1,-1,FAIL
 "@JohnFletcher LOL no me and my cousins love it  we try to go there at least once every year and my grandparents are maybe gonna buy....",1,1,MATCH
 "@Kathryn_Walker I hate tweetdeck...it never works correctly and messes with my other applications. ",-1,-1,MATCH
 "I shall give a  to my next follower",1,1,MATCH
@@ -5705,7 +5705,7 @@ TEXT,VALUE,PRED,CORRECT
 "@mitchelmusso when is the Australian relese? do you know? please write back ",1,1,MATCH
 "As long as ive got you, my life is complete! ",1,1,MATCH
 "http://twitpic.com/67sqc - Finished my puzzle! ",1,1,MATCH
-"@calvinharris  catch you in B/mouth in October !   Southampton's better tho' ;)!",1,1,MATCH
+"@calvinharris  catch you in B/mouth in October !   Southampton's better tho' ;)!",1,-1,FAIL
 "taking the day off. Dont feel well. Gotta take baby to the doctor too.... sucky sucky day ",-1,-1,MATCH
 "@bethlynch Yay!! You're done!! ",1,-1,FAIL
 "@souljaboytellem Damn Dre.....do we gotta be ass naked to get a reply from u???? ",-1,-1,MATCH
@@ -5804,7 +5804,7 @@ TEXT,VALUE,PRED,CORRECT
 "in science nd its borin ",-1,-1,MATCH
 "@Active423 word? U couldn't invite me?   ",1,1,MATCH
 "@Willie_Day26  we should tweet them to death so u guys can perform right?! Lol but u guys r performin on the red carpet?",-1,-1,MATCH
-"@classicaliberal Yeah @ishmael5 started it! I was peer pressured into joining ",1,1,MATCH
+"@classicaliberal Yeah @ishmael5 started it! I was peer pressured into joining ",1,-1,FAIL
 "@alexandramusic DIVERSITY WON  it was between saxophone player, susan boyle and diversity. i wanted shaheen to do win ",1,1,MATCH
 "Was supposed to visit the apple basecamp yesterday but not this time ",-1,-1,MATCH
 "@springlamb its so awful but look where theres a will theres away  if everyone pulls together for her !",1,1,MATCH
@@ -5850,7 +5850,7 @@ TEXT,VALUE,PRED,CORRECT
 "Hour break is almost over  time to put on my fake smile.. ...ok, eww- that was cheesy.",-1,-1,MATCH
 "@DiiLee Yup she is dalool ",1,-1,FAIL
 "enjoying an afternoon of movies, peter pan and beehtoven ",1,1,MATCH
-"@415fox Babe: Wake up. Friday. Night. Too. Much Stuff.  &lt;3",1,-1,FAIL
+"@415fox Babe: Wake up. Friday. Night. Too. Much Stuff.  &lt;3",1,1,MATCH
 "http://twitpic.com/7i18x - My baby playing...hes soo cute ",1,1,MATCH
 "suffering from a headache and a tummy ache...i think i'm dying... ",-1,-1,MATCH
 "eMusic renewal day is here but I lost my bank card 3 weeks ago and the bank still haven't sent a replacement, so no music for me. Waaaaah ",-1,-1,MATCH
@@ -5891,9 +5891,9 @@ TEXT,VALUE,PRED,CORRECT
 "Ahhh everything hurts...  warming up my bed buddy and going back to sleep. http://tinyurl.com/ol4ugp",-1,-1,MATCH
 "@ShaolinTiger I keep trying to find the Wii edition for Rock Band. So far still fail.  But I have graduated to Easy on drums. Go me.",-1,-1,MATCH
 "is researching 'bout the influenza A virus for her speech.  http://plurk.com/p/11ai56",1,1,MATCH
-"@iMonic Bye Mon! I will. I LOV you 2! ",1,1,MATCH
+"@iMonic Bye Mon! I will. I LOV you 2! ",1,-1,FAIL
 "Who wakes up at 640 to run on a saturday?.....i do ",-1,-1,MATCH
-"@taupecat That's, unfortunately, how the Caps seem to roll when it comes to the Penguins and the playoffs ",-1,-1,MATCH
+"@taupecat That's, unfortunately, how the Caps seem to roll when it comes to the Penguins and the playoffs ",-1,1,FAIL
 "@wuhkin because andy is very old na! he is in college na nga eh ",-1,-1,MATCH
 "@TracyAnn_W Same here, no motivation.  We are both still achey and sick so I'm playing around instead of working ",1,1,MATCH
 "I don't want @fuckmylifex to leaveeeee ",-1,-1,MATCH
@@ -5920,7 +5920,7 @@ TEXT,VALUE,PRED,CORRECT
 "I am writing a inique song of how one girl fell for a rebel-of-a-boy. That girl just happens to be me.  And he broke my heart",-1,-1,MATCH
 "@howlertwit I'm 30 in September. ",-1,-1,MATCH
 "Fall asleep for 2hours den must wake up wan... ",-1,-1,MATCH
-"@Imtaliamarie guess you're not joining us ",-1,-1,MATCH
+"@Imtaliamarie guess you're not joining us ",-1,1,FAIL
 "@andeinerseite http://twitpic.com/6qqn6 - dude thats awesome! bloody h&amp;m....wanna bloody shoot cambridge ",-1,1,FAIL
 "@chrisdahlilama is the 2mile on thursday? ",1,-1,FAIL
 "@muzik_man decoratin  i hate it never again! ha ha",-1,-1,MATCH
@@ -5929,7 +5929,7 @@ TEXT,VALUE,PRED,CORRECT
 "a neeeed ma picture backkkkkkkkkk ",-1,-1,MATCH
 "@maarcos And of course rocking to your tunes!! ",1,1,MATCH
 "Time for supper - will check in later, after I eat, and elevate musings to satisfy demanding neurons ",1,1,MATCH
-"@mandamika I bought the LV Graffiti Neverfull &amp; the LV Rose Speedy… not the Neo cabby  so i can FLY TO MANILA!!! do you love me or WHAT?",-1,-1,MATCH
+"@mandamika I bought the LV Graffiti Neverfull &amp; the LV Rose Speedy… not the Neo cabby  so i can FLY TO MANILA!!! do you love me or WHAT?",-1,1,FAIL
 "@happiijenny it's probably not you but everything else  it's the universes fault",1,1,MATCH
 "@Otavolimed oh stop it.. I said I don't wanna care.. But u know I do. Always have always will. I thought he didn't care.. He hurt me ",-1,-1,MATCH
 "Hi Twitter pals:  I would much rather be playing than working.  It is Friday after all!  Hope you are doing great today!   ",1,1,MATCH
@@ -6000,4 +6000,4 @@ TEXT,VALUE,PRED,CORRECT
 "@SpotCoolStuff They now have one of these at Pritzker Pavilion. Blocks view for two entire sections of seats at jazz/classical concerts. ",-1,-1,MATCH
 "HAPPY MOTHERS DAY! ",1,-1,FAIL
 "@krisalderson wish I could come to your fanevent in August kristen! But I'll be getting ready for my 1st year of college in NC instead. ",-1,-1,MATCH
-Tests:,6000,Matches:,5528,Percent:,92.13333333333334
+Tests:,6000,Matches:,5501,Percent:,91.68333333333334

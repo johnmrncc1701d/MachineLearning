@@ -379,7 +379,7 @@ TEXT,VALUE,PRED,CORRECT
 "@fecat1 will do... ",1,1,MATCH
 "going to bed now. Tomorrow will be bittersweet. mostly bitter. I miss the cast already  Good thing we're all so close now!",1,-1,FAIL
 "Stayed up all night but done tracking 'I want you' !! ",1,-1,FAIL
-"@samillionaire now I would like a Blizzard treat ",1,1,MATCH
+"@samillionaire now I would like a Blizzard treat ",1,-1,FAIL
 "way to bailz out on me nat ",-1,-1,MATCH
 "@Elflord think need to give up watching movies as a couple in melb cos no free babysitter. Oh well.. ",1,-1,FAIL
 "just got it, proper knackered! and fair tipsssssey! ",1,1,MATCH
@@ -7041,7 +7041,7 @@ TEXT,VALUE,PRED,CORRECT
 "@Aisliiiinngg im not.. tring to study irish in my dark room..lucky cow u dont have to  grrr",-1,-1,MATCH
 "I wish my head would stop pounding. ",-1,-1,MATCH
 "great! there's the dictionary! ",1,1,MATCH
-"@unitechy more funny than embarrassing i'd say!!! what is busting (as a noun) anyway? sounds like geekspeak for &quot;material of the bust&quot;!!! ",1,1,MATCH
+"@unitechy more funny than embarrassing i'd say!!! what is busting (as a noun) anyway? sounds like geekspeak for &quot;material of the bust&quot;!!! ",1,-1,FAIL
 "@katokat I don't follow all my followers too.  it's to keep my twitter hassle and beep-free. ))",1,1,MATCH
 "@That_Girl_Jenn too late  Just finished my soup",-1,-1,MATCH
 "Well Jared joined Twitter? And here I thought everybody was here already XD Well, hello @1jaredPADALECKI !! ",1,-1,FAIL
@@ -9168,7 +9168,7 @@ TEXT,VALUE,PRED,CORRECT
 "@petewentz you should do a video on what a catch  i loooooove that song ",1,1,MATCH
 "#breakbeat (I suppose  )  - Alex Metric at In New DJ's We Trust !!! Big ups  http://tinyurl.com/mojnyp",1,1,MATCH
 "@sarabozich i'm the man for wedding etiquette advice  definately don't get flagged at the open bar lol",1,-1,FAIL
-"Wow.. One of my  best students quit my team today  Didn't see that coming.",-1,1,FAIL
+"Wow.. One of my  best students quit my team today  Didn't see that coming.",-1,-1,MATCH
 "@mikenealis No, that would make me sad ",-1,-1,MATCH
 "still away, i'm working on a big project so im a little occupied all the time ",-1,-1,MATCH
 "@breadstix oh 7am? thats heading mah way in 1.5hrs  oh god, coffee, tea, crisps n rice. so fed makes u skinny 2 huh?",1,-1,FAIL
@@ -9981,7 +9981,7 @@ TEXT,VALUE,PRED,CORRECT
 "Head hurts ",-1,-1,MATCH
 "agh i feel gross today ",-1,-1,MATCH
 "@mileycyrus i'm wondering the same ",-1,-1,MATCH
-"@nicolecates Listen to Right Said Fred. They were talking about you.  ",1,1,MATCH
+"@nicolecates Listen to Right Said Fred. They were talking about you.  ",1,-1,FAIL
 "@dutchdinero naw, its jst a hugeeeeeee bump..cant lift my arm ovr my head ",-1,-1,MATCH
 "@shedav we will have to go soon but not today  i have to help the fat bitch",-1,-1,MATCH
 "yeah NKOTB are comin to Melbourne  whoooooooooo",1,1,MATCH
@@ -11153,7 +11153,7 @@ TEXT,VALUE,PRED,CORRECT
 "has to go to the dentist.... ",-1,-1,MATCH
 "no update for me at 1201  Will try again later and see if I can download the #3.0update",-1,1,FAIL
 "@EmilyAllTimeLow you fail. ",1,1,MATCH
-"Also good luck to @NorthShoreTrack. They qualified in 3 events for finals, Callahan in all of them! Wow. Bring home that IA state title! ",1,-1,FAIL
+"Also good luck to @NorthShoreTrack. They qualified in 3 events for finals, Callahan in all of them! Wow. Bring home that IA state title! ",1,1,MATCH
 "@boilerfan_98 Night Rach  have a good night!",1,1,MATCH
 "@frabjousday Ooh, kk! this is good because I don't think I have much brown sugar right now. I'll play it by taste, but thankyou ",1,-1,FAIL
 "@gregabbott if they steal it, they love it. ",1,1,MATCH
@@ -13426,7 +13426,7 @@ TEXT,VALUE,PRED,CORRECT
 "I crack my shit up. ",-1,-1,MATCH
 "@bikelady lol I guess I should have read the fine print at the bottom of the memo that said dive in with both feet. ",1,1,MATCH
 "Very tired. on my way to my bed. sweet dreams. i'm not going to think about math tomorrow. it's just sad ",-1,-1,MATCH
-"Figured it out. Next question ... is it &quot;website&quot; or &quot;web site&quot; ",1,1,MATCH
+"Figured it out. Next question ... is it &quot;website&quot; or &quot;web site&quot; ",1,-1,FAIL
 "@imadedinner your foodie charms are A-DORABLEEEEEE ",1,1,MATCH
 "i think i saw just about everyone i love tonight. except Carroll!  BUT EVERYTHING ELSE WAS GREAT! whoops caps lock.",-1,1,FAIL
 "Maths exam at 9am tomorrow  not really worried, just can't wait for no more maths!! Then tanning in the garden for the rest of the day ",-1,-1,MATCH
@@ -18000,4 +18000,4 @@ TEXT,VALUE,PRED,CORRECT
 "just got home from driving around the bay and now the sun is coming up... aww man ",-1,1,FAIL
 "@OSA23 I'm happy to entertain this line of thinking anytime. ",1,1,MATCH
 "@bloodhoundgang deeeeee what happened?! ",-1,1,FAIL
-Tests:,18000,Matches:,12518,Percent:,69.54444444444445
+Tests:,18000,Matches:,12516,Percent:,69.53333333333333

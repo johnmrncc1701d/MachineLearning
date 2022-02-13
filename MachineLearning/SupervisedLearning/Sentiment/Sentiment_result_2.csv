@@ -241,7 +241,7 @@ TEXT,VALUE,PRED,CORRECT
 "@morgansp12  ticets for it. LOL. maybe mean, but i couldnt stand it! She know one song i mean  so annoying, and she said she was just as",-1,-1,MATCH
 "is working with her new Bitless Bridles today !!! Thank you for your donation NUTURAL HORSE Bitless Bridles ",1,1,MATCH
 "@dan_jf It's very handy but unfortunately it appears to have borked my Facebook status column ",-1,1,FAIL
-"@sixfeet that is too funny...i'm glad you have a new one ",1,1,MATCH
+"@sixfeet that is too funny...i'm glad you have a new one ",1,-1,FAIL
 "woo back to uni 2morro! ahh exams ",-1,1,FAIL
 "wow only got 3 weeks (14 days) left of school! thats come quickly ",1,1,MATCH
 "just watched mtv movie awards ",1,1,MATCH
@@ -1199,7 +1199,7 @@ TEXT,VALUE,PRED,CORRECT
 "@merlinfansite HEY Merlin AU Video Contest !  Be creative, Merlin fans ! ;) http://bit.ly/12KZxr",1,1,MATCH
 "Three exams today  but its okay because afterwards..its summer!",-1,1,FAIL
 "marconies show reminds me why i love 'odd' music so much. &quot;tortoise&quot; with out of tune guitars. brilliant ",1,1,MATCH
-"@CHRIS_Daughtry   Ok , would love to watch the new video but it won't show in my region (Australia) Will that be getting fixed soon???? ",-1,-1,MATCH
+"@CHRIS_Daughtry   Ok , would love to watch the new video but it won't show in my region (Australia) Will that be getting fixed soon???? ",-1,1,FAIL
 "@Novabxprince @millz1 @MRRADIODTF @chris_remo @CarnellUNYC Thanks for the shouts my Tweetios !! Smile, it's a new day ",1,1,MATCH
 "In the dentist office ",-1,1,FAIL
 "i sold 2 more sakura sets  now i can sleep..",1,-1,FAIL
@@ -2749,7 +2749,7 @@ TEXT,VALUE,PRED,CORRECT
 "Just split glue all over my mac ",-1,1,FAIL
 "@geesmyangel I know, they said they'd fit it in with different time zones but obviously not for us ",-1,-1,MATCH
 "@combo3 lol. You look about 28, so I don't know what you are talking about.  http://twitter.com/combo3/status/2062845277",1,-1,FAIL
-"Buzz or one of the cats chewed thru my macbook charger.  just got that one at christmas and now have to go buy a new one.",-1,1,FAIL
+"Buzz or one of the cats chewed thru my macbook charger.  just got that one at christmas and now have to go buy a new one.",-1,-1,MATCH
 "so hot here today, def to hot for gardening  at least i have a few days holiday coming!",-1,-1,MATCH
 "I love a boy who likes animals, especially dogs. Makes him that much hotter. ",1,1,MATCH
 "bord; birthday on SUNDAY! ",1,1,MATCH
@@ -2803,7 +2803,7 @@ TEXT,VALUE,PRED,CORRECT
 "Wishing I was still asleep ",-1,-1,MATCH
 "is pretty sure it's not going to be #Hemel Hempstead #VTFH  ",-1,-1,MATCH
 "Done with the transcript!  Now off to bday celebrations!  ",1,1,MATCH
-"is back in her own bed. Alone. Looking to the stars. My new place won't have stars ",-1,-1,MATCH
+"is back in her own bed. Alone. Looking to the stars. My new place won't have stars ",-1,1,FAIL
 "@erinhuggins i think i just mixed my greens &amp; purples again ",-1,-1,MATCH
 "fuel girl buggy flipped over with 5people on in-many injurys ",-1,1,FAIL
 "@heywelly21  ",-1,1,FAIL
@@ -4062,7 +4062,7 @@ TEXT,VALUE,PRED,CORRECT
 "Saw Terminator Salvation last night...loved it, loved it! This morning, getting ready to go to my cousin Brooklyn's 4th birthday party! ",1,-1,FAIL
 "@wahseiluj awh.  one day...",-1,1,FAIL
 "@182dany oh, really? you called?  I'll read your direct message now ",1,1,MATCH
-"Downloading the new 3.0 update for the iPod Touch ... I'm on one of the fastest connections in Bali and it will still take 4 hours ",-1,1,FAIL
+"Downloading the new 3.0 update for the iPod Touch ... I'm on one of the fastest connections in Bali and it will still take 4 hours ",-1,-1,MATCH
 "@cheryl_ann_cole follow me  @bethcatchpole",1,1,MATCH
 "@evienyc A mad genius with balls. hahaha Let me know how that world thing turns out for you! I'm taking notes. ",1,-1,FAIL
 "Why does the nine grain wheat bread at subway always feel stale ",-1,1,FAIL
@@ -4087,7 +4087,7 @@ TEXT,VALUE,PRED,CORRECT
 "@Veronicah86 LOL it was ",1,1,MATCH
 "@SkullsOnStuff Good luck tomorrow. I'm sure all will go well! ",1,1,MATCH
 "Le sigh...back to reality now ",-1,1,FAIL
-"@LeeCollins Hi Lee!  Hope it's all good! Your autograph faded   I'll need a new one next time!",-1,1,FAIL
+"@LeeCollins Hi Lee!  Hope it's all good! Your autograph faded   I'll need a new one next time!",-1,-1,MATCH
 "@allisontc guess who went and SWAM at the KITS POOL today ?! ...ohman ",1,1,MATCH
 "I'm Ready To Go Home! ",-1,1,FAIL
 "i fully understand how those ppl working in banquet feel.. ",-1,-1,MATCH
